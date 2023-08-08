@@ -1,0 +1,120 @@
+%! Author = arqfa
+%! Date = 8/8/2023
+
+% Preamble
+%\documentclass[11pt]{article}
+\documentclass[final,5p,times]{elsarticle}
+% Packages
+%% The amssymb package provides various useful mathematical symbols
+\usepackage{amssymb}
+%% The amsthm package provides extended theorem environments
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{booktabs}
+%% The lineno packages adds line numbers. Start line numbering with
+%%\begin{linenumbers}, end it with \end{linenumbers}. Or switch it on
+%% for the whole article with \linenumbers
+\usepackage{lineno}
+\modulolinenumbers[10]
+\usepackage{enumitem}
+
+\usepackage{multirow}
+
+\usepackage{caption}
+
+\journal{Computer Aid Design}
+
+
+% Document
+\begin{document}
+
+\begin{frontmatter}
+
+
+\title{Evaluation on the Potential of Virtual Reality (VR) Technology to Enhance Acceptance of Data-Driven Optimized Design in Site Layout Planning}
+
+%% use optional labels to link authors explicitly to addresses:
+%% \author[label1,label2]{}
+%% \affiliation[label1]{organization={},
+%%             addressline={},
+%%             city={},
+%%             postcode={},
+%%             state={},
+%%             country={}}
+%%
+%% \affiliation[label2]{organization={},
+%%             addressline={},
+%%             city={},
+%%             postcode={},
+%%             state={},
+%%             country={}}
+
+\author[inst1]{Fabian Jarrin}
+\author[inst1]{Yasuko Koga}
+\author[inst2]{Diego Thomas}
+\author[inst2]{Hiroshi Kawasaki}
+
+\affiliation[inst1]{organization={Graduate School of Human-Environment Studies, Department of Architecture and Urban Design, Kyushu University},%Department and Organization
+            addressline={744 Motooka, Nishi Ward},
+            city={Fukuoka},
+            postcode={819-0382},
+            state={Kyushu},
+            country={Japan}}
+
+\affiliation[inst2]{organization={Graduate School of Information Science and Electrical Engineering, Kyushu University},%Department and Organization
+            addressline={744 Motooka, Nishi Ward},
+            city={Fukuoka},
+            postcode={819-0382},
+            state={Kyushu},
+            country={Japan}}
+
+\begin{abstract}
+%% Text of abstract
+\input{Text/Abstract}
+
+\end{abstract}
+
+
+%%Graphical abstract
+
+\begin{graphicalabstract}
+    \centering
+    \includegraphics[width= \textwidth, trim = 0 80 0 80, clip]{Images/GraphicAbstract.pdf}
+    \label{fig:graphic_abstract}
+\end{graphicalabstract}
+
+%%Research highlights
+\begin{highlights}
+\input{Text/highlight}
+\end{highlights}
+
+\begin{keyword}
+%% keywords here, in the form: keyword \sep keyword
+Data-driven design\sep Site Layout Planning \sep Virtual reality \sep Optimization\sep
+
+\end{keyword}
+
+\end{frontmatter}
+%\linenumbers
+%\modulolinenumbers[10]
+%
+\begin{linenumbers}
+
+
+\section{Introduction}
+\label{sec:1Introduction}
+%%State the objectives of the work and provide an adequate background, avoiding a detailed literature survey or a summary of the results.
+\input{Text/Introduction}
+
+\section{Research Background}
+\label{sec:Background}
+%% A Theory section should extend, not repeat, the background to the article already dealt with in the Introduction and lay the foundation for further work. In contrast, a Calculation section represents a practical development from a theoretical basis.
+\input{Text/ResearchBackground}
+
+\end{linenumbers}
+    \bibliography{main}
+    %\bibliographystyle{plain}
+    \bibliographystyle{elsarticle-num}
+
+\end{document}
