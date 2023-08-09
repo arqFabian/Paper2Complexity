@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="">
+    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Introduction progress">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/GraphicAbstract.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.bib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.tex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/text/Introduction.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/Introduction.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/ResearchBackground.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/ResearchBackground.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +46,7 @@
       <recent name="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\src\Images" />
       <recent name="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\src\text" />
       <recent name="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\src" />
     </key>
@@ -126,6 +126,14 @@
       <option name="presentableId" value="Default" />
       <updated>1691453750129</updated>
     </task>
+    <task id="LOCAL-00001" summary="Introduction progress">
+      <created>1691546960208</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691546960208</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -138,5 +146,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Introduction progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="Introduction progress" />
   </component>
 </project>
