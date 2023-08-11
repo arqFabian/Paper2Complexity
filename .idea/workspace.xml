@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Introduction progress">
+      <change afterPath="$PROJECT_DIR$/src/text/TheoryFramework.tex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/TimelineArchitecture.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/TimelineArchitecture.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.bib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.tex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/text/Introduction.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/Introduction.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/text/ResearchBackground.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/ResearchBackground.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/ResearchBackground.tex" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +136,35 @@
       <option name="project" value="LOCAL" />
       <updated>1691546960208</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Introduction progress">
+      <created>1691553122553</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691553122553</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Introduction progress">
+      <created>1691633183941</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691633183941</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Introduction progress">
+      <created>1691633195906</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1691633195906</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Introduction progress">
+      <created>1691633518334</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1691633518334</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
