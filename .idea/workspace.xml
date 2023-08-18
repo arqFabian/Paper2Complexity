@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Corrections to references">
-      <change afterPath="$PROJECT_DIR$/src/text/DigFabricationEnvTheory.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/text/FacadeOrnamentTheory.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/text/HistoryArchStylesTheory.tex" afterDir="false" />
+    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Corrections to references and creation of tex files for the subsections on the theory framework">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/text/TheoryFramework.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/TheoryFramework.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/DigFabricationEnvTheory.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/DigFabricationEnvTheory.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/FacadeOrnamentTheory.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/FacadeOrnamentTheory.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/test.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/test.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692325180002</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Corrections to references and creation of tex files for the subsections on the theory framework">
+      <created>1692327997534</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1692327997534</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -245,6 +250,7 @@
     <MESSAGE value="Introduction progress" />
     <MESSAGE value="Start of theory framework" />
     <MESSAGE value="Corrections to references" />
-    <option name="LAST_COMMIT_MESSAGE" value="Corrections to references" />
+    <MESSAGE value="Corrections to references and creation of tex files for the subsections on the theory framework" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrections to references and creation of tex files for the subsections on the theory framework" />
   </component>
 </project>
