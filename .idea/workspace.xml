@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Corrections to references and creation of tex files for the subsections on the theory framework">
+      <change afterPath="$PROJECT_DIR$/src/text/FutureTrendsTheory.tex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/RomanesqueVsGothic.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/RomanesqueVsGothic.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.bib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.bib" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/text/Abstract.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/Abstract.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/DigFabricationEnvTheory.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/DigFabricationEnvTheory.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/FacadeOrnamentTheory.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/FacadeOrnamentTheory.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/HistoryArchStylesTheory.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/HistoryArchStylesTheory.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/Introduction.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/Introduction.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/TheoryFramework.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/TheoryFramework.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692327997534</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Corrections to references and creation of tex files for the subsections on the theory framework">
+      <created>1692588632065</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1692588632065</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
