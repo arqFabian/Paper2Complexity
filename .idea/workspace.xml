@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Corrections to HistoryArchStylesTheory.tex to add the art noaveu refrence as well as the ransition to modernism">
-      <change afterPath="$PROJECT_DIR$/Python/ImageComplexity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ComplexityPython/ComplexityAnalysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ComplexityPython/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Paper2Complexity.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Paper2Complexity.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -280,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692760227564</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Corrections to HistoryArchStylesTheory.tex to add the art noaveu refrence as well as the ransition to modernism">
+      <created>1692763040635</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1692763040635</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
