@@ -4,22 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Corrections to references and creation of tex files for the subsections on the theory framework">
-      <change afterPath="$PROJECT_DIR$/src/text/FutureTrendsTheory.tex" afterDir="false" />
+    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Corrections to HistoryArchStylesTheory.tex to add the art noaveu refrence as well as the ransition to modernism">
+      <change afterPath="$PROJECT_DIR$/Python/ImageComplexity.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/RomanesqueVsGothic.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/RomanesqueVsGothic.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.bib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/text/DigFabricationEnvTheory.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/DigFabricationEnvTheory.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/text/FacadeOrnamentTheory.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/FacadeOrnamentTheory.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/text/HistoryArchStylesTheory.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/HistoryArchStylesTheory.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/text/Introduction.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/Introduction.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/text/TheoryFramework.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/TheoryFramework.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="Setup Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,7 +28,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2Tg9FCCV37MkZXA0SOUl0wJnUhQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -58,7 +58,7 @@
       <recent name="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\src" />
     </key>
   </component>
-  <component name="RunManager" selected="LaTeX.MainPDF">
+  <component name="RunManager">
     <configuration default="true" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify-bibtex>
         <compiler />
@@ -121,6 +121,27 @@
         <bib-run-config>[]</bib-run-config>
         <makeindex-run-config>[]</makeindex-run-config>
       </texify>
+      <method v="2" />
+    </configuration>
+    <configuration name="ImageComplexity" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Paper2Complexity" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\arqfa\PycharmProjects\site_layout\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/ImageComplexity.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
   </component>
@@ -245,7 +266,21 @@
       <option name="project" value="LOCAL" />
       <updated>1692588632065</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Corrections to HistoryArchStylesTheory.tex to add the art noaveu refrence as well as the ransition to modernism">
+      <created>1692760181616</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1692760181616</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Corrections to HistoryArchStylesTheory.tex to add the art noaveu refrence as well as the ransition to modernism">
+      <created>1692760227564</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1692760227564</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -264,6 +299,7 @@
     <MESSAGE value="Start of theory framework" />
     <MESSAGE value="Corrections to references" />
     <MESSAGE value="Corrections to references and creation of tex files for the subsections on the theory framework" />
-    <option name="LAST_COMMIT_MESSAGE" value="Corrections to references and creation of tex files for the subsections on the theory framework" />
+    <MESSAGE value="Corrections to HistoryArchStylesTheory.tex to add the art noaveu refrence as well as the ransition to modernism" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrections to HistoryArchStylesTheory.tex to add the art noaveu refrence as well as the ransition to modernism" />
   </component>
 </project>
