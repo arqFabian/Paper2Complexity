@@ -12,7 +12,7 @@ def calculate_complexity(image_path, threshold_low=100, threshold_high=200):
     # Apply Canny edge detection
     edges = cv2.Canny(blurred, threshold_low, threshold_high)
 
-    # Calculate Images score based on edge density
+    # Calculate input_images score based on edge density
     edge_density = np.count_nonzero(edges) / (edges.shape[0] * edges.shape[1])
 
     return edge_density
