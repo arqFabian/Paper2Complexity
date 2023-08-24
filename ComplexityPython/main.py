@@ -19,8 +19,8 @@ if __name__ == '__main__':
 
 from ComplexityAnalysis import calculate_complexity
 
-input_folder = 'C:/Users/arqfa/Downloads/complexity'  # Replace with the folder path
-output_folder = 'C:/Users/arqfa/Downloads/complexity'  # Replace with the folder where you want to save results
+input_folder = 'C:/Users/arqfa/Downloads/Images'  # Replace with the folder path
+output_folder = 'C:/Users/arqfa/Downloads/Images'  # Replace with the folder where you want to save results
 
 # Iterate through all images in the input folder
 for filename in os.listdir(input_folder):
@@ -29,7 +29,7 @@ for filename in os.listdir(input_folder):
         complexity_score = calculate_complexity(image_path)
 
         # Create a result string
-        result_string = f"{filename} complexity score: {complexity_score}"
+        result_string = f"{filename} Images score: {complexity_score}"
 
         # Print the result
         print(result_string)
