@@ -5,22 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="adding folder complexity for complexity analysis to the github">
-      <change beforePath="$PROJECT_DIR$/.idea/Paper2Complexity.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Paper2Complexity.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ComplexityPython/ComplexityAnalysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/ComplexityPython/ComplexityAnalysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ComplexityPython/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ComplexityPython/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/complexity/01.png" beforeDir="false" afterPath="$PROJECT_DIR$/ComplexityPython/Images/01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/complexity/02.png" beforeDir="false" afterPath="$PROJECT_DIR$/ComplexityPython/Images/02.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/complexity/03.png" beforeDir="false" afterPath="$PROJECT_DIR$/ComplexityPython/Images/03.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/complexity/04.png" beforeDir="false" afterPath="$PROJECT_DIR$/ComplexityPython/Images/04.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/complexity/05.png" beforeDir="false" afterPath="$PROJECT_DIR$/ComplexityPython/Images/05.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/complexity/06.png" beforeDir="false" afterPath="$PROJECT_DIR$/ComplexityPython/Images/06.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/complexity/07.png" beforeDir="false" afterPath="$PROJECT_DIR$/ComplexityPython/Images/07.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/complexity/08.png" beforeDir="false" afterPath="$PROJECT_DIR$/ComplexityPython/Images/08.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/complexity/09.png" beforeDir="false" afterPath="$PROJECT_DIR$/ComplexityPython/Images/09.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/text/Introduction.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/Introduction.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/text/TheoryFramework.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/TheoryFramework.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/text/test.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/test.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.bib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/FacadeOrnamentTheory.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/FacadeOrnamentTheory.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/HistoryArchStylesTheory.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/HistoryArchStylesTheory.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,15 +39,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "full.screen.before.presentation.mode": "false",
-    "last_opened_file_path": "C:/Users/arqfa/OneDrive/FABIAN DATA/Kyushu 2021/Research/Paper2Complexity",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/arqfa/OneDrive/FABIAN DATA/Kyushu 2021/Research/Paper2Complexity&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\auxil" />
@@ -67,12 +56,13 @@
       <recent name="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\ComplexityPython" />
       <recent name="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\src\Images" />
       <recent name="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\src\text" />
       <recent name="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ComplexityAnalysis">
+  <component name="RunManager" selected="LaTeX.MainPDF">
     <configuration default="true" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify-bibtex>
         <compiler />
@@ -320,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692842177381</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="adding folder complexity for complexity analysis to the github">
+      <created>1692845471626</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1692845471626</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
