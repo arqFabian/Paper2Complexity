@@ -25,7 +25,7 @@ def generate_scatter_complexity(file_names_input, complexity_scores_input, scrip
     plt.grid(True)
 
     # Fit a polynomial trend line
-    degree = 8 # Change this to the degree of the polynomial (e.g., 2 for quadratic)
+    degree = 10 # Change this to the degree of the polynomial (e.g., 2 for quadratic)
     trend_coefficients = np.polyfit(file_names_input, complexity_scores_input, degree)
     trend_line = np.polyval(trend_coefficients, file_names_input)
     plt.plot(file_names_input, trend_line, color='r', linestyle='--', label='Trend Line')
