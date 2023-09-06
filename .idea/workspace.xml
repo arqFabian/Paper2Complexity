@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="improvement of contemporary timeline and setup of complexitygraph.py">
-      <change afterPath="$PROJECT_DIR$/src/text/ComplexityImageAnalysis.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/text/MethodologyIntro.tex" afterDir="false" />
+    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="introduction of new images to complexitygraph.py and the degree input for the trend line.&#10;The creation of the methodology section.&#10;Addition of a ComplexityImageAnalysis.tex to describe the graph that analysis image complexity&#10;update of the FacadeOrnamentTheory.tex to inlcude contemporary styles starting with Deconstructivism.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ComplexityPython/complexitygraph.py" beforeDir="false" afterPath="$PROJECT_DIR$/ComplexityPython/complexitygraph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ComplexityPython/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ComplexityPython/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/complexitygraph.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/complexitygraph.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.bib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.bib" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/ComplexityImageAnalysis.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/ComplexityImageAnalysis.tex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/text/FacadeOrnamentTheory.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/FacadeOrnamentTheory.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -356,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693886813109</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="introduction of new images to complexitygraph.py and the degree input for the trend line.&#10;The creation of the methodology section.&#10;Addition of a ComplexityImageAnalysis.tex to describe the graph that analysis image complexity&#10;update of the FacadeOrnamentTheory.tex to inlcude contemporary styles starting with Deconstructivism.">
+      <created>1693966700894</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1693966700894</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -380,6 +382,7 @@
     <MESSAGE value="Creation of separate images for art deco. art nouveau and vitruvian architecture. Inclusion of mention of art nouveau on the history and facade analysis." />
     <MESSAGE value="finsihed venturi and start if transition to contemporary" />
     <MESSAGE value="improvement of contemporary timeline and setup of complexitygraph.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="improvement of contemporary timeline and setup of complexitygraph.py" />
+    <MESSAGE value="introduction of new images to complexitygraph.py and the degree input for the trend line.&#10;The creation of the methodology section.&#10;Addition of a ComplexityImageAnalysis.tex to describe the graph that analysis image complexity&#10;update of the FacadeOrnamentTheory.tex to inlcude contemporary styles starting with Deconstructivism." />
+    <option name="LAST_COMMIT_MESSAGE" value="introduction of new images to complexitygraph.py and the degree input for the trend line.&#10;The creation of the methodology section.&#10;Addition of a ComplexityImageAnalysis.tex to describe the graph that analysis image complexity&#10;update of the FacadeOrnamentTheory.tex to inlcude contemporary styles starting with Deconstructivism." />
   </component>
 </project>
