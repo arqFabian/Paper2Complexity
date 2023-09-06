@@ -5,20 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="improvement of contemporary timeline and setup of complexitygraph.py">
+      <change afterPath="$PROJECT_DIR$/src/text/ComplexityImageAnalysis.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/text/MethodologyIntro.tex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ComplexityPython/complexitygraph.py" beforeDir="false" afterPath="$PROJECT_DIR$/ComplexityPython/complexitygraph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ComplexityPython/input_images/01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ComplexityPython/input_images/02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ComplexityPython/input_images/03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ComplexityPython/input_images/04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ComplexityPython/input_images/05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ComplexityPython/input_images/06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ComplexityPython/input_images/07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ComplexityPython/input_images/08.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ComplexityPython/input_images/09.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ComplexityPython/input_images/10.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ComplexityPython/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ComplexityPython/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Graphs/complexitygraph.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/complexitygraph.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.bib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/FacadeOrnamentTheory.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/FacadeOrnamentTheory.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +66,7 @@
       <recent name="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.mainPython">
+  <component name="RunManager" selected="LaTeX.MainPDF">
     <configuration default="true" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify-bibtex>
         <compiler />
@@ -354,7 +349,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693540494974</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="improvement of contemporary timeline and setup of complexitygraph.py">
+      <created>1693886813109</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1693886813109</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

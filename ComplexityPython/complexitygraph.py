@@ -4,12 +4,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-def generate_scatter_complexity(file_names_input, complexity_scores_input, script_directory_input, ):
+def generate_scatter_complexity(file_names_input, complexity_scores_input, script_directory_input, trendline_degree_input):
     # Set the desired aspect ratio (16:9)
     aspect_ratio = 12 / 4
 
     # Calculate the figure width based on the aspect ratio
-    fig_width = 8  # You can adjust this value as needed
+    fig_width = 10  # You can adjust this value as needed
 
     # Calculate the corresponding figure height
     fig_height = fig_width / aspect_ratio
@@ -25,8 +25,8 @@ def generate_scatter_complexity(file_names_input, complexity_scores_input, scrip
     plt.grid(True)
 
     # Fit a polynomial trend line
-    degree = 10 # Change this to the degree of the polynomial (e.g., 2 for quadratic)
-    trend_coefficients = np.polyfit(file_names_input, complexity_scores_input, degree)
+
+    trend_coefficients = np.polyfit(file_names_input, complexity_scores_input, trendline_degree_input) # Change this to the degree of the polynomial (e.g., 2 for quadratic)
     trend_line = np.polyval(trend_coefficients, file_names_input)
     plt.plot(file_names_input, trend_line, color='r', linestyle='--', label='Trend Line')
 

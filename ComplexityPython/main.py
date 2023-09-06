@@ -36,5 +36,5 @@ for result in complexity_scores:
     print(result)
 
 # create the scatter graph using the function for scatter graph
-generate_scatter_complexity(file_names, complexity_scores, script_directory)
+generate_scatter_complexity(file_names, complexity_scores, script_directory, 8)
 
