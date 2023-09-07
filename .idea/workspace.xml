@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="introduction of new images to complexitygraph.py and the degree input for the trend line.&#10;The creation of the methodology section.&#10;Addition of a ComplexityImageAnalysis.tex to describe the graph that analysis image complexity&#10;update of the FacadeOrnamentTheory.tex to inlcude contemporary styles starting with Deconstructivism.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/text/ComplexityImageAnalysis.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/ComplexityImageAnalysis.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/contemporaryTimeline.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/contemporaryTimeline.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.bib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.bib" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/text/FacadeOrnamentTheory.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/FacadeOrnamentTheory.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +30,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2Tg9FCCV37MkZXA0SOUl0wJnUhQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -358,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693966700894</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="introduction of new images to complexitygraph.py and the degree input for the trend line.&#10;The creation of the methodology section.&#10;Addition of a ComplexityImageAnalysis.tex to describe the graph that analysis image complexity&#10;update of the FacadeOrnamentTheory.tex to inlcude contemporary styles starting with Deconstructivism.">
+      <created>1693969701837</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1693969701837</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
