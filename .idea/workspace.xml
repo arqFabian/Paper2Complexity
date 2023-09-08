@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="introduction of new images to complexitygraph.py and the degree input for the trend line.&#10;The creation of the methodology section.&#10;Addition of a ComplexityImageAnalysis.tex to describe the graph that analysis image complexity&#10;update of the FacadeOrnamentTheory.tex to inlcude contemporary styles starting with Deconstructivism.">
+    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Neo futurism and hightech modernism updates with ornament reference">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/contemporaryTimeline.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/contemporaryTimeline.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.bib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.bib" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/text/FacadeOrnamentTheory.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/FacadeOrnamentTheory.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/FutureTrendsTheory.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/FutureTrendsTheory.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +61,7 @@
       <recent name="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\src" />
     </key>
   </component>
-  <component name="RunManager" selected="LaTeX.MainPDF">
+  <component name="RunManager" selected="BibTeX.main bibliography">
     <configuration default="true" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify-bibtex>
         <compiler />
@@ -365,7 +365,21 @@
       <option name="project" value="LOCAL" />
       <updated>1693969701837</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Neo futurism and hightech modernism updates">
+      <created>1694055586029</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1694055586029</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Neo futurism and hightech modernism updates with ornament reference">
+      <created>1694056458842</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1694056458842</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -390,6 +404,8 @@
     <MESSAGE value="finsihed venturi and start if transition to contemporary" />
     <MESSAGE value="improvement of contemporary timeline and setup of complexitygraph.py" />
     <MESSAGE value="introduction of new images to complexitygraph.py and the degree input for the trend line.&#10;The creation of the methodology section.&#10;Addition of a ComplexityImageAnalysis.tex to describe the graph that analysis image complexity&#10;update of the FacadeOrnamentTheory.tex to inlcude contemporary styles starting with Deconstructivism." />
-    <option name="LAST_COMMIT_MESSAGE" value="introduction of new images to complexitygraph.py and the degree input for the trend line.&#10;The creation of the methodology section.&#10;Addition of a ComplexityImageAnalysis.tex to describe the graph that analysis image complexity&#10;update of the FacadeOrnamentTheory.tex to inlcude contemporary styles starting with Deconstructivism." />
+    <MESSAGE value="Neo futurism and hightech modernism updates" />
+    <MESSAGE value="Neo futurism and hightech modernism updates with ornament reference" />
+    <option name="LAST_COMMIT_MESSAGE" value="Neo futurism and hightech modernism updates with ornament reference" />
   </component>
 </project>
