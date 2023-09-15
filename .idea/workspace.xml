@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="hightech modernism updates">
+    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="start of parametricism">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.bib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.bib" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/text/FacadeOrnamentTheory.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/FacadeOrnamentTheory.tex" afterDir="false" />
@@ -61,7 +61,18 @@
       <recent name="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\src" />
     </key>
   </component>
-  <component name="RunManager" selected="LaTeX.MainPDF">
+  <component name="RunManager">
+    <configuration name="FacadeOrnamentTheory bibliography" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
+      <texify-bibtex>
+        <compiler>BIBTEX</compiler>
+        <compiler-path />
+        <compiler-arguments />
+        <envs />
+        <main-file>$PROJECT_DIR$/src/text/FacadeOrnamentTheory.tex</main-file>
+        <aux-dir>$PROJECT_DIR$/auxil</aux-dir>
+      </texify-bibtex>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify-bibtex>
         <compiler />
@@ -148,6 +159,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="BibTeX.FacadeOrnamentTheory bibliography" />
       <item itemvalue="BibTeX.main bibliography" />
       <item itemvalue="LaTeX.MainPDF" />
       <item itemvalue="Python.mainPython" />
@@ -386,7 +398,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694138579580</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="start of parametricism">
+      <created>1694144257130</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1694144257130</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -414,6 +433,7 @@
     <MESSAGE value="Neo futurism and hightech modernism updates" />
     <MESSAGE value="Neo futurism and hightech modernism updates with ornament reference" />
     <MESSAGE value="hightech modernism updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="hightech modernism updates" />
+    <MESSAGE value="start of parametricism" />
+    <option name="LAST_COMMIT_MESSAGE" value="start of parametricism" />
   </component>
 </project>
