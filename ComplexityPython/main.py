@@ -4,37 +4,44 @@ import os
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
+from itertools import cycle
 
-from ComplexityAnalysis import calculate_complexity
+from complexityanalysis import calculate_complexity
 from complexitygraph import generate_scatter_complexity
 
 # Get the directory of the script
 script_directory = os.path.dirname(__file__)
 
-# Construct the input folder path using the project folder as root
+# Define styles and extract the style names from folder names
+input_folder = os.path.join(script_directory, 'input_images')
+style_names = [folder for folder in os.listdir(input_folder) if os.path.isdir(os.path.join(input_folder, folder))]
 
-input_folder = os.path.join(script_directory, 'input_images')# Replace with the folder path
-output_folder = os.path.join(script_directory, 'input_images') # Replace with the folder where you want to save results
+# Create a colormap for styles
+style_cmap = plt.get_cmap('tab20')  # Change 'tab20' to the desired colormap name
 
-# Initialize lists to store file names and complexity scores
-file_names = []
+# Initialize lists to store data
+file_paths = []
 complexity_scores = []
+style_labels = []
+years = []
 
-# Iterate through all images in the input folder
-for filename in os.listdir(input_folder):
-    if filename.lower().endswith((".png", ".jpg")):
-        """if filename.endswith(".png"):"""
-        image_path = os.path.join(input_folder, filename)
-        complexity_score = calculate_complexity(image_path)
-
-        # Append file name (number) and complexity score to lists
-        file_names.append(int(filename.split('.')[0]))
-        complexity_scores.append(complexity_score)
+# Iterate through style folders and images
+for style in style_names:
+    style_path = os.path.join(input_folder, style)
+    for filename in os.listdir(style_path):
+        if filename.lower().endswith((".png", ".jpg")):
+            image_path = os.path.join(style_path, filename)
+            complexity = calculate_complexity(image_path)
+            year = int(filename.split('_')[0])  # Extract the year from the filename
+            file_paths.append(image_path)
+            complexity_scores.append(complexity)
+            style_labels.append(style)
+            years.append(year)
 
 # Print all results
 for result in complexity_scores:
     print(result)
 
 # create the scatter graph using the function for scatter graph
-generate_scatter_complexity(file_names, complexity_scores, script_directory, 8)
+generate_scatter_complexity(years, complexity_scores, style_labels, style_names, script_directory, 8)
 
