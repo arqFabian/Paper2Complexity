@@ -2,6 +2,7 @@ import os
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
+import matplotlib.colors as mcolors
 from itertools import cycle
 
 
@@ -16,7 +17,10 @@ def generate_scatter_complexity(years_input, complexity_scores_input, style_labe
     fig_height = fig_width / aspect_ratio
 
     # Create a colormap for styles
-    style_cmap = plt.get_cmap('tab20')  # Change 'tab20' to the desired colormap name
+    color_ref = ['prism', 'tab20', 'tab20b', 'tab20c', 'Set3']
+    # Define the colormap reference directly
+    selected_colormap = color_ref[3]
+    style_cmap = plt.get_cmap(selected_colormap)  # Change 'tab20' to the desired colormap name
 
     # Assign colors based on style from the colormap
     style_colors = {style: style_cmap(i) for i, style in enumerate(style_names_input)}

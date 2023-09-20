@@ -5,6 +5,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 from itertools import cycle
+import matplotlib.colors as mcolors
 
 from complexityanalysis import calculate_complexity
 from complexitygraph import generate_scatter_complexity
@@ -29,7 +30,7 @@ years = []
 for style in style_names:
     style_path = os.path.join(input_folder, style)
     for filename in os.listdir(style_path):
-        if filename.lower().endswith((".png", ".jpg")):
+        if filename.lower().endswith((".png", ".jpg", ".jpeg")):
             image_path = os.path.join(style_path, filename)
             complexity = calculate_complexity(image_path)
             year = int(filename.split('_')[0])  # Extract the year from the filename
