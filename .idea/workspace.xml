@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Addition of images for complexity analysis on style folders up to neofuturism">
+    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Addition of images for complexity analysis on style folders completed and graph updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ComplexityPython/input_images/13_Parametricism/2012_image1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ComplexityPython/input_images/14_PragmaticUtopianism/2016_image1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/complexitygraph.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/complexitygraph.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/FacadeOrnamentTheory.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/FacadeOrnamentTheory.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/FutureTrendsTheory.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/FutureTrendsTheory.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -421,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695280148837</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Addition of images for complexity analysis on style folders completed and graph updated">
+      <created>1695302906832</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1695302906832</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -453,6 +459,7 @@
     <MESSAGE value="culmination of parametricism and pragmatic utopianism" />
     <MESSAGE value="Arrangement of images for complexity analysis into folders and adaptation of scatter graph for it." />
     <MESSAGE value="Addition of images for complexity analysis on style folders up to neofuturism" />
-    <option name="LAST_COMMIT_MESSAGE" value="Addition of images for complexity analysis on style folders up to neofuturism" />
+    <MESSAGE value="Addition of images for complexity analysis on style folders completed and graph updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Addition of images for complexity analysis on style folders completed and graph updated" />
   </component>
 </project>
