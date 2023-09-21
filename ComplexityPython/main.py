@@ -30,7 +30,7 @@ years = []
 for style in style_names:
     style_path = os.path.join(input_folder, style)
     for filename in os.listdir(style_path):
-        if filename.lower().endswith((".png", ".jpg", ".jpeg")):
+        if filename.lower().endswith((".png", ".jpg", ".jpeg", ".webp")):
             image_path = os.path.join(style_path, filename)
             complexity = calculate_complexity(image_path)
             year = int(filename.split('_')[0])  # Extract the year from the filename
@@ -44,5 +44,5 @@ for result in complexity_scores:
     print(result)
 
 # create the scatter graph using the function for scatter graph
-generate_scatter_complexity(years, complexity_scores, style_labels, style_names, script_directory, 8)
+generate_scatter_complexity(years, complexity_scores, style_labels, style_names, script_directory, 9)
 
