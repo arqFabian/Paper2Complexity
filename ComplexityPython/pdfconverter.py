@@ -1,5 +1,5 @@
 import os
-from Pillow import Image
+from PIL import Image
 from pdf2image import convert_from_path
 
 def pdf_to_png(pdf_file, output_dir=None):
@@ -30,12 +30,10 @@ def pdf_to_png(pdf_file, output_dir=None):
 
 
 # Specify the PDF file path
-#pdf_file_path = 'C:/Users/arqfa/UnityProjects/VRSLP/Assets/Resources/Images/ComplexityImages/complexitygraph.pdf'
 pdf_file_path = 'C:/Users/arqfa/OneDrive/FABIAN DATA/Kyushu 2021/Research/Paper2Complexity/src/Images/test.pdf'
 
 # Specify the output directory (replace with your desired directory)
 output_directory = 'C:/Users/arqfa/OneDrive/FABIAN DATA/Kyushu 2021/Research/Paper2Complexity/src/Images'
-
 
 # Call the function to convert the PDF to PNG and specify the output directory
 pdf_to_png(pdf_file_path, output_directory)

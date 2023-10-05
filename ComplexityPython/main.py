@@ -6,6 +6,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from itertools import cycle
 import matplotlib.colors as mcolors
+import os
+
 
 from complexityanalysis import calculate_complexity
 from complexitygraph import generate_scatter_complexity
