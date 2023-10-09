@@ -30,10 +30,10 @@ def pdf_to_png(pdf_file, output_dir=None):
 
 
 # Specify the PDF file path
-pdf_file_path = 'C:/Users/arqfa/OneDrive/FABIAN DATA/Kyushu 2021/Research/Paper2Complexity/src/Images/test.pdf'
+pdf_file_path = 'C:/Users/arqfa/OneDrive/FABIAN DATA/Kyushu 2021/Research/Paper2Complexity/src/Graphs/complexitygraphrender_RenderP3.pdf'
 
 # Specify the output directory (replace with your desired directory)
-output_directory = 'C:/Users/arqfa/OneDrive/FABIAN DATA/Kyushu 2021/Research/Paper2Complexity/src/Images'
+output_directory = 'C:/Users/arqfa/OneDrive/FABIAN DATA/Kyushu 2021/Research/Paper2Complexity/src/Graphs'
 
 # Call the function to convert the PDF to PNG and specify the output directory
 pdf_to_png(pdf_file_path, output_directory)
