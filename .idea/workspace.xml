@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Creation of separate images for art deco. art nouveau and vitruvian architecture. Inclusion of mention of art nouveau on the history and facade analysis.">
+    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Creation of raph function for patterns and blender script for fbx blenderfbx.py">
+      <change afterPath="$PROJECT_DIR$/src/Graphs/complexitygraphrender.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/complexitygraphrender_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/complexitygraphrender_RenderP1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/complexitygraphrender_RenderP1_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/complexitygraphrender_RenderP2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/complexitygraphrender_RenderP2_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/complexitygraphrender_RenderP3.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/complexitygraphrender_RenderP3_1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/NeoclassicArtDeco.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.bib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/text/FacadeOrnamentTheory.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/FacadeOrnamentTheory.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ComplexityPython/blenderfbx.py" beforeDir="false" afterPath="$PROJECT_DIR$/ComplexityPython/blenderfbx.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Setup Script" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -30,7 +36,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2Tg9FCCV37MkZXA0SOUl0wJnUhQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -38,15 +44,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/arqfa/OneDrive/FABIAN DATA/Kyushu 2021/Research/Paper2Complexity&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "full.screen.before.presentation.mode": "false",
+    "last_opened_file_path": "C:/Users/arqfa/OneDrive/FABIAN DATA/Kyushu 2021/Research/Paper2Complexity/ComplexityPython/mainrender.py",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\auxil" />
@@ -55,13 +61,14 @@
       <recent name="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\src\Graphs" />
       <recent name="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\ComplexityPython" />
       <recent name="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\src\Images" />
       <recent name="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\src\text" />
       <recent name="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\src" />
     </key>
   </component>
-  <component name="RunManager" selected="LaTeX.MainPDF">
+  <component name="RunManager">
     <configuration default="true" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify-bibtex>
         <compiler />
@@ -126,7 +133,7 @@
       </texify>
       <method v="2" />
     </configuration>
-    <configuration name="ComplexityAnalysis" type="PythonConfigurationType" factoryName="Python">
+    <configuration name="mainPython" type="PythonConfigurationType" factoryName="Python">
       <module name="Paper2Complexity" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -147,10 +154,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="mainRender" type="PythonConfigurationType" factoryName="Python">
+      <module name="Paper2Complexity" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ComplexityPython" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ComplexityPython/mainrender.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="BibTeX.main bibliography" />
       <item itemvalue="LaTeX.MainPDF" />
-      <item itemvalue="Python.ComplexityAnalysis" />
+      <item itemvalue="Python.mainPython" />
+      <item itemvalue="Python.mainRender" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -323,7 +352,147 @@
       <option name="project" value="LOCAL" />
       <updated>1692935647433</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="finsihed venturi and start if transition to contemporary">
+      <created>1693437614367</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1693437614367</updated>
+    </task>
+    <task id="LOCAL-00025" summary="improvement of contemporary timeline and setup of complexitygraph.py">
+      <created>1693540444358</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1693540444358</updated>
+    </task>
+    <task id="LOCAL-00026" summary="improvement of contemporary timeline and setup of complexitygraph.py">
+      <created>1693540494974</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1693540494974</updated>
+    </task>
+    <task id="LOCAL-00027" summary="improvement of contemporary timeline and setup of complexitygraph.py">
+      <created>1693886813109</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1693886813109</updated>
+    </task>
+    <task id="LOCAL-00028" summary="introduction of new images to complexitygraph.py and the degree input for the trend line.&#10;The creation of the methodology section.&#10;Addition of a ComplexityImageAnalysis.tex to describe the graph that analysis image complexity&#10;update of the FacadeOrnamentTheory.tex to inlcude contemporary styles starting with Deconstructivism.">
+      <created>1693966700894</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1693966700894</updated>
+    </task>
+    <task id="LOCAL-00029" summary="introduction of new images to complexitygraph.py and the degree input for the trend line.&#10;The creation of the methodology section.&#10;Addition of a ComplexityImageAnalysis.tex to describe the graph that analysis image complexity&#10;update of the FacadeOrnamentTheory.tex to inlcude contemporary styles starting with Deconstructivism.">
+      <created>1693969701837</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1693969701837</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Neo futurism and hightech modernism updates">
+      <created>1694055586029</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1694055586029</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Neo futurism and hightech modernism updates with ornament reference">
+      <created>1694056458842</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1694056458842</updated>
+    </task>
+    <task id="LOCAL-00032" summary="hightech modernism updates">
+      <created>1694138579580</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1694138579580</updated>
+    </task>
+    <task id="LOCAL-00033" summary="start of parametricism">
+      <created>1694144257130</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1694144257130</updated>
+    </task>
+    <task id="LOCAL-00034" summary="culmination of parametricism and pragmatic utopianism">
+      <created>1694747515369</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1694747515369</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Arrangement of images for complexity analysis into folders and adaptation of scatter graph for it.">
+      <created>1695194969491</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1695194969491</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Arrangement of images for complexity analysis into folders and adaptation of scatter graph for it.">
+      <created>1695201453195</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1695201453195</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Addition of images for complexity analysis on style folders up to neofuturism">
+      <created>1695280148837</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1695280148837</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Addition of images for complexity analysis on style folders completed and graph updated">
+      <created>1695302906832</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1695302906832</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Addition of images for complexity analysis on style folders completed and graph updated">
+      <created>1695303535238</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1695303535238</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Addition of images for complexity analysis on style folders completed and graph updated">
+      <created>1696234870151</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1696234870152</updated>
+    </task>
+    <task id="LOCAL-00041" summary="addition of pdf to image converter">
+      <created>1696487045603</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1696487045603</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Inlcusion of survey into annex">
+      <created>1696497985280</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1696497985280</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Creation of raph function for patterns and blender script for fbx blenderfbx.py">
+      <created>1696864609413</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1696864609413</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -345,6 +514,20 @@
     <MESSAGE value="Corrections to HistoryArchStylesTheory.tex to add the art noaveu refrence as well as the ransition to modernism" />
     <MESSAGE value="adding folder complexity for complexity analysis to the github" />
     <MESSAGE value="Creation of separate images for art deco. art nouveau and vitruvian architecture. Inclusion of mention of art nouveau on the history and facade analysis." />
-    <option name="LAST_COMMIT_MESSAGE" value="Creation of separate images for art deco. art nouveau and vitruvian architecture. Inclusion of mention of art nouveau on the history and facade analysis." />
+    <MESSAGE value="finsihed venturi and start if transition to contemporary" />
+    <MESSAGE value="improvement of contemporary timeline and setup of complexitygraph.py" />
+    <MESSAGE value="introduction of new images to complexitygraph.py and the degree input for the trend line.&#10;The creation of the methodology section.&#10;Addition of a ComplexityImageAnalysis.tex to describe the graph that analysis image complexity&#10;update of the FacadeOrnamentTheory.tex to inlcude contemporary styles starting with Deconstructivism." />
+    <MESSAGE value="Neo futurism and hightech modernism updates" />
+    <MESSAGE value="Neo futurism and hightech modernism updates with ornament reference" />
+    <MESSAGE value="hightech modernism updates" />
+    <MESSAGE value="start of parametricism" />
+    <MESSAGE value="culmination of parametricism and pragmatic utopianism" />
+    <MESSAGE value="Arrangement of images for complexity analysis into folders and adaptation of scatter graph for it." />
+    <MESSAGE value="Addition of images for complexity analysis on style folders up to neofuturism" />
+    <MESSAGE value="Addition of images for complexity analysis on style folders completed and graph updated" />
+    <MESSAGE value="addition of pdf to image converter" />
+    <MESSAGE value="Inlcusion of survey into annex" />
+    <MESSAGE value="Creation of raph function for patterns and blender script for fbx blenderfbx.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creation of raph function for patterns and blender script for fbx blenderfbx.py" />
   </component>
 </project>
