@@ -46,7 +46,7 @@ for result in complexity_scores:
     print(result)
 
 # create the scatter graph using the function for scatter graph with all three patterns together
-generate_scatter_render_complexity_together(levels, complexity_scores, pattern_labels, style_names, script_directory,1)
+generate_scatter_render_complexity_together(levels, complexity_scores, pattern_labels, style_names, script_directory, 1)
 
 # create the scatter graph using the function for scatter graph with all three patterns together
 

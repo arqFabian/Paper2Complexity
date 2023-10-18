@@ -4,10 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="fbx exporter updated to hold the frame selection">
-      <change afterPath="$PROJECT_DIR$/ComplexityPython/imagetimer.py" afterDir="false" />
+    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Correction on graphs and inclusion of all images to Git">
+      <change afterPath="$PROJECT_DIR$/src/Images/ArtDecoFacade.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/ArtNouveauVsModernism.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/ArtnouveauGaudi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/BaroqueVsContemporaryfacade.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/BaroquefacadeBorromini.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/ClassicismNeoClassicism.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/ComplexityLevelChosenChart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/ComplexityPerceptionChart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/ComplexityPerceptionPerLevel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/ComplexitySurveyPart1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/ComplexitySurveyPart1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/ComplexitySurveyPart2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/ComplexitySurveyPart2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/ModernistFacade.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/NeoclassicismVsModernism.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Parametricism.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/PostmodernOrnament.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/PostmodernismVenturi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/PreferredComplexityLevelPerPattern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/ProbabilityPreferredComplexitylevel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/RomanesqueVsGothic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/TimelineArchitecture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/VitruvianArchitecture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/complexitygraphrender_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/complexornament.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/contemporaryTimeline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/hightechmodernism.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/modernism vs postmodernism.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/neofuturism.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/pragmaticutopianism.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ComplexityPython/mainrender.py" beforeDir="false" afterPath="$PROJECT_DIR$/ComplexityPython/mainrender.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Excel/ExperimentComplexityResultsGraph_participants.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Excel/ExperimentComplexityResultsGraph_participants.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graphs/complexitygraph.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/complexitygraph.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Graphs/complexitygraphrender.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/complexitygraphrender.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/Results.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/Results.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +75,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/arqfa/OneDrive/FABIAN DATA/Kyushu 2021/Research/Paper2Complexity/ComplexityPython/mainrender.py&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/arqfa/OneDrive/Desktop/Freshstart/Paper2Complexity&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
@@ -61,7 +94,7 @@
       <recent name="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.mainRender">
+  <component name="RunManager" selected="LaTeX.MainPDF">
     <configuration default="true" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify-bibtex>
         <compiler />
@@ -499,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696917300249</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="First fresh start after crash on terrain9 file">
+      <created>1697602822594</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1697602822594</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -536,6 +576,8 @@
     <MESSAGE value="Inlcusion of survey into annex" />
     <MESSAGE value="Creation of raph function for patterns and blender script for fbx blenderfbx.py" />
     <MESSAGE value="fbx exporter updated to hold the frame selection" />
-    <option name="LAST_COMMIT_MESSAGE" value="fbx exporter updated to hold the frame selection" />
+    <MESSAGE value="First fresh start after crash on terrain9 file" />
+    <MESSAGE value="Correction on graphs and inclusion of all images to Git" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correction on graphs and inclusion of all images to Git" />
   </component>
 </project>
