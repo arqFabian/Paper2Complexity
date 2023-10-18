@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="fbx exporter updated to hold the frame selection">
-      <change afterPath="$PROJECT_DIR$/ComplexityPython/imagetimer.py" afterDir="false" />
+    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="First fresh start after crash on terrain9 file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/complexitygraphrender.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/complexitygraphrender.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,15 +35,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/arqfa/OneDrive/FABIAN DATA/Kyushu 2021/Research/Paper2Complexity/ComplexityPython/mainrender.py&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "full.screen.before.presentation.mode": "false",
+    "last_opened_file_path": "C:/Users/arqfa/OneDrive/Desktop/Freshstart/Paper2Complexity",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\auxil" />
@@ -61,7 +59,7 @@
       <recent name="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.mainRender">
+  <component name="RunManager" selected="LaTeX.MainPDF">
     <configuration default="true" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify-bibtex>
         <compiler />
@@ -499,7 +497,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696917300249</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="First fresh start after crash on terrain9 file">
+      <created>1697602822594</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1697602822594</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -536,6 +541,7 @@
     <MESSAGE value="Inlcusion of survey into annex" />
     <MESSAGE value="Creation of raph function for patterns and blender script for fbx blenderfbx.py" />
     <MESSAGE value="fbx exporter updated to hold the frame selection" />
-    <option name="LAST_COMMIT_MESSAGE" value="fbx exporter updated to hold the frame selection" />
+    <MESSAGE value="First fresh start after crash on terrain9 file" />
+    <option name="LAST_COMMIT_MESSAGE" value="First fresh start after crash on terrain9 file" />
   </component>
 </project>
