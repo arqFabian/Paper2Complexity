@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Correction on graphs and inclusion of all images to Git">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Excel/ExperimentComplexityResultsGraph_participants.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Excel/ExperimentComplexityResultsGraph_participants.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/text/Results.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/Results.tex" afterDir="false" />
-    </list>
+    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Correction on graphs and inclusion of all images to Git" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -183,13 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1691453750129</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Introduction progress">
-      <created>1691546960208</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1691546960208</updated>
     </task>
     <task id="LOCAL-00002" summary="Introduction progress">
       <created>1691553122553</created>
@@ -527,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697626782718</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Correction on graphs and inclusion of all images to Git">
+      <created>1697678711153</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1697678711153</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
