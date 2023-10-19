@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Modification from Lab computer of results text and update of graphs">
-      <change afterPath="$PROJECT_DIR$/src/text/3DModeling.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/text/ExperimentDesign.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/text/VR_Integration.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Addition of Methodology latex files and start of table to depict the variations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/3DModeling.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/3DModeling.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -535,7 +532,7 @@
       <option name="project" value="LOCAL" />
       <updated>1697678711153</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -550,7 +547,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Introduction progress" />
     <MESSAGE value="Start of theory framework" />
     <MESSAGE value="Corrections to references" />
     <MESSAGE value="Corrections to references and creation of tex files for the subsections on the theory framework" />
@@ -575,6 +571,7 @@
     <MESSAGE value="First fresh start after crash on terrain9 file" />
     <MESSAGE value="Correction on graphs and inclusion of all images to Git" />
     <MESSAGE value="Modification from Lab computer of results text and update of graphs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modification from Lab computer of results text and update of graphs" />
+    <MESSAGE value="Addition of Methodology latex files and start of table to depict the variations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Addition of Methodology latex files and start of table to depict the variations" />
   </component>
 </project>
