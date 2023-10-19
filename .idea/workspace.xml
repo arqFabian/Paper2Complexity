@@ -5,41 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Correction on graphs and inclusion of all images to Git">
-      <change afterPath="$PROJECT_DIR$/src/Images/ArtDecoFacade.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/ArtNouveauVsModernism.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/ArtnouveauGaudi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/BaroqueVsContemporaryfacade.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/BaroquefacadeBorromini.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/ClassicismNeoClassicism.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/ComplexityLevelChosenChart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/ComplexityPerceptionChart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/ComplexityPerceptionPerLevel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/ComplexitySurveyPart1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/ComplexitySurveyPart1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/ComplexitySurveyPart2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/ComplexitySurveyPart2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/ModernistFacade.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/NeoclassicismVsModernism.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/Parametricism.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/PostmodernOrnament.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/PostmodernismVenturi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/PreferredComplexityLevelPerPattern.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/ProbabilityPreferredComplexitylevel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/RomanesqueVsGothic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/TimelineArchitecture.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/VitruvianArchitecture.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/complexitygraphrender_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/complexornament.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/contemporaryTimeline.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/hightechmodernism.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/modernism vs postmodernism.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/neofuturism.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/pragmaticutopianism.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ComplexityPython/mainrender.py" beforeDir="false" afterPath="$PROJECT_DIR$/ComplexityPython/mainrender.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Excel/ExperimentComplexityResultsGraph_participants.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Excel/ExperimentComplexityResultsGraph_participants.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/complexitygraph.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/complexitygraph.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/complexitygraphrender.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/complexitygraphrender.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/text/Results.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/Results.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -539,7 +506,28 @@
       <option name="project" value="LOCAL" />
       <updated>1697602822594</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Correction on graphs and inclusion of all images to Git">
+      <created>1697625995559</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1697625995559</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Correction on graphs and inclusion of all images to Git">
+      <created>1697626350898</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1697626350898</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Correction on graphs and inclusion of all images to Git">
+      <created>1697626782718</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1697626782718</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

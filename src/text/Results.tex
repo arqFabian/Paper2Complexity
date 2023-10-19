@@ -13,13 +13,13 @@ A total of 17 participants took part in the experiment, primarily consisting of 
         \begin{tabularx}{\textwidth}{X X}
             \centering
             % trim=left 190 down 250 right 150 top5
-            \includegraphics[width=\linewidth, trim=0 50 0 50]{Images/ParticipantBackgroundChart.pdf}
-            \captionof{figure}{Professional Background of participants in the experiment for VR in SLP}
-            \label{fig:ParticipantBackgroundChart} &
+            \includegraphics[width=\linewidth, trim=0 50 0 50]{Images/SurveyBackground}
+            \captionof{figure}{This chart shows the professional backgrounds of participants involved in the facade design complexity analysis experiment.}
+            \label{fig:SurveyBackgroundChart} &
             \centering
-            \includegraphics[width=\linewidth, trim=0 50 0 50]{Images/YearsExperienceChart.pdf}
-            \captionof{figure}{Years of experience in SLP of participants in the experiment for VR in SLP}
-            \label{fig:YearsExperienceChart}
+            \includegraphics[width=\linewidth, trim=0 50 0 50]{Images/SurveyExperience}
+            \captionof{figure}{This chart displays the experience levels in facade design of participants for the study complexity analysis in building design.}
+            \label{fig:SurveyYearsExperienceChart}
         \end{tabularx}
     \end{table*}
 
@@ -29,24 +29,40 @@ Regarding the first metric, accuracy analysis, most participants completed the S
         \begin{figure*}[htb]
           \centering
           \includegraphics[width= \linewidth, trim=0 0 0 0]{Images/ComplexityPerceptionPerLevel}
-          \caption{Complexity perception graph per level of complexity defined for each of the 10 variations generated for each of the three patterns compared to the original ranking. Illustration of the deviation between the complexity perceived by the participants and the original ranking during the screen-based stage of the experiment.}
+          \caption{This graph illustrates how participants perceived complexity for each of the 10 variations (complexity levels) generated for three patterns in comparison to the original ranking. It showcases the deviation between participants' perceived complexity and the original rankings during the screen-based stage of the experiment.}
           \label{fig:ComplexityPerceptionPerLevel}
         \end{figure*}
 
-In these graphs, the center serves as a reference point, representing the top recommendation provided by the optimization system for each specific site. The coordinates of this center point vary for each site, reflecting the distinct optimal locations suggested by the system. On the other hand, the participants' chosen locations are plotted on the graph, precisely indicating the positions they deemed most suitable for the new educational building within the boundaries of the site.
+In these graphs, the center serves as a reference point, representing the top recommendation provided by the optimization system for each specific site.
+The coordinates of this center point vary for each site, reflecting the distinct optimal locations suggested by the system.
+On the other hand, the participants' chosen locations are plotted on the graph, precisely indicating the positions they deemed most suitable for the new educational building within the boundaries of the site.
 
-The placement of each participant's chosen location on the graph is based on its actual geographical coordinates, ensuring an accurate representation of their decision-making process. The distance between each participant's chosen location and the center reflects the deviation error from the system's top recommendation, allowing for a clear assessment of how closely participants' choices align with the data-driven optimization results.
+The placement of each participant's chosen location on the graph is based on its actual geographical coordinates, ensuring an accurate representation of their decision-making process.
+The distance between each participant's chosen location and the center reflects the deviation error from the system's top recommendation, allowing for a clear assessment of how closely participants' choices align with the data-driven optimization results.
 
-Furthermore, the orientation of each chosen location on the graph provides valuable insights into the direction in which participants opted to position the building, allowing for a comprehensive understanding of their decision-making rationale. Overall, these accuracy analysis graphs present an actual representation of the chosen locations on the physical site, capturing both spatial proximity and directional preferences relative to the system's top recommendation.
+Furthermore, the orientation of each chosen location on the graph provides valuable insights into the direction in which participants opted to position the building, allowing for a comprehensive understanding of their decision-making rationale.
+Overall, these accuracy analysis graphs present an actual representation of the chosen locations on the physical site, capturing both spatial proximity and directional preferences relative to the system's top recommendation.
 
-The purpose of the analysis was to evaluate the reduction in the deviation error between the preferred SLP location recommended by our Multi-objective optimization (MOO) model and the location ultimately chosen by the experiment participants in both the "screen-based" and "VR interaction" stages of the experiment.
+The purpose of the analysis was to evaluate the reduction in the deviation error between the preferred SLP location recommended by our Multi-objective optimization (MOO) model and the location ultimately chosen by the experiment participants in both the ``screen-based'' and "VR interaction" stages of the experiment.
 
-By analyzing the accuracy analysis graphs, the contribution of the VR system was determined by examining the vector resultant from the center point (top recommendation) to the participant's chosen location. A reduction in the vector magnitude in the "VR answer" compared to the "screen-based answer" indicated an improvement percentage, while an increase represented a decline. This analysis allowed us to quantify the impact of VR immersion on participants' decision-making accuracy in SLP design.
+By analyzing the accuracy analysis graphs, the contribution of the VR system was determined by examining the vector resultant from the center point (top recommendation) to the participant's chosen location.
+A reduction in the vector magnitude in the "VR answer" compared to the "screen-based answer" indicated an improvement percentage, while an increase represented a decline.
+This analysis allowed us to quantify the impact of VR immersion on participants' decision-making accuracy in SLP design.
 
-The accuracy analysis results, depicted in the "Accuracy improvement" bar chart in Figure \ref{fig:ImprovementChart}, showcased varying degrees of improvement among the 39 experiment sessions, with only three cases showing a decline. On average, there was a \(48.3\%\) improvement among the participants.
+The accuracy analysis results, depicted in the "Accuracy improvement" bar chart in Figure \ref{fig:ImprovementChart}, showcased varying degrees of improvement among the 39 experiment sessions, with only three cases showing a decline.
+On average, there was a \(48.3\%\) improvement among the participants.
 
-The accuracy analysis results, illustrated in the "Accuracy improvement" bar chart (Figure \ref{fig:ImprovementChart}), revealed varying degrees of improvement among the 39 experiment sessions, with only three cases showing a decline. On average, there was a significant \(48.3\%\) improvement among the participants.
+The accuracy analysis results, illustrated in the "Accuracy improvement" bar chart (Figure \ref{fig:ImprovementChart}), revealed varying degrees of improvement among the 39 experiment sessions, with only three cases showing a decline.
+On average, there was a significant \(48.3\%\) improvement among the participants.
 
+    % Complexity perception Chart
+    \begin{figure}[htb]
+        \centering
+        %trim=100 180 100 120, clip
+        \includegraphics[width=\linewidth]{Images/ComplexityPerceptionChart}
+        \caption{Improvement in accuracy among participants with the use of VR simulation compared to the screen-based simulation}
+        \label{fig:ComplexityPerceptionChart}
+    \end{figure}
 
 
     % Complexity level chosen Chart
@@ -58,15 +74,6 @@ The accuracy analysis results, illustrated in the "Accuracy improvement" bar cha
         \label{fig:ComplexityLevelChosenChart}
     \end{figure}
 
-
-    % Complexity perception Chart
-    \begin{figure}[htb]
-        \centering
-        %trim=100 180 100 120, clip
-        \includegraphics[width=\linewidth]{Images/ComplexityPerceptionChart}
-        \caption{Improvement in accuracy among participants with the use of VR simulation compared to the screen-based simulation}
-        \label{fig:ComplexityPerceptionChart}
-    \end{figure}
 
 The accuracy improvement percentage results exhibited a wide distribution, as indicated by the current standard deviation of \(44.1\%\).
 The probability bell graph displayed in Figure \ref{fig:ProbabilityScatterGraph} further illustrated the significant variability in the results, emphasizing the uncertainty in predicting individual data points or outcomes.
