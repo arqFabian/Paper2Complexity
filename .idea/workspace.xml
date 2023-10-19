@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Correction on graphs and inclusion of all images to Git">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/ComplexityLevelChosenChart.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/ComplexityLevelChosenChart.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/ComplexityLevelChosenChart.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/ComplexityLevelChosenChart.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/ComplexityPerceptionChart.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/ComplexityPerceptionChart.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/ComplexityPerceptionChart.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/ComplexityPerceptionChart.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/ComplexityPerceptionPerLevel.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/ComplexityPerceptionPerLevel.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/ComplexityPerceptionPerLevel.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/ComplexityPerceptionPerLevel.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/ComplexitySurveyPart1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/ComplexitySurveyPart1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/ComplexitySurveyPart2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/ComplexitySurveyPart2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/PreferredComplexityLevelPerPattern.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/PreferredComplexityLevelPerPattern.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/PreferredComplexityLevelPerPattern.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/PreferredComplexityLevelPerPattern.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/ProbabilityPreferredComplexitylevel.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/ProbabilityPreferredComplexitylevel.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/ProbabilityPreferredComplexitylevel.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/ProbabilityPreferredComplexitylevel.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/text/Results.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/Results.tex" afterDir="false" />
-    </list>
+    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Correction on graphs and inclusion of all images to Git" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,26 +27,26 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2Tg9FCCV37MkZXA0SOUl0wJnUhQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "full.screen.before.presentation.mode": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/arqfa/OneDrive/Desktop/Freshstart/Paper2Complexity",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/arqfa/OneDrive/Desktop/Freshstart/Paper2Complexity&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\auxil" />
