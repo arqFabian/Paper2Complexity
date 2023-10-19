@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Addition of Methodology latex files and start of table to depict the variations">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.tex" afterDir="false" />
+    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Addition pdfs for variations of patterns for table">
       <change beforePath="$PROJECT_DIR$/src/text/3DModeling.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/3DModeling.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -546,7 +544,7 @@
       <option name="project" value="LOCAL" />
       <updated>1697678711153</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -561,7 +559,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Start of theory framework" />
     <MESSAGE value="Corrections to references" />
     <MESSAGE value="Corrections to references and creation of tex files for the subsections on the theory framework" />
     <MESSAGE value="Corrections to HistoryArchStylesTheory.tex to add the art noaveu refrence as well as the ransition to modernism" />
@@ -586,6 +583,7 @@
     <MESSAGE value="Correction on graphs and inclusion of all images to Git" />
     <MESSAGE value="Modification from Lab computer of results text and update of graphs" />
     <MESSAGE value="Addition of Methodology latex files and start of table to depict the variations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Addition of Methodology latex files and start of table to depict the variations" />
+    <MESSAGE value="Addition pdfs for variations of patterns for table" />
+    <option name="LAST_COMMIT_MESSAGE" value="Addition pdfs for variations of patterns for table" />
   </component>
 </project>
