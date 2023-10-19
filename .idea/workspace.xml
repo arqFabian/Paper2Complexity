@@ -4,21 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Correction on graphs and inclusion of all images to Git">
+    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Modification from Lab computer of results text and update of graphs">
+      <change afterPath="$PROJECT_DIR$/src/text/3DModeling.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/text/ExperimentDesign.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/text/VR_Integration.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/ComplexityLevelChosenChart.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/ComplexityLevelChosenChart.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/ComplexityLevelChosenChart.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/ComplexityLevelChosenChart.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/ComplexityPerceptionChart.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/ComplexityPerceptionChart.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/ComplexityPerceptionChart.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/ComplexityPerceptionChart.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/ComplexityPerceptionPerLevel.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/ComplexityPerceptionPerLevel.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/ComplexityPerceptionPerLevel.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/ComplexityPerceptionPerLevel.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/ComplexitySurveyPart1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/ComplexitySurveyPart1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/ComplexitySurveyPart2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/ComplexitySurveyPart2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/PreferredComplexityLevelPerPattern.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/PreferredComplexityLevelPerPattern.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/PreferredComplexityLevelPerPattern.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/PreferredComplexityLevelPerPattern.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/ProbabilityPreferredComplexitylevel.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/ProbabilityPreferredComplexitylevel.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/ProbabilityPreferredComplexitylevel.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/ProbabilityPreferredComplexitylevel.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/text/Results.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/Results.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -543,7 +535,7 @@
       <option name="project" value="LOCAL" />
       <updated>1697678711153</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -582,6 +574,7 @@
     <MESSAGE value="fbx exporter updated to hold the frame selection" />
     <MESSAGE value="First fresh start after crash on terrain9 file" />
     <MESSAGE value="Correction on graphs and inclusion of all images to Git" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correction on graphs and inclusion of all images to Git" />
+    <MESSAGE value="Modification from Lab computer of results text and update of graphs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modification from Lab computer of results text and update of graphs" />
   </component>
 </project>
