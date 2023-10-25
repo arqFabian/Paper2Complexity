@@ -52,8 +52,8 @@
 %%             country={}}
 
 \author[inst1]{Fabian Jarrin}
-\author[inst1]{Yasuko Koga}
-\author[inst2]{Diego Thomas}
+\author[inst2]{Yasuko Koga}
+\author[inst3]{Diego Thomas}
 
 \affiliation[inst1]{organization={Graduate School of Human-Environment Studies, Department of Architecture and Urban Design, Kyushu University},%Department and Organization
             addressline={744 Motooka, Nishi Ward},
@@ -62,12 +62,21 @@
             state={Kyushu},
             country={Japan}}
 
-\affiliation[inst2]{organization={Graduate School of Information Science and Electrical Engineering, Kyushu University},%Department and Organization
+\affiliation[inst2]{organization={Faculty of Human-Environment Studies, Department of Architecture and Urban Design, Kyushu University},%Department and Organization
             addressline={744 Motooka, Nishi Ward},
             city={Fukuoka},
             postcode={819-0382},
             state={Kyushu},
             country={Japan}}
+
+\affiliation[inst3]{organization={Faculty of Information Science and Electrical Engineering, Kyushu University},%Department and Organization
+            addressline={744 Motooka, Nishi Ward},
+            city={Fukuoka},
+            postcode={819-0382},
+            state={Kyushu},
+            country={Japan}}
+
+
 
 \begin{abstract}
 %% Text of abstract
@@ -119,24 +128,23 @@ Data-driven design\sep Complex Facades \sep Mixed Reality Assessment \sep Archit
     \label{subsec:FacadeandOrnament}
     \input{Text/FacadeOrnamentTheory}
 
-    \subsection{Quantitative Image complexity Analysis}
-    \label{subsec:ComplexityImageAnalysis}
-    \input{Text/ComplexityImageAnalysis}
-
     \subsection{Digital fabrication and Environmental Sustainability}
     \label{subsec:DigitalFabricationAndEnvSustainability}
     \input{text/DigFabricationEnvTheory}
 
-    \subsection{Future Trends and speculations}
-    \label{subsec:Futuretrends}
-    \input{text/FutureTrendsTheory}
+
 
 \section{Methodology}
 \label{sec:Methodology}
 \input{Text/MethodologyIntro}
 
+    \subsection{Computational Image Complexity Analysis}
+    \label{subsec:Image Complexity analysis}
+    \input{text/MethodologyImageComplexityAnalysis.tex}
+
     \subsection{VR system development}
     \label{subsec:VRsystemDevelopment}
+    \input{text/MethodologyVRSystemDevelopment.tex}
 
     \subsubsection{3D Modeling}
     \label{subsubsec:Modeling}
@@ -156,14 +164,24 @@ Data-driven design\sep Complex Facades \sep Mixed Reality Assessment \sep Archit
 \section{Results}
 \label{sec:Results}
 %% Results should be clear and concise.
-\input{Text/Results}
+\input{text/ResultsIntro.tex}
 
+    \subsection{Quantitative Image complexity Analysis results across architectural styles and history}
+    \label{subsec:ResultsComplexityImageAnalysishistory}
+    \input{Text/ResultsImageComplexityAnalysisHistory.tex}
+
+    \subsection{Results of experiment on users response to complex facades}
+    \label{subsec:ResultsExperiment}
+    \input{text/ResultsExperiment.tex}
 
 \section{Discussion}
 \label{sec:Discussion}
 %% This should explore the significance of the results of the work, not repeat them. A combined Results and Discussion section is often appropriate. Avoid extensive citations and discussion of published literature.
-%\input{Text/Discussion}
+\input{Text/Discussion}
 
+    \subsection{Future Trends and speculations}
+    \label{subsec:Futuretrends}
+    \input{text/FutureTrendsTheory}
 
 \section{Conclusions}
 \label{sec:Conclusion}
