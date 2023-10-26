@@ -25,4 +25,13 @@ This fundamental concept underpins the computational image complexity analysis m
 The Computational Image Complexity Analysis systems as shown in Figure\ref{fig:ImageComplexityAnalysisFlowchart} works by using building images as input, it then processes the image to increase contrast and reduce noise to improve element recognition.
 Then it determines the number of elements by edge density, since an accentuated edge would be interpreted on this script as separation hence another element.
 
-Edge density is calculated by applying Canny Edge Detection\cite{OpenCV2023}, a multi stage algorithm used to detect edges in an image by dividing the number of executes the scoring task by dividing the number of non-zero (edge) pixels in the edges image by the total number of pixels in the image. imputing images of buildings,
+Edge density is calculated by applying Canny Edge Detection\cite{OpenCV2023}, a multi stage algorithm used to detect edges in an image by dividing the number of non-zero (edge) pixels in the edges image by the total number of pixels in the image \ref{fig:CannyEdgePlot}.
+
+%%Figure neoclassicim vs modernism
+     \begin{figure}[htb]
+          \centering
+          \includegraphics[width= \linewidth]{Images/CannyEdgePlot}
+          \caption{Canny edge plot from open CV with original render image (left) and Post canny edge processing (right).}
+          \label{fig:CannyEdgePlot}
+        \end{figure}
+
