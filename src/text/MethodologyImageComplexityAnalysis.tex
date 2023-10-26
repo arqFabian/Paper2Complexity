@@ -23,15 +23,25 @@ This fundamental concept underpins the computational image complexity analysis m
     \end{figure}
 
 The Computational Image Complexity Analysis systems as shown in Figure\ref{fig:ImageComplexityAnalysisFlowchart} works by using building images as input, it then processes the image to increase contrast and reduce noise to improve element recognition.
-Then it determines the number of elements by edge density, since an accentuated edge would be interpreted on this script as separation hence another element.
+Then it determines the number of elements by edge density, since an accentuated edge can be correlated to a new element of the building then it can be extrapolated that higher the edge density the more complex the building would be interpreted on this script as separation hence another element.
 
-Edge density is calculated by applying Canny Edge Detection\cite{OpenCV2023}, a multi stage algorithm used to detect edges in an image by dividing the number of non-zero (edge) pixels in the edges image by the total number of pixels in the image \ref{fig:CannyEdgePlot}.
+Edge density is calculated by applying Canny Edge Detection\cite{OpenCV2023}, a multi stage algorithm used to detect edges in an image by dividing the number of non-zero (edge) pixels in the edges image by the total number of pixels in the image \ref{fig:CannyEdgePlotHistory}.
 
-%%Figure neoclassicim vs modernism
+%%Figure Canny Edge of historic buildings
      \begin{figure}[htb]
           \centering
-          \includegraphics[width= \linewidth]{Images/CannyEdgePlot}
-          \caption{Canny edge plot from open CV with original render image (left) and Post canny edge processing (right).}
-          \label{fig:CannyEdgePlot}
+          \includegraphics[width= \linewidth]{Images/CannyEdgePlotHistory}
+          \caption{Original image of Chapelle Notre-Dame-du-Haut de Ronchamp, built in 1955 (left) next to the pos Canny edge processing plot by OpenCV reflecting edge density of building (right).}
+          \label{fig:CannyEdgePlotHistory}
+        \end{figure}
+
+The Computational image complexity analysis system was also used for selecting the 10 level of complexity variations for the experiment (Figure \ref{fig:CannyEdgePlotRender})
+
+%%Figure Canny Edge of render buildings
+     \begin{figure}[htb]
+          \centering
+          \includegraphics[width= \linewidth]{Images/CannyEdgePlotRender}
+          \caption{Original render of facades variation modeled in blender for the VR complexity analysis system used on this research (left) next to the pos Canny edge processing plot by OpenCV reflecting edge density of render (right).}
+          \label{fig:CannyEdgePlotRender}
         \end{figure}
 

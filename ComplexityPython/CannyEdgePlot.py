@@ -12,7 +12,7 @@ def process_image(image_path):
         raise Exception("File could not be read. Please check if the file exists.")
 
     # Apply Canny edge detection
-    edges = cv.Canny(img, 25, 200)
+    edges = cv.Canny(img, 100, 200)
 
     # Display the original and edge images
     plt.subplot(121), plt.imshow(img, cmap='gray')
@@ -32,13 +32,15 @@ script_directory = os.path.dirname(__file__)
 
 # Define styles and extract the style names from folder names
 input_folder = os.path.join(script_directory, 'input_images')
-filename = '1300.png' # Replace with the path to your image
+#filename = '1300.png' # Replace with the path to your image
+#filename = '1959_SydneyOperaHouse.png'
+filename = '1954_Notre-Dame-du-Haut-Ronchamp-France.jpg'
 image_path = os.path.join(input_folder, filename)
 
-#process_image(image_path)
+process_image(image_path)
 
 input_folder = os.path.join(script_directory, 'render_images\Pattern 1')
-filename = '0001.png' # Replace with the path to your image
+filename = '0010.png' # Replace with the path to your image
 image_path = os.path.join(input_folder, filename)
 
 process_image(image_path)
