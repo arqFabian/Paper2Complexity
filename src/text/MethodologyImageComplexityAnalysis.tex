@@ -3,17 +3,17 @@
 The theory framework section meticulously examined the architectural evolution, revealing a recurring cycle oscillating between complex and simple styles.
 Given the recent technological advancements and contemporary architectural trends, there is a compelling indication that the present era is poised for a shift toward complexity, countering the preceding Modernist movement characterized by minimalism and simplicity.
 
-In pursuit of validating this hypothesis, we conceived a ``Computational Image Complexity Analysis'' system.
-The primary goal was to empirically validate the insights gleaned from our theoretical analysis, which indicated a trend towards architectural complexity.
-This system assigns complexity scores to the most emblematic buildings representing various architectural styles and historical eras.
+In pursuit of validating this hypothesis, we developed a Computational Image Complexity Analysis (CICA) system.
+Our primary objective was to not only empirically validate the trends in architectural complexity suggested by our theoretical analysis but also to create a quantifiable metric.
+This metric would play a crucial role in evaluating and ranking the 3D-modeled facades intended for use in the Virtual Reality experience.
 
-The computational image complexity analysis module is a Python script that assesses complexity by quantifying the number of elements within a building's design.
+The Computational Image Complexity  Analysis (CICA) system is a Python function that assesses complexity by quantifying the number of elements within a building's design.
 The higher the count of elements, the higher the assigned complexity score, and vice versa.
 This approach draws inspiration from Venturi et al.'s reflection on complexity, as articulated in their work\cite{Venturi1977}.
 They posited that a building's complexity could be gauged by the time it takes to mentally process and form a coherent image of its constituent elements.
-This fundamental concept underpins the computational image complexity analysis module's methodology(Figure\ref{fig:ImageComplexityAnalysisFlowchart}).
+This fundamental concept underpins the CICA system's methodology(Figure\ref{fig:ImageComplexityAnalysisFlowchart}).
 
-%% Figure Methodology flowchart
+%% Figure Computational Image Compexity Analysis (CICA) System flowchart
     \begin{figure}[!htb]
       \centering
       % trim=left 190 down 250 right 150 top5
@@ -22,26 +22,43 @@ This fundamental concept underpins the computational image complexity analysis m
       \label{fig:ImageComplexityAnalysisFlowchart}
     \end{figure}
 
-The Computational Image Complexity Analysis systems as shown in Figure\ref{fig:ImageComplexityAnalysisFlowchart} works by using building images as input, it then processes the image to increase contrast and reduce noise to improve element recognition.
-Then it determines the number of elements by edge density, since an accentuated edge can be correlated to a new element of the building then it can be extrapolated that higher the edge density the more complex the building would be interpreted on this script as separation hence another element.
+The Computational Image Complexity Analysis (CICA) system as shown in Figure\ref{fig:ImageComplexityAnalysisFlowchart} works by using building images as input, subsequently processing these images to enhance contrast and minimize noise, thereby improving the recognition of individual elements within the building's design.
 
-Edge density is calculated by applying Canny Edge Detection\cite{OpenCV2023}, a multi stage algorithm used to detect edges in an image by dividing the number of non-zero (edge) pixels in the edges image by the total number of pixels in the image \ref{fig:CannyEdgePlotHistory}.
+The system employs a method of complexity quantification based on edge density.
+A pronounced edge within the image can be associated with a distinct element of the building, and in the case of more intricate structures, this script interprets such edges as separations denoting additional elements.
+
+Edge detection is a critical step in our Computational Image Complexity Analysis (CICA) system, performed using the Canny Edge Detection algorithm\cite{OpenCV2023}.
+This algorithm, readily accessible in Python through OpenCV (cv2.Canny function), is designed for computer vision tasks and excels at identifying edges within an image.
+It achieves this by identifying regions of the image where there is a rapid change in intensity, often corresponding to object boundaries or significant features.
+The outcome of this process is an abstraction that highlights the most relevant features of the building, as demonstrated in Figure\ref{fig:CannyEdgePlotHistory}.
 
 %%Figure Canny Edge of historic buildings
      \begin{figure}[htb]
           \centering
           \includegraphics[width= \linewidth]{Images/CannyEdgePlotHistory}
-          \caption{Original image of Chapelle Notre-Dame-du-Haut de Ronchamp, built in 1955 (left) next to the pos Canny edge processing plot by OpenCV reflecting edge density of building (right).}
+          \caption{Comparison of the original image of Chapelle Notre-Dame-du-Haut de Ronchamp, constructed in 1955 (left), with its corresponding Edge Detection Plot image (right) generated using the cv2.Canny function from OpenCV in Python. The Edge Detection Plot illustrates key architectural features and edge density within the building's design.}
           \label{fig:CannyEdgePlotHistory}
         \end{figure}
 
-The Computational image complexity analysis system was also used for selecting the 10 level of complexity variations for the experiment (Figure \ref{fig:CannyEdgePlotRender})
+The edge density is subsequently computed by dividing the number of non-zero (edge) pixels in the edges image by the total number of pixels in the original image.
+This calculation provides a measure of how much of the image consists of edges, resulting in an edge density score that serves as a proxy for complexity.
+
+In essence, the CICA system quantifies the complexity of a building based on the presence and density of edges in its image.
+A higher edge density typically indicates greater complexity or intricacy in the building's design, making it a valuable metric for our analysis.
+
+%! section on CICA applied to historical analysis
+For this research the CICA system is applied for historical analysis by
+This system assigns complexity scores to the most emblematic buildings representing various architectural styles and historical eras.
+%The Computational
+
+%!Section on CICA applied for 3d modeled facades ranking
+The Computational image complexity analysis system was also used for selecting the 10 level of complexity variations for the experiment (Figure\ref{fig:CannyEdgePlotRender})
 
 %%Figure Canny Edge of render buildings
      \begin{figure}[htb]
           \centering
           \includegraphics[width= \linewidth]{Images/CannyEdgePlotRender}
-          \caption{Original render of facades variation modeled in blender for the VR complexity analysis system used on this research (left) next to the pos Canny edge processing plot by OpenCV reflecting edge density of render (right).}
+          \caption{Comparison of the original image of render of facades variation modeled in blender for the VR complexity analysis system used on this research(left), with its corresponding Edge Detection Plot image (right) generated using the cv2.Canny function from OpenCV in Python. The Edge Detection Plot illustrates key architectural features and edge density within the 3D modeled facade's design.}
           \label{fig:CannyEdgePlotRender}
         \end{figure}
 

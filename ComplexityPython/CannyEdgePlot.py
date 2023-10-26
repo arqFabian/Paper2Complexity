@@ -18,7 +18,7 @@ def process_image(image_path):
     plt.subplot(121), plt.imshow(img, cmap='gray')
     plt.title('Original Image'), plt.xticks([]), plt.yticks([])
     plt.subplot(122), plt.imshow(edges, cmap='gray')
-    plt.title('Edge Image'), plt.xticks([]), plt.yticks([])
+    plt.title('Edge detection Image'), plt.xticks([]), plt.yticks([])
 
     # Use tight_layout to ensure proper layout and fit legend
     plt.tight_layout()
