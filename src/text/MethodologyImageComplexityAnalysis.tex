@@ -1,12 +1,17 @@
 % thios section describes the computational image complexity analysis
 
-a Python script that processes images to produce complexity scores.
-This section of your methodology will delve into the technical aspects of the complexity analysis process using Python scripting and image data.
+The theory framework section meticulously examined the architectural evolution, revealing a recurring cycle oscillating between complex and simple styles.
+Given the recent technological advancements and contemporary architectural trends, there is a compelling indication that the present era is poised for a shift toward complexity, countering the preceding Modernist movement characterized by minimalism and simplicity.
 
-The theory framework section explored in detail the evolution of architecture, and it was concluded that there is an apparent cycle in the history of architecture that fluctuates between complex and simple styles.
-The recent development in technology in addition with the most recent architectural styles suggests that the contemporary era will tilt towards a more complex approach as a response to the previous Modernist movement based on minimalism and simplicity.
+In pursuit of validating this hypothesis, we conceived a ``Computational Image Complexity Analysis'' system.
+The primary goal was to empirically validate the insights gleaned from our theoretical analysis, which indicated a trend towards architectural complexity.
+This system assigns complexity scores to the most emblematic buildings representing various architectural styles and historical eras.
 
-To prove this hypothesis a computational complexity analysis system was conceptualized, based on the idea of quantifying the level of complexity of a building as objectively as possible to eliminate possible bias from the theory analysis. indicates the advent of a new style that tilts towards complexity.
+The computational image complexity analysis module is a Python script that assesses complexity by quantifying the number of elements within a building's design.
+The higher the count of elements, the higher the assigned complexity score, and vice versa.
+This approach draws inspiration from Venturi et al.'s reflection on complexity, as articulated in their work\cite{Venturi1977}.
+They posited that a building's complexity could be gauged by the time it takes to mentally process and form a coherent image of its constituent elements.
+This fundamental concept underpins the computational image complexity analysis module's methodology(Figure\ref{fig:ImageComplexityAnalysisFlowchart}).
 
 %% Figure Methodology flowchart
     \begin{figure}[!htb]
@@ -16,3 +21,8 @@ To prove this hypothesis a computational complexity analysis system was conceptu
       \caption{Flowchart illustrating the applications of Computational Image Complexity Analysis, including its role in analyzing complexity scores for historical architectural styles and ranking modeled facades for the VR Building Complexity System.}
       \label{fig:ImageComplexityAnalysisFlowchart}
     \end{figure}
+
+The Computational Image Complexity Analysis systems as shown in Figure\ref{fig:ImageComplexityAnalysisFlowchart} works by using building images as input, it then processes the image to increase contrast and reduce noise to improve element recognition.
+Then it determines the number of elements by edge density, since an accentuated edge would be interpreted on this script as separation hence another element.
+
+Edge density is calculated by applying Canny Edge Detection\cite{OpenCV2023}, a multi stage algorithm used to detect edges in an image by dividing the number of executes the scoring task by dividing the number of non-zero (edge) pixels in the edges image by the total number of pixels in the image. imputing images of buildings,
