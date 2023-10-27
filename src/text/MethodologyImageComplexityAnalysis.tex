@@ -46,13 +46,28 @@ This calculation provides a measure of how much of the image consists of edges, 
 In essence, the CICA system quantifies the complexity of a building based on the presence and density of edges in its image.
 A higher edge density typically indicates greater complexity or intricacy in the building's design, making it a valuable metric for our analysis.
 
+Having outlined the development and purpose of the Computational Image Complexity Analysis (CICA) system, we will now delve into its application.
+
 %! section on CICA applied to historical analysis
-For this research the CICA system is applied for historical analysis by
-This system assigns complexity scores to the most emblematic buildings representing various architectural styles and historical eras.
-%The Computational
+First, we will employ the CICA system to quantify the complexity score for a selection of renowned buildings representing different architectural eras and styles (Figure \ref{fig:CannyEdgePlotHistory}).
+
+This comprehensive dataset includes a total of 180 buildings, meticulously organized according to architectural style, with an average of 10 buildings per style, each labeled with its name and year of construction (as illustrated in Figure \ref{fig:ImageComplexityAnalysisFlowchart}).
+
+This analytical endeavor will culminate in the creation of a scatter graph, thoughtfully color-coded to distinguish architectural styles, and accompanied by a trendline.
+Together, these visualizations aim to provide a clear depiction of the trends in complexity across the years.
+
+By categorizing data per architectural style and era, we intend to substantiate whether a cyclical pattern indeed exists in architectural design throughout history.
+Furthermore, this analysis will offer empirical evidence regarding the contemporary architectural shift towards more intricate and complex designs, aligning with the conclusions drawn from our theoretical examination.
 
 %!Section on CICA applied for 3d modeled facades ranking
-The Computational image complexity analysis system was also used for selecting the 10 level of complexity variations for the experiment (Figure\ref{fig:CannyEdgePlotRender})
+
+With the first application of the Computational Image Complexity Analysis (CICA) system shedding light on the historical trends in architectural complexity, we now pivot our focus to the second application of this tool.
+In this phase, the CICA system will be harnessed for a distinct purpose: the ranking of 3D-modeled facades (Figure\ref{fig:CannyEdgePlotRender}).
+
+As part of our upcoming Virtual Reality (VR) experiment, participants will interact with facades showcasing varying levels of complexity.
+To facilitate this experiment, the CICA system will evaluate the complexity of 10 facade variations for each of the three distinct patterns modeled in Blender.
+These variations will be ranked into 10 levels of complexity.
+During the VR experience, participants will select the complexity level they find most comfortable, thereby allowing us to discern user preferences and tolerance thresholds with precision.
 
 %%Figure Canny Edge of render buildings
      \begin{figure}[htb]
@@ -62,3 +77,5 @@ The Computational image complexity analysis system was also used for selecting t
           \label{fig:CannyEdgePlotRender}
         \end{figure}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%there migh be need for a transition paragraph into VR
