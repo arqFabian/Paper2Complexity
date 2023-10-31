@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 
-def calculate_complexity(image_path, threshold_low=100, threshold_high=200):
+def calculate_complexity(image_path, threshold_low=50, threshold_high=150):
     # Load the image
     image = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
 
