@@ -2,10 +2,10 @@
 %\label{sec:Results}
 %% Results should be clear and concise.
 
-The experiment to test the hypothesis that participants in a virtual reality (VR) experiment would show a trend towards choosing complex environments over simple ones when given the task of identifying the more comfortable facade design, wa conducted at the Kyushu University campus in Fukuoka, Japan, over a period of 15 days, from October 12 to 30, 2023, during the work hours between 10:00 and 18:00.
+The experiment to test the hypothesis that participants in a virtual reality (VR) experiment would show a trend towards choosing complex environments over simple ones when given the task of identifying the more comfortable facade design, was conducted at the Kyushu University campus in Fukuoka, Japan, over a period of 15 days, from October 12 to 30, 2023, during the work hours between 10:00 and 18:00.
 
-A total of 10 participants took part in the experiment, primarily consisting of university students and faculty members.
-The participants had diverse professional backgrounds, as shown in Figure \ref{fig:ParticipantBackgroundChart}, with over \(67\%\) being students from various faculties, approximately \(33\%\) having a construction background, and \(14\%\) reporting previous experience in facade design, as indicated in Figure \ref{fig:YearsExperienceChart}
+A total of \(10\) participants took part in the experiment, primarily consisting of university students and faculty members.
+The participants had diverse professional backgrounds, as shown in Figure \ref{fig:SurveyBackgroundChart}, with over \(67\%\) being students from various faculties, approximately \(33\%\) having a construction background, and \(14\%\) reporting previous experience in facade design, as indicated in Figure \ref{fig:SurveyYearsExperienceChart}
 
 %% Participant background chart and years of experience
     \begin{table*}[htb]
@@ -24,8 +24,8 @@ The participants had diverse professional backgrounds, as shown in Figure \ref{f
         \end{tabularx}
     \end{table*}
 
-Regarding the first theme of analysis addressed during the `VR Interaction' stage, related to user tolerance to complex facade design, all participants completed the facade selection task for all three patterns, resulting in a total of 30 experiment sessions.
-For each pattern, one answer was recorded based on the facade variation, labeled by the level of complexity, that the participant choose as the most comfortable.
+In the `VR Interaction' stage, which focused on assessing user tolerance for complex facade designs, each participant completed the facade selection task for all three patterns, resulting in a total of 30 experiment sessions.
+For each pattern, participants provided one answer, indicating their preference for the facade variation labeled with a complexity level that they found the most comfortable.
 
 %!Complexity level chosen bar chart
 These outcomes were summarized in a bar chart referred to as `Complexity level Chosen graph' as depicted in Figure \ref{fig:ComplexityLevelChosenChart}.
@@ -73,13 +73,15 @@ The probability bell graph displayed in Figure \ref{fig:ProbabilityComplexitylev
 
 %!Complexity level per pattern graph
 
-Analyzing the average complexity level chosen per pattern (Figure \ref{fig:ComplexityLevelPerPattern}) revealed that the average choice across all patterns remains close to the overall average complexity level \(3.9\).
+Analyzing the average complexity level chosen per pattern by the experiment participants, summarized in the graph in Figure \ref{fig:ComplexityLevelPerPattern}, it is once again revealed that the average choice across all patterns remains close to the overall average complexity level \(3.9\), with \(3.9\) for pattern 1, \(4.2\) for pattern 2, and \(3.9\) for pattern 3.
 
 %===============Continue from here for the accuracy section
 
-as radial graphs, referred to as "accuracy analysis graphs," as depicted in Figure \ref{fig:Accuracyscattergraph}.
+%!Complexity perception per level with trendlines
 
- %% Figure Accuracy graph
+In terms of the accuracy of the ‘Computational Image Complexity Analysis’ (CICA) system in evaluating the complexity of facade variations in comparison to the perceptions of the participants, the results are illustrated in the Column chart in Figure \ref{fig:ComplexityPerceptionPerLevel}, where the trendlines for all three patterns show a similar trajectory to the trendline obtained from the original ranking with an average standard deviation of \(1\) in complexity level categorisation.
+
+ %% Figure Complexity perception per level with trendlines
     \begin{figure*}[htb]
       \centering
       \includegraphics[width= \linewidth, trim=0 0 0 0]{Images/ComplexityPerceptionPerLevel}
@@ -87,29 +89,12 @@ as radial graphs, referred to as "accuracy analysis graphs," as depicted in Figu
       \label{fig:ComplexityPerceptionPerLevel}
     \end{figure*}
 
-In these graphs, the center serves as a reference point, representing the top recommendation provided by the optimization system for each specific site.
-The coordinates of this center point vary for each site, reflecting the distinct optimal locations suggested by the system.
-On the other hand, the participants' chosen locations are plotted on the graph, precisely indicating the positions they deemed most suitable for the new educational building within the boundaries of the site.
+%!Complexity perception per pattern
 
-The placement of each participant's chosen location on the graph is based on its actual geographical coordinates, ensuring an accurate representation of their decision-making process.
-The distance between each participant's chosen location and the center reflects the deviation error from the system's top recommendation, allowing for a clear assessment of how closely participants' choices align with the data-driven optimization results.
+The comparison between the perception of the participants and the original ranking illustrated per pattern and displayed in Figure \ref{fig:ComplexityPerceptionChart}, shows how the results from the experiment create a close to similar shape to the one organized by the original ranking following a similar trajectory.
 
-Furthermore, the orientation of each chosen location on the graph provides valuable insights into the direction in which participants opted to position the building, allowing for a comprehensive understanding of their decision-making rationale.
-Overall, these accuracy analysis graphs present an actual representation of the chosen locations on the physical site, capturing both spatial proximity and directional preferences relative to the system's top recommendation.
 
-The purpose of the analysis was to evaluate the reduction in the deviation error between the preferred SLP location recommended by our Multi-objective optimization (MOO) model and the location ultimately chosen by the experiment participants in both the ``screen-based'' and "VR interaction" stages of the experiment.
-
-By analyzing the accuracy analysis graphs, the contribution of the VR system was determined by examining the vector resultant from the center point (top recommendation) to the participant's chosen location.
-A reduction in the vector magnitude in the "VR answer" compared to the "screen-based answer" indicated an improvement percentage, while an increase represented a decline.
-This analysis allowed us to quantify the impact of VR immersion on participants' decision-making accuracy in SLP design.
-
-The accuracy analysis results, depicted in the "Accuracy improvement" bar chart in Figure \ref{fig:ImprovementChart}, showcased varying degrees of improvement among the 39 experiment sessions, with only three cases showing a decline.
-On average, there was a \(48.3\%\) improvement among the participants.
-
-The accuracy analysis results, illustrated in the "Accuracy improvement" bar chart (Figure \ref{fig:ImprovementChart}), revealed varying degrees of improvement among the 39 experiment sessions, with only three cases showing a decline.
-On average, there was a significant \(48.3\%\) improvement among the participants.
-
-    % Complexity perception Chart
+% Figure Complexity perception Chart per pattern
     \begin{figure}[htb]
         \centering
         %trim=100 180 100 120, clip
@@ -118,11 +103,16 @@ On average, there was a significant \(48.3\%\) improvement among the participant
         \label{fig:ComplexityPerceptionChart}
     \end{figure}
 
+The purpose of the analysis was to evaluate the deviation error between the original ranking given by the CICA system and the one ultimately established by the experiment participants given during the `screen-based ranking' stage of the experiment.
+
+By determining the deviation error, this analysis allowed us to quantify the accuracy of the CICA system in predicting complexity levels in facade design.
+
+The accuracy analysis results, depicted in Figure \ref{fig:ComplexityPerceptionPerLevel} and in Figure \ref{fig:ComplexityPerceptionChart}, showcased varying degrees of accuracy between facade variations and across patterns with an average deviation of \(0.9\) for pattern 1, \(0.9\) for pattern 2, and \(1.1\) for pattern 3, with the largest deviation errors allocated at both the lowest and highest level of complexity.
+
 %! Post experiment survey results
 
-The survey results provided additional insights into the influence of VR interaction and data-driven optimization for SLP. The ``influence perception'' section of the survey, depicted in Figure\ref{fig:PerceptionSatisfactionSurveyResults}, indicated that the system scored above 5 on a 7-point Likert scale for all questions, suggesting a positive influence of the VR strategy in introducing data-driven recommendations.
-This finding aligned with the accuracy improvement percentage results observed in the accuracy analysis (Figure\ref{fig:ImprovementChart}).
-
+The survey results offer valuable insights into how building users perceive facade complexity and the factors influencing their facade design preferences.
+The responses to the 'complexity perception' section of the survey have been summarized in Figures \ref{fig:SurveyQuestions6-10} and \ref{fig:SurveyQuestions11-15}, with evaluations conducted using a 7-point Likert scale.
 
   %% Complexity Perception Survey results
     \begin{table*}[htb]
@@ -131,20 +121,73 @@ This finding aligned with the accuracy improvement percentage results observed i
         \begin{tabularx}{\textwidth}{X X}
             \centering
             \includegraphics[width=\linewidth]{Images/SurveyPart1Complexity}
-            \captionof{figure}{User Satisfaction section questions from User Survey of SLP System. \- (n = 17), 1 - strongly disagree, 7 - strongly agree}
+            \captionof{figure}{Questions 6 to 10 of the Complexity perception section from the Post-Experiment Survey. \- (n = 10), 1 - strongly disagree, 7 - strongly agree}
             \label{fig:SurveyQuestions6-10} &
             \centering
             \includegraphics[width=\linewidth]{Images/SurveyPart2Complexity}
-            \captionof{figure}{User-System Influence Perception section" questions. \- (n = 17), 1 - strongly disagree, 7 - strongly agree}
+            \captionof{figure}{Questions 6 to 10 of the Complexity perception section from the Post-Experiment Survey. \- (n = 10), 1 - strongly disagree, 7 - strongly agree}
             \label{fig:SurveyQuestions11-15}
         \end{tabularx}
     \end{table*}
 
+Notably, all the questions garnered scores exceeding \(3.5\), with an average rating of \(4.9\).
+This indicates a generally favorable attitude among respondents toward classifying the presented facade variations as complex.
+However, the average standard deviation of \(1.5\) reveals a degree of variability in responses.
 
-During post-experiment interviews, participants were asked for their opinions on the weight distribution used by the optimization model to balance the trade-offs between the three performance indicators.
-The initial distribution decided for the system was set at 50, 30, and 20 for the respective indicators (see Table \ref{tab:PerformanceIndicators}).
-While most participants maintained a consistent criteria for ranking the indicators, slight deviations from the predetermined weight distribution were observed.
-Figure \ref{fig:PerformanceIndicatorweightChart} visually represents the average weight configuration suggested by the participants, demonstrating their individual preferences in adjusting the trade-off weights for each site.
+In other words, the responses are somewhat scattered around the mean (average).
+This dispersion suggests that while some participants provided highly positive ratings (above the mean), others offered less enthusiastic assessments (below the mean).
+These variations in responses underscore the diverse perspectives and preferences among participants, enriching our understanding of how users perceive facade complexity.
 
-Overall, the results support the initial hypothesis, indicating that VR has the potential to enhance the acceptance of data-driven design recommendations in SLP. However, the "user satisfaction" section of the survey, summarized in Figure \ref{fig:UsabilityChartSurvey}, revealed room for improvement in the user interface and experience, with scores above 4.5 on a 7-point Likert scale.
-Notably, the areas of helpfulness and visualization enhancement ranked the lowest, despite initially being considered key advantages of the "VR interaction" system compared to the "screen-based" alternative.
+
+%! Detailed analysis of survey questions
+Further analysis suggests .....................
+
+Regarding the aesthetical appeal of the prepared facade variation design the overall consensus
+
+%! Post experiment interview
+
+During post-experiment interviews, participants were asked to express their views on the relative importance of form and materials when evaluating facade.
+Remarkably, the responses were unanimous, with participants consistently favoring form over materials as the more significant criterion.
+Additionally, participants indicated a clear preference for a weight distribution of \(80\%\) for form and \(20\%\) for materials in their decision-making process when assessing facade complexity.
+
+Regarding intricate facade designs, another consensus among participants was the emphasis on views.
+Given the experiment's location, which affords a front view of the entire campus and a side view facing another building, participants expressed a clear preference for an unobstructed facade on the front view.
+They suggested that a facade design capable of framing and enhancing the campus view would be preferable over an intricate pattern.
+
+Conversely, for the side of the building facing the neighboring structure, participants favored intricate patterns that offered increased privacy or complexity.
+In this context, the view of the neighboring building was considered less important to preserve, and participants believed that a complex facade could enhance both the building's aesthetic appeal and privacy.
+
+%! Preliminary Conclusion
+
+In summary, the findings align with our initial hypothesis, indicating a trend in contemporary architecture towards increasingly complex facade designs.
+This shift is evident not only in the quantitative analysis of historical facade complexity trends, as illustrated in Figure \ref{fig:complexitygraph}, but also in the results of our experimental phase.
+
+Participants in the experiment displayed a clear inclination towards complexity, with an average complexity level selection of \(3.9\).
+This suggests ample room for the incorporation of complex forms in contemporary building and facade design.
+This observation is further reinforced by the overall positive reception of the facade variations in the post-experiment survey, with an average rating of \(4.9\) on a 7-point Likert scale.
+Participants consistently characterized the presented facades as both aesthetic and intricate.
+
+Taken together, these findings support the notion that contemporary architecture is embracing complexity in facade design, marking a departure from more simplistic interpretations of architecture associated with the guidelines of modernist movement.
+
+
+%! preview accuracy graphs alternative
+\ref{fig:AccuracyPattern1}\ref{fig:AccuracyPattern2}\ref{fig:AccuracyPattern3}
+  %% Complexity Perception Survey results
+    \begin{table*}[htb]
+        \centering
+        \small
+        \begin{tabularx}{\textwidth}{X X X}
+            \centering
+            \includegraphics[width=\linewidth]{Images/AccuracyPattern1}
+            \captionof{figure}{Accuracy comparison pattern 1 with original ranking}
+            \label{fig:AccuracyPattern1} &
+            \centering
+            \includegraphics[width=\linewidth]{Images/AccuracyPattern2}
+            \captionof{figure}{Accuracy comparison pattern 2 with original ranking}
+            \label{fig:AccuracyPattern2} &
+            \centering
+            \includegraphics[width=\linewidth]{Images/AccuracyPattern3}
+            \captionof{figure}{Accuracy comparison pattern 3 with original ranking}
+            \label{fig:AccuracyPattern3}
+        \end{tabularx}
+    \end{table*}

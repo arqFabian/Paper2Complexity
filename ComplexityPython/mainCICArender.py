@@ -45,6 +45,38 @@ for pattern in pattern_names:
 for result in complexity_scores:
     print(result)
 
+######################
+#In process to include the contour count
+
+"""# Initialize lists to store data
+file_paths = []
+complexity_scores = []
+edge_score = []
+contour_score = []
+pattern_labels = []
+levels = []
+
+# Iterate through pattern folders and images
+for pattern in pattern_names:
+    style_path = os.path.join(input_folder, pattern)
+    for filename in os.listdir(style_path):
+        if filename.lower().endswith((".png", ".jpg", ".jpeg", ".webp")):
+            image_path = os.path.join(style_path, filename)
+            edge_density, contour_count = calculate_complexity(image_path)
+            edge_score.append(edge_density)
+            contour_score.append(contour_count)
+            level = int(filename.split('.')[0])  # Extract the name from the filename
+            file_paths.append(image_path)
+            complexity_scores.append(complexity)
+            pattern_labels.append(pattern)
+            levels.append(level)
+
+# Print all results
+for result in complexity_scores:
+    print(result)"""
+
+######################
+
 # create the scatter graph using the function for scatter graph with all three patterns together
 generate_scatter_render_complexity_together(levels, complexity_scores, pattern_labels, pattern_names, script_directory, 1)
 
