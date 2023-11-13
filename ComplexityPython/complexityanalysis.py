@@ -39,9 +39,7 @@ def calculate_complexity(image_path, threshold_low=50, threshold_high=150):
 
     contour_count = len(contours)
         # ======
-        # 0.0255 (255 is max possible value for an 8-bit grayscale image)
-        # because the value was so small I adjusted it to 0.0255 but
-        # this value should be reviewed
+        # 0.0255 (255 is max possible value for an 8-bit grayscale image) because the value was so small I adjusted it to 0.0255 but this value should be reviewed
         # ======
 
     # Normalize contour count to be in the range [0, 1]
