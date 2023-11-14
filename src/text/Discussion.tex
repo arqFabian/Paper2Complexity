@@ -3,25 +3,99 @@
 %%% This should explore the significance of the results of the work, not repeat them. A combined Results and Discussion section is often appropriate. Avoid extensive citations and discussion of published literature.
 %%\input{Text/Discussion}
 
-Discussion on results of history analysis and how theory aligns with the computational image analysis.
-Followed by a tuning of the level of complexity how we interpret the survey results to propose a graphical conclusion of an apparent complex facade inside the boundaries of tolerance given by the experiment participants.
+
+%!% Summary: A brief recap of your key results
+
+Having laid out the results of our comprehensive study, encompassing the intricate analysis of facade complexity throughout history and the user responses to complex facades in contemporary design, we now transition to the discussion phase.
+
+In this section, we interpret our findings, consider their implications, and reflect on their significance in the broader context of architectural trends and design preferences.
+This discussion aims to shed light on the evolving relationship between users and the complexity of building facades, offering valuable insights for future construction practices and architectural design.
+
+The multifaceted nature of our data, derived from both historical analysis and user interaction, positions us to answer the core research question of this study: ``What degree of complexity within facade design would users tolerate and accept for a building, and what insights do their preferences provide for future architectural trends?''
+
+%!% Interpretations: What do your results mean?
+
+    %! Historical Analysis graph
+    %Discussion on results of history analysis and how theory aligns with the computational image analysis.
+
+Our initial hypothesis, grounded in a rigorous examination of architectural styles from a theoretical standpoint, posited that the evolution of architecture comprises a dynamic interplay between simplicity and complexity (see Section\ref{subsec:TimelineArchitectureStyles}).
+We anticipated that in the post-modernist era, contemporary architecture would experience a resurgence of complexity and ornamentation, exemplified by the emergence of five prominent architectural styles: Deconstructivism, Neofuturism, High-tech modernism, Parametricism, and Pragmatic utopianism(see Figure\ref{fig:contemporarytimeline}).
+
+These styles, we contended, were shaped by advancements in technology, the proliferation of computer-aided design tools, and an overarching commitment to sustainability, collectively steering architectural design toward a trajectory characterized by heightened complexity.
+
+Establishing the fundamental principle of architectural complexity is undeniably a complex undertaking, one that is deeply intertwined with numerous socio-economic factors shaping urban development.
+Nonetheless, the development of the `Computational Image Complexity Analysis' (CICA) system was underpinned by a visionary premise: that the accumulation of a vast and diverse dataset, spanning architectural creations from centuries past to the contemporary era, could unveil discernible patterns.
+
+These patterns, we hypothesized, would validate our initial proposition concerning the evolutionary essence of architecture - an enduring dialogue between simplicity and complexity, indicating an inexorable shift toward increased complexity in contemporary architecture.
+
+In its quest to do so, the CICA system transcends disparities in building scale, geographic locations, and socio-economic drivers shaping urban development.
+Instead, it seeks to reveal an overarching pattern that substantiates the resurgence of architectural complexity within the present epoch.
+
+In accordance with our expectations, our analysis of building complexity throughout history, employing the CICA system, and depicted in the `Historical Complexity Analysis' Chart (Figure\ref{fig:HistoricalComplexityGraph}), meticulously organized by architectural style and year, was complemented by the inclusion of a polynomial trendline.
+We opted for this specific trendline due to its versatility in accommodating the intricate data patterns that naturally emerge when assessing historical building complexity scores.
+The outcome of this choice was the emergence of a curve characterized by an intriguing cyclic pattern.
+
+This distinctive pattern, akin to an undulating curve traversing centuries, uncovers a continual oscillation between architectural complexity and simplicity.
+It resembles the paradigmatic shifts in architectural design discussed within our theoretical analysis (see section\ref{subsec:FacadeandOrnament}), a phenomenon that has endured throughout architectural history.
+
+The dynamic oscillation of the polynomial curve, illustrated in the `Historical Complexity Analysis' Chart in Figure\ref{fig:HistoricalComplexityGraph}, can be interpreted as peaks of ornamental richness giving way to troughs of minimalist restraint, relative to the standards of each era since each historical period has witnessed its unique interpretation of architectural complexity.
+
+Furthermore, our analysis of the last 50 years of data within the trendline curve conspicuously illustrates an upward trajectory in architectural complexity.
+This trend signifies a departure from the stark minimalism that characterized the decline of the Modernist movement between the 1950s and 1960s, thereby affirming our initial hypothesis.
+
+These findings not only provide empirical validation of our hypothesis but also emphasize the cyclical nature of architectural complexity, reflecting the continuous dialogues within architectural practice across the ages.
+
+    %! Experiment results discussion
+    %Discussion on how the experiment results show a preference or positive take on complexity.
+
+
+
+        %Consistent with the hypothesis, a discernible pattern emerges in the accuracy graphs (see Figure \ref{fig:Accuracyscattergraph}) when transitioning from a "screen-based" approach to a "VR-based" approach. The majority of users demonstrate increased proximity to the best-recommended solution provided by the system.
+
+        %These results suggest a deeper understanding of the site and a heightened trust in the system. These findings align with the survey responses, indicating that users perceive the system's recommendations as highly valuable and express a strong likelihood of implementing them (see Figures \ref{fig:UsabilityChartSurvey} and \ref{fig:PerceptionSatisfactionSurveyResults}).
+
+        %Moreover, similar studies, such as AstanehAsl et al. (2022) \cite{AstanehAsl2022}, which compared screen-based approaches with VR in resolving building system conflicts, also reported a greater comprehension of technical issues in immersive VR compared to screen-based approaches.
+
+        %However, it is important to note that the wide standard deviation (\(SD = 44.1\%\)) observed in the analysis of VR system improvements can be attributed to the individual instances. These deviations encompass both substantial improvements of over  \(95\%\) in at least 12 sessions and negative results in 5 sessions, with one test subject experiencing a decline of up to \(-48\%\).
+
+        %These individual variations highlight the potential and current limitations of the selected VR system, emphasizing the need for further refinement of the data visualization interface to enhance the understanding of system recommendations.
+
+        %Effective communication plays a pivotal role in bridging the gap between large amounts of data and user perception, ensuring that instances of decline in identifying the best location for SLP are minimized or eliminated altogether.
+
+        %As suggested by Marsden et al. \cite{Marsden2008}, to create a user-centered design for VR, an integrated approach is needed, which balances the influences of MR technology with SE (Software Engineering) and UE (User Experience) considerations.
+
+        %Such an approach considers the technology-driven procedures of Mixed Reality development, like is the case of VR while maintaining the systematic, controllable, and manageable processes advocated by SE and integrating appropriate methods and procedures from UE to develop usable solutions that are applicable in practice.
+
+        %Upon closer examination of the sites individually, a clear pattern emerges: the more heterogeneous the topography, the easier it is to identify suitable locations (see Figure \ref{fig:ImprovementPerSite}). This observation is supported by the lowest rate of improvement in Site 1, which had a relatively homogeneous terrain compared to Site 2, where the most pronounced level variations occurred (see Table \ref{tab:SiteParametersAndPreview}).
+
+        %It appears that when dealing with topography, complexity is preferred, as it accentuates the differences between different locations, thereby expediting the decision-making process in filtering out undesired options. This principle, which is primarily based on visual cues from the simulation, can be translated into data visualization techniques, where even highlighting differences in homogeneous topography could result in an overall improvement in decision-making
 
 %! Historical Analysis graph
 
-Through Image Complexity Analysis, we assign a quantitative complexity value to these architectural images.
-This complexity value is derived from a comprehensive examination of spatial intricacies, frequency patterns, and color information present within, based on the research strategy by Ishra et al\cite{Ishrat2020}.
-
-By employing this quantitative approach, we aim to provide an objective measure of the shift from simplicity towards complexity in architecture, further strengthening the thesis of an impending era characterized by architectural intricacy and richness in facades and ornamentation.
-
-This graphical representation unmistakably illustrates a growing inclination towards architecturally complex designs, further corroborating the conclusion drawn from our extensive literature review.
-%=========
-%
-% Complexity of an image is governed by spatial, frequency and color information present in the image.\cite{Ishrat2020}
-%
-%Scanpath based image complexity analysis determines human visual behavior that could lead to development of interactive and intelligent systems.\cite{Ishrat2020}
-%
-%The objective of current research work is to establish the complexity of the given set of images while target objects are searched and to present analysis ofgaze search pattern.
-%To achieve these objectives a remote gaze estimation and analysis model has been proposed for scanpath identification and analysis.\cite{Ishrat2020}
+%Followed by a tuning of the level of complexity how we interpret the survey results to propose a graphical conclusion of an apparent complex facade inside the boundaries of tolerance given by the experiment participants.
 
 
-%! Experiment results discussions
+
+%!% Implications: Why do your results matter?
+%% Your overall aim is to show the reader exactly what your research has contributed, and why they should care.
+
+
+        %And while previous research has focused on small details \cite{AlSaggaf2021}, these results demonstrate that an overview of the whole scale of the project can also be impacted by the integration of VR techniques in a positive matter and perhaps show a larger impact that may tilt the preferential adoption of VR when solving this issue.
+
+%!% limitations: What can’t your results tell us?
+
+        %The findings of this research provide valuable insights into the potential of VR immersion in data-driven design for Site Layout Planning, as well as potential implications for other areas of the building design process. However, it is important to interpret the results with caution due to certain limitations. The generalizability of the findings is limited by the small sample size and the fact that the participants were limited to individuals affiliated with the university.
+
+        %Furthermore, the experiment design aimed to simulate the current methodology used in addressing SLP through a "screen-based interaction" stage, which involved CAD plans, perspectives, and expert recommendations typically provided to design teams.
+
+        %However, the introduction of data visualization techniques and charts was exclusive to the "VR stage" (see Figure \ref{fig:VRinterface}). As a result, it is challenging to determine the exact contribution of VR-based interaction versus more efficient data visualization techniques to the observed accuracy improvement. It can be speculated that if the same graphs and interface used in the VR stage were introduced to the screen-based stage, the observed accuracy improvement may have been different.
+
+%!% recommendations: Avenues for further studies or analyses
+%% Based on the discussion of your results, you can make recommendations for practical implementation or further research. Sometimes, the recommendations are saved for the conclusion. Suggestions for further research can lead directly from the limitations. Don’t just state that more studies should be done—give concrete ideas for how future work can build on areas that your own research was unable to address.
+
+        %The limitations identified in this research present valuable opportunities for further investigation. Future studies can delve into the specific impact of VR immersion on data visualization techniques, aiming to understand how VR influences the adoption of data-driven design methods. To achieve this, an experiment can be designed to provide the same interface for both screen-based and VR interactions, facilitating a comprehensive analysis of the effects of VR on data visualization.
+
+        %Moreover, it is essential for this experiment to explore innovative ways of presenting data, pushing the boundaries of traditional 2D constraints. The true potential of VR can be fully realized when data visualization techniques transcend the limitations of physical reality. By projecting data as spatial representations that generate visual feedback and alter the perception of reality, VR has the capacity to eliminate the constraints of traditional design approaches.
+
+        %By embracing these possibilities, future research can unlock the true potential of VR in data-driven design. This can lead to advancements in how data is visualized, enhancing decision-making processes and paving the way for more immersive and interactive experiences.
+
