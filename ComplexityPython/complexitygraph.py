@@ -47,7 +47,7 @@ def generate_scatter_complexity(years_input, complexity_scores_input, style_labe
 
     # label axis
     plt.xlabel('Chronological order of buildings')
-    plt.ylabel('Complexity Score')
+    plt.ylabel('CICA Complexity Score')
     plt.title('Facade Complexity Analysis by Year and Style')
     plt.grid(True)
 
@@ -129,8 +129,8 @@ def generate_scatter_render_complexity_together(level_input, complexity_scores_i
     plt.legend(title='Patterns', loc='center left', bbox_to_anchor=(1, 0.5))
 
     # Label axes and set title
-    plt.xlabel('Complexity Level of facade variation')
-    plt.ylabel('Complexity Score')
+    plt.xlabel('Facade variation')
+    plt.ylabel('CICA Complexity Score')
     plt.title('Facade Complexity Analysis per Pattern')
 
     # Display the grid
