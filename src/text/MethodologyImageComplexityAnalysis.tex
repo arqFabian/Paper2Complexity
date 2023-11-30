@@ -24,32 +24,36 @@ This fundamental concept underpins the CICA system's methodology(Figure\ref{fig:
 
 The Computational Image Complexity Analysis (CICA) system as shown in Figure\ref{fig:ImageComplexityAnalysisFlowchart} works by using building images as input, subsequently processing these images to enhance contrast and minimize noise, thereby improving the recognition of individual elements within the building's design.
 
-The system employs a method of complexity quantification based on two metrics: edge density and contour count.
-Chosen by their capabilities in computer vision for identifying edges and shape analysis.
+The system employs a method of complexity quantification based on two metrics: edge density and contour count .
+They were chosen by their capabilities in computer vision for identifying edges and shape analysis and whose results are later combined into a unified `complexity score'(see \ref{tab:MetricsandWeights}).
 
 
     %%Table: Performance Indicators
     \begin{table*}[htb]
         \centering
         \small
-        \caption{Performance indicators and weights for the Multi-objective optimization}
-        \label{tab:PerformanceIndicators}
+        \caption{Metrics and weights for the calculation of the `Complexity score'}
+        \label{tab:MetricsandWeights}
         \begin{tabularx}{\textwidth}{p{3.5cm} p{1cm} X X p{1cm}}
             \toprule
-            \textit{Performance   criteria} &
-              \textit{PI} &
-              \textit{PI   name/description} &
+            \textit{Complexity metric} &
+              \textit{N} &
+              \textit{Metric name/description} &
               \textit{Quantitative   method} &
               \textit{Weights} \\ \midrule
             \textbf{Edge Density} &
               1 &
-              Cut/fill operations to flatten the ground for the   building. &
-              Measured  the volume \(m^3\) of soil for cut/fill   operations. &
+              Edge detection using Canny Edge Detection algorithm for highlighting the most relevant features of a building.
+                &
+              Measured by dividing the number of non-zero (edge) pixels in the edges image by the total number of pixels in the image.
+                &
               8\\
             \textbf{Contour count} &
               2 &
-              Cost of the earthworks necessary to flatten the   ground for the building. &
-              Measure in JPY based on the volume of soil to be   displaced and the unit price \(630 JPY\) determined by the RIBC.\cite{RIBC}. &
+              Employs contour approximation algorithm for shape analysis to determine intricacy of edges.
+                &
+              Measure by counting the number of segments in an edge.
+                &
               2\\ \bottomrule
                &
                &
@@ -59,14 +63,13 @@ Chosen by their capabilities in computer vision for identifying edges and shape 
         \end{tabularx}
     \end{table*}
 
-
-
-For edge density, by using edge detection, a pronounced edge within the image can be associated with a distinct element of the building, and in the case of more intricate structures, this script interprets such edges as separations denoting additional elements.
+In the case of edge density, the system utilizes edge detection, to highlight a pronounced edge within an image of a building.
+This can be associated with a distinct element of the building, and in the case of more intricate structures, this script interprets such edges as separations denoting additional architectural elements.
 
 Edge detection is a critical step in our Computational Image Complexity Analysis (CICA) system, performed using the Canny Edge Detection algorithm\cite{EdgeOpenCV2023}.
 This algorithm, readily accessible in Python through OpenCV (cv2.Canny function), is designed for computer vision tasks and excels at identifying edges within an image.
 It achieves this by identifying regions of the image where there is a rapid change in intensity, often corresponding to object boundaries or significant features.
-The outcome of this process is an abstraction that highlights the most relevant features of the building, as demonstrated in Figure\ref{fig:ComplexityPlotHistory}.
+The outcome of this process is an abstraction that highlights the most relevant features of the building, in a binary image (black and white) as demonstrated in the third panel in Figure\ref{fig:ComplexityPlotHistory}.
 
 %%Figure Canny Edge of historic buildings
      \begin{figure}[htb]
@@ -79,30 +82,31 @@ The outcome of this process is an abstraction that highlights the most relevant 
 The edge density is subsequently computed by dividing the number of non-zero (edge) pixels in the edges image by the total number of pixels in the original image.
 This calculation provides a measure of how much of the image consists of edges, resulting in an edge density score that serves as a proxy for complexity.
 
-Contour count is the second metric that we incorporate for calculating the complexity score of a building.
-It uses the contour approximation algorithm which is useful for shape analysis and object recognition\cite{ContourOpenCV2023}.
-It was incorporated to counter the possibility of errors when an intricate curve and a simple curve may share the same edge density tricking us into assuming they have the same degree of complexity.
+The second metric, known as contour count, plays a crucial role in computing the complexity score of a building within our CICA system.
+This metric was incorporated to address a potential limitation of edge density: the possibility of misjudging complexity when intricate and simple curves share similar edge densities, potentially leading to erroneous complexity assessments.
 
-This algorithm, also readily accessible in Python through OpenCV (cv2.findContours() function), uses as input a binary image (black and white), previously outputted using the Canny Edge Detection algorithm (see third panel in Figure\ref{fig:ComplexityPlotHistory}), and is designed for determining the boundaries of a shape by identifying straight lines, and through the contour approximation method\cite{ContourOpenCV2023}, instead of storing all the points that represent that line, the redundant points are removed and only the two end points are kept, thereby allowing the option to efficiently count the amount of segments that an edge would have.
+The contour count metric employs the contour approximation algorithm, a valuable tool for shape analysis and object recognition\cite{ContourOpenCV2023}.
+Implemented through Python's OpenCV library (specifically, the cv2.findContours() function), this algorithm operates on binary images (black and white), which are obtained by processing the original image through the Canny Edge Detection algorithm (see the third panel in Figure \ref{fig:ComplexityPlotHistory}).
 
-This contour count metric allows to clearly differentiate between two edges that may share the same density but one is an intricate curve, composed of many segments, and the other a simple straight curve, as demonstrated in the fourth panel in Figure\ref{fig:ComplexityPlotHistory}.
-The contour count metric  is subsequently computed by storing the number of contours present in the image.
-This calculation provides a measure of how intricate is the shape of the most relevant edges present in a building.
+Unlike edge density, which quantifies the presence of edges and their density, the contour count metric focuses on delineating the boundaries of shapes within the image.
+It achieves this by identifying straight lines and approximating contours, eliminating redundant points and retaining only the endpoints\cite{ContourOpenCV2023}.
+This approach allows us to efficiently count the number of segments present in an edge, providing a more nuanced assessment of complexity.
 
-Finally, both the `Edge density metric' and the `Contour Count metric' are normalized within the range [0, 1] by extracting the minimum and maximum values among all the images on the data pool, for both operations, to subsequently be processed through a `Complexity scoring' function \(f_1(x)\) (see Table \ref{tab:ComplexityScoreFunction_table}).
+The contour count metric is computed by counting the number of contours present in the image.
+This calculation offers insights into the intricacy of the shapes represented by the most relevant edges within a building's design, as illustrated in the fourth panel in Figure\ref{fig:ComplexityPlotHistory}.
 
-This function\ref{eq:F1_ComplexityScoreFunction} takes into account the individual scores obtained for each metric and multiplies them by the pre-determined weights assigned to each metric.
-The weighted scores are then summed together to calculate a `complexity score' for each building image.
+Both the `Edge density metric' and the `Contour Count metric' metrics are normalized within the range [0, 1], a process that involves extracting the minimum and maximum values from all the images in the dataset for both operations.
+These normalized scores are then subjected to a `Complexity Scoring' function \(f_1(x)\) (as detailed in Table \ref{tab:ComplexityScoreFunction_table}).
 
-    %f5: Multi-Objective evaluation and scoring function
+    %f1: Complexity scoring function
     \begin{table}[htb]
-        \caption{Multi-Objective evaluation and complexity scoring function }
+        \caption{Complexity scoring function }
         \label{tab:ComplexityScoreFunction_table}
         \centering
         \small
         \begin{tabular}{|p{8cm}|}
         \hline
-            \textbf{\(f_1\), Multi-Objective evaluation function 1}\\
+            \textbf{\(f_1\), Unified `Complexity Scoring' function 1}\\
             \textit{Calculate the complexity score for all the images on the data pool}
             \\
             \begin{equation}
@@ -116,17 +120,26 @@ The weighted scores are then summed together to calculate a `complexity score' f
             \textit{where;} \\
             \\
             \(n \); is the number of performance indicators \\
-            \(w_i \); represents the i-th elements in weight input and \\
+            \(w_i \); represents the i-th elements weight input and \\
             \(a_i \); represents the i-th normalized score for the respective metric(`Edge Density' and `Contour Count').\\
             \\
 
-            \textit{Finally, the `Compleity score' is assigned to each building for data visualization.}\\
+            \textit{Finally, the `Complexity score' is assigned to each building for data visualization.}\\
         \hline
         \end{tabular}
     \end{table}
 
-In essence, the CICA system quantifies the complexity of a building based on the presence and density of edges in its image.
-A higher edge density typically indicates greater complexity or intricacy in the building's design, making it a valuable metric for our analysis.
+Table \ref{tab:ComplexityScoreFunction_table} outlines the complexity scoring function \(f_1(x)\), which calculates the complexity score for all the images in the dataset.
+It involves taking the weighted sum of the normalized scores for each metric (edge density and contour count) and rounding the result to two decimal places.
+This `complexity score' is subsequently assigned to each building image for data visualization.
+
+
+This function\ref{eq:F1_ComplexityScoreFunction} takes into account the individual scores obtained for each metric and multiplies them by the pre-determined weights assigned to each metric.
+The weighted scores are then summed together to calculate a `complexity score' for each building image.
+
+In summary, the CICA system leverages two key metrics, edge density and contour count, to quantify the complexity of building facades.
+While edge density emphasizes the presence and density of edges, contour count delves into the intricacies of the shapes represented by these edges.
+The combination of these metrics provides a more comprehensive and nuanced assessment of architectural complexity, making them valuable tools in our analysis.
 
 Having outlined the development and purpose of the Computational Image Complexity Analysis (CICA) system, we will now delve into its application.
 

@@ -80,7 +80,7 @@ def calculate_complexity_score(image_path, threshold_low=50, threshold_high=100)
     edge_density = np.count_nonzero(edges) / (edges.shape[0] * edges.shape[1])
 
     # Normalize edge density to be in the range [0, 1]
-    edge_density_normalized = (edge_density - 0) / (.21 - 0) # 0.21 adjusted
+    edge_density_normalized = (edge_density - 0) / (.20007 - 0) # 0.21 adjusted
         # ======
         # 0.21 this is the max value found for edge density among all the images calculated if new images are added to the analysis this value should be updated (255 is max possible value for an 8-bit grayscale image) because the value was so small I adjusted it to 0.0255 but this value should be reviewed
         # ======
@@ -94,8 +94,8 @@ def calculate_complexity_score(image_path, threshold_low=50, threshold_high=100)
         # There is a value of 5000 among the data however this value should be adjusted based on max value in contour count for the correct normalization before proceding with the calculation
 
     # Combine edge density and contour count with weights
-    weight_edge_density = 8
-    weight_contour_count = 2
+    weight_edge_density = 7
+    weight_contour_count = 3
 
     complexity_score = (
             weight_edge_density * edge_density_normalized +
