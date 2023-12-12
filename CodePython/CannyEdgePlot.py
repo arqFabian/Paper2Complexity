@@ -145,7 +145,7 @@ def process_images_allimages_grid(image_paths):
 script_directory = os.path.dirname(__file__)
 
 # Define the folder containing images
-input_folder = os.path.join(script_directory, r'render_images\Pattern1')
+input_folder = os.path.join(script_directory, r'render_images/Pattern1')
 
 # Create a list of image file paths in the input folder
 image_paths = [os.path.join(input_folder, filename) for filename in os.listdir(input_folder) if filename.lower().endswith((".png", ".jpg", ".jpeg", ".webp"))]
