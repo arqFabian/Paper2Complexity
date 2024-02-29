@@ -33,7 +33,6 @@
 \usepackage{hyperref} % Ensure hyperlinks work properly
 
 
-
 %% The lineno packages adds line numbers. Start line numbering with
 %%\begin{linenumbers}, end it with \end{linenumbers}. Or switch it on
 %% for the whole article with \linenumbers
@@ -178,10 +177,128 @@ Data-driven design\sep Complex Facades \sep Mixed Reality Assessment \sep Archit
     %\label{subsec:DigitalFabricationAndEnvSustainability}
     %\input{text/DigFabricationEnvTheory}
 
+            %!% Figures Methodology intro
+            %% Methodology Flowchart
+            \begin{figure*}[!htb]
+                \centering
+                \includegraphics[width= \linewidth]{Images/MethodologyFlowchart}~\caption{Methodology Flowchart illustrating the sequential steps of this study's approach framework designed to assess the tolerance of users towards complex facade design. Higlighting the transition from VR system development (\ref{subsec:VRsystemDevelopment}), experiment design (\ref{subsec:Experiment_design}) and post-experiment data analysis phase. }
+                  \label{fig:MethodologyFlowchart}
+            \end{figure*}
 
 \section{Methodology}
 \label{sec:Methodology}
 \input{Text/MethodologyIntro}
+
+            %!%Figures and table CICA
+            %Flowchart CICA, Figure of Cica on historical buildings and renders, PI table. Table 1x3
+            \begin{table*}[h!tb]
+                \centering
+                \small
+                \begin{tabular}{c}
+                    %Top cell with one figure
+                    %Figure Computational Image Compexity Analysis (CICA) System flowchart
+                    \begin{minipage}{\textwidth}
+                        \centering
+                        \includegraphics[width= \linewidth]{Images/ImageComplexityAnalysisFlowchart}
+                        \caption{Flowchart illustrating the applications of Computational Image Complexity Analysis, including its role in analyzing complexity scores for historical architectural styles and ranking modeled facades for the VR Building Complexity System.}
+                      \label{fig:ImageComplexityAnalysisFlowchart}
+                    \end{minipage}
+                    \\
+                    %Middle cell with two nested figures side by side
+                    %%%Figure CICA on historic buildings and renders. Table 1x2
+                    \begin{minipage}{\textwidth}
+                        \centering
+                        % Left figure
+                        \begin{minipage}{0.49\textwidth}
+                            \includegraphics[width= \linewidth]{Images/ComplexityPlotHistoryCICA}
+                            \captionof{figure}{Edge Detection analysis of historic buildings demonstrating complexity assessment.}
+                            \label{fig:ComplexityPlotHistory}
+                        \end{minipage}
+                        \hfill % Spacing between the figures
+                        % Right figure
+                        \begin{minipage}{0.49\textwidth}
+                            \includegraphics[width= \linewidth]{Images/ComplexitPlotRenderCICA}
+                            \captionof{figure}{Complexity analysis of 3D-modeled facades for the VR experiment.}
+                            \label{fig:ComplexityPlotRenderCICA}
+                        \end{minipage}
+                    \end{minipage}
+                    \\
+                    %Bottom cell
+                    %Table: Performance Indicators
+                    \begin{minipage}{\textwidth}
+                        \centering
+                        \captionof{table}{Metrics and weights for the calculation of the `Complexity score'}
+                        \label{tab:MetricsandWeights}
+                        \begin{tabularx}{\textwidth}{p{3.5cm} p{1cm} X X p{1cm}}
+                            \toprule
+                            \textit{Complexity metric} &
+                              \textit{N} &
+                              \textit{Metric name/description} &
+                              \textit{Quantitative   method} &
+                              \textit{Weights} \\ \midrule
+                            \textbf{Edge Density} &
+                              1 &
+                              Edge detection using Canny Edge Detection algorithm for highlighting the most relevant features of a building.
+                                &
+                              Measured by dividing the number of non-zero (edge) pixels in the edges image by the total number of pixels in the image.
+                                &
+                              8\\
+                            \textbf{Contour count} &
+                              2 &
+                              Employs contour approximation algorithm for shape analysis to determine intricacy of edges.
+                                &
+                              Measure by counting the number of segments in an edge.
+                                &
+                              2\\ \bottomrule
+                               &
+                               &
+                              \textbf{TOTAL} &
+                              &
+                              \textbf{10}\\ \bottomrule
+                        \end{tabularx}
+                    \end{minipage}
+                \end{tabular}
+            \end{table*}
+
+            %f1: Complexity scoring function
+            \begin{table}[htb]
+                \caption{Complexity scoring function }
+                \label{tab:ComplexityScoreFunction_table}
+                \centering
+                \small
+                \begin{tabular}{|p{8cm}|}
+                \hline
+                    \textbf{\(f_1\), Unified `Complexity Scoring' function 1}\\
+                    \textit{Calculate the complexity score for all the images on the data pool}
+                    \\
+                    \begin{equation}
+                        f_1(x) = \left[ \mathrm{round}\left(\sum_{i=1}^{n} w_i \cdot a_i, 2\right) \right] = complexity\_score
+                    \label{eq:F1_ComplexityScoreFunction}
+                    \end{equation}
+
+                    \\
+                    \textit{ for the Buildings included in the database.}\\
+                    \\
+                    \textit{where;} \\
+                    \\
+                    \(n \); is the number of performance indicators \\
+                    \(w_i \); represents the i-th elements weight input and \\
+                    \(a_i \); represents the i-th normalized score for the respective metric(`Edge Density' and `Contour Count').\\
+                    \\
+
+                    \textit{Finally, the `Complexity score' is assigned to each building for data visualization.}\\
+                \hline
+                \end{tabular}
+            \end{table}
+
+            %% Figure of Complexity graph
+            \begin{figure*}[!htb]
+                  \centering
+                  \includegraphics[width= \linewidth]{Graphs/complexitygraphrender}
+                  \caption{Scatter graph showcasing quantitative Computational Image Complexity Analysis scores for the rendering images of the 10 variations for each of the three patterns modeled in Blender, with an overlaid trendline highlighting the complexity level trend towards increased complexity.}
+                  \label{fig:complexitygraphRender}
+            \end{figure*}
+
 
     \subsection{Computational Image Complexity Analysis (CICA) system}
     \label{subsec:Image Complexity analysis}
@@ -189,7 +306,7 @@ Data-driven design\sep Complex Facades \sep Mixed Reality Assessment \sep Archit
 
     \subsection{VR system for Complexity Analysis in facade design}
     \label{subsec:VRsystemDevelopment}
-    \input{text/MethodologyVRSystemDevelopment.tex}
+    \input{text/MethodVRSystemDevelopment}
 
         \subsubsection{3D Modeling}
         \label{subsubsec:Modeling}
@@ -201,20 +318,55 @@ Data-driven design\sep Complex Facades \sep Mixed Reality Assessment \sep Archit
         %% description of CICA applicationnn forfacade variation modeled in blender for use in the experiment
         \input{Text/MethodCICAforFacades}
 
+            %!%Figures of VR integration
+            %% Figure of interior and exterior VR
+            \begin{figure}[htb]
+                \centering
+                \includegraphics[width= \linewidth]{Images/VRInteriorExterior}
+                \caption{Comparison side by side of the VR simulation of interior and exterior of existing laboratory building used for experiment (Left) and VR Simulation of facade variation (Right) used for complexity Analysis.}
+                \label{fig:VRInteriorExterior}
+            \end{figure}
+
+            %% Figure of VR interface
+            \begin{table*}[htb]
+                \centering
+                \small
+                \begin{tabular}{c}
+                    %Top cell
+                    % Optimization Flowchart
+                    \begin{minipage}{\textwidth}
+                        \centering
+                          \includegraphics[width= \linewidth]{Images/VRInterface}
+                        \captionof{figure}{VR interface for Complexity tolerance analysis in facade design. Predetermined cameras(1), Slider with variations of facades by level of complexity(2), Render preview of building with facade design (3), Comparison scatter graph with individual complexity scores of facade variations (4), Save and reset buttons (5) also used to transition among the three patterns.}
+                        \label{fig:VRinterface}
+                    \end{minipage}
+                \end{tabular}
+            \end{table*}
+
         \subsubsection{VR integration and data visualization interface}
         \label{subsubsec:VR_integration}
         %%Define the sections of the VR interface and how information is displayed
-        \input{Text/MethodologyVR_Integration}
+        \input{Text/MethodVR_Integration}
 
     \subsection{Experiment design}
     \label{subsec:Experiment_design}
     %%Task description, stage 1 to 3 with survey
     \input{Text/ExperimentDesign}
 
+            %!Figure of Results for CICA in History Arch Style
+            %facade Complexity analysis graph by year and architectural style
+            \begin{figure*}[htb]
+          \centering
+          \includegraphics[width= \linewidth]{Graphs/complexitygraph}
+          \caption{Scatter graph showcasing quantitative image complexity analysis scores for building images categorized by historical timeline and architectural style, with an overlaid trendline highlighting the evolving trend towards increased complexity.}
+          \label{fig:HistoricalComplexityGraph}
+     \end{figure*}
+
 \section{Results}
 \label{sec:Results}
 %% Results should be clear and concise.
 \input{text/ResultsIntro.tex}
+
 
     \subsection{Computational Image complexity Analysis (CICA) system results across architectural styles}
     \label{subsec:ResultsComplexityImageAnalysishistory}

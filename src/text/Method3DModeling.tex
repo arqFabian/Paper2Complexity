@@ -3,24 +3,18 @@
 %    %% description of things modeled in blender for use in the experiment
 %    \input{Text/3DModeling}
 
-%!Concise
-
-In our VR simulation research, achieving realistic 3D modeling is crucial to replicate an authentic experience, particularly when assessing user responses to facade complexity.
-Utilizing Blender (v3.6), our 3D modeling module meticulously creates a virtual replica of the Architectural Environment Research Building at Kyushu University, encompassing both exterior and interior details (Figure\ref{fig:RealVs3dModel}).
+%!Figures and Tables
 
     %% Figure of Real building next to 3D modeled building
     \begin{figure}[htb]
-    \centering
-    \includegraphics[width= \linewidth]{Images/Realvs3DmodelBlender}
-    \caption{Real vs. 3D modeled building for the Facade Design Complexity Analysis experiment.}
-    \label{fig:RealVs3dModel}
+        \centering
+        \includegraphics[width= \linewidth]{Images/Realvs3DmodelBlender}
+        \caption{Real vs. 3D modeled building for the Facade Design Complexity Analysis experiment.}
+        \label{fig:RealVs3dModel}
     \end{figure}
 
-This module generates ten facade variations for each of three base patterns, focusing on areas with large windows for maximum visual impact.
-These variations are created through a systematic process, with each level introducing greater complexity (Table\ref{tab:PatternsVariationsPart0}).
-
-    %%Table: Pattern Variations sample 1, 7, 9
-    \begin{table*}[!htb]
+        %%Table: Pattern Variations sample 1, 7, 9
+    \begin{table*}[htb]
         \centering
         \small
         \caption{Patterns variations for the First five levels of complexity}
@@ -73,6 +67,19 @@ These variations are created through a systematic process, with each level intro
             \bottomrule
         \end{tabularx}
     \end{table*}
+
+
+%!Concise
+
+In our VR simulation research, achieving realistic 3D modeling is crucial to replicate an authentic experience, particularly when assessing user responses to facade complexity.
+Utilizing Blender (v3.6), our 3D modeling module meticulously creates a virtual replica of the Architectural Environment Research Building at Kyushu University, encompassing both exterior and interior details (Figure\ref{fig:RealVs3dModel}).
+
+
+
+This module generates ten facade variations for each of three base patterns, focusing on areas with large windows for maximum visual impact.
+These variations are created through a systematic process, with each level introducing greater complexity (Table\ref{tab:PatternsVariationsPart0}).
+
+
 
 The progression of complexity levels, detailed in \ref{sec:AnnexVariations}, is illustrated in Table\ref{tab:PatternsVariationsPart0}.
 It ranges from simple subdivision in initial levels to more advanced modifications such as rotations, bends, and decimations at higher levels.

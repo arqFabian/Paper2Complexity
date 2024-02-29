@@ -13,85 +13,11 @@ This approach draws inspiration from Venturi et al.'s reflection on complexity, 
 They posited that a building's complexity could be gauged by the time it takes to mentally process and form a coherent image of its constituent elements.
 This fundamental concept underpins the CICA system's methodology(Figure\ref{fig:ImageComplexityAnalysisFlowchart}).
 
-%% Figure Computational Image Compexity Analysis (CICA) System flowchart
-    \begin{figure}[!htb]
-      \centering
-      % trim=left 190 down 250 right 150 top5
-      \includegraphics[width= \linewidth, trim=0 0 0 0, clip]{Images/ImageComplexityAnalysisFlowchart}
-      \caption{Flowchart illustrating the applications of Computational Image Complexity Analysis, including its role in analyzing complexity scores for historical architectural styles and ranking modeled facades for the VR Building Complexity System.}
-      \label{fig:ImageComplexityAnalysisFlowchart}
-    \end{figure}
 
 The CICA system evaluates complexity through two metrics: edge density, using the Canny Edge Detection algorithm\cite{EdgeOpenCV2023}, and contour count, based on contour approximation\cite{ContourOpenCV2023}.
 These metrics are normalized and combined into a unified complexity score (Table\ref{tab:MetricsandWeights}).
 
-    %%Table: Performance Indicators
-    \begin{table*}[htb]
-        \centering
-        \small
-        \caption{Metrics and weights for the calculation of the `Complexity score'}
-        \label{tab:MetricsandWeights}
-        \begin{tabularx}{\textwidth}{p{3.5cm} p{1cm} X X p{1cm}}
-            \toprule
-            \textit{Complexity metric} &
-              \textit{N} &
-              \textit{Metric name/description} &
-              \textit{Quantitative   method} &
-              \textit{Weights} \\ \midrule
-            \textbf{Edge Density} &
-              1 &
-              Edge detection using Canny Edge Detection algorithm for highlighting the most relevant features of a building.
-                &
-              Measured by dividing the number of non-zero (edge) pixels in the edges image by the total number of pixels in the image.
-                &
-              8\\
-            \textbf{Contour count} &
-              2 &
-              Employs contour approximation algorithm for shape analysis to determine intricacy of edges.
-                &
-              Measure by counting the number of segments in an edge.
-                &
-              2\\ \bottomrule
-               &
-               &
-              \textbf{TOTAL} &
-              &
-              \textbf{10}\\ \bottomrule
-        \end{tabularx}
-    \end{table*}
-
 The complexity scoring function \(f_1(x)\) is a crucial part of our CICA system, where the weighted sum of the normalized scores for each metric is calculated, providing an overall complexity score for each building image (Table\ref{tab:ComplexityScoreFunction_table}).
-
-    %f1: Complexity scoring function
-    \begin{table}[htb]
-        \caption{Complexity scoring function }
-        \label{tab:ComplexityScoreFunction_table}
-        \centering
-        \small
-        \begin{tabular}{|p{8cm}|}
-        \hline
-            \textbf{\(f_1\), Unified `Complexity Scoring' function 1}\\
-            \textit{Calculate the complexity score for all the images on the data pool}
-            \\
-            \begin{equation}
-                f_1(x) = \left[ \mathrm{round}\left(\sum_{i=1}^{n} w_i \cdot a_i, 2\right) \right] = complexity\_score
-            \label{eq:F1_ComplexityScoreFunction}
-            \end{equation}
-
-            \\
-            \textit{ for the Buildings included in the database.}\\
-            \\
-            \textit{where;} \\
-            \\
-            \(n \); is the number of performance indicators \\
-            \(w_i \); represents the i-th elements weight input and \\
-            \(a_i \); represents the i-th normalized score for the respective metric(`Edge Density' and `Contour Count').\\
-            \\
-
-            \textit{Finally, the `Complexity score' is assigned to each building for data visualization.}\\
-        \hline
-        \end{tabular}
-    \end{table}
 
 In summary, the CICA system leverages two key metrics, edge density and contour count, to quantify the complexity of building facades.
 While edge density emphasizes the presence and density of edges, contour count delves into the intricacies of the shapes represented by these edges.
@@ -104,23 +30,6 @@ The second application involves ranking 3D-modeled facades for the VR experiment
 Using Blender, we modeled facades with varying complexity, categorized into ten levels based on CICA scores (Figure\ref{fig:ComplexityPlotRenderCICA}).
 Through CICA, we aim to empirically validate architectural complexity trends and effectively prepare for the VR experiment that assesses user perceptions of facade complexity.
 This dual application of the CICA system allows us to quantitatively explore architectural complexity, aligning with our theoretical analysis and providing a basis for further experimentation in VR
-
-%%Figure Canny Edge of historic buildings and renders
-
-\begin{table*}[htb]
-    \centering
-    \small
-    \begin{tabularx}{\textwidth}{X X}
-        \centering
-        \includegraphics[width= \linewidth]{Images/ComplexityPlotHistoryCICA}
-        \captionof{figure}{Edge Detection analysis of historic buildings demonstrating complexity assessment.}
-        \label{fig:ComplexityPlotHistory} &
-        \centering
-        \includegraphics[width= \linewidth]{Images/ComplexitPlotRenderCICA}
-        \captionof{figure}{Complexity analysis of 3D-modeled facades for the VR experiment.}
-        \label{fig:ComplexityPlotRenderCICA}
-        \end{tabularx}
-    \end{table*}
 
 
 %!Original text
