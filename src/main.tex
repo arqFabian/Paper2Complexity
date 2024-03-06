@@ -146,17 +146,17 @@ Data-driven design\sep Complex Facades \sep Mixed Reality Assessment \sep Archit
                 \begin{tabularx}{\textwidth}{X}
                     \centering
                     \includegraphics[width= \linewidth]{Images/OldTimeline}
-                    \captionof{figure}{Example of historical oscillations between complexity and simplicity in architecture history. (Left to right) Romanesque, Gothic, Classicism, Baroque, Neo-classicism. (\textit{Images edited from source})}
+                    \captionof{figure}{Early timeline. Sequential representation of architectural styles illustrating the shift between complexity and simplicity. From left to right: Romanesque[a] with its solid and massive structure; Gothic[b] featuring verticality and lightness; Classicism[c] characterized by geometrical clarity and order; Baroque[d] with dynamic shapes and rich decorations; followed by the restrained and symmetrical formality of Neo-classicism[e]. (\textit{Images edited from source})}
                     \label{fig:Oldtimeline}
                     \\
                     \centering
                     \includegraphics[width= \linewidth]{Images/MiddleTimeline}
-                    \captionof{figure}{Example of historical oscillations between complexity and simplicity in architecture history. (Left to right) Art Nouveau, Art Deco, Modernism, Post Modernism. (\textit{Images edited from source})}
+                    \captionof{figure}{Transitional timeline. Sequential representation of architectural styles illustrating the shift between complexity and simplicity. From left to right: Art Nouveau[a] with its fluid lines and natural forms; Art Deco[b], marked by bold geometry and opulence; Modernism's[c] pursuit of stripped-back functionality; culminating in Postmodernism's[d] revival of historical styles and complexity (\textit{Images edited from source})}
                     \label{fig:Middletimeline}
                     \\
                     \centering
                     \includegraphics[width= \linewidth]{Images/contemporaryTimeline}
-                    \captionof{figure}{Era of exploration in contemporary architecture. (Left to right) Deconstructivism, Neofuturism, High-tech modernism, Parametricism, Pragmatic utopianism. (\textit{Images edited from source})}
+                    \captionof{figure}{Contemporary timeline. Sequential representation of architectural styles illustrating the shift between complexity and simplicity. Era of exploration and innovation. From left to right: Deconstructivism[a], characterized by fragmentation and non-linear design; Neofuturism[b], capturing movement and technology-infused aesthetics; High-tech modernism[c], focusing on visible structural elements and technological expression; Parametricism[d], with its algorithm-based complex forms; and Pragmatic utopianism[e], blending idealistic designs with practical applications (\textit{Images edited from source})}
                     \label{fig:contemporarytimeline}
                 \end{tabularx}
             \end{table*}
@@ -181,7 +181,7 @@ Data-driven design\sep Complex Facades \sep Mixed Reality Assessment \sep Archit
             %% Methodology Flowchart
             \begin{figure*}[!htb]
                 \centering
-                \includegraphics[width= \linewidth]{Images/MethodologyFlowchart}~\caption{Methodology Flowchart illustrating the sequential steps of this study's approach framework designed to assess the tolerance of users towards complex facade design. Higlighting the transition from VR system development (\ref{subsec:VRsystemDevelopment}), experiment design (\ref{subsec:Experiment_design}) and post-experiment data analysis phase. }
+                \includegraphics[width= \linewidth]{Images/MethodologyFlowchart}~\caption{Methodology Flowchart illustrating the sequential steps of this study's approach framework designed to assess the tolerance of users towards complex facade design. Higlighting the transition from VR system development (as detailed in Section\ref{subsec:VRsystemDevelopment}), experiment design (described in Section\ref{subsec:Experiment_design}) and post-experiment data analysis results phase (presented in Section\ref{sec:Results}).}
                   \label{fig:MethodologyFlowchart}
             \end{figure*}
 
@@ -200,9 +200,10 @@ Data-driven design\sep Complex Facades \sep Mixed Reality Assessment \sep Archit
                     \begin{minipage}{\textwidth}
                         \centering
                         \includegraphics[width= \linewidth]{Images/ImageComplexityAnalysisFlowchart}
-                        \caption{Flowchart illustrating the applications of Computational Image Complexity Analysis, including its role in analyzing complexity scores for historical architectural styles and ranking modeled facades for the VR Building Complexity System.}
-                      \label{fig:ImageComplexityAnalysisFlowchart}
+                        \captionof{figure}{Flowchart illustrating the applications of Computational Image Complexity Analysis system (CICA)(detailed in Section\ref{subsec:Computational Image Complexity analysis}), including its role in analyzing complexity scores for historical architectural styles and ranking of 3D modeled facades design with various degrees of complexity(presented in Section\ref{subsubsec:CICAforFacades}).}
+                        \label{fig:ImageComplexityAnalysisFlowchart}
                     \end{minipage}
+                    \\
                     \\
                     %Middle cell with two nested figures side by side
                     %%%Figure CICA on historic buildings and renders. Table 1x2
@@ -210,24 +211,25 @@ Data-driven design\sep Complex Facades \sep Mixed Reality Assessment \sep Archit
                         \centering
                         % Left figure
                         \begin{minipage}{0.49\textwidth}
-                            \includegraphics[width= \linewidth]{Images/ComplexityPlotHistoryCICA}
-                            \captionof{figure}{Edge Detection analysis of historic buildings demonstrating complexity assessment.}
-                            \label{fig:ComplexityPlotHistory}
+                            \includegraphics[width= \linewidth]{Images/CICAHistoryPlot}
+                            \captionof{figure}{CICA evaluation on historical Buildings: Illustration showcasing steps from original imagery to Image process, Edge Detection and Contour Count analysis. This process underpins the complexity assessment of facades, highlighting the analytical depth of CICA in quantifying architectural intricacies.}
+                            \label{fig:CICAHistoryPlot}
                         \end{minipage}
                         \hfill % Spacing between the figures
                         % Right figure
                         \begin{minipage}{0.49\textwidth}
-                            \includegraphics[width= \linewidth]{Images/ComplexitPlotRenderCICA}
-                            \captionof{figure}{Complexity analysis of 3D-modeled facades for the VR experiment.}
-                            \label{fig:ComplexityPlotRenderCICA}
+                            \includegraphics[width= \linewidth]{Images/CICARenderPlot}
+                            \captionof{figure}{CICA Evaluation on 3D-Modeled Facades: detailing the transition from initial models, image processing to Edge Detection and Contour Count stages. It encapsulates the facade complexity analysis, emphasizing CICA's adaptability to both historical and contemporary architectural evaluations.}
+                            \label{fig:CICARenderPlot}
                         \end{minipage}
                     \end{minipage}
+                    \\
                     \\
                     %Bottom cell
                     %Table: Performance Indicators
                     \begin{minipage}{\textwidth}
                         \centering
-                        \captionof{table}{Metrics and weights for the calculation of the `Complexity score'}
+                        \captionof{table}{Table of Metrics and Weights for Complexity Scoring: Outlines the key criteria and corresponding weights utilized in the Computational Image Complexity Analysis (CICA) to determine the `Complexity Score' of architectural facades, detailing the systematic approach to quantifying facade intricacy through edge density and contour count metrics.}
                         \label{tab:MetricsandWeights}
                         \begin{tabularx}{\textwidth}{p{3.5cm} p{1cm} X X p{1cm}}
                             \toprule
@@ -262,7 +264,7 @@ Data-driven design\sep Complex Facades \sep Mixed Reality Assessment \sep Archit
 
             %f1: Complexity scoring function
             \begin{table}[htb]
-                \caption{Complexity scoring function }
+                \caption{Function 1: Complexity scoring function that integrates various criteria (detailed in Table\ref{tab:ComplexityScoreFunction_table}) to assess intricacy of a building facade.}
                 \label{tab:ComplexityScoreFunction_table}
                 \centering
                 \small
@@ -295,14 +297,97 @@ Data-driven design\sep Complex Facades \sep Mixed Reality Assessment \sep Archit
             \begin{figure*}[!htb]
                   \centering
                   \includegraphics[width= \linewidth]{Graphs/complexitygraphrender}
-                  \caption{Scatter graph showcasing quantitative Computational Image Complexity Analysis scores for the rendering images of the 10 variations for each of the three patterns modeled in Blender, with an overlaid trendline highlighting the complexity level trend towards increased complexity.}
+                  \caption{Scatter Graph Analysis of 3d modeled Facade Complexity: This graph presents the CICA scores for ten variations of three distinct patterns created in Blender, with a trendline indicating the range of complexity levels among the facade designs, illustrating the nuanced relationship between design intricacy and CICA scores.}
                   \label{fig:complexitygraphRender}
             \end{figure*}
 
+            %!%!%Figures of 3D modeling and VR interior vs Exterior
+            %Figures "3d model vs real" and "Interior vs Exterior"
+            \begin{table*}[htb]
+                \centering
+                \small
+                \begin{tabular}{c}
+                    %Top cell with two figures
+                    \begin{minipage}{\textwidth}
+                        \centering
+                        % Left figure
+                        %% Figure Real vs 3d Model
+                        \begin{minipage}{0.49\textwidth}
+                            \includegraphics[width= \linewidth]{Images/Realvs3DmodelBlender}
+                            \captionof{figure}{Comparison of Real and 3D-Modeled Buildings: This figure contrasts the actual Architectural Environment Building with its detailed 3D virtual clone created for the Facade Design Complexity Analysis experiment, demonstrating the fidelity of the digital model in replicating architectural nuances.}
+                            \label{fig:RealVs3dModel}
+                        \end{minipage}
+                        \hfill % Spacing between the figures
+                        % Right figure
+                        %% FigureVR interior vs Exterior
+                        \begin{minipage}{0.49\textwidth}
+                            \includegraphics[width= \linewidth]{Images/VRInteriorExterior}
+                            \captionof{figure}{Comparison side by side of the VR simulation of interior and exterior of existing laboratory building used for experiment (Left) and VR Simulation of facade variation (Right) used for complexity Analysis.}
+                            \label{fig:VRInteriorExterior}
+                        \end{minipage}
+                    \end{minipage}
+                \end{tabular}
+            \end{table*}
+
+            %%Table: Pattern Variations sample 1, 7, 9
+            \begin{table*}[htb]
+                \centering
+                \small
+                \caption{Table of Facade Pattern Variations: Showcases samples of 3D-modeled building facades at levels 1, 5, and 9, illustrating the progression and differentiation within the ten levels of design variations (detailed in section\ref{subsubsec:Modeling}). This table highlights the incremental complexity introduced at each selected level across three distinct patterns.(reffer to \ref{sec:AnnexVariations} for the full record of variations)}
+                \label{tab:PatternsVariationsPart0}
+                \begin{tabularx}
+                {\textwidth}{p{3cm} >{\centering\arraybackslash}X >{\centering\arraybackslash}X >{\centering\arraybackslash}X }
+                    \toprule
+                    \textit{Description} &
+                      \textit{Pattern 1} &
+                      \textit{Pattern 2} &
+                      \textit{Pattern 3} \\
+                    \midrule
+                    \text{Pattern Name} & Hishi Pattern & Tortoise shells & Asanoha Pattern\\
+
+                    \midrule
+                    \textit{Base Module} &  &  &
+                    \\
+                    {\includegraphics[width=1\linewidth]{Images/Base Module/Building}} &
+                      {\includegraphics[width=1\linewidth]{Images/Base Module/Pattern1}} &
+                      {\includegraphics[width=1\linewidth]{Images/Base Module/Pattern2}} &
+                      {\includegraphics[width=1\linewidth]{Images/Base Module/Pattern3}} \\
+                    \midrule
+
+                    \textit{Mesh complexity Level} &
+                      \textit{Pattern 1} &
+                      \textit{Pattern 2} &
+                      \textit{Pattern 3}\\
+
+                    \midrule
+                    \textit{Level 1} &  &  &
+                    \\
+                    {\includegraphics[width=1\linewidth]{Images/Wall 0/0001}} &
+                        {\includegraphics[width=1\linewidth]{Images/Pattern 1/0001}} &
+                      {\includegraphics[width=1\linewidth]{Images/Pattern 2/0001}} &
+                      {\includegraphics[width=1\linewidth]{Images/Pattern 3/0001}} \\
+                    \midrule
+                    \textit{Level 7} &  &  &
+                    \\
+                    {\includegraphics[width=1\linewidth]{Images/Wall 0/0007}} &
+                      {\includegraphics[width=1\linewidth]{Images/Pattern 1/0007}} &
+                      {\includegraphics[width=1\linewidth]{Images/Pattern 2/0007}} &
+                      {\includegraphics[width=1\linewidth]{Images/Pattern 3/0007}} \\
+                    \midrule
+                    \text{Level 9} &  &  &
+                    \\
+                    {\includegraphics[width=1\linewidth]{Images/Wall 0/0009}} &
+                      {\includegraphics[width=1\linewidth]{Images/Pattern 1/0009}} &
+                      {\includegraphics[width=1\linewidth]{Images/Pattern 2/0009}} &
+                      {\includegraphics[width=1\linewidth]{Images/Pattern 3/0009}} \\
+                    \bottomrule
+                \end{tabularx}
+            \end{table*}
+
 
     \subsection{Computational Image Complexity Analysis (CICA) system}
-    \label{subsec:Image Complexity analysis}
-    \input{text/MethodImageComplexityAnalysis}
+    \label{subsec:Computational Image Complexity analysis}
+    \input{text/MethodComputationalImageComplexityAnalysis}
 
     \subsection{VR system for Complexity Analysis in facade design}
     \label{subsec:VRsystemDevelopment}
@@ -319,13 +404,6 @@ Data-driven design\sep Complex Facades \sep Mixed Reality Assessment \sep Archit
         \input{Text/MethodCICAforFacades}
 
             %!%Figures of VR integration
-            %% Figure of interior and exterior VR
-            \begin{figure}[htb]
-                \centering
-                \includegraphics[width= \linewidth]{Images/VRInteriorExterior}
-                \caption{Comparison side by side of the VR simulation of interior and exterior of existing laboratory building used for experiment (Left) and VR Simulation of facade variation (Right) used for complexity Analysis.}
-                \label{fig:VRInteriorExterior}
-            \end{figure}
 
             %% Figure of VR interface
             \begin{table*}[htb]

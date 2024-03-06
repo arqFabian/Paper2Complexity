@@ -33,6 +33,34 @@
 % Document
 \begin{document}
 
+%!%!%Figures of 3D modeling and VR integration
+%Figures "3d model vs real" and "Interior vs Exterior"
+        \begin{table*}[htb]
+            \centering
+            \small
+            \begin{tabular}{c}
+                %Top cell with two figures
+                \begin{minipage}{\textwidth}
+                    \centering
+                    % Left figure
+                    %% Figure Real vs 3d Model
+                    \begin{minipage}{0.49\textwidth}
+                        \includegraphics[width= \linewidth]{Images/Realvs3DmodelBlender}
+                        \captionof{figure}{Real vs. 3D modeled building for the Facade Design Complexity Analysis experiment.}
+                        \label{fig:RealVs3dModel}
+                    \end{minipage}
+                    \hfill % Spacing between the figures
+                    % Right figure
+                    %% FigureVR interior vs Exterior
+                    \begin{minipage}{0.49\textwidth}
+                        \includegraphics[width= \linewidth]{Images/VRInteriorExterior}
+                        \captionof{figure}{Comparison side by side of the VR simulation of interior and exterior of existing laboratory building used for experiment (Left) and VR Simulation of facade variation (Right) used for complexity Analysis.}
+                        \label{fig:VRInteriorExterior}
+                    \end{minipage}
+                \end{minipage}
+            \end{tabular}
+        \end{table*}
+
 
 %!%Figures and table CICA
         %Flowchart CICA, Figure of Cica on historical buildings and renders, PI table. Table 1x3
@@ -55,14 +83,14 @@
                     \centering
                     % Left figure
                     \begin{minipage}{0.49\textwidth}
-                        \includegraphics[width= \linewidth]{Images/ComplexityPlotHistoryCICA}
+                        \includegraphics[width= \linewidth]{Images/CICAHistoryPlot}
                         \captionof{figure}{Edge Detection analysis of historic buildings demonstrating complexity assessment.}
                         \label{fig:ComplexityPlotHistory}
                     \end{minipage}
                     \hfill % Spacing between the figures
                     % Right figure
                     \begin{minipage}{0.49\textwidth}
-                        \includegraphics[width= \linewidth]{Images/ComplexitPlotRenderCICA}
+                        \includegraphics[width= \linewidth]{Images/CICARenderPlot}
                         \captionof{figure}{Complexity analysis of 3D-modeled facades for the VR experiment.}
                         \label{fig:ComplexityPlotRenderCICA}
                     \end{minipage}
@@ -128,11 +156,11 @@
                 \small
                 \begin{tabularx}{\textwidth}{X X}
                     \centering
-                    \includegraphics[width= \linewidth]{Images/ComplexityPlotHistoryCICA}
+                    \includegraphics[width= \linewidth]{Images/CICAHistoryPlot}
                     \captionof{figure}{Edge Detection analysis of historic buildings demonstrating complexity assessment.}
                     \label{fig:ComplexityPlotHistory} &
                     \centering
-                    \includegraphics[width= \linewidth]{Images/ComplexitPlotRenderCICA}
+                    \includegraphics[width= \linewidth]{Images/CICARenderPlot}
                     \captionof{figure}{Complexity analysis of 3D-modeled facades for the VR experiment.}
                     \label{fig:ComplexityPlotRenderCICA}
                     \end{tabularx}

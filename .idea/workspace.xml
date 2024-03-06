@@ -4,12 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Addition of Wall 0 folder for structures f base model">
+    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Allocation of images to main.tex so that it is easier to allocate them on draft. &#10;Prep of main.tex for possible revision to include change tracker. Creation of test.tex for testing images layout and backup image changes.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Excel/ExperimentComplexityResultsGraph_participants.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Excel/ExperimentComplexityResultsGraph_participants.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/P10001.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/P10001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/text/VR_Integration.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/VR_Integration.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/ComplexitPlotRenderCICA.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/CICARenderPlot.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/ComplexitPlotRenderCICA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/ComplexityPlotHistoryCICA.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/CICAHistoryPlot.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/ComplexityPlotRender.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/ContourCICA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/BackUpTextImages.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/BackUpTextImages.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/Method3DModeling.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/Method3DModeling.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/MethodCICAforFacades.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/MethodCICAforFacades.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/MethodImageComplexityAnalysis.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/MethodComputationalImageComplexityAnalysis.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/MethodVRSystemDevelopment.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/MethodVRSystemDevelopment.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/test.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/test.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +33,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="FullText" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -36,7 +49,7 @@
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
-        <option name="accountId" value="0d1c690d-673e-4588-b4f2-0ff6ac3d1413" />
+        <option name="accountId" value="e5c86e04-951d-40fa-8c49-7dae283ac5c0" />
         <option name="url" value="https://github.com/arqFabian/Paper2Complexity.git" />
       </UrlAndAccount>
     </option>
@@ -61,25 +74,31 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/arqfa/OneDrive/Desktop/Freshstart/Paper2Complexity&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/arqfa/OneDrive/FABIAN DATA/Kyushu 2021/Research/Paper2Complexity&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\src\text" />
       <recent name="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\auxil" />
       <recent name="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\src\Images" />
-      <recent name="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\src\text" />
       <recent name="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\CodePython" />
       <recent name="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\src\Graphs" />
       <recent name="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\ComplexityPython" />
       <recent name="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\src\Images" />
       <recent name="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\src\text" />
-      <recent name="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\src" />
     </key>
   </component>
   <component name="RunManager" selected="LaTeX.MainPDF">
@@ -147,19 +166,20 @@
       </texify>
       <method v="2" />
     </configuration>
-    <configuration name="mainPython" type="PythonConfigurationType" factoryName="Python">
+    <configuration name="CannyEdgePlot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Paper2Complexity" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ComplexityPython" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CodePython" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ComplexityPython/main.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CodePython/CannyEdgePlot.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,7 +188,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mainRender" type="PythonConfigurationType" factoryName="Python">
+    <configuration name="mainCICAhistory" type="PythonConfigurationType" factoryName="Python">
       <module name="Paper2Complexity" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -176,11 +196,36 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ComplexityPython" />
+      <option name="SDK_NAME" value="Python 3.11 (Paper2Complexity)" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\CodePython" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ComplexityPython/mainrender.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CodePython/mainCICAhistory.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mainCICArender" type="PythonConfigurationType" factoryName="Python">
+      <module name="Paper2Complexity" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\venv\Scripts\python.exe" />
+      <option name="SDK_NAME" value="Python 3.11 (Paper2Complexity)" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\CodePython" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CodePython/mainCICArender.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -192,9 +237,15 @@
     <list>
       <item itemvalue="BibTeX.main bibliography" />
       <item itemvalue="LaTeX.MainPDF" />
-      <item itemvalue="Python.mainPython" />
-      <item itemvalue="Python.mainRender" />
+      <item itemvalue="Python.mainCICAhistory" />
+      <item itemvalue="Python.mainCICArender" />
+      <item itemvalue="Python.CannyEdgePlot" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.CannyEdgePlot" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -204,111 +255,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1691453750129</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Introduction progress">
-      <created>1691553122553</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1691553122553</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Introduction progress">
-      <created>1691633183941</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1691633183941</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Introduction progress">
-      <created>1691633195906</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1691633195906</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Introduction progress">
-      <created>1691633518334</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1691633518334</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Start of theory framework">
-      <created>1691722429463</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1691722429463</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Start of theory framework">
-      <created>1691729032812</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1691729032812</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Start of theory framework">
-      <created>1691975678500</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1691975678500</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Start of theory framework">
-      <created>1692008309921</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1692008309921</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Start of theory framework">
-      <created>1692008358209</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1692008358209</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Start of theory framework">
-      <created>1692153976735</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1692153976735</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Start of theory framework">
-      <created>1692236176609</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1692236176609</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Start of theory framework">
-      <created>1692246060077</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1692246060077</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Corrections to references">
-      <created>1692325180002</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1692325180002</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Corrections to references and creation of tex files for the subsections on the theory framework">
-      <created>1692327997534</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1692327997534</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Corrections to references and creation of tex files for the subsections on the theory framework">
-      <created>1692588632065</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1692588632065</updated>
+      <workItem from="1699848892476" duration="90000" />
+      <workItem from="1699849339556" duration="309000" />
+      <workItem from="1699849663347" duration="1233000" />
+      <workItem from="1699923202122" duration="6226000" />
+      <workItem from="1699941537792" duration="8065000" />
+      <workItem from="1700100392066" duration="20750000" />
+      <workItem from="1700182688559" duration="3693000" />
+      <workItem from="1701223493558" duration="33170000" />
+      <workItem from="1701392591908" duration="4194000" />
+      <workItem from="1701858943456" duration="17761000" />
+      <workItem from="1701996954696" duration="3700000" />
+      <workItem from="1702345295221" duration="7311000" />
+      <workItem from="1702391746298" duration="36000" />
+      <workItem from="1702453418979" duration="11406000" />
+      <workItem from="1702558559758" duration="9652000" />
+      <workItem from="1702602247839" duration="752000" />
+      <workItem from="1702603170292" duration="2269000" />
+      <workItem from="1703429819317" duration="576000" />
+      <workItem from="1706688141822" duration="14329000" />
+      <workItem from="1706797881244" duration="528000" />
+      <workItem from="1706835631488" duration="3389000" />
+      <workItem from="1707294976321" duration="6589000" />
+      <workItem from="1709191458725" duration="15479000" />
+      <workItem from="1709365535836" duration="655000" />
+      <workItem from="1709366196977" duration="29000" />
+      <workItem from="1709366247273" duration="41000" />
+      <workItem from="1709366464737" duration="20000" />
+      <workItem from="1709708497027" duration="8912000" />
     </task>
     <task id="LOCAL-00017" summary="Corrections to HistoryArchStylesTheory.tex to add the art noaveu refrence as well as the ransition to modernism">
       <created>1692760181616</created>
@@ -548,8 +522,127 @@
       <option name="project" value="LOCAL" />
       <updated>1697678711153</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Vr integration Images">
+      <created>1697716884880</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1697716884880</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Preparation of methodology and results section with their components. migration of the history scatter graph to ResultsImageComplexityAnalysisHistory.tex and the future trends to the Discussion.tex">
+      <created>1698223646499</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1698223646499</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Preparation of methodology and results section with their components. migration of the history scatter graph to ResultsImageComplexityAnalysisHistory.tex and the future trends to the Discussion.tex">
+      <created>1698223717295</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1698223717295</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Addition of flowchart for the Image complexity Analysis.">
+      <created>1698236015637</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1698236015637</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Update to explanation on MethodologyImageComplexityAnalysis.tex">
+      <created>1698305933567</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1698305933568</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Working Canny edge plot and inclusion of plot image on image analysis section">
+      <created>1698312631891</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1698312631891</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Work on the MethodologyImageComplexityAnalysis.tex inclusion of cannyedge plots">
+      <created>1698315022856</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1698315022856</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Finish CIca system and start of VR integration system">
+      <created>1698410178610</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1698410178611</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Finish Modeling module and starting of CICA application for ranking">
+      <created>1698727560079</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1698727560079</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Update of python script for scatter graph of patterns and rename of python configuration from main to mainCICAhistory.py for the history graph. and from mainrender.py to mainCICArender.py">
+      <created>1698742548532</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1698742548532</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Progress on VR integration and start of experiment design. Inclusion of FlowchartExperiment">
+      <created>1698751682712</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1698751682714</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Progress on VR integration and start of experiment design. Inclusion of FlowchartExperiment">
+      <created>1698751701411</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1698751701411</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Alteration to the script of the edge canny plot so we can see all the images">
+      <created>1698807595674</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1698807595675</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Experiment design section finish. Results section intro finished and edition of CICA for History analysis. Progress on the Results for Experiment in ResultsExperiment.tex">
+      <created>1699349526325</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1699349526325</updated>
+    </task>
+    <task id="LOCAL-00070" summary="progress on the results section and editing of CICA system script in Python to inlcude contour count as an additional indicator to calculate the complexity score. complexityanalysis.py">
+      <created>1699542674381</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1699542674381</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Space.CommitStatus" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -563,31 +656,42 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Corrections to references and creation of tex files for the subsections on the theory framework" />
-    <MESSAGE value="Corrections to HistoryArchStylesTheory.tex to add the art noaveu refrence as well as the ransition to modernism" />
-    <MESSAGE value="adding folder complexity for complexity analysis to the github" />
-    <MESSAGE value="Creation of separate images for art deco. art nouveau and vitruvian architecture. Inclusion of mention of art nouveau on the history and facade analysis." />
-    <MESSAGE value="finsihed venturi and start if transition to contemporary" />
-    <MESSAGE value="improvement of contemporary timeline and setup of complexitygraph.py" />
-    <MESSAGE value="introduction of new images to complexitygraph.py and the degree input for the trend line.&#10;The creation of the methodology section.&#10;Addition of a ComplexityImageAnalysis.tex to describe the graph that analysis image complexity&#10;update of the FacadeOrnamentTheory.tex to inlcude contemporary styles starting with Deconstructivism." />
-    <MESSAGE value="Neo futurism and hightech modernism updates" />
-    <MESSAGE value="Neo futurism and hightech modernism updates with ornament reference" />
-    <MESSAGE value="hightech modernism updates" />
-    <MESSAGE value="start of parametricism" />
-    <MESSAGE value="culmination of parametricism and pragmatic utopianism" />
-    <MESSAGE value="Arrangement of images for complexity analysis into folders and adaptation of scatter graph for it." />
-    <MESSAGE value="Addition of images for complexity analysis on style folders up to neofuturism" />
-    <MESSAGE value="Addition of images for complexity analysis on style folders completed and graph updated" />
-    <MESSAGE value="addition of pdf to image converter" />
-    <MESSAGE value="Inlcusion of survey into annex" />
-    <MESSAGE value="Creation of raph function for patterns and blender script for fbx blenderfbx.py" />
-    <MESSAGE value="fbx exporter updated to hold the frame selection" />
-    <MESSAGE value="First fresh start after crash on terrain9 file" />
-    <MESSAGE value="Correction on graphs and inclusion of all images to Git" />
-    <MESSAGE value="Modification from Lab computer of results text and update of graphs" />
-    <MESSAGE value="Addition of Methodology latex files and start of table to depict the variations" />
-    <MESSAGE value="Addition pdfs for variations of patterns for table" />
-    <MESSAGE value="Addition of Wall 0 folder for structures f base model" />
-    <option name="LAST_COMMIT_MESSAGE" value="Addition of Wall 0 folder for structures f base model" />
+    <MESSAGE value="Progress on VR integration and start of experiment design. Inclusion of FlowchartExperiment" />
+    <MESSAGE value="Alteration to the script of the edge canny plot so we can see all the images" />
+    <MESSAGE value="Experiment design section finish. Results section intro finished and edition of CICA for History analysis. Progress on the Results for Experiment in ResultsExperiment.tex" />
+    <MESSAGE value="progress on the results section and editing of CICA system script in Python to inlcude contour count as an additional indicator to calculate the complexity score. complexityanalysis.py" />
+    <MESSAGE value="Start of using Pycharm Pro" />
+    <MESSAGE value="Start of discussion, conclusion in results" />
+    <MESSAGE value="Setup of calculate metrics function to isolate the max edge and contour values for the calculate_complexity function in complexityanalysis.py. &#10;Update of mainCICArender.py for averaging three images of renders before outputing the complexity score. &#10;Change of Image plot on CannyEdgePlot.py file to create colors to represent the contours" />
+    <MESSAGE value="Addition of Contour count to the CICA MethodologyImageComplexityAnalysis.tex" />
+    <MESSAGE value="Update of ResultsExperiment.tex&#10;Update of GraphicAbstract.pdf&#10;Update of Abstract.tex&#10;Update of graphs of results" />
+    <MESSAGE value="Update of Introduction.tex . Eliminate the redundant graphs and the vertical timeline of the introduction." />
+    <MESSAGE value="Update of paper title and Discussion.tex with detailed analysis of the results of each suvey question." />
+    <MESSAGE value="testing branches" />
+    <MESSAGE value="Rename of test file for backup since it holds the unused images and text that might be needed later" />
+    <MESSAGE value="moved python code from ComplexityPython to a new folder CodePython to delete the unnecessary .idea files and have a more clean project" />
+    <MESSAGE value="update for new version of survey graphs" />
+    <MESSAGE value="update to Introduction.tex and Abstract.tex" />
+    <MESSAGE value="update to Introduction.tex and Abstract.tex start of simplification of paper to reach the 15-page goal" />
+    <MESSAGE value="update to Introduction.tex and Abstract.tex start of simplification of paper" />
+    <MESSAGE value="update" />
+    <MESSAGE value="Concise version preparation for the paper for the theory framework and methodology in progress" />
+    <MESSAGE value="Concise version, replacing fragmented small paragraphs for idea centric larger ones." />
+    <MESSAGE value="replacement of fragmented figures into concise timeline figures for the Theory Framework" />
+    <MESSAGE value="Timelines combined in a single unnamed table instead of three separate strips. Combination of edge detection images too in preparation for the edition of the paper in the one column format." />
+    <MESSAGE value="Reorganization of paper and update of bibliography. Prep of flowchart" />
+    <MESSAGE value="Allocation of images to main.tex so that it is easier to allocate them on draft. &#10;Prep of main.tex for possible revision to include change tracker. Creation of test.tex for testing images layout and backup image changes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Allocation of images to main.tex so that it is easier to allocate them on draft. &#10;Prep of main.tex for possible revision to include change tracker. Creation of test.tex for testing images layout and backup image changes." />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/workspace_xml$CannyEdgePlot.coverage" NAME="CannyEdgePlot Coverage Results" MODIFIED="1702459802968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CodePython" />
+    <SUITE FILE_PATH="coverage/Paper2Complexity$mainCICAhistory__1_.coverage" NAME="mainCICAhistory (1) Coverage Results" MODIFIED="1702351506995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CodePython" />
+    <SUITE FILE_PATH="coverage/workspace_xml$mainCICArender.coverage" NAME="mainCICArender Coverage Results" MODIFIED="1702456218210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\CodePython" />
+    <SUITE FILE_PATH="coverage/workspace_xml$mainCICAhistory.coverage" NAME="mainCICAhistory Coverage Results" MODIFIED="1702456243620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\CodePython" />
+    <SUITE FILE_PATH="coverage/Paper2Complexity$complexityanalysis.coverage" NAME="complexityanalysis Coverage Results" MODIFIED="1701226704463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ComplexityPython" />
+    <SUITE FILE_PATH="coverage/Paper2Complexity$mainCICAhistory.coverage" NAME="mainCICAhistory Coverage Results" MODIFIED="1702350436106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ComplexityPython" />
+    <SUITE FILE_PATH="coverage/Paper2Complexity$mainCICArender.coverage" NAME="mainCICArender Coverage Results" MODIFIED="1702350460138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ComplexityPython" />
+    <SUITE FILE_PATH="coverage/Paper2Complexity$CannyEdgePlot.coverage" NAME="CannyEdgePlot Coverage Results" MODIFIED="1702351550778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CodePython" />
+    <SUITE FILE_PATH="coverage/Paper2Complexity$mainCICArender__1_.coverage" NAME="mainCICArender (1) Coverage Results" MODIFIED="1702351530521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CodePython" />
   </component>
 </project>
