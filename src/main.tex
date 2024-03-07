@@ -262,36 +262,53 @@ Data-driven design\sep Complex Facades \sep Mixed Reality Assessment \sep Archit
                 \end{tabular}
             \end{table*}
 
-            %f1: Complexity scoring function
-            \begin{table}[htb]
-                \caption{Function 1: Complexity scoring function that integrates various criteria (detailed in Table\ref{tab:ComplexityScoreFunction_table}) to assess intricacy of a building facade.}
-                \label{tab:ComplexityScoreFunction_table}
-                \centering
-                \small
-                \begin{tabular}{|p{8cm}|}
+            %! Function for complexity score
+            %%Table function 1 complexity score
+            \begin{table*}[htb]
+            \centering
+            \caption{Function 1: Complexity scoring function that integrates various criteria to assess intricacy of a building facade.}
+            \label{tab:ComplexityScoreFunction_table}
+                \begin{tabular}{|c c|}%{|c|c|}
                 \hline
-                    \textbf{\(f_1\), Unified `Complexity Scoring' function 1}\\
-                    \textit{Calculate the complexity score for all the images on the data pool}
-                    \\
-                    \begin{equation}
-                        f_1(x) = \left[ \mathrm{round}\left(\sum_{i=1}^{n} w_i \cdot a_i, 2\right) \right] = complexity\_score
-                    \label{eq:F1_ComplexityScoreFunction}
-                    \end{equation}
-
-                    \\
-                    \textit{ for the Buildings included in the database.}\\
-                    \\
-                    \textit{where;} \\
-                    \\
-                    \(n \); is the number of performance indicators \\
-                    \(w_i \); represents the i-th elements weight input and \\
-                    \(a_i \); represents the i-th normalized score for the respective metric(`Edge Density' and `Contour Count').\\
-                    \\
-
-                    \textit{Finally, the `Complexity score' is assigned to each building for data visualization.}\\
-                \hline
+                % First Cell (Top-Left)
+                % f1: Valid Position finder function
+                    \begin{minipage}{.49\linewidth}
+                        \centering
+                        \small
+                        \begin{tabular}{p{8cm}}
+                            \\
+                            \textbf{\(f_1\), Unified `Complexity Scoring' function 1}\\
+                                \textit{Calculate the complexity score for all the images on the data pool}
+                                \\
+                                \begin{equation}
+                                    f_1(x) = \left[ \mathrm{round}\left(\sum_{i=1}^{n} w_i \cdot a_i, 2\right) \right] = complexity\_score
+                                \label{eq:F1_ComplexityScoreFunction}
+                                \end{equation}
+                                \\
+                                \textit{ for the Buildings included in the database.}\\
+                            \\
+                        \end{tabular}
+                    \end{minipage}
+                    &
+                    % Second Cell (Top-Right)
+                    % continuation f1
+                    \begin{minipage}{.49\linewidth}
+                        \centering
+                        \small
+                        \begin{tabular}{p{8cm}}
+                            \\\\
+                            \textit{where;} \\
+                            \(n \); is the number of performance indicators \\
+                            \(w_i \); represents the i-th elements weight input and \\
+                            \(a_i \); represents the i-th normalized score for the respective metric(`Edge Density' and `Contour Count').\\
+                            \\
+                            \textit{Finally, the `Complexity score' is assigned to each building for data visualization.}\\
+                            \\
+                        \end{tabular}
+                    \end{minipage}
                 \end{tabular}
-            \end{table}
+                \hline
+            \end{table*}
 
             %% Figure of Complexity graph
             \begin{figure*}[!htb]
@@ -398,8 +415,7 @@ Data-driven design\sep Complex Facades \sep Mixed Reality Assessment \sep Archit
         %% description of things modeled in blender for use in the experiment
         \input{Text/Method3DModeling}
 
-%!%Figures of VR integration
-
+            %!%Figures of VR integration
             %% Figure of VR interface
             \begin{table*}[htb]
                 \centering
@@ -421,9 +437,8 @@ Data-driven design\sep Complex Facades \sep Mixed Reality Assessment \sep Archit
         %% description of CICA applicationnn forfacade variation modeled in blender for use in the experiment
         \input{Text/MethodCICAforFacades}
 
-%!Figure of experiment design flowchart
+            %!Figure of experiment design flowchart
             %% Figure Experiment Design flowchart
-
             \begin{figure*}[htb]
                 \centering
                 \includegraphics[width= \linewidth]{Images/FlowchartExperiment}
@@ -437,6 +452,11 @@ Data-driven design\sep Complex Facades \sep Mixed Reality Assessment \sep Archit
         \input{Text/MethodVR_Integration}
 
 
+    \subsection{Experiment design}
+    \label{subsec:Experiment_design}
+    %%Task description, stage 1 to 3 with survey
+    \input{Text/ExperimentDesign}
+
             %!Figure of Results for CICA in History Arch Style
             %facade Complexity analysis graph by year and architectural style
             \begin{figure*}[htb]
@@ -445,11 +465,6 @@ Data-driven design\sep Complex Facades \sep Mixed Reality Assessment \sep Archit
                   \caption{Scatter graph showcasing quantitative image complexity analysis scores for building images categorized by historical timeline and architectural style, with an overlaid trendline highlighting the evolving trend towards increased complexity.}
                   \label{fig:HistoricalComplexityGraph}
             \end{figure*}
-
-    \subsection{Experiment design}
-    \label{subsec:Experiment_design}
-    %%Task description, stage 1 to 3 with survey
-    \input{Text/ExperimentDesign}
 
             %!Figures of experiment results
             %% Participant background chart and years of experience

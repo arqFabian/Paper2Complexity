@@ -4,6 +4,37 @@
 
 %!fORMAT IMAGE FULL PAGE
 
+%f1: Complexity scoring function
+            \begin{table}[htb]
+                \caption{Function 1: Complexity scoring function that integrates various criteria to assess intricacy of a building facade.}
+                \label{tab:ComplexityScoreFunction_table}
+                \centering
+                \small
+                \begin{tabular}{|p{8cm}|}
+                \hline
+                    \textbf{\(f_1\), Unified `Complexity Scoring' function 1}\\
+                    \textit{Calculate the complexity score for all the images on the data pool}
+                    \\
+                    \begin{equation}
+                        f_1(x) = \left[ \mathrm{round}\left(\sum_{i=1}^{n} w_i \cdot a_i, 2\right) \right] = complexity\_score
+                    \label{eq:F1_ComplexityScoreFunction}
+                    \end{equation}
+
+                    \\
+                    \textit{ for the Buildings included in the database.}\\
+                    \\
+                    \textit{where;} \\
+                    \\
+                    \(n \); is the number of performance indicators \\
+                    \(w_i \); represents the i-th elements weight input and \\
+                    \(a_i \); represents the i-th normalized score for the respective metric(`Edge Density' and `Contour Count').\\
+                    \\
+
+                    \textit{Finally, the `Complexity score' is assigned to each building for data visualization.}\\
+                \hline
+                \end{tabular}
+            \end{table}
+
 
 %% Figure of Real building next to 3D modeled building
     \begin{figure}[htb]
