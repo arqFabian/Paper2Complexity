@@ -133,32 +133,45 @@ Data-driven design\sep Complex Facades \sep Mixed Reality Assessment \sep Archit
 \begin{linenumbers}
 
 
+
 \section{Introduction}
 \label{sec:1Introduction}
 %%State the objectives of the work and provide an adequate background, avoiding a detailed literature survey or a summary of the results.
 \input{Text/Introduction}
 
-        %!%Figures of timelines
-        % Old, middle and contemporary timeline
-        \begin{table*}[htb]
+            %!%Figures of timelines
+            % Old, middle and contemporary timeline
+            \begin{table*}[htb]
                 \centering
                 \small
-                \begin{tabularx}{\textwidth}{X}
-                    \centering
-                    \includegraphics[width= \linewidth]{Images/OldTimeline}
-                    \captionof{figure}{Early timeline. Sequential representation of architectural styles illustrating the shift between complexity and simplicity. From left to right: Romanesque[a] with its solid and massive structure; Gothic[b] featuring verticality and lightness; Classicism[c] characterized by geometrical clarity and order; Baroque[d] with dynamic shapes and rich decorations; followed by the restrained and symmetrical formality of Neo-classicism[e]. (\textit{Images edited from source})}
-                    \label{fig:Oldtimeline}
+                \begin{tabular}{c}
+                    %Top cell with one figure
+                    %Figure early timeline
+                    \begin{minipage}{\textwidth}
+                        \centering
+                        \includegraphics[width= \linewidth]{Images/OldTimeline}
+                                \captionof{figure}{Early timeline. Sequential representation of architectural styles illustrating the shift between complexity and simplicity. From left to right: Romanesque[a] with its solid and massive structure; Gothic[b] featuring verticality and lightness; Classicism[c] characterized by geometrical clarity and order; Baroque[d] with dynamic shapes and rich decorations; followed by the restrained and symmetrical formality of Neo-classicism[e]. (\textit{Images edited from source})}
+                                \label{fig:Oldtimeline}
+                    \end{minipage}
                     \\
-                    \centering
-                    \includegraphics[width= \linewidth]{Images/MiddleTimeline}
-                    \captionof{figure}{Transitional timeline. Sequential representation of architectural styles illustrating the shift between complexity and simplicity. From left to right: Art Nouveau[a] with its fluid lines and natural forms; Art Deco[b], marked by bold geometry and opulence; Modernism's[c] pursuit of stripped-back functionality; culminating in Postmodernism's[d] revival of historical styles and complexity (\textit{Images edited from source})}
-                    \label{fig:Middletimeline}
+                    %Middle cell
+                    %Middle timeline
+                    \begin{minipage}{\textwidth}
+                        \centering
+                        \includegraphics[width= \linewidth]{Images/MiddleTimeline}
+                                \captionof{figure}{Transitional timeline. Sequential representation of architectural styles illustrating the shift between complexity and simplicity. From left to right: Art Nouveau[a] with its fluid lines and natural forms; Art Deco[b], marked by bold geometry and opulence; Modernism's[c] pursuit of stripped-back functionality; culminating in Postmodernism's[d] revival of historical styles and complexity (\textit{Images edited from source})}
+                                \label{fig:Middletimeline}
+                    \end{minipage}
                     \\
-                    \centering
-                    \includegraphics[width= \linewidth]{Images/contemporaryTimeline}
-                    \captionof{figure}{Contemporary timeline. Sequential representation of architectural styles illustrating the shift between complexity and simplicity. Era of exploration and innovation. From left to right: Deconstructivism[a], characterized by fragmentation and non-linear design; Neofuturism[b], capturing movement and technology-infused aesthetics; High-tech modernism[c], focusing on visible structural elements and technological expression; Parametricism[d], with its algorithm-based complex forms; and Pragmatic utopianism[e], blending idealistic designs with practical applications (\textit{Images edited from source})}
-                    \label{fig:contemporarytimeline}
-                \end{tabularx}
+                    %bottom Cell
+                    %Contemporary timeline
+                    \begin{minipage}{\textwidth}
+                        \centering
+                        \includegraphics[width= \linewidth]{Images/contemporaryTimeline}
+                                \captionof{figure}{Contemporary timeline. Sequential representation of architectural styles illustrating the shift between complexity and simplicity. Era of exploration and innovation. From left to right: Deconstructivism[a], characterized by fragmentation and non-linear design; Neofuturism[b], capturing movement and technology-infused aesthetics; High-tech modernism[c], focusing on visible structural elements and technological expression; Parametricism[d], with its algorithm-based complex forms; and Pragmatic utopianism[e], blending idealistic designs with practical applications (\textit{Images edited from source})}
+                                \label{fig:contemporarytimeline}
+                    \end{minipage}
+                \end{tabular}
             \end{table*}
 
 \section{Literature review}
@@ -265,49 +278,49 @@ Data-driven design\sep Complex Facades \sep Mixed Reality Assessment \sep Archit
             %! Function for complexity score
             %%Table function 1 complexity score
             \begin{table*}[htb]
-            \centering
-            \caption{Function 1: Complexity scoring function that integrates various criteria to assess intricacy of a building facade.}
-            \label{tab:ComplexityScoreFunction_table}
-                \begin{tabular}{|c c|}%{|c|c|}
-                \hline
-                % First Cell (Top-Left)
-                % f1: Valid Position finder function
-                    \begin{minipage}{.49\linewidth}
-                        \centering
-                        \small
-                        \begin{tabular}{p{8cm}}
-                            \\
-                            \textbf{\(f_1\), Unified `Complexity Scoring' function 1}\\
-                                \textit{Calculate the complexity score for all the images on the data pool}
+                \centering
+                \caption{Function 1: Complexity scoring function that integrates various criteria to assess intricacy of a building facade.}
+                \label{tab:ComplexityScoreFunction_table}
+                    \begin{tabular}{|c c|}%{|c|c|}
+                    \hline
+                    % First Cell (Top-Left)
+                    % f1: Valid Position finder function
+                        \begin{minipage}{.49\linewidth}
+                            \centering
+                            \small
+                            \begin{tabular}{p{8cm}}
                                 \\
-                                \begin{equation}
-                                    f_1(x) = \left[ \mathrm{round}\left(\sum_{i=1}^{n} w_i \cdot a_i, 2\right) \right] = complexity\_score
-                                \label{eq:F1_ComplexityScoreFunction}
-                                \end{equation}
+                                \textbf{\(f_1\), Unified `Complexity Scoring' function 1}\\
+                                    \textit{Calculate the complexity score for all the images on the data pool}
+                                    \\
+                                    \begin{equation}
+                                        f_1(x) = \left[ \mathrm{round}\left(\sum_{i=1}^{n} w_i \cdot a_i, 2\right) \right] = complexity\_score
+                                    \label{eq:F1_ComplexityScoreFunction}
+                                    \end{equation}
+                                    \\
+                                    \textit{ for the Buildings included in the database.}\\
                                 \\
-                                \textit{ for the Buildings included in the database.}\\
-                            \\
-                        \end{tabular}
-                    \end{minipage}
-                    &
-                    % Second Cell (Top-Right)
-                    % continuation f1
-                    \begin{minipage}{.49\linewidth}
-                        \centering
-                        \small
-                        \begin{tabular}{p{8cm}}
-                            \\\\
-                            \textit{where;} \\
-                            \(n \); is the number of performance indicators \\
-                            \(w_i \); represents the i-th elements weight input and \\
-                            \(a_i \); represents the i-th normalized score for the respective metric(`Edge Density' and `Contour Count').\\
-                            \\
-                            \textit{Finally, the `Complexity score' is assigned to each building for data visualization.}\\
-                            \\
-                        \end{tabular}
-                    \end{minipage}
-                \end{tabular}
-                \hline
+                            \end{tabular}
+                        \end{minipage}
+                        &
+                        % Second Cell (Top-Right)
+                        % continuation f1
+                        \begin{minipage}{.49\linewidth}
+                            \centering
+                            \small
+                            \begin{tabular}{p{8cm}}
+                                \\\\
+                                \textit{where;} \\
+                                \(n \); is the number of performance indicators \\
+                                \(w_i \); represents the i-th elements weight input and \\
+                                \(a_i \); represents the i-th normalized score for the respective metric(`Edge Density' and `Contour Count').\\
+                                \\
+                                \textit{Finally, the `Complexity score' is assigned to each building for data visualization.}\\
+                                \\
+                            \end{tabular}
+                        \end{minipage}
+                    \end{tabular}
+                    \hline
             \end{table*}
 
             %% Figure of Complexity graph
@@ -485,13 +498,13 @@ Data-driven design\sep Complex Facades \sep Mixed Reality Assessment \sep Archit
                 \end{table*}
 
             % Bar Chart of Chosen facade variation for all sessions of the experiment
-            \begin{figure}[htb]
+            \begin{figure*}[htb]
                 \centering
                 %trim=100 180 100 120, clip
-                \includegraphics[width=\linewidth]{Images/ComplexityLevelChosenChart}
+                \includegraphics[width=.5\linewidth]{Images/ComplexityLevelChosenChart}
                 \caption{Chart displaying participants' preferred complexity levels among the ten options during the VR simulation stage of the experiment for all three patterns.(Complexity Score: Mean = 3.82; SD = 1.1)}
                 \label{fig:ComplexityLevelChosenChart}
-            \end{figure}
+            \end{figure*}
 
             % Probability Chart and Complexity level per Pattern
             \begin{table*}[htb]
@@ -550,7 +563,6 @@ Data-driven design\sep Complex Facades \sep Mixed Reality Assessment \sep Archit
 %% Results should be clear and concise.
 \input{text/ResultsIntro}
 
-
     \subsection{Computational Image complexity Analysis (CICA) system results across architectural styles}
     \label{subsec:ResultsComplexityImageAnalysishistory}
     \input{Text/ResultsImageComplexityAnalysisHistory}
@@ -567,6 +579,11 @@ Data-driven design\sep Complex Facades \sep Mixed Reality Assessment \sep Archit
     %\subsection{Future Trends and speculations}
     %\label{subsec:Futuretrends}
     %\input{text/FutureTrendsTheory}
+
+    \subsection{Future work}
+    \label{subsec:Future_work}
+    %%Highlight potential avenues for further research and development.
+    \input{Text/FutureWorks}
 
 \section{Conclusions}
 \label{sec:Conclusion}
