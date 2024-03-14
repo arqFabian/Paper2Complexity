@@ -4,36 +4,116 @@
 
 %!fORMAT IMAGE FULL PAGE
 
+%% Complexity Perception Survey results
+\begin{table*}[htb]
+    \centering
+    \small
+    \begin{tabularx}{\textwidth}{X X}
+        \centering
+        \includegraphics[width=\linewidth]{Images/SurveyPart1Complexity}
+        \captionof{figure}{Questions 6 to 10 of the Complexity perception section from the Post-Experiment Survey. \- (n = 10), 1 - strongly disagree, 7 - strongly agree}
+        \label{fig:SurveyQuestions6-10} &
+        \centering
+        \includegraphics[width=\linewidth]{Images/SurveyPart2Complexity}
+        \captionof{figure}{Questions 11 to 15 of the Complexity perception section from the Post-Experiment Survey. \- (n = 10), 1 - strongly disagree, 7 - strongly agree}
+        \label{fig:SurveyQuestions11-15}
+    \end{tabularx}
+\end{table*}
+
+
+%% Complexity Perception Accuracy Graphs
+\begin{table*}[htb]
+    \centering
+    \small
+    \begin{tabularx}{\textwidth}{X X X}
+        \centering
+        \includegraphics[width=\linewidth]{Images/AccuracyPattern1}
+        \captionof{figure}{Accuracy comparison pattern 1 with original ranking}
+        \label{fig:AccuracyPattern1} &
+        \centering
+        \includegraphics[width=\linewidth]{Images/AccuracyPattern2}
+        \captionof{figure}{Accuracy comparison pattern 2 with original ranking}
+        \label{fig:AccuracyPattern2} &
+        \centering
+        \includegraphics[width=\linewidth]{Images/AccuracyPattern3}
+        \captionof{figure}{Accuracy comparison pattern 3 with original ranking}
+        \label{fig:AccuracyPattern3}
+    \end{tabularx}
+\end{table*}
+
+%% Participant background chart and years of experience
+\begin{table*}[htb]
+        \centering
+        \small
+        \begin{tabularx}{\textwidth}{X X}
+            \centering
+            % trim=left 0 down 50 right 0 top 50
+            \includegraphics[width=\linewidth, trim=0 60 0 0]{Images/SurveyBackground}
+            \captionof{figure}{This chart shows the professional backgrounds of participants involved in the facade design complexity analysis experiment.}
+            \label{fig:SurveyBackgroundChart} &
+            \centering
+            \includegraphics[width=\linewidth, trim=0 60 0 0]{Images/SurveyExperience}
+            \captionof{figure}{This chart displays the experience levels in facade design of participants for the study complexity analysis in building design.}
+            \label{fig:SurveyYearsExperienceChart}
+        \end{tabularx}
+    \end{table*}
+
+% Bar Chart of Chosen facade variation for all sessions of the experiment
+\begin{figure*}[htb]
+    \centering
+    %trim=100 180 100 120, clip
+    \includegraphics[width=\linewidth]{Images/ComplexityLevelChosenChart}
+    \caption{Chart displaying participants' preferred complexity levels among the ten options during the VR simulation stage of the experiment for all three patterns.(CICA Score: Mean = 3.82; SD = 1.1)}
+    \label{fig:ComplexityLevelChosenChart}
+\end{figure*}
+
+% Probability Chart and Complexity level per Pattern
+\begin{table*}[htb]
+    \centering
+    \small
+    \begin{tabularx}{\textwidth}{X X}
+        \centering
+        \includegraphics[width=\linewidth]{Images/ProbabilityPreferredComplexitylevel}
+        \captionof{figure}{Scatter graph illustrating the probability distribution of preferred CICA score for facade design across all three patterns, derived from data collected during the VR stage of the experiment.(Probability CICA score: \(Mean = 3.82, 40\%\ ; SD = 13\%\))}
+        \label{fig:ProbabilityComplexitylevelChart}
+        &
+        \centering
+        \includegraphics[width=\linewidth]{Images/PreferredComplexityLevelPerPattern}
+        \captionof{figure}{Average CICA score of preferred facade variation per pattern chosen by participants during the VR stage of the experiment. (Facade variation: \(Mean = 3.9\). CICA score: \(Mean = 3.82; SD = 1.1\)).}
+        \label{fig:ComplexityLevelPerPattern}
+    \end{tabularx}
+\end{table*}
+
 %f1: Complexity scoring function
-            \begin{table}[htb]
-                \caption{Function 1: Complexity scoring function that integrates various criteria to assess intricacy of a building facade.}
-                \label{tab:ComplexityScoreFunction_table}
-                \centering
-                \small
-                \begin{tabular}{|p{8cm}|}
-                \hline
-                    \textbf{\(f_1\), Unified `Complexity Scoring' function 1}\\
-                    \textit{Calculate the complexity score for all the images on the data pool}
-                    \\
-                    \begin{equation}
-                        f_1(x) = \left[ \mathrm{round}\left(\sum_{i=1}^{n} w_i \cdot a_i, 2\right) \right] = complexity\_score
-                    \label{eq:F1_ComplexityScoreFunction}
-                    \end{equation}
+\begin{table}[htb]
+    \caption{Function 1: Complexity scoring function that integrates various criteria to assess intricacy of a building facade.}
+    \label{tab:ComplexityScoreFunction_table}
+    \centering
+    \small
+    \begin{tabular}{|p{8cm}|}
+    \hline
+        \textbf{\(f_1\), Unified `Complexity Scoring' function 1}\\
+        \textit{Calculate the complexity score for all the images on the data pool}
+        \\
+        \begin{equation}
+            f_1(x) = \left[ \mathrm{round}\left(\sum_{i=1}^{n} w_i \cdot a_i, 2\right) \right] = complexity\_score
+        \label{eq:F1_ComplexityScoreFunction}
+        \end{equation}
 
-                    \\
-                    \textit{ for the Buildings included in the database.}\\
-                    \\
-                    \textit{where;} \\
-                    \\
-                    \(n \); is the number of performance indicators \\
-                    \(w_i \); represents the i-th elements weight input and \\
-                    \(a_i \); represents the i-th normalized score for the respective metric(`Edge Density' and `Contour Count').\\
-                    \\
+        \\
+        \textit{ for the Buildings included in the database.}\\
+        \\
+        \textit{where;} \\
+        \\
+        \(n \); is the number of performance indicators \\
+        \(w_i \); represents the i-th elements weight input and \\
+        \(a_i \); represents the i-th normalized score for the respective metric(`Edge Density' and `Contour Count').\\
+        \\
 
-                    \textit{Finally, the `Complexity score' is assigned to each building for data visualization.}\\
-                \hline
-                \end{tabular}
-            \end{table}
+        \textit{Finally, the `Complexity score' is assigned to each building for data visualization.}\\
+    \hline
+    \end{tabular}
+\end{table}
 
 
 %% Figure of Real building next to 3D modeled building

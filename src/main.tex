@@ -204,7 +204,7 @@ Data-driven design\sep Complex Facades \sep Mixed Reality Assessment \sep Archit
 
             %!%Figures and table CICA
             %Flowchart CICA, Figure of Cica on historical buildings and renders, PI table. Table 1x3
-            \begin{table*}[h!tb]
+            \begin{table*}[!htb]
                 \centering
                 \small
                 \begin{tabular}{c}
@@ -324,14 +324,14 @@ Data-driven design\sep Complex Facades \sep Mixed Reality Assessment \sep Archit
             \end{table*}
 
             %% Figure of Complexity graph
-            \begin{figure*}[!htb]
+            \begin{figure*}[htb]
                   \centering
                   \includegraphics[width= \linewidth]{Graphs/complexitygraphrender}
                   \caption{Scatter Graph Analysis of 3d modeled Facade Complexity: This graph presents the CICA scores for ten variations of three distinct patterns created in Blender, with a trendline indicating the range of complexity levels among the facade designs, illustrating the nuanced relationship between design intricacy and CICA scores.}
                   \label{fig:complexitygraphRender}
             \end{figure*}
 
-            %!%!%Figures of 3D modeling and VR interior vs Exterior
+            %!Figures of 3D modeling and VR interior vs Exterior
             %Figures "3d model vs real building" and "Interior vs Exterior"
             \begin{table*}[htb]
                 \centering
@@ -445,6 +445,8 @@ Data-driven design\sep Complex Facades \sep Mixed Reality Assessment \sep Archit
                 \end{tabular}
             \end{table*}
 
+
+
         \subsubsection{Computational Image Complexity Analysis (CICA) system for facade variations}
         \label{subsubsec:CICAforFacades}
         %% description of CICA applicationnn forfacade variation modeled in blender for use in the experiment
@@ -465,108 +467,140 @@ Data-driven design\sep Complex Facades \sep Mixed Reality Assessment \sep Archit
         \input{Text/MethodVR_Integration}
 
 
+
     \subsection{Experiment design}
     \label{subsec:Experiment_design}
     %%Task description, stage 1 to 3 with survey
     \input{Text/ExperimentDesign}
 
-            %!Figure of Results for CICA in History Arch Style
-            %facade Complexity analysis graph by year and architectural style
-            \begin{figure*}[htb]
-                  \centering
-                  \includegraphics[width= \linewidth]{Graphs/complexitygraph}
-                  \caption{Scatter graph showcasing quantitative image complexity analysis scores for building images categorized by historical timeline and architectural style, with an overlaid trendline highlighting the evolving trend towards increased complexity.}
-                  \label{fig:HistoricalComplexityGraph}
-            \end{figure*}
+    %!Figure of Results for CICA in History Arch Style
+    %facade Complexity analysis graph by year and architectural style
+    \begin{figure*}[htb]
+          \centering
+          \includegraphics[width= \linewidth]{Graphs/complexitygraph}
+          \caption{Scatter graph showcasing quantitative image complexity analysis scores for building images categorized by historical timeline and architectural style, with an overlaid trendline highlighting the evolving trend towards increased complexity.}
+          \label{fig:HistoricalComplexityGraph}
+    \end{figure*}
 
-            %!Figures of experiment results
-            %% Participant background chart and years of experience
-            \begin{table*}[htb]
-                    \centering
-                    \small
-                    \begin{tabularx}{\textwidth}{X X}
-                        \centering
-                        % trim=left 0 down 50 right 0 top 50
-                        \includegraphics[width=\linewidth, trim=0 60 0 0]{Images/SurveyBackground}
-                        \captionof{figure}{This chart shows the professional backgrounds of participants involved in the facade design complexity analysis experiment.}
-                        \label{fig:SurveyBackgroundChart} &
-                        \centering
-                        \includegraphics[width=\linewidth, trim=0 60 0 0]{Images/SurveyExperience}
-                        \captionof{figure}{This chart displays the experience levels in facade design of participants for the study complexity analysis in building design.}
-                        \label{fig:SurveyYearsExperienceChart}
-                    \end{tabularx}
-                \end{table*}
 
-            % Bar Chart of Chosen facade variation for all sessions of the experiment
-            \begin{figure*}[htb]
-                \centering
-                %trim=100 180 100 120, clip
-                \includegraphics[width=\linewidth]{Images/ComplexityLevelChosenChart}
-                \caption{Chart displaying participants' preferred complexity levels among the ten options during the VR simulation stage of the experiment for all three patterns.(CICA Score: Mean = 3.82; SD = 1.1)}
-                \label{fig:ComplexityLevelChosenChart}
-            \end{figure*}
 
-            % Probability Chart and Complexity level per Pattern
-            \begin{table*}[htb]
-                \centering
-                \small
-                \begin{tabularx}{\textwidth}{X X}
-                    \centering
-                    \includegraphics[width=\linewidth]{Images/ProbabilityPreferredComplexitylevel}
-                    \captionof{figure}{Scatter graph illustrating the probability distribution of preferred CICA score for facade design across all three patterns, derived from data collected during the VR stage of the experiment.(Probability CICA score: \(Mean = 3.82, 40\%\ ; SD = 13\%\))}
-                    \label{fig:ProbabilityComplexitylevelChart}
-                    &
-                    \centering
-                    \includegraphics[width=\linewidth]{Images/PreferredComplexityLevelPerPattern}
-                    \captionof{figure}{Average CICA score of preferred facade variation per pattern chosen by participants during the VR stage of the experiment. (Facade variation: \(Mean = 3.9\). CICA score: \(Mean = 3.82; SD = 1.1\)).}
-                    \label{fig:ComplexityLevelPerPattern}
-                \end{tabularx}
-            \end{table*}
 
-            %% Complexity Perception Accuracy Graphs
-            \begin{table*}[htb]
-                \centering
-                \small
-                \begin{tabularx}{\textwidth}{X X X}
-                    \centering
-                    \includegraphics[width=\linewidth]{Images/AccuracyPattern1}
-                    \captionof{figure}{Accuracy comparison pattern 1 with original ranking}
-                    \label{fig:AccuracyPattern1} &
-                    \centering
-                    \includegraphics[width=\linewidth]{Images/AccuracyPattern2}
-                    \captionof{figure}{Accuracy comparison pattern 2 with original ranking}
-                    \label{fig:AccuracyPattern2} &
-                    \centering
-                    \includegraphics[width=\linewidth]{Images/AccuracyPattern3}
-                    \captionof{figure}{Accuracy comparison pattern 3 with original ranking}
-                    \label{fig:AccuracyPattern3}
-                \end{tabularx}
-            \end{table*}
-
-            %% Complexity Perception Survey results
-            \begin{table*}[htb]
-                \centering
-                \small
-                \begin{tabularx}{\textwidth}{X X}
-                    \centering
-                    \includegraphics[width=\linewidth]{Images/SurveyPart1Complexity}
-                    \captionof{figure}{Questions 6 to 10 of the Complexity perception section from the Post-Experiment Survey. \- (n = 10), 1 - strongly disagree, 7 - strongly agree}
-                    \label{fig:SurveyQuestions6-10} &
-                    \centering
-                    \includegraphics[width=\linewidth]{Images/SurveyPart2Complexity}
-                    \captionof{figure}{Questions 6 to 10 of the Complexity perception section from the Post-Experiment Survey. \- (n = 10), 1 - strongly disagree, 7 - strongly agree}
-                    \label{fig:SurveyQuestions11-15}
-                \end{tabularx}
-            \end{table*}
 
 \section{Results}
 \label{sec:Results}
 %% Results should be clear and concise.
 \input{text/ResultsIntro}
 
+    %!Figures of experiment results 1
+    %Table 2x3 Results part 1
+    %Participant background chart, years of experience, Bar Chart of Chosen facade variation, Probability Chart and Complexity level per Pattern
+    \begin{table*}[!htb]
+        \centering
+        \small
+        \begin{tabular}{c}
+            %Top cell with two nested figures side by side
+            %Participants background and Years of experience
+            \begin{minipage}{\textwidth}
+                \centering
+                % Left figure
+                %Participants background
+                \begin{minipage}{0.45\textwidth}
+                    \includegraphics[width=\linewidth, trim=0 60 0 0]{Images/SurveyBackground}
+                    \captionof{figure}{This chart shows the professional backgrounds of participants involved in the facade design complexity analysis experiment.}
+                    \label{fig:SurveyBackgroundChart}
+                \end{minipage}
+                \hfill % Spacing between the figures
+                % Right figure
+                \begin{minipage}{0.45\textwidth}
+                    \includegraphics[width=\linewidth, trim=0 60 0 0]{Images/SurveyExperience}
+                    \captionof{figure}{This chart displays the experience levels in facade design of participants for the study complexity analysis in building design.}
+                    \label{fig:SurveyYearsExperienceChart}
+                \end{minipage}
+            \end{minipage}
+            \\
+            %Middle cell with one figure
+            %Facade chosen and CICA score chart per participant
+            \begin{minipage}{\textwidth}
+                \centering
+                \includegraphics[width=\linewidth]{Images/ComplexityLevelChosenChart}
+                \captionof{figure}{Chart displaying participants' preferred complexity levels among the ten options during the VR simulation stage of the experiment for all three patterns.(CICA Score: Mean = 3.82; SD = 1.1)}
+                \label{fig:ComplexityLevelChosenChart}
+            \end{minipage}
+            \\
+            %Bottom cell with two nested figures side by side
+            %Probability Chart and Complexity level per Pattern
+            \begin{minipage}{\textwidth}
+                \centering
+                % Left figure
+                % Probability Chart
+                \begin{minipage}{0.49\textwidth}
+                    \includegraphics[width=\linewidth]{Images/ProbabilityPreferredComplexitylevel}
+                    \captionof{figure}{Scatter graph illustrating the probability distribution of preferred CICA score for facade design across all three patterns, derived from data collected during the VR stage of the experiment.(Probability CICA score: \(Mean = 3.82, 40\%\ ; SD = 13\%\))}
+                    \label{fig:ProbabilityComplexitylevelChart}
+                \end{minipage}
+                \hfill % Spacing between the figures
+                % Right figure
+                % Complexity level per Pattern
+                \begin{minipage}{0.49\textwidth}
+                    \includegraphics[width=\linewidth]{Images/PreferredComplexityLevelPerPattern}
+                    \captionof{figure}{Average CICA score of preferred facade variation per pattern chosen by participants during the VR stage of the experiment. (Facade variation: \(Mean = 3.9\). CICA score: \(Mean = 3.82; SD = 1.1\)).}
+                    \label{fig:ComplexityLevelPerPattern}
+                \end{minipage}
+            \end{minipage}
+        \end{tabular}
+    \end{table*}
+
+
+
     \subsection{Computational Image complexity Analysis (CICA) system results across architectural styles}
     \label{subsec:ResultsComplexityImageAnalysishistory}
     \input{Text/ResultsImageComplexityAnalysisHistory}
+
+    %!Figures of experiment results 2
+    %Table 1x2
+    % Accuracy graphs of complexity ranking per pattern
+    \begin{table*}[htb]
+        \centering
+        \small
+        \begin{tabular}{c}
+            %Top cell with one figure
+            %Accuracy graphs of complexity ranking per pattern as a single image
+            \begin{minipage}{\textwidth}
+                \centering
+                \includegraphics[width=\linewidth]{Images/AccuracyPatternMaster}
+                \captionof{figure}{Comparative Analysis of Perceived Complexity vs. CICA Complexity Scores per Pattern: This line graph series illustrates the difference between participants' perceived complexity rankings and the objective CICA scores for facade variations within three distinct patterns. The graphs are presented from left to right: Pattern 1 (a), Pattern 2 (b), and Pattern 3 (c). The ranking line shows the complexity assessment from least (1) to most complex (10),highlighting the contrast between human perception and computational analysis in evaluating architectural complexity.}
+                \label{fig:AccuracyPatternMaster}
+            \end{minipage}
+        \end{tabular}
+    \end{table*}
+
+    % Survey question graph
+    \begin{table*}[htb]
+        \centering
+        \small
+        \begin{tabular}{c}
+            %Top cell with figures side by side
+            %Survey question graphs
+            \begin{minipage}{\textwidth}
+                \centering
+                % Left figure
+                % Survey question 6 to 10
+                \begin{minipage}{0.49\textwidth}
+                    \includegraphics[width=\linewidth]{Images/SurveyPart1Complexity}
+                    \captionof{figure}{Questions 6 to 10 of the Complexity perception section from the Post-Experiment Survey. \- (n = 10), 1 - strongly disagree, 7 - strongly agree}
+                    \label{fig:SurveyQuestions6-10}
+                \end{minipage}
+                \hfill % Spacing between the figures
+                % Right figure
+                % Survey question 11 to 15
+                \begin{minipage}{0.49\textwidth}
+                    \includegraphics[width=\linewidth]{Images/SurveyPart2Complexity}
+                    \captionof{figure}{Questions 11 to 15 of the Complexity perception section from the Post-Experiment Survey. \- (n = 10), 1 - strongly disagree, 7 - strongly agree}
+                    \label{fig:SurveyQuestions11-15}
+                \end{minipage}
+            \end{minipage}
+        \end{tabular}
+    \end{table*}
 
     \subsection{Results of experiment on users response to complex facades}
     \label{subsec:ResultsExperiment}
