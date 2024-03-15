@@ -4,6 +4,128 @@
 
 %!fORMAT IMAGE FULL PAGE
 
+%! Function for complexity score
+%%Table function 1 complexity score
+\begin{table*}[htb]
+    \centering
+    \caption{Function 1: Complexity scoring function that integrates various criteria to assess intricacy of a building facade.}
+    \label{tab:ComplexityScoreFunction_table}
+        \begin{tabular}{|c c|}%{|c|c|}
+        \hline
+        % First Cell (Top-Left)
+        % f1: Valid Position finder function
+        \begin{minipage}{.49\linewidth}
+            \centering
+            \small
+            \begin{tabular}{p{8cm}}
+                \\
+                \textbf{\(f_1\), Unified `Complexity Scoring' function 1}\\
+                    \textit{Calculate the complexity score for all the images on the data pool}
+                    \\
+                    \begin{equation}
+                        f_1(x) = \left[ \mathrm{round}\left(\sum_{i=1}^{n} w_i \cdot a_i, 2\right) \right] = complexity\_score
+                    \label{eq:F1_ComplexityScoreFunction}
+                    \end{equation}
+                    \\
+                    \textit{ for the Buildings included in the database.}\\
+                \\
+            \end{tabular}
+        \end{minipage}
+        &
+        % Second Cell (Top-Right)
+        % continuation f1
+        \begin{minipage}{.49\linewidth}
+            \centering
+            \small
+            \begin{tabular}{p{8cm}}
+                \\\\
+                \textit{where;} \\
+                \(n \); is the number of performance indicators \\
+                \(w_i \); represents the i-th elements weight input and \\
+                \(a_i \); represents the i-th normalized score for the respective metric(`Edge Density' and `Contour Count').\\
+                \\
+                \textit{Finally, the `Complexity score' is assigned to each building for data visualization.}\\
+
+            \end{tabular}
+        \end{minipage}\\
+        \hline
+        \end{tabular}
+\end{table*}
+
+
+%!%Figures and table CICA
+%Flowchart CICA, Figure of Cica on historical buildings and renders, PI table. Table 1x3
+\begin{table*}[!htb]
+    \centering
+    \small
+    \begin{tabular}{c}
+        %Top cell with one figure
+        %Figure Computational Image Compexity Analysis (CICA) System flowchart
+        \begin{minipage}{\textwidth}
+            \centering
+            \includegraphics[width= \linewidth]{Images/ImageComplexityAnalysisFlowchart}
+            \captionof{figure}{Flowchart illustrating the applications of Computational Image Complexity Analysis system (CICA)(detailed in Section\ref{subsec:Computational Image Complexity analysis}), including its role in analyzing complexity scores for historical architectural styles and ranking of 3D modeled facades design with various degrees of complexity(presented in Section\ref{subsubsec:CICAforFacades}).}
+            \label{fig:ImageComplexityAnalysisFlowchart}
+        \end{minipage}
+        \\
+        \\
+        %Middle cell with two nested figures side by side
+        %%%Figure CICA on historic buildings and renders. Table 1x2
+        \begin{minipage}{\textwidth}
+            \centering
+            % Left figure
+            \begin{minipage}{0.49\textwidth}
+                \includegraphics[width= \linewidth]{Images/CICAHistoryPlot}
+                \captionof{figure}{CICA evaluation on historical Buildings: Illustration showcasing steps from original imagery to Image process, Edge Detection and Contour Count analysis. This process underpins the complexity assessment of facades, highlighting the analytical depth of CICA in quantifying architectural intricacies.}
+                \label{fig:CICAHistoryPlot}
+            \end{minipage}
+            \hfill % Spacing between the figures
+            % Right figure
+            \begin{minipage}{0.49\textwidth}
+                \includegraphics[width= \linewidth]{Images/CICARenderPlot}
+                \captionof{figure}{CICA Evaluation on 3D-Modeled Facades: detailing the transition from initial models, image processing to Edge Detection and Contour Count stages. It encapsulates the facade complexity analysis, emphasizing CICA's adaptability to both historical and contemporary architectural evaluations.}
+                \label{fig:CICARenderPlot}
+            \end{minipage}
+        \end{minipage}
+        \\
+        \\
+        %Bottom cell
+        %Table: Performance Indicators
+        \begin{minipage}{\textwidth}
+            \centering
+            \captionof{table}{Table of Metrics and Weights for Complexity Scoring: Outlines the key criteria and corresponding weights utilized in the Computational Image Complexity Analysis (CICA) to determine the `Complexity Score' of architectural facades, detailing the systematic approach to quantifying facade intricacy through edge density and contour count metrics.}
+            \label{tab:MetricsandWeights}
+            \begin{tabularx}{\textwidth}{p{3.5cm} p{1cm} X X p{1cm}}
+                \toprule
+                \textit{Complexity metric} &
+                  \textit{N} &
+                  \textit{Metric name/description} &
+                  \textit{Quantitative   method} &
+                  \textit{Weights} \\ \midrule
+                \textbf{Edge Density} &
+                  1 &
+                  Edge detection using Canny Edge Detection algorithm for highlighting the most relevant features of a building.
+                    &
+                  Measured by dividing the number of non-zero (edge) pixels in the edges image by the total number of pixels in the image.
+                    &
+                  8\\
+                \textbf{Contour count} &
+                  2 &
+                  Employs contour approximation algorithm for shape analysis to determine intricacy of edges.
+                    &
+                  Measure by counting the number of segments in an edge.
+                    &
+                  2\\ \bottomrule
+                   &
+                   &
+                  \textbf{TOTAL} &
+                  &
+                  \textbf{10}\\ \bottomrule
+            \end{tabularx}
+        \end{minipage}
+    \end{tabular}
+\end{table*}
+
 %% Complexity Perception Survey results
 \begin{table*}[htb]
     \centering

@@ -11,7 +11,7 @@ The Computational Image Complexity  Analysis (CICA) system is a Python function 
 The higher the count of elements, the higher the assigned complexity score, and vice versa.
 This approach draws inspiration from Venturi et al.'s reflection on complexity, as articulated in their work\cite{Venturi1977}.
 They posited that a building's complexity could be gauged by the time it takes to mentally process and form a coherent image of its constituent elements.
-This fundamental concept underpins the CICA system's methodology(Figure\ref{fig:ImageComplexityAnalysisFlowchart}).
+This fundamental concept underpins the CICA system's methodology(Figure\ref{fig:CICAImageEvaluationFlowchart}).
 
 
 The CICA system evaluates complexity through two metrics: edge density, using the Canny Edge Detection algorithm\cite{EdgeOpenCV2023}, and contour count, based on contour approximation\cite{ContourOpenCV2023}.
@@ -24,10 +24,10 @@ While edge density emphasizes the presence and density of edges, contour count d
 The combination of these metrics provides a more comprehensive and nuanced assessment of architectural complexity, making them valuable tools in our analysis.
 Having outlined the development and purpose of the Computational Image Complexity Analysis (CICA) system, we will now delve into its application.
 
-The CICA system's first application is the historical analysis of 180 buildings from various architectural eras (Figure \ref{fig:CICAHistoryPlot}), resulting in a scatter graph demonstrating complexity trends over time.
+The CICA system's first application is the historical analysis of 180 buildings from various architectural eras (Table\ref{tab:CICAPlotMaster}(b)), resulting in a scatter graph demonstrating complexity trends over time.
 
-The second application involves ranking 3D-modeled facades for the VR experiment.
-Using Blender, we modeled facades with varying complexity, categorized into ten levels based on CICA scores (Figure\ref{fig:CICARenderPlot}).
+The second application involves ranking 3D-modeled facades for the VR experiment(Table\ref{tab:CICAPlotMaster}(a)).
+Using Blender, we modeled facades with varying complexity, categorized into ten levels based on CICA scores(Table\ref{tab:PatternsVariationsPart0}).
 Through CICA, we aim to empirically validate architectural complexity trends and effectively prepare for the VR experiment that assesses user perceptions of facade complexity.
 This dual application of the CICA system allows us to quantitatively explore architectural complexity, aligning with our theoretical analysis and providing a basis for further experimentation in VR
 
