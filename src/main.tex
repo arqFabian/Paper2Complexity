@@ -292,12 +292,10 @@ Data-driven design\sep Complex Facades \sep Mixed Reality Assessment \sep Archit
     %! Function for complexity score
     %%Table function 1 complexity score
     \begin{table*}[htb]
-    \centering
-    \caption{Function 1: Complexity scoring function that integrates various criteria to assess the intricacy of a building facade.}
-    \label{tab:ComplexityScoreFunction}
-    \begin{tabular}{|c c|}
-        \hline
-        \begin{minipage}{0.48\linewidth}
+        \caption{Function 1: Complexity scoring function that integrates various criteria to assess the intricacy of a building facade.}
+        \label{tab:ComplexityScoreFunction}
+        \begin{tabular}{|p{\linewidth}|}
+            \hline
             \small
             \vspace{0.5em}
             \textbf{\(f_1\): Unified Complexity Scoring Function}\\
@@ -308,22 +306,16 @@ Data-driven design\sep Complex Facades \sep Mixed Reality Assessment \sep Archit
             \end{equation}
             \textit{for the buildings included in the database.}
             \vspace{0.5em}
-        \end{minipage}
-        &
-        \begin{minipage}{0.48\linewidth}
-            \small
-            \vspace{0.5em}
+
             \textit{where:}\\
             \(n\): number of performance indicators\\
             \(w_i\): weight of the \(i\)-th element\\
             \(a_i\): normalized score for the \(i\)-th metric (e.g., "Edge Density" and "Contour Count")\\
             \textit{Finally, the "Complexity Score" is assigned to each building for data visualization.}
-            \vspace{0.5em}
-        \end{minipage}\\
-        \hline
-    \end{tabular}
+            \vspace{0.5em}\\
+            \hline
+        \end{tabular}
     \end{table*}
-
 
     %% Figure of Complexity graph
     \begin{figure*}[htb]
@@ -605,6 +597,8 @@ Data-driven design\sep Complex Facades \sep Mixed Reality Assessment \sep Archit
     \subsection{Results of experiment on users response to complex facades}
     \label{subsec:ResultsExperiment}
     \input{text/ResultsExperiment}
+
+
 
 \section{Discussion}
 \label{sec:Discussion}
