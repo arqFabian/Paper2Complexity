@@ -13,11 +13,15 @@ This approach draws inspiration from Venturi et al.'s reflection on complexity, 
 They posited that a building's complexity could be gauged by the time it takes to mentally process and form a coherent image of its constituent elements.
 This fundamental concept underpins the CICA system's methodology(Figure\ref{fig:CICAImageEvaluationFlowchart}).
 
-
 The CICA system evaluates complexity through two metrics: edge density, using the Canny Edge Detection algorithm\cite{EdgeOpenCV2023}, and contour count, based on contour approximation\cite{ContourOpenCV2023}.
 These metrics are normalized and combined into a unified complexity score (Table\ref{tab:MetricsandWeights}).
 
-The complexity scoring function \(f_1(x)\) is a crucial part of our CICA system, where the weighted sum of the normalized scores for each metric is calculated, providing an overall complexity score for each building image (Table\ref{tab:ComplexityScoreFunction_table}).
+The complexity scoring function \(f_1(x)\), as defined in Equation\ref{eq:F1_ComplexityScoreFunction} and detailed in Table\ref{tab:ComplexityScoreFunction}, is a fundamental component of our CICA system.
+The function is expressed as:
+
+\(\mathbf{f_1(x) = \mathrm{round}\left(\sum_{i=1}^{n} w_i \cdot a_i, 2\right)}\),
+where \(w_i\) represents the weight and \(a_i\) represents the normalized score for each metric.
+This weighted sum yields the overall complexity score for each building image, as summarized in Table\ref{tab:ComplexityScoreFunction}.
 
 In summary, the CICA system leverages two key metrics, edge density and contour count, to quantify the complexity of building facades.
 While edge density emphasizes the presence and density of edges, contour count delves into the intricacies of the shapes represented by these edges.
