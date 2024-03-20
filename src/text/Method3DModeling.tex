@@ -6,23 +6,20 @@
 
 %!Concise
 
-In our VR simulation research, achieving realistic 3D modeling is crucial to replicate an authentic experience, particularly when assessing user responses to facade complexity.
-Utilizing Blender (v3.6), our 3D modeling module meticulously creates a virtual replica of the Architectural Environment Research Building at Kyushu University, encompassing both exterior and interior details (Figure\ref{fig:RealVs3dModel}).
+Achieving realistic 3D modeling is crucial for this study to replicate an authentic experience in VR, especially when assessing user responses to facade complexity.
+Using Blender (v3.6), our 3D modeling components creates a virtual replica of the Architectural Environment Research Building at Kyushu University, chosen as the experiment's set.
+This replica encompasses both exterior and interior details, as shown in Figure \ref{fig:RealVs3dModel}.
 
+This component generates ten facade variations across three different patterns, positioned over the building's large windows for maximum visual impact (Figure \ref{fig:VRInteriorExterior}). These 3 sets of variations, one for each pattern, are created systematically, with each level introducing greater complexity.
+The progression of complexity levels is illustrated in Table \ref{tab:PatternsVariationsPart0} and fully detailed in \ref{sec:AnnexVariations}.
+The operations for generating complexity, from base patterns in facade design, range from simple subdivision at the initial levels to more advanced modifications such as rotations, bends, and decimations at higher levels.
 
+Each variation is rendered and labeled for use in the CICA complexity analysis.
+This ensures control over the variability of complexity across the variations, using the CICA complexity score as a reference to guarantee diversity in the data pool of facades for the VR experiment.
+This diversity is evidenced in the scatter graph of facade complexity analysis per pattern in Figure \ref{fig:CICAscatterGraphRender}.
 
-This module generates ten facade variations for each of three base patterns, focusing on areas with large windows for maximum visual impact.
-These variations are created through a systematic process, with each level introducing greater complexity (Table\ref{tab:PatternsVariationsPart0}).
-
-
-
-The progression of complexity levels, detailed in \ref{sec:AnnexVariations}, is illustrated in Table\ref{tab:PatternsVariationsPart0}.
-It ranges from simple subdivision in initial levels to more advanced modifications such as rotations, bends, and decimations at higher levels.
-Each variation is rendered and labeled for complexity analysis by the CICA system, ensuring accurate ranking for the VR experiment.
 The 3D modeling component also includes a script for exporting these variations to FBX format, facilitating integration with the VR system.
-
 This detailed and systematic approach to 3D modeling ensures that the VR simulations accurately reflect real-world conditions, providing participants with a realistic and immersive experience during the experiment.
-With a comprehensive understanding of how the 3D modeling component supports the VR system, let's now delve into the application of the `Computational Image Complexity Analysis' (CICA) system for ranking the 3D-modeled facades.
 
 
 %!Original

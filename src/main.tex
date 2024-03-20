@@ -195,33 +195,42 @@ Data-driven design\sep Complex Facades \sep Mixed Reality Assessment \sep Archit
     %!% Figures of  Methodology flowchart
     %it was relocated in TheoryFacadeOrnament.tex
 
+
+    \begin{table*}[htb]
+            \centering
+            \small
+            \begin{tabular}{c}
+                %Top cell with one figure
+                %Figure Computational Image Compexity Analysis (CICA) System flowchart
+                \begin{minipage}{\textwidth}
+                    \centering
+                    \includegraphics[width= \linewidth]{Images/CICAFlowchart}
+                    \captionof{figure}{Flowchart illustrating the applications of Computational Image Complexity Analysis system (CICA)(detailed in Section\ref{subsec:Computational Image Complexity analysis}), including its role in analyzing complexity scores for historical architectural styles (b) and 3D-modeled facades (a) designed with various degrees of complexity(presented in Section\ref{subsubsec:CICAfor3DmodeledFacades}).}
+                    \label{fig:CICAImageEvaluationFlowchart}
+                \end{minipage}
+            \end{tabular}
+            \end{table*}
+
+
 \section{Methodology}
 \label{sec:Methodology}
 \input{Text/MethodologyIntro}
 
-    %!%Figures and table CICA
-    %Flowchart CICA, Table of Cica on historical buildings and renders, PI table. Table 1x3
+    %!% CICA tables and function
+    %Table PI table, Function1, CICA evaluation process on architectural facades. Table 1x3
     \begin{table*}[!htb]
     \centering
     \small
     \begin{tabular}{c}
         %Top cell with one figure
-        %Figure Computational Image Compexity Analysis (CICA) System flowchart
-        \begin{minipage}{\textwidth}
-            \centering
-            \includegraphics[width= \linewidth]{Images/CICAFlowchart}
-            \captionof{figure}{Flowchart illustrating the applications of Computational Image Complexity Analysis system (CICA)(detailed in Section\ref{subsec:Computational Image Complexity analysis}), including its role in analyzing complexity scores for historical architectural styles (b) and 3D-modeled facades (a) designed with various degrees of complexity(presented in Section\ref{subsubsec:CICAforFacades}).}
-            \label{fig:CICAImageEvaluationFlowchart}
-        \end{minipage}
-        \\
-        \\
-        %Middle cell with two nested figures side by side
         %Table: Performance Indicators
         \begin{minipage}{\textwidth}
             \centering
             \captionof{table}{Table of Metrics and Weights for Complexity Scoring: Outlines the key criteria and corresponding weights utilized in the Computational Image Complexity Analysis (CICA) to determine the `Complexity Score' of architectural facades, detailing the systematic approach to quantifying facade intricacy through edge density and contour count metrics.}
             \label{tab:MetricsandWeights}
             \begin{tabularx}{\textwidth}{p{2.5cm} p{1cm} X X p{1cm}}
+                \toprule
+                \multicolumn{5}{c}{\textbf{Table of Metrics and Weights for CICA Complexity Scoring on Architectural Facades}} \\
                 \toprule
                 \textit{Complexity metric} &
                   \textit{N} &
@@ -235,6 +244,7 @@ Data-driven design\sep Complex Facades \sep Mixed Reality Assessment \sep Archit
                   Measured by dividing the number of non-zero (edge) pixels in the edges image by the total number of pixels in the image.
                     &
                   8\\
+                \\
                 \textbf{Contour count} &
                   2 &
                   Employs contour approximation algorithm for shape analysis to determine intricacy of edges.
@@ -249,6 +259,41 @@ Data-driven design\sep Complex Facades \sep Mixed Reality Assessment \sep Archit
                   \textbf{10}\\ \bottomrule
             \end{tabularx}
         \end{minipage}
+        \\
+        \\
+        \\
+        %Middle cell with two nested figures side by side
+        %Table function 1 complexity score
+        \begin{minipage}{\textwidth}
+            \centering
+            \captionof{table}{Function 1: Complexity scoring function that integrates various criteria to assess the intricacy of a building facade.}
+            \label{tab:ComplexityScoreFunction}
+            \begin{tabularx}{\linewidth}{|X|}
+                \hline
+                \small
+                \vspace{0.1cm}
+                \multicolumn{1}{c}{\textbf{\(f_1\): Unified Complexity Scoring Function}}\\
+                \textit{Calculate the complexity score for all images in the data pool.}
+                \\ \\
+                \begin{equation}
+                    f_1(x) = \mathrm{round}\left(\sum_{i=1}^{n} w_i \cdot a_i, 2\right) = \text{complexity\_score}
+                    \label{eq:F1_ComplexityScoreFunction}
+                \end{equation}
+                \\
+                \textit{for the buildings included in the database.}
+                \vspace{0.5em}
+
+                \textit{where:}\\
+                \(n\): number of performance indicators\\
+                \(w_i\): weight of the \(i\)-th element\\
+                \(a_i\): normalized score for the \(i\)-th metric (e.g., `Edge Density' and `Contour Count')\\
+                \vspace{0.05em}
+                \textit{Finally, the "Complexity Score" is assigned to each building for data visualization.}
+                \vspace{0.5em}\\
+                \hline
+            \end{tabularx}
+        \end{minipage}
+        \\
         \\
         \\
         %Bottom cell
@@ -286,42 +331,21 @@ Data-driven design\sep Complex Facades \sep Mixed Reality Assessment \sep Archit
     \end{tabular}
     \end{table*}
 
-    %! Function for complexity score
-    %%Table function 1 complexity score
-    \begin{table*}[htb]
-        \caption{Function 1: Complexity scoring function that integrates various criteria to assess the intricacy of a building facade.}
-        \label{tab:ComplexityScoreFunction}
-        \begin{tabularx}{\linewidth}{|X|}
-            \hline
-            \small
-            \vspace{-0.1cm}
-            \multicolumn{1}{c}{\textbf{\(f_1\): Unified Complexity Scoring Function}}\\
-            \textit{Calculate the complexity score for all images in the data pool.}
-            \begin{equation}
-                f_1(x) = \mathrm{round}\left(\sum_{i=1}^{n} w_i \cdot a_i, 2\right) = \text{complexity\_score}
-                \label{eq:F1_ComplexityScoreFunction}
-            \end{equation}
-            \textit{for the buildings included in the database.}
-            \vspace{0.5em}
-
-            \textit{where:}\\
-            \(n\): number of performance indicators\\
-            \(w_i\): weight of the \(i\)-th element\\
-            \(a_i\): normalized score for the \(i\)-th metric (e.g., `Edge Density' and `Contour Count')\\
-            \vspace{0.05em}
-            \textit{Finally, the "Complexity Score" is assigned to each building for data visualization.}
-            \vspace{0.5em}\\
-            \hline
-        \end{tabularx}
+    %Cica scatter graph for renders
+    \begin{table*}[!htb]
+    \centering
+    \small
+    \begin{tabular}{c}
+        %Top cell with one figure
+        %Scatter graph CICA renders
+        \begin{minipage}{\textwidth}
+        \centering
+        \includegraphics[width= \linewidth]{Graphs/complexitygraphrender}
+        \captionof{figure}{Scatter Graph Analysis of 3d modeled Facade Complexity: This graph presents the CICA scores for ten variations of three distinct patterns created in Blender, with a trendline indicating the range of complexity levels among the facade designs, illustrating the nuanced relationship between design intricacy and CICA scores.}
+        \label{fig:CICAscatterGraphRender}
+        \end{minipage}
+    \end{tabular}
     \end{table*}
-
-    %% Figure of Complexity graph
-    \begin{figure*}[htb]
-          \centering
-          \includegraphics[width= \linewidth]{Graphs/complexitygraphrender}
-          \caption{Scatter Graph Analysis of 3d modeled Facade Complexity: This graph presents the CICA scores for ten variations of three distinct patterns created in Blender, with a trendline indicating the range of complexity levels among the facade designs, illustrating the nuanced relationship between design intricacy and CICA scores.}
-          \label{fig:CICAscatterGraphRender}
-    \end{figure*}
 
     %!Figures of 3D modeling and VR interior vs Exterior
     %Figures "3d model vs real building" and "Interior vs Exterior"
@@ -356,7 +380,7 @@ Data-driven design\sep Complex Facades \sep Mixed Reality Assessment \sep Archit
     \begin{table*}[htb]
         \centering
         \small
-        \caption{Table of Facade Pattern Variations: This table presents samples of 3D-modeled building facades at levels 1, 5, and 9, showcasing the progression and differentiation within the ten levels of design variations as detailed in section \ref{subsubsec:Modeling}. The incremental complexity introduced at each selected level is highlighted across three distinct patterns. For a comprehensive record of all variations, refer to section \ref{sec:AnnexVariations}.}
+        \caption{Table of Facade Pattern Variations: This table presents samples of 3D-modeled building facades at levels 1, 5, and 9, showcasing the progression and differentiation within the ten levels of design variations as detailed in section \ref{subsubsec:3DModeling}. The incremental complexity introduced at each selected level is highlighted across three distinct patterns. For a comprehensive record of all variations, refer to section \ref{sec:AnnexVariations}.}
         \label{tab:PatternsVariationsPart0}
         \begin{tabularx}
         {\textwidth}{p{3cm} >{\centering\arraybackslash}X >{\centering\arraybackslash}X >{\centering\arraybackslash}X }
@@ -418,10 +442,10 @@ Data-driven design\sep Complex Facades \sep Mixed Reality Assessment \sep Archit
     \label{subsec:VRsystemDevelopment}
     \input{text/MethodVRSystemDevelopment}
 
-        \subsubsection{3D Modeling}
-        \label{subsubsec:Modeling}
-        %% description of things modeled in blender for use in the experiment
-        \input{Text/Method3DModeling}
+    \subsubsection{3D Modeling}
+    \label{subsubsec:3DModeling}
+    %% description of things modeled in blender for use in the experiment
+    \input{Text/Method3DModeling}
 
     %!%Figures of VR integration
     %% Figure of VR interface
@@ -440,10 +464,10 @@ Data-driven design\sep Complex Facades \sep Mixed Reality Assessment \sep Archit
         \end{tabular}
     \end{table*}
 
-        \subsubsection{Computational Image Complexity Analysis (CICA) system for facade variations}
-        \label{subsubsec:CICAforFacades}
-        %% description of CICA applicationnn forfacade variation modeled in blender for use in the experiment
-        \input{Text/MethodCICAforFacades}
+    \subsubsection{CICA system for 3D-modeled Facade Analysis}
+    \label{subsubsec:CICAfor3DmodeledFacades}
+    %% description of CICA applicationnn forfacade variation modeled in blender for use in the experiment
+    \input{Text/MethodCICAforFacades}
 
     %!Figure of experiment design flowchart
     %% Figure Experiment Design flowchart
@@ -454,10 +478,10 @@ Data-driven design\sep Complex Facades \sep Mixed Reality Assessment \sep Archit
           \label{fig:ExperimentFlowchart}
     \end{figure*}
 
-        \subsubsection{VR integration and data visualization interface}
-        \label{subsubsec:VR_integration}
-        %%Define the sections of the VR interface and how information is displayed
-        \input{Text/MethodVR_Integration}
+    \subsubsection{VR integration and data visualization interface}
+    \label{subsubsec:VR_integration}
+    %%Define the sections of the VR interface and how information is displayed
+    \input{Text/MethodVR_Integration}
 
 
 

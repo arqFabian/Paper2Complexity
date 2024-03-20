@@ -33,118 +33,398 @@
 % Document
 \begin{document}
 
-\begin{table*}[htb]
-    \caption{Function 1: Complexity scoring function that integrates various criteria to assess the intricacy of a building facade.}
-    \label{tab:ComplexityScoreFunction}
-    \begin{tabular}{|p{\linewidth}|}
-        \hline
-        \small
-        \vspace{0.5em}
-        \textbf{\(f_1\): Unified Complexity Scoring Function}\\
-        \textit{Calculate the complexity score for all images in the data pool.}
-        \begin{equation}
-            f_1(x) = \mathrm{round}\left(\sum_{i=1}^{n} w_i \cdot a_i, 2\right) = \text{complexity\_score}
-            \label{eq:F1_ComplexityScoreFunction}
-        \end{equation}
-        \textit{for the buildings included in the database.}
-        \vspace{0.5em}
-
-        \textit{where:}\\
-        \(n\): number of performance indicators\\
-        \(w_i\): weight of the \(i\)-th element\\
-        \(a_i\): normalized score for the \(i\)-th metric (e.g., "Edge Density" and "Contour Count")\\
-        \textit{Finally, the "Complexity Score" is assigned to each building for data visualization.}
-        \vspace{0.5em}\\
-        \hline
-    \end{tabular}
-\end{table*}
-
-\begin{table*}[htb]
-\centering
-\caption{Function 1: Complexity scoring function that integrates various criteria to assess intricacy of a building facade.}
-\label{tab:ComplexityScoreFunction_table}
-\begin{tabularx}{\textwidth}{|X|X|}%{|c|c|}
-\hline
-% First Cell (Top-Left)
-% f1: Valid Position finder function
-\small
-\textbf{\(f_1\), Unified 'Complexity Scoring' function 1}
-\newline
-Calculate the complexity score for all the images on the data pool
-\begin{equation}
-    f_1(x) = \left[ \mathrm{round}\left(\sum_{i=1}^{n} w_i \cdot a_i, 2\right) \right] = \text{complexity\_score}
-\label{eq:F1_ComplexityScoreFunction}
-\end{equation}
-for the Buildings included in the database.
-\newline
-\textit{where;}
-\newline
-\(n \); is the number of performance indicators,
-\newline
-\(w_i \); represents the i-th elements weight input, and
-\newline
-\(a_i \); represents the i-th normalized score for the respective metric ('Edge Density' and 'Contour Count').
-\newline
-Finally, the 'Complexity score' is assigned to each building for data visualization.
-&
-% Second Cell (Top-Right)
-% continuation f1
-\small
-\textbf{\(f_1\), Unified 'Complexity Scoring' function 1}
-\newline
-Calculate the complexity score for all the images on the data pool
-\begin{equation}
-    f_1(x) = \left[ \mathrm{round}\left(\sum_{i=1}^{n} w_i \cdot a_i, 2\right) \right] = \text{complexity\_score}
-\label{eq:F1_ComplexityScoreFunction}
-\end{equation}
-for the Buildings included in the database.
-\newline
-\textit{where;}
-\newline
-\(n \); is the number of performance indicators,
-\newline
-\(w_i \); represents the i-th elements weight input, and
-\newline
-\(a_i \); represents the i-th normalized score for the respective metric ('Edge Density' and 'Contour Count').
-\newline
-Finally, the 'Complexity score' is assigned to each building for data visualization.
-\\
-\hline
-\end{tabularx}
-\end{table*}
-
-
-\begin{table*}[htb]
+%!% CICA tables and function
+    %Table PI table, Function1, CICA evaluation process on architectural facades. Table 1x3
+    \begin{table*}[!htb]
     \centering
-    \caption{Function 1: Complexity scoring function that integrates various criteria to assess intricacy of a building facade.}
-    \label{tab:ComplexityScoreFunction_table}
-    \begin{tabularx}{\textwidth}{|X|}%{|c|c|}
-    \hline
-    % First Cell (Top-Left)
-    % f1: Valid Position finder function
     \small
-    \textbf{\(f_1\), Unified 'Complexity Scoring' function 1}
-    \newline
-    Calculate the complexity score for all the images on the data pool
-    \begin{equation}
-        f_1(x) = \left[ \mathrm{round}\left(\sum_{i=1}^{n} w_i \cdot a_i, 2\right) \right] = \text{complexity\_score}
-    \label{eq:F1_ComplexityScoreFunction}
-    \end{equation}
-    for the Buildings included in the database.
-    \newline
-    \textit{where;}
-    \newline
-    \(n \); is the number of performance indicators,
-    \newline
-    \(w_i \); represents the i-th elements weight input, and
-    \newline
-    \(a_i \); represents the i-th normalized score for the respective metric ('Edge Density' and 'Contour Count').
-    \newline
-    Finally, the 'Complexity score' is assigned to each building for data visualization.
-    \\
-    \hline
-    \end{tabularx}
-\end{table*}
+    \begin{tabular}{c}
+        %Top cell with one figure
+        %Table: Performance Indicators
+        \begin{minipage}{\textwidth}
+            \centering
+            \captionof{table}{Table of Metrics and Weights for Complexity Scoring: Outlines the key criteria and corresponding weights utilized in the Computational Image Complexity Analysis (CICA) to determine the `Complexity Score' of architectural facades, detailing the systematic approach to quantifying facade intricacy through edge density and contour count metrics.}
+            \label{tab:MetricsandWeights}
+            \begin{tabularx}{\textwidth}{p{2.5cm} p{1cm} X X p{1cm}}
+                \toprule
+                \multicolumn{5}{c}{\textbf{Table of Metrics and Weights for CICA Complexity Scoring on Architectural Facades}} \\
+                \toprule
+                \textit{Complexity metric} &
+                  \textit{N} &
+                  \textit{Metric name/description} &
+                  \textit{Quantitative   method} &
+                  \textit{Weights} \\ \midrule
+                \textbf{Edge Density} &
+                  1 &
+                  Edge detection using Canny Edge Detection algorithm for highlighting the most relevant features of a building.
+                    &
+                  Measured by dividing the number of non-zero (edge) pixels in the edges image by the total number of pixels in the image.
+                    &
+                  8\\
+                \\
+                \textbf{Contour count} &
+                  2 &
+                  Employs contour approximation algorithm for shape analysis to determine intricacy of edges.
+                    &
+                  Measure by counting the number of segments in an edge.
+                    &
+                  2\\ \bottomrule
+                   &
+                   &
+                  \textbf{TOTAL} &
+                  &
+                  \textbf{10}\\ \bottomrule
+            \end{tabularx}
+        \end{minipage}
+        \\
+        \\
+        \\
+        %Middle cell with two nested figures side by side
+        %Table function 1 complexity score
+        \begin{minipage}{\textwidth}
+            \centering
+            \captionof{table}{Function 1: Complexity scoring function that integrates various criteria to assess the intricacy of a building facade.}
+            \label{tab:ComplexityScoreFunction}
+            \begin{tabularx}{\linewidth}{|X|}
+                \hline
+                \small
+                \vspace{-0.1cm}
+                \multicolumn{1}{c}{\textbf{\(f_1\): Unified Complexity Scoring Function}}\\
+                \textit{Calculate the complexity score for all images in the data pool.}
+                \\ \\
+                \begin{equation}
+                    f_1(x) = \mathrm{round}\left(\sum_{i=1}^{n} w_i \cdot a_i, 2\right) = \text{complexity\_score}
+                    \label{eq:F1_ComplexityScoreFunction}
+                \end{equation}
+                \\
+                \textit{for the buildings included in the database.}
+                \vspace{0.5em}
+
+                \textit{where:}\\
+                \(n\): number of performance indicators\\
+                \(w_i\): weight of the \(i\)-th element\\
+                \(a_i\): normalized score for the \(i\)-th metric (e.g., `Edge Density' and `Contour Count')\\
+                \vspace{0.05em}
+                \textit{Finally, the "Complexity Score" is assigned to each building for data visualization.}
+                \vspace{0.5em}\\
+                \hline
+            \end{tabularx}
+        \end{minipage}
+        \\
+        \\
+        \\
+        %Bottom cell
+        %Table: CICA Image evaluation process for historical and 3d facades
+        \begin{minipage}{\textwidth}
+            \centering
+            \captionof{table}{CICA Evaluation on Architectural Facades: The table presents a comparative analysis of CICA evaluation applied to 3D-modeled facades (a) and historical buildings (b). The process includes steps from original imagery to image processing (noise reduction, grayscale), edge detection, and contour count analysis, as shown on the flowchart in Figure\ref{fig:CICAImageEvaluationFlowchart}. It highlights  the adaptability of CICA to assess complexity in both historical and contemporary architectural designs.}
+            \label{tab:CICAImageEvalProcessOnArchitecturalFacades}
+            \begin{tabularx}
+            {\textwidth}{X X X X }
+                \toprule
+                \multicolumn{4}{c}{\textbf{CICA Image Evaluation process on Architectural Facades}} \\
+                \toprule
+                \multicolumn{1}{c}{\textit{Original Image}} &
+                 \multicolumn{1}{c}{\textit{Grayscale, noise reduction}} &
+                \multicolumn{1}{c}{\textit{Edge detection Image}} &
+                \multicolumn{1}{c}{\textit{Contour count Image}}\\
+                \midrule
+                \text{(a) 3D-modeled facades} &  &  &
+                \\
+                {\includegraphics[width=1\linewidth]{Images/CICA3DRender1}} &
+                    {\includegraphics[width=1\linewidth]{Images/CICA3DRender2}} &
+                  {\includegraphics[width=1\linewidth]{Images/CICA3DRender3}} &
+                  {\includegraphics[width=1\linewidth]{Images/CICA3DRender4}} \\
+                \midrule
+                \text{(b) Historical Analysis} &  &  &
+                \\
+                {\includegraphics[width=1\linewidth]{Images/CICAHistory1}} &
+                    {\includegraphics[width=1\linewidth]{Images/CICAHistory2}} &
+                  {\includegraphics[width=1\linewidth]{Images/CICAHistory3}} &
+                  {\includegraphics[width=1\linewidth]{Images/CICAHistory4}}\\
+                \bottomrule
+            \end{tabularx}
+        \end{minipage}
+    \end{tabular}
+    \end{table*}
+
+    %Cica scatter graph for renders
+    \begin{table*}[!htb]
+    \centering
+    \small
+    \begin{tabular}{c}
+        %Top cell with one figure
+        %Scatter graph CICA renders
+        \begin{minipage}{\textwidth}
+        \centering
+        \includegraphics[width= \linewidth]{Graphs/complexitygraphrender}
+        \captionof{figure}{Scatter Graph Analysis of 3d modeled Facade Complexity: This graph presents the CICA scores for ten variations of three distinct patterns created in Blender, with a trendline indicating the range of complexity levels among the facade designs, illustrating the nuanced relationship between design intricacy and CICA scores.}
+        \label{fig:CICAscatterGraphRender}
+        \end{minipage}
+    \end{tabular}
+    \end{table*}
+
+%!% CICA Metrics and Function
+    %PI table, Function1. Table 1x3
+    \begin{table*}[!htb]
+    \centering
+    \small
+    \begin{tabular}{c}
+        %Top cell with one figure
+        %Table: Performance Indicators
+        \begin{minipage}{\textwidth}
+            \centering
+            \captionof{table}{Table of Metrics and Weights for Complexity Scoring: Outlines the key criteria and corresponding weights utilized in the Computational Image Complexity Analysis (CICA) to determine the `Complexity Score' of architectural facades, detailing the systematic approach to quantifying facade intricacy through edge density and contour count metrics.}
+            \label{tab:MetricsandWeights}
+            \begin{tabularx}{\textwidth}{p{2.5cm} p{1cm} X X p{1cm}}
+                \toprule
+                \textit{Complexity metric} &
+                  \textit{N} &
+                  \textit{Metric name/description} &
+                  \textit{Quantitative   method} &
+                  \textit{Weights} \\ \midrule
+                \textbf{Edge Density} &
+                  1 &
+                  Edge detection using Canny Edge Detection algorithm for highlighting the most relevant features of a building.
+                    &
+                  Measured by dividing the number of non-zero (edge) pixels in the edges image by the total number of pixels in the image.
+                    &
+                  8\\
+                \textbf{Contour count} &
+                  2 &
+                  Employs contour approximation algorithm for shape analysis to determine intricacy of edges.
+                    &
+                  Measure by counting the number of segments in an edge.
+                    &
+                  2\\ \bottomrule
+                   &
+                   &
+                  \textbf{TOTAL} &
+                  &
+                  \textbf{10}\\ \bottomrule
+            \end{tabularx}
+        \end{minipage}
+        \\
+        \\
+        %Middle cell with two nested figures side by side
+        %Table function 1 complexity score
+        \begin{minipage}{\textwidth}
+            \centering
+            \captionof{table}{Function 1: Complexity scoring function that integrates various criteria to assess the intricacy of a building facade.}
+            \label{tab:ComplexityScoreFunction}
+        \begin{tabularx}{\linewidth}{|X|}
+            \hline
+            \small
+            \vspace{-0.1cm}
+            \multicolumn{1}{c}{\textbf{\(f_1\): Unified Complexity Scoring Function}}\\
+            \textit{Calculate the complexity score for all images in the data pool.}
+            \begin{equation}
+                f_1(x) = \mathrm{round}\left(\sum_{i=1}^{n} w_i \cdot a_i, 2\right) = \text{complexity\_score}
+                \label{eq:F1_ComplexityScoreFunction}
+            \end{equation}
+            \textit{for the buildings included in the database.}
+            \vspace{0.5em}
+
+            \textit{where:}\\
+            \(n\): number of performance indicators\\
+            \(w_i\): weight of the \(i\)-th element\\
+            \(a_i\): normalized score for the \(i\)-th metric (e.g., `Edge Density' and `Contour Count')\\
+            \vspace{0.05em}
+            \textit{Finally, the "Complexity Score" is assigned to each building for data visualization.}
+            \vspace{0.5em}\\
+            \hline
+        \end{tabularx}
+        \end{minipage}
+    \end{tabular}
+    \end{table*}
+
+    %Table of Cica on historical buildings and renders, Cica evaluation process table. Table 1x3
+    \begin{table*}[!htb]
+    \centering
+    \small
+    \begin{tabular}{c}
+        %Top cell with one figure
+        %Table: CICA Image evaluation process for historical and 3d facades
+        \begin{minipage}{\textwidth}
+            \centering
+            \captionof{table}{CICA Evaluation on Architectural Facades: The table presents a comparative analysis of CICA evaluation applied to 3D-modeled facades (a) and historical buildings (b). The process includes steps from original imagery to image processing (noise reduction, grayscale), edge detection, and contour count analysis, as shown on the flowchart in Figure\ref{fig:CICAImageEvaluationFlowchart}. It highlights  the adaptability of CICA to assess complexity in both historical and contemporary architectural designs.}
+            \label{tab:CICAImageEvalProcessOnArchitecturalFacades}
+            \begin{tabularx}
+            {\textwidth}{X X X X }
+                \toprule
+                \multicolumn{4}{c}{\textbf{CICA Image Evaluation process on Architectural Facades}} \\
+                \toprule
+                \multicolumn{1}{c}{\textit{Original Image}} &
+                 \multicolumn{1}{c}{\textit{Grayscale, noise reduction}} &
+                \multicolumn{1}{c}{\textit{Edge detection Image}} &
+                \multicolumn{1}{c}{\textit{Contour count Image}}\\
+                \midrule
+                \text{(a) 3D-modeled facades} &  &  &
+                \\
+                {\includegraphics[width=1\linewidth]{Images/CICA3DRender1}} &
+                    {\includegraphics[width=1\linewidth]{Images/CICA3DRender2}} &
+                  {\includegraphics[width=1\linewidth]{Images/CICA3DRender3}} &
+                  {\includegraphics[width=1\linewidth]{Images/CICA3DRender4}} \\
+                \midrule
+                \text{(b) Historical Analysis} &  &  &
+                \\
+                {\includegraphics[width=1\linewidth]{Images/CICAHistory1}} &
+                    {\includegraphics[width=1\linewidth]{Images/CICAHistory2}} &
+                  {\includegraphics[width=1\linewidth]{Images/CICAHistory3}} &
+                  {\includegraphics[width=1\linewidth]{Images/CICAHistory4}}\\
+                \bottomrule
+            \end{tabularx}
+        \end{minipage}
+        \\
+        \\
+        %Bottom cell
+        %Scatter graph CICA renders
+        \begin{minipage}{\textwidth}
+        \centering
+        \includegraphics[width= \linewidth]{Graphs/complexitygraphrender}
+        \captionof{figure}{Scatter Graph Analysis of 3d modeled Facade Complexity: This graph presents the CICA scores for ten variations of three distinct patterns created in Blender, with a trendline indicating the range of complexity levels among the facade designs, illustrating the nuanced relationship between design intricacy and CICA scores.}
+        \label{fig:CICAscatterGraphRender}
+        \end{minipage}
+    \end{tabular}
+    \end{table*}
+
+
+%!% CICA tables and function
+    %Table of Cica on historical buildings and renders, PI table, Function1. Table 1x3
+    \begin{table*}[!htb]
+    \centering
+    \small
+    \begin{tabular}{c}
+        %Top cell with one figure
+        %Table: Performance Indicators
+        \begin{minipage}{\textwidth}
+            \centering
+            \captionof{table}{Table of Metrics and Weights for Complexity Scoring: Outlines the key criteria and corresponding weights utilized in the Computational Image Complexity Analysis (CICA) to determine the `Complexity Score' of architectural facades, detailing the systematic approach to quantifying facade intricacy through edge density and contour count metrics.}
+            \label{tab:MetricsandWeights}
+            \begin{tabularx}{\textwidth}{p{2.5cm} p{1cm} X X p{1cm}}
+                \toprule
+                \textit{Complexity metric} &
+                  \textit{N} &
+                  \textit{Metric name/description} &
+                  \textit{Quantitative   method} &
+                  \textit{Weights} \\ \midrule
+                \textbf{Edge Density} &
+                  1 &
+                  Edge detection using Canny Edge Detection algorithm for highlighting the most relevant features of a building.
+                    &
+                  Measured by dividing the number of non-zero (edge) pixels in the edges image by the total number of pixels in the image.
+                    &
+                  8\\
+                \textbf{Contour count} &
+                  2 &
+                  Employs contour approximation algorithm for shape analysis to determine intricacy of edges.
+                    &
+                  Measure by counting the number of segments in an edge.
+                    &
+                  2\\ \bottomrule
+                   &
+                   &
+                  \textbf{TOTAL} &
+                  &
+                  \textbf{10}\\ \bottomrule
+            \end{tabularx}
+        \end{minipage}
+        \\
+        \\
+        %Middle cell with two nested figures side by side
+        %Table: CICA Image evaluation process for historical and 3d facades
+        \begin{minipage}{\textwidth}
+            \centering
+            \captionof{table}{CICA Evaluation on Architectural Facades: The table presents a comparative analysis of CICA evaluation applied to 3D-modeled facades (a) and historical buildings (b). The process includes steps from original imagery to image processing (noise reduction, grayscale), edge detection, and contour count analysis, as shown on the flowchart in Figure\ref{fig:CICAImageEvaluationFlowchart}. It highlights  the adaptability of CICA to assess complexity in both historical and contemporary architectural designs.}
+            \label{tab:CICAImageEvalProcessOnArchitecturalFacades}
+            \begin{tabularx}
+            {\textwidth}{X X X X }
+                \toprule
+                \multicolumn{4}{c}{\textbf{CICA Image Evaluation process on Architectural Facades}} \\
+                \toprule
+                \multicolumn{1}{c}{\textit{Original Image}} &
+                 \multicolumn{1}{c}{\textit{Grayscale, noise reduction}} &
+                \multicolumn{1}{c}{\textit{Edge detection Image}} &
+                \multicolumn{1}{c}{\textit{Contour count Image}}\\
+                \midrule
+                \text{(a) 3D-modeled facades} &  &  &
+                \\
+                {\includegraphics[width=1\linewidth]{Images/CICA3DRender1}} &
+                    {\includegraphics[width=1\linewidth]{Images/CICA3DRender2}} &
+                  {\includegraphics[width=1\linewidth]{Images/CICA3DRender3}} &
+                  {\includegraphics[width=1\linewidth]{Images/CICA3DRender4}} \\
+                \midrule
+                \text{(b) Historical Analysis} &  &  &
+                \\
+                {\includegraphics[width=1\linewidth]{Images/CICAHistory1}} &
+                    {\includegraphics[width=1\linewidth]{Images/CICAHistory2}} &
+                  {\includegraphics[width=1\linewidth]{Images/CICAHistory3}} &
+                  {\includegraphics[width=1\linewidth]{Images/CICAHistory4}}\\
+                \bottomrule
+            \end{tabularx}
+        \end{minipage}
+        \\
+        \\
+        %Bottom cell
+        %Table function 1 complexity score
+        \begin{minipage}{\textwidth}
+            \centering
+            \captionof{table}{Function 1: Complexity scoring function that integrates various criteria to assess the intricacy of a building facade.}
+            \label{tab:ComplexityScoreFunction}
+        \begin{tabularx}{\linewidth}{|X|}
+            \hline
+            \small
+            \vspace{-0.1cm}
+            \multicolumn{1}{c}{\textbf{\(f_1\): Unified Complexity Scoring Function}}\\
+            \textit{Calculate the complexity score for all images in the data pool.}
+            \begin{equation}
+                f_1(x) = \mathrm{round}\left(\sum_{i=1}^{n} w_i \cdot a_i, 2\right) = \text{complexity\_score}
+                \label{eq:F1_ComplexityScoreFunction}
+            \end{equation}
+            \textit{for the buildings included in the database.}
+            \vspace{0.5em}
+
+            \textit{where:}\\
+            \(n\): number of performance indicators\\
+            \(w_i\): weight of the \(i\)-th element\\
+            \(a_i\): normalized score for the \(i\)-th metric (e.g., `Edge Density' and `Contour Count')\\
+            \vspace{0.05em}
+            \textit{Finally, the "Complexity Score" is assigned to each building for data visualization.}
+            \vspace{0.5em}\\
+            \hline
+        \end{tabularx}
+        \end{minipage}
+    \end{tabular}
+    \end{table*}
+
+%! Function for complexity score
+    %%Table function 1 complexity score
+    \begin{table*}[htb]
+        \caption{Function 1: Complexity scoring function that integrates various criteria to assess the intricacy of a building facade.}
+        \label{tab:ComplexityScoreFunction}
+        \begin{tabularx}{\linewidth}{|X|}
+            \hline
+            \small
+            \vspace{-0.1cm}
+            \multicolumn{1}{c}{\textbf{\(f_1\): Unified Complexity Scoring Function}}\\
+            \textit{Calculate the complexity score for all images in the data pool.}
+            \begin{equation}
+                f_1(x) = \mathrm{round}\left(\sum_{i=1}^{n} w_i \cdot a_i, 2\right) = \text{complexity\_score}
+                \label{eq:F1_ComplexityScoreFunction}
+            \end{equation}
+            \textit{for the buildings included in the database.}
+            \vspace{0.5em}
+
+            \textit{where:}\\
+            \(n\): number of performance indicators\\
+            \(w_i\): weight of the \(i\)-th element\\
+            \(a_i\): normalized score for the \(i\)-th metric (e.g., `Edge Density' and `Contour Count')\\
+            \vspace{0.05em}
+            \textit{Finally, the "Complexity Score" is assigned to each building for data visualization.}
+            \vspace{0.5em}\\
+            \hline
+        \end{tabularx}
+    \end{table*}
 
 %!%Figures and table CICA
 %Flowchart CICA, Table of Cica on historical buildings and renders, PI table. Table 1x3
@@ -157,7 +437,7 @@ Finally, the 'Complexity score' is assigned to each building for data visualizat
     \begin{minipage}{\textwidth}
         \centering
         \includegraphics[width= \linewidth]{Images/CICAFlowchart}
-        \captionof{figure}{Flowchart illustrating the applications of Computational Image Complexity Analysis system (CICA)(detailed in Section\ref{subsec:Computational Image Complexity analysis}), including its role in analyzing complexity scores for historical architectural styles and ranking of 3D modeled facades design with various degrees of complexity(presented in Section\ref{subsubsec:CICAforFacades}).}
+        \captionof{figure}{Flowchart illustrating the applications of Computational Image Complexity Analysis system (CICA)(detailed in Section\ref{subsec:Computational Image Complexity analysis}), including its role in analyzing complexity scores for historical architectural styles (b) and 3D-modeled facades (a) designed with various degrees of complexity(presented in Section\ref{subsubsec:CICAforFacades}).}
         \label{fig:CICAImageEvaluationFlowchart}
     \end{minipage}
     \\
@@ -203,7 +483,7 @@ Finally, the 'Complexity score' is assigned to each building for data visualizat
     \begin{minipage}{\textwidth}
         \centering
         \captionof{table}{CICA Evaluation on Architectural Facades: The table presents a comparative analysis of CICA evaluation applied to 3D-modeled facades (a) and historical buildings (b). The process includes steps from original imagery to image processing (noise reduction, grayscale), edge detection, and contour count analysis, as shown on the flowchart in Figure\ref{fig:CICAImageEvaluationFlowchart}. It highlights  the adaptability of CICA to assess complexity in both historical and contemporary architectural designs.}
-        \label{tab:CICAPlotMaster}
+        \label{tab:CICAImageEvalProcessOnArchitecturalFacades}
         \begin{tabularx}
         {\textwidth}{X X X X }
             \toprule
@@ -232,6 +512,7 @@ Finally, the 'Complexity score' is assigned to each building for data visualizat
     \end{minipage}
 \end{tabular}
 \end{table*}
+
 
 %! CiCA algorithm table
 %%Table: CICA Image Process for historical and 3d modeled facades
