@@ -1,14 +1,25 @@
+%\section{Post-interaction Survey}
+%\label{sec:Annexsurvey}
+%\input{Text/AnnexSurvey}
+
 The evaluation survey had two sections.
 The first one tasked with identifying the professional background of the participants (see Table\ref{tab:BackgroundSurvey}).
 The second one, a 10 question survey using a 7-point Likert scale to measure the degree of complexity and pattern arrangement within facade design  tailored for digital fabrication (see Table\ref{tab:ComplexitySurvey}).
 
-%% Participant background section table from survey
-    \begin{table}[htb]
-        \centering
-        \footnotesize
-        \caption{Multiple choice survey for professional background}
-        \label{tab:BackgroundSurvey}
-        \begin{tabularx}{\linewidth}{p{0.125cm}X}
+%%Survey tables questions
+%%2x1 Table with Nested Tables in Each Cell
+\begin{table*}[!htb]
+\centering
+\label{tab:Equations2x2NestedTables}
+    \begin{tabular}{c c}%{|c|c|}
+        %Left Cell
+        %Q1-5: Multiple choice survey for professional background
+        \begin{minipage}{.48\linewidth}
+            \centering
+            \captionof{table}{Multiple choice survey for professional background}
+            \label{tab:BackgroundSurvey}
+            \small
+            \begin{tabularx}{\linewidth}{p{0.125cm}X}
             \toprule
             & \textit{Participant background section. Multiple choice questions} \\
             \midrule
@@ -52,47 +63,53 @@ The second one, a 10 question survey using a 7-point Likert scale to measure the
             \bottomrule
 
         \end{tabularx}
-    \end{table}
-
-%% Complexity perception section table from survey
-    \begin{table}[htb]
-        \centering
-        \footnotesize
-        \caption{Complexity perception section  from survey for complexity analysis for facade design design}
-        \label{tab:ComplexitySurvey}
-        \begin{tabularx}{\linewidth}{p{0.125cm}X}
-            \toprule
-            & \textit{Complexity perception section. 7 - Likert scale} \\
-            \midrule
-            6 & To what extent do you find the overall complexity of this facade design appealing?\\
-            & Strongly Disagree (1) —————— Strongly Agree (7) \\
-            \addlinespace
-            7 & How do you rate the intricacy of the patterns and textures used in this facade design? \\
-            & Not Intricate at All (1) —————— Extremely Intricate (7)\\
-            \addlinespace
-            8 & To what extent do you think the arrangement of architectural elements on this facade adds to its visual interest? \\
-            & Not at All (1) —————— Adds Significantly (7) \\
-            \addlinespace
-            9 & How complex do you perceive the facade's use of patterns and textures? \\
-            & Not Complex at All (1) —————— Very Complex (7) \\
-            \addlinespace
-            10 & How detailed do you find the ornamentation on this facade design? \\
-            & Not Detailed at All (1) —————— Extremely Detailed (7) \\
-            \addlinespace
-            11 & How much do the combination of materials contribute to the overall complexity of the facade? \\
-            & Minimally (1) —————— Significantly (7) \\
-            \addlinespace
-            12 & To what degree does the composition of the facade strike you as aesthetically intricate? \\
-            & Not Intricate at All (1) —————— Extremely Intricate (7) \\
-            \addlinespace
-            13 & How much do you believe that the arrangement of shapes and forms on the facade contributes to its complexity? \\
-            & Not at All (1) —————— A Great Deal (7) \\
-            \addlinespace
-            14 & How significantly does the use of color enhance the facade's visual complexity? \\
-            & Not Significantly (1) —————— Very Significantly (7) \\
-            \addlinespace
-            15 & How much depth and layering do you observe in the design of this facade? \\
-            & None (1) —————— A Great Deal (7) \\
-            \bottomrule
-        \end{tabularx}
-    \end{table}
+        \end{minipage}
+        &
+        % Right Cell
+        % Q6 - 15:　Perception section from survey for facade complexity analysis
+        \begin{minipage}{.48\linewidth}
+            \centering
+            \captionof{table}{Perception section from survey for facade complexity analysis}
+            \label{tab:ComplexitySurvey}
+            \small
+            \begin{tabularx}{\linewidth}{p{0.125cm}X}
+                    \toprule
+                    & \textit{Complexity perception section. 7 - Likert scale} \\
+                    \midrule
+                    \\
+                    6 & To what extent do you find the overall complexity of this facade design appealing?\\
+                    & Strongly Disagree (1) —————— Strongly Agree (7) \\
+                    \addlinespace
+                    7 & How do you rate the intricacy of the patterns and textures used in this facade design? \\
+                    & Not Intricate at All (1) —————— Extremely Intricate (7)\\
+                    \addlinespace
+                    8 & To what extent do you think the arrangement of architectural elements on this facade adds to its visual interest? \\
+                    & Not at All (1) —————— Adds Significantly (7) \\
+                    \addlinespace
+                    9 & How complex do you perceive the facade's use of patterns and textures? \\
+                    & Not Complex at All (1) —————— Very Complex (7) \\
+                    \addlinespace
+                    10 & How detailed do you find the ornamentation on this facade design? \\
+                    & Not Detailed at All (1) —————— Extremely Detailed (7) \\
+                    \addlinespace
+                    \\
+                    11 & How much do the combination of materials contribute to the overall complexity of the facade? \\
+                    & Minimally (1) —————— Significantly (7) \\
+                    \addlinespace
+                    12 & To what degree does the composition of the facade strike you as aesthetically intricate? \\
+                    & Not Intricate at All (1) —————— Extremely Intricate (7) \\
+                    \addlinespace
+                    13 & How much do you believe that the arrangement of shapes and forms on the facade contributes to its complexity? \\
+                    & Not at All (1) —————— A Great Deal (7) \\
+                    \addlinespace
+                    14 & How significantly does the use of color enhance the facade's visual complexity? \\
+                    & Not Significantly (1) —————— Very Significantly (7) \\
+                    \addlinespace
+                    15 & How much depth and layering do you observe in the design of this facade? \\
+                    & None (1) —————— A Great Deal (7) \\
+                    \\
+                    \bottomrule
+                \end{tabularx}
+        \end{minipage}
+    \end{tabular}
+\end{table*}
