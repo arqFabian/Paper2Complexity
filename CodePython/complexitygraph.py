@@ -6,12 +6,14 @@ import matplotlib.colors as mcolors
 from itertools import cycle
 
 # This function plots Historical analysis scatter graph
+
+
 def generate_scatter_complexity(years_input, complexity_scores_input, style_labels_input, style_names_input, script_directory_input, trendline_input):
     # Set the desired aspect ratio (16:9)
-    aspect_ratio = 12 / 4
+    aspect_ratio = 12 / 5
 
     # Calculate the figure width based on the aspect ratio
-    fig_width = 12  # You can adjust this value as needed
+    fig_width = 12 # You can adjust this value as needed
 
     # Calculate the corresponding figure height
     fig_height = fig_width / aspect_ratio
@@ -43,12 +45,14 @@ def generate_scatter_complexity(years_input, complexity_scores_input, style_labe
     handles.append(plt.Line2D([0], [0], color='r', linestyle='--', label='Trend Line'))
 
     plt.legend(handles=handles, title='Styles', loc='center left',
-               bbox_to_anchor=(1, 0.5))  # Position legend to the right
+               bbox_to_anchor=(1, 0.5), fontsize='large')  # Position legend to the right
 
     # label axis
-    plt.xlabel('Chronological order of buildings')
-    plt.ylabel('CICA Complexity Score')
-    plt.title('Facade Complexity Analysis by Year and Style')
+    plt.xlabel('Year of construction of buildings', fontsize='large')
+    plt.ylabel('CICA Complexity Score', fontsize='large')
+    plt.title(
+        'CICA-Driven Historical Analysis of Architectural Complexity Trends Over Time',
+        fontsize='large')
     plt.grid(True)
 
     # Fit a polynomial trend line
@@ -78,6 +82,8 @@ def generate_scatter_complexity(years_input, complexity_scores_input, style_labe
 
 
 # This function plots all three patterns in a single scatter graph
+
+
 def generate_scatter_render_complexity_together(level_input, complexity_scores_input, pattern_labels_input, pattern_names_input, script_directory_input, trendline_input):
     # Create a colormap for patterns
     color_ref = ['prism', 'tab20', 'tab20b', 'tab20c', 'Set3', 'Set1']
