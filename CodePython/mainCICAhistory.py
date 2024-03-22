@@ -66,6 +66,30 @@ for style in style_names:
             complexity = calculate_complexity_score(image_path)
             complexity_scores.append(complexity)
 
+# Combine lists of complexity scores, file paths, and architectural styles
+combined_data = list(zip(complexity_scores, file_paths, style_labels))
+
+# Sort the combined data based on complexity scores
+combined_data.sort(key=lambda x: x[0], reverse=True)  # Sort in descending order
+
+# Extract top 5 high complexity scores with file names and architectural styles
+top_5_high_complexity = combined_data[:5]
+
+# Extract top 5 low complexity scores with file names and architectural styles
+top_5_low_complexity = combined_data[-5:]
+
+# Print the top 5 high complexity scores with file names and architectural styles
+print("Top 5 High Complexity Scores:")
+for score, file_path, style in top_5_high_complexity:
+    file_name = os.path.basename(file_path)
+    print(f"Image: {file_name}, Style: {style}, Complexity Score: {score}")
+
+# Print the top 5 low complexity scores with file names and architectural styles
+print("\nTop 5 Low Complexity Scores:")
+for score, file_path, style in top_5_low_complexity:
+    file_name = os.path.basename(file_path)
+    print(f"Image: {file_name}, Style: {style}, Complexity Score: {score}")
+
 # Print the maximum values
 print(f"Maximum Edge Metric Score: {max_edge_metric}")
 print(f"Maximum Contour Metric Score: {max_contour_metric}")

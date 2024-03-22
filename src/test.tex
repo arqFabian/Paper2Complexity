@@ -30,8 +30,153 @@
 \usepackage{caption}
 
 
+
 % Document
 \begin{document}
+
+%!Table CICA scatter graph and table of Top and bottom scores for buildings
+% Table with figures and data from top 5 and bottom 5 CICA complexity scores of buildings from historical analysis
+\begin{table*}[!htb]
+\centering
+\small
+\begin{tabular}{c}
+    %Top cell with one figure
+    %Figure: CICA scatter graph for historical analysis
+    \begin{minipage}{\textwidth}
+        \centering
+        \includegraphics[width= \linewidth]{Graphs/complexitygraph}
+        \captionof{figure}{Scatter Graph of Architectural Complexity Over Time: This graph presents the Computational Image Complexity Analysis (CICA) scores for 177 buildings, categorized by historical timeline and architectural style. An overlaid trendline highlights the current evolving trend towards increased complexity in architectural design as analyzed by the CICA system.}
+        \label{fig:HistoricalComplexityGraph}
+    \end{minipage}
+    \\
+    \\
+    %2nd row with one table
+    %Table: CICA top 5 buildings with year and scores
+    \begin{minipage}{\textwidth}
+        \centering
+        \captionof{table}{Table of comparative CICA Historical Analysis results: Top 5 Highest and Bottom 5 Lowest CICA Complexity Scores from Historical Analysis, Including Year of Construction and Architectural Style.}
+        \label{tab:Top5andBottom5CICAcomplexityScores}
+        \begin{tabularx}{\linewidth}{c X c c c}
+        \toprule
+        \multicolumn{5}{c}{\textbf{Buildings with the Top 5 Highest CICA Complexity Scores}} \\
+        \hline
+        \textbf{Rank} & \textbf{Building Name} & \textbf{Year of Construction} & \textbf{Architectural Style} & \textbf{CICA Score} \\
+        \hline
+        1 & Westminster Abbey & 1245 & Gothic & 7.81 \\
+        2 & Seattle Central Library & 2004 & Deconstructivism & 7.78 \\
+        3 & Reims Kathedrale & 1275 & Gothic & 7.51 \\
+        4 & California Academy of Sciences & 2008 & Hightech Modernism & 7.45 \\
+        5 & Rome Trevi Fountain & 1732 & Baroque & 7.39 \\
+        \hline
+        \end{tabularx}
+    \end{minipage}
+    \\
+    \\
+    %3rd row cell with Figure
+    %Figure CICA top 5 buildings
+    \begin{minipage}{\textwidth}
+        \centering
+        \includegraphics[width= \linewidth, trim=0cm 0.5cm 0cm 0.5cm]{Images/CICATop5}
+        \label{fig:CICATop5scores}
+    \end{minipage}
+    \\
+    %4rd row cell with Table
+    %Table: CICA bottom 5 buildings with year and scores
+    \begin{minipage}{\textwidth}
+        \centering
+        \begin{tabularx}{\linewidth}{c X c c c}
+        \hline
+        \multicolumn{5}{c}{\textbf{Buildings with the Bottom 5 Lowest CICA Complexity Scores}} \\
+        \hline
+        \textbf{Rank} & \textbf{Building Name} & \textbf{Year of Construction} & \textbf{Architectural Style} & \textbf{CICA Score} \\
+        \hline
+        1 & Luce Memorial Chapel, Taichung City, Taiwan & 1963 & Modernism & 0.66 \\
+        2 & Imperial War Museum North & 2002 & Deconstructivism & 0.79 \\
+        3 & St. Mary's Cathedral, Tokyo & 1964 & Modernism & 1.07 \\
+        4 & Disney Concert Hall & 2003 & Deconstructivism & 1.13 \\
+        5 & Cathedral of Brasilia in Brazil & 1970 & Modernism & 1.22 \\
+        \bottomrule
+        \end{tabularx}
+    \end{minipage}
+    \\
+    \\
+    %Bottom cell with Figure
+    %Figure CICA top 5 buildings
+    \begin{minipage}{\textwidth}
+        \centering
+        \includegraphics[width= \linewidth, trim=0cm 0.5cm 0cm 0.5cm]{Images/CICABottom5}
+        \label{fig:CICABottom5scores}
+    \end{minipage}
+\end{tabular}
+\end{table*}
+
+\stop
+
+%!Table CICA Top and bottom scores for buildings
+% Table with figures and data from top 5 and bottom 5 CICA complexity scores of buildings from historical analysis
+\begin{table*}[!htb]
+\centering
+\caption{Table of comparative CICA Historical Analysis results: Top 5 Highest and Bottom 5 Lowest CICA Complexity Scores from Historical Analysis, Including Year of Construction and Architectural Style.}
+\label{tab:Top5andBottom5CICAcomplexityScores}
+\small
+\begin{tabular}{c}
+    %Top cell with one figure
+    %Table: CICA top 5 buildings with year and scores
+    \begin{minipage}{\textwidth}
+        \centering
+        \begin{tabularx}{\linewidth}{c X c c c}
+        \toprule
+        \multicolumn{5}{c}{\textbf{Buildings with the Top 5 Highest CICA Complexity Scores}} \\
+        \hline
+        \textbf{Rank} & \textbf{Building Name} & \textbf{Year of Construction} & \textbf{Architectural Style} & \textbf{CICA Score} \\
+        \hline
+        1 & Westminster Abbey & 1245 & Gothic & 7.81 \\
+        2 & Seattle Central Library & 2004 & Deconstructivism & 7.78 \\
+        3 & Reims Kathedrale & 1275 & Gothic & 7.51 \\
+        4 & California Academy of Sciences & 2008 & Hightech Modernism & 7.45 \\
+        5 & Rome Trevi Fountain & 1732 & Baroque & 7.39 \\
+        \hline
+        \end{tabularx}
+    \end{minipage}
+    \\
+    \\
+    %2nd row cell with table
+    %Figure CICA top 5 buildings
+    \begin{minipage}{\textwidth}
+        \centering
+        \includegraphics[width= \linewidth, trim=0cm 0.5cm 0cm 0.5cm]{Images/CICATop5}
+        \label{fig:CICATop5scores}
+    \end{minipage}
+    \\
+    %3rd row cell with figure
+    %Table: CICA bottom 5 buildings with year and scores
+    \begin{minipage}{\textwidth}
+        \centering
+        \begin{tabularx}{\linewidth}{c X c c c}
+        \hline
+        \multicolumn{5}{c}{\textbf{Buildings with the Bottom 5 Lowest CICA Complexity Scores}} \\
+        \hline
+        \textbf{Rank} & \textbf{Building Name} & \textbf{Year of Construction} & \textbf{Architectural Style} & \textbf{CICA Score} \\
+        \hline
+        1 & Luce Memorial Chapel, Taichung City, Taiwan & 1963 & Modernism & 0.66 \\
+        2 & Imperial War Museum North & 2002 & Deconstructivism & 0.79 \\
+        3 & St. Mary's Cathedral, Tokyo & 1964 & Modernism & 1.07 \\
+        4 & Disney Concert Hall & 2003 & Deconstructivism & 1.13 \\
+        5 & Cathedral of Brasilia in Brazil & 1970 & Modernism & 1.22 \\
+        \bottomrule
+        \end{tabularx}
+    \end{minipage}
+    \\
+    \\
+    %Bottom cell with table
+    %TFigure CICA top 5 buildings
+    \begin{minipage}{\textwidth}
+        \centering
+        \includegraphics[width= \linewidth, trim=0cm 0.5cm 0cm 0.5cm]{Images/CICABottom5}
+        \label{fig:CICABottom5scores}
+    \end{minipage}
+\end{tabular}
+\end{table*}
 
 %!Scatter graph for results in CICA for historical analysis
 %facade Complexity analysis graph by year and architectural style
@@ -42,9 +187,9 @@
       \label{fig:HistoricalComplexityGraph}
 \end{figure*}
 
-\stop
 
-%%Survey tables questions
+
+%!%Survey tables questions
 %%2x1 Table with Nested Tables in Each Cell
 \begin{table*}[!htb]
 \centering
