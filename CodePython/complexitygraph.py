@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
 from itertools import cycle
 
-
+# This function plots Historical analysis scatter graph
 def generate_scatter_complexity(years_input, complexity_scores_input, style_labels_input, style_names_input, script_directory_input, trendline_input):
     # Set the desired aspect ratio (16:9)
     aspect_ratio = 12 / 4

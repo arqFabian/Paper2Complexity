@@ -7,10 +7,13 @@ import matplotlib.pyplot as plt
 from itertools import cycle
 import matplotlib.colors as mcolors
 import os
-
+import time
 
 from complexityanalysis import calculate_complexity_score, calculate_metrics
 from complexitygraph import generate_scatter_complexity
+
+# Get the start time
+start_time = time.time()
 
 # Get the directory of the script
 script_directory = os.path.dirname(__file__)
@@ -66,10 +69,18 @@ for style in style_names:
 # Print the maximum values
 print(f"Maximum Edge Metric Score: {max_edge_metric}")
 print(f"Maximum Contour Metric Score: {max_contour_metric}")
+print(f"Total of Analyzed buildings:{len(complexity_scores)}")
 
 # Print all complexity scores
 #for result in complexity_scores:
     #print(result)
+
+# Calculate the total processing time
+end_time = time.time()
+processing_time = end_time - start_time
+
+# Print the processing time
+print(f"Total processing time: {processing_time:.2f} seconds")
 
 # create the scatter graph using the function for scatter graph
 generate_scatter_complexity(years, complexity_scores, style_labels, style_names, script_directory, 9)
