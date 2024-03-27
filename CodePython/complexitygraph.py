@@ -78,6 +78,11 @@ def generate_scatter_complexity(years_input, complexity_scores_input, style_labe
     plt.savefig(save_path, bbox_inches='tight')
     plt.show()
 
+    # Print the coefficients of the polynomial (from highest degree to lowest)
+    print("Trendline Coefficients:")
+    for i, coefficient in enumerate(trend_coefficients[::-1]):
+        print(f"Coefficient {i}: {coefficient}")
+
     return
 
 

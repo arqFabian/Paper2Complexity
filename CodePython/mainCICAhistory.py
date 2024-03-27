@@ -111,53 +111,6 @@ generate_scatter_complexity(years, complexity_scores, style_labels, style_names,
 
 
 
-"""
-# Iterate through style folders and images to find max metrics
-for style in style_names:
-    style_path = os.path.join(input_folder, style)
-
-    for filename in os.listdir(style_path):
-        if filename.lower().endswith((".png", ".jpg", ".jpeg", ".webp")):
-            image_path = os.path.join(style_path, filename)
-
-            # Calculate edge and contour metric scores for the image
-            edges, contours = calculate_metrics(image_path)
-
-            # Update maximum values if a new maximum is found
-            max_edge_metric = max(max_edge_metric, edges)
-            max_contour_metric = max(max_contour_metric, contours)
-
-            # Extract the year from the filename
-            year = int(filename.split('_')[0])
-
-            # Append data to lists
-            file_paths.append(image_path)
-            edge_metric_scores.append(edges)
-            contour_metric_scores.append(contours)
-            style_labels.append(style)
-            years.append(year)
-
-# Print the maximum values
-print(f"Maximum Edge Metric Score: {max_edge_metric}")
-print(f"Maximum Contour Metric Score: {max_contour_metric}")
-
-
-# Calculate complexity scores
-for style in style_names:
-    style_path = os.path.join(input_folder, style)
-    for filename in os.listdir(style_path):
-        if filename.lower().endswith((".png", ".jpg", ".jpeg", ".webp")):
-            image_path = os.path.join(style_path, filename)
-            complexity = calculate_complexity(image_path)
-            year = int(filename.split('_')[0])  # Extract the year from the filename
-            file_paths.append(image_path)
-            complexity_scores.append(complexity)
-            style_labels.append(style)
-            years.append(year)
-
-# Print all results
-for result in complexity_scores:
-    print(result)"""
 
 
 
