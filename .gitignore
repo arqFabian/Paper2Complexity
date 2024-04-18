@@ -1,3 +1,10 @@
+# Ignore all log files
+*.log
+
+# Ignore IDE specific settings
+.idea/
+*.iml
+
 # Project exclude paths
 /auxil/
 /out/
