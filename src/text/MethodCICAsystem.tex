@@ -15,23 +15,22 @@ Contour Count: Employing contour approximation techniques~\cite{ContourOpenCV202
 Contours provide a deeper insight into the complexity of architectural forms, enhancing the assessment of design intricacy.
 
 The choice of edge density and contour count is particularly pertinent to architectural complexity as they directly relate to the visual elements that shape a building's perceived complexity.
-Moreover, both the Canny Edge Detection algorithm and contour approximation are well-established in computer vision, known for their computational efficiency~\cite{Yang2022}.
+Moreover, both the `Canny Edge Detection' algorithm and `Contour Approximation' are well-established in computer vision, known for their computational efficiency~\cite{Yang2022}.
 This efficiency is essential for processing large datasets of building images without compromising analysis speed.
 
-The outputs of these metrics are normalized and combined into a unified complexity score using the scoring function \(f_1(x)\), defined in Equation~\ref{eq:F1_ComplexityScoreFunction} and Table~\ref{tab:ComplexityScoreFunction}.
-This function is a key component of the CICA system, providing a comprehensive assessment of architectural complexity.
-
-The complexity scoring function \(f_1(x)\) is expressed as:
-
+The outputs of these metrics are normalized and combined into a `Unified Complexity Score' using the `Complexity Score' function \(f_1(x)\), defined in Equation~\ref{eq:F1_ComplexityScoreFunction} as follows:
 
 \begin{equation}
     f_1(x) = \mathrm{round}\left(\sum_{i=1}^{n} w_i \cdot a_i, 2\right) = \text{complexity\_score}
-    \label{eq:F1_ComplexityScoreFunction2}
+    \label{eq:F1_ComplexityScoreFunction}
 \end{equation}
 
+where \(n\) represents the number of performance indicators, \(w_i\) is the weight of the \(i\)-th element, and \(a_i\) is the normalized score for the \(i\)-th metric (e.g., `Edge Density' and `Contour Count').
 
-where \(w_i\) represents the weight and \(a_i\) represents the normalized score for each metric.
-This weighted sum yields the overall complexity score for each building image.
+This weighted sum yields the overall complexity score for each building image, providing a quantifiable measure of facade complexity.
+
+This function is a key component of the CICA system,
+enabling a thorough assessment of architectural complexity.
 
 The CICA system has two main applications:
 \begin{itemize}

@@ -52,6 +52,7 @@
 
 
 % Document
+
 \begin{document}
 
 \begin{frontmatter}
@@ -207,7 +208,7 @@ Data-driven design\sep Complex Facades \sep Virtual Reality Assessment \sep Arch
     %% Methodology Flowchart
     \begin{figure*}[!htb]
         \centering
-        \includegraphics[width=\linewidth]{Images/MethodologyFlowchart}~\caption{Methodology Flowchart illustrating the sequential steps of this study's approach framework designed to assess the tolerance of users towards complex facade design. Higlighting the usage of the CICA system (as detailed in Section\ref{subsec:Computational Image Complexity analysis}) into the VR system development (detailed in Section\ref{subsec:VRsystemDevelopment}), and the transition to experiment design (described in Section\ref{subsec:Experiment_design}), culminating in post-experiment data analysis and results phase (presented in Section\ref{sec:Results}).}
+        \includegraphics[width=\linewidth]{Images/MethodologyFlowchart}~\caption{Methodology Flowchart illustrating the sequential steps of this study's approach framework designed to assess the tolerance of users towards complex facade design. Higlighting the usage of the CICA system (as detailed in Section\ref{subsec:CICAsystem}) into the VR system development (detailed in Section\ref{subsec:VRsystemDevelopment}), and the transition to `Experiment Execution' (described in Section\ref{subsec:Experiment_execution}), culminating in post-experiment data analysis and results phase (presented in Section\ref{sec:Results}).}
           \label{fig:MethodologyFlowchart}
     \end{figure*}
 
@@ -220,7 +221,7 @@ Data-driven design\sep Complex Facades \sep Virtual Reality Assessment \sep Arch
                 \begin{minipage}{\textwidth}
                     \centering
                     \includegraphics[width= \linewidth]{Images/CICAFlowchart}
-                    \captionof{figure}{Flowchart illustrating the applications of Computational Image Complexity Analysis system (CICA)(detailed in Section\ref{subsec:Computational Image Complexity analysis}), including its role in analyzing complexity scores for historical architectural styles (b) and 3D-modeled facades (a) designed with various degrees of complexity(presented in Section\ref{subsubsec:CICAfor3DmodeledFacades}).}
+                    \captionof{figure}{Flowchart illustrating the applications of CICA system (detailed in Section\ref{subsec:CICAsystem}), including its role in analyzing complexity scores for historical architectural styles (b) and 3D-modeled facades (a) designed with various degrees of complexity(presented in Section\ref{subsubsec:CICAfor3DmodeledFacades}).}
                     \label{fig:CICAImageEvaluationFlowchart}
                 \end{minipage}
             \end{tabular}
@@ -241,7 +242,7 @@ Data-driven design\sep Complex Facades \sep Virtual Reality Assessment \sep Arch
         %Table: Performance Indicators
         \begin{minipage}{\textwidth}
             \centering
-            \captionof{table}{Table of Metrics and Weights for Complexity Scoring: Outlines the key criteria and corresponding weights utilized in the Computational Image Complexity Analysis (CICA) to determine the `Complexity Score' of architectural facades, detailing the systematic approach to quantifying facade intricacy through edge density and contour count metrics.}
+            \captionof{table}{Table of Metrics and Weights for Complexity Scoring: Outlines the key criteria and corresponding weights utilized in the CICA system to determine the `Complexity Score' of architectural facades, detailing the systematic approach to quantifying facade intricacy through edge density and contour count metrics.}
             \label{tab:MetricsandWeights}
             \begin{tabularx}{\textwidth}{p{2.5cm} p{1cm} X X p{1cm}}
                 \toprule
@@ -272,40 +273,6 @@ Data-driven design\sep Complex Facades \sep Virtual Reality Assessment \sep Arch
                   \textbf{TOTAL} &
                   &
                   \textbf{10}\\ \bottomrule
-            \end{tabularx}
-        \end{minipage}
-        \\
-        \\
-        \\
-        %Middle cell with two nested figures side by side
-        %Table function 1 complexity score
-        \begin{minipage}{\textwidth}
-            \centering
-            \captionof{table}{Function 1: Complexity scoring function that integrates various criteria to assess the intricacy of a building facade.}
-            \label{tab:ComplexityScoreFunction}
-            \begin{tabularx}{\linewidth}{|X|}
-                \hline
-                \small
-                \vspace{0.1cm}
-                \multicolumn{1}{c}{\textbf{\(f_1\): Unified Complexity Scoring Function}}\\
-                \textit{Calculate the complexity score for all images in the data pool.}
-                \\ \\
-                \begin{equation}
-                    f_1(x) = \mathrm{round}\left(\sum_{i=1}^{n} w_i \cdot a_i, 2\right) = \text{complexity\_score}
-                    \label{eq:F1_ComplexityScoreFunction}
-                \end{equation}
-                \\
-                \textit{for the buildings included in the database.}
-                \vspace{0.5em}
-
-                \textit{where:}\\
-                \(n\): number of performance indicators\\
-                \(w_i\): weight of the \(i\)-th element\\
-                \(a_i\): normalized score for the \(i\)-th metric (e.g., `Edge Density' and `Contour Count')\\
-                \vspace{0.05em}
-                \textit{Finally, the "Complexity Score" is assigned to each building for data visualization.}
-                \vspace{0.5em}\\
-                \hline
             \end{tabularx}
         \end{minipage}
         \\
@@ -449,15 +416,15 @@ Data-driven design\sep Complex Facades \sep Virtual Reality Assessment \sep Arch
     \end{table*}
 
 
-    \subsection{Computational Image Complexity Analysis (CICA) system}
-    \label{subsec:Computational Image Complexity analysis}
-    \input{text/MethodComputationalImageComplexityAnalysis}
+    \subsection{CICA System}
+    \label{subsec:CICAsystem}
+    \input{text/MethodCICAsystem}
 
-    \subsection{VR system for Complexity Analysis in facade design}
+    \subsection{VR System Development}
     \label{subsec:VRsystemDevelopment}
     \input{text/MethodVRSystemDevelopment}
 
-    \subsubsection{3D Modeling}
+    \subsubsection{3D Modeling and Environment setup}
     \label{subsubsec:3DModeling}
     %% description of things modeled in blender for use in the experiment
     \input{Text/Method3DModeling}
@@ -484,22 +451,22 @@ Data-driven design\sep Complex Facades \sep Virtual Reality Assessment \sep Arch
     %% description of CICA applicationnn forfacade variation modeled in blender for use in the experiment
     \input{Text/MethodCICAforFacades}
 
-    %!Figure of experiment design flowchart
-    %% Figure Experiment Design flowchart
+    %!Figure of `Experiment Execution' flowchart
+    %% Figure `Experiment Execution' flowchart
     \begin{figure*}[htb]
         \centering
         \includegraphics[width= \linewidth]{Images/FlowchartExperiment}
-          \caption{Experiment Design Flowchart: This flowchart outlines the three stages of the experiment, including the VR Interaction Stage (I), the Screen-Based Ranking Stage (II), and the Post-Experiment Survey (III), providing a visual representation of the sequential steps involved in the study.}
+          \caption{`Experiment Execution' Flowchart: This flowchart outlines the three stages of the experiment, including the VR Interaction Stage (I), the Screen-Based Ranking Stage (II), and the Post-Experiment Survey (III), providing a visual representation of the sequential steps involved in the study.}
           \label{fig:ExperimentFlowchart}
     \end{figure*}
 
-    \subsubsection{VR integration and data visualization interface}
+    \subsubsection{VR integration and simulation tools}
     \label{subsubsec:VR_integration}
     %%Define the sections of the VR interface and how information is displayed
     \input{Text/MethodVR_Integration}
 
-    \subsection{Experiment design}
-    \label{subsec:Experiment_design}
+    \subsection{Experiment Execution}
+    \label{subsec:Experiment_execution}
     %%Task description, stage 1 to 3 with survey
     \input{Text/ExperimentDesign}
 
@@ -515,7 +482,7 @@ Data-driven design\sep Complex Facades \sep Virtual Reality Assessment \sep Arch
         \begin{minipage}{\textwidth}
             \centering
             \includegraphics[width= \linewidth]{Graphs/complexitygraph}
-            \captionof{figure}{Scatter Graph of Architectural Complexity Over Time: This graph presents the Computational Image Complexity Analysis (CICA) scores for 177 buildings, categorized by historical timeline and architectural style. An overlaid trendline highlights the current evolving trend towards increased complexity in architectural design as analyzed by the CICA system.}
+            \captionof{figure}{Scatter Graph of Architectural Complexity Over Time: This graph presents the CICA scores for 177 buildings, categorized by historical timeline and architectural style. An overlaid trendline highlights the current evolving trend towards increased complexity in architectural design as analyzed by the CICA system.}
             \label{fig:HistoricalComplexityGraph}
         \end{minipage}
         \\
@@ -725,6 +692,7 @@ Data-driven design\sep Complex Facades \sep Virtual Reality Assessment \sep Arch
     %\subsection{Future Trends and speculations}
     %\label{subsec:Futuretrends}
     %\input{text/FutureTrendsTheory}
+
 
 \section{Conclusions}
 \label{sec:Conclusion}
