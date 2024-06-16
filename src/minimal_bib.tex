@@ -1,0 +1,69 @@
+%! Author = arqfa
+%! Date = 8/8/2023
+
+
+%!Document class for final manuscript
+\documentclass[final,5p,times]{elsarticle}% Turn on the 'final' option to hide all changes and produce a clean output
+
+%!document class for changes tracking
+%\documentclass[5p,times]{elsarticle}% turn on for changes
+%! package for tracking changes
+
+\usepackage[final]{changes} %Turn on the 'final' option to hide all
+%changes and produce a clean output
+%\usepackage{changes}% turn on when going for manuscript with changes
+
+    %% Added Text: Use \added{new text} to indicate added text.
+    %Deleted Text: Use \deleted{old text} for text you have removed.
+    %Replaced Text: Use \replaced{new text}{old text} to show text that has been replaced.
+
+%% For including figures, graphicx.sty has been loaded in
+%% elsarticle.cls.
+
+
+%!Packages for file
+%% The amssymb package provides various useful mathematical symbols
+\usepackage{amssymb}
+%% The amsthm package provides extended theorem environments
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{amsmath} % for equations
+\usepackage{breakurl}
+\usepackage{url}
+
+\usepackage{hyperref} % Ensure hyperlinks work properly
+
+
+%% The lineno packages adds line numbers. Start line numbering with
+%%\begin{linenumbers}, end it with \end{linenumbers}. Or switch it on
+%% for the whole article with \linenumbers
+\usepackage{lineno}
+\modulolinenumbers[10]
+\usepackage{enumitem}
+
+%\usepackage{amsmath}
+
+\usepackage{multirow}
+
+\usepackage{caption}
+
+
+\journal{Automation in Construction}%Write journal name here
+
+
+% Document
+\begin{document}
+
+\section{Introduction}
+\label{sec:1Introduction}
+%%State the objectives of the work and provide an adequate background, avoiding a detailed literature survey or a summary of the results.
+\input{Text/Introduction}
+\cite{Wolfartsberger2019}
+
+
+\bibliographystyle{elsarticle-num}
+\bibliography{main}
+
+\end{document}

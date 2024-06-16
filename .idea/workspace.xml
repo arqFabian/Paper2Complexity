@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Rename of subsection to MethodCICAsystem.tex">
-      <change beforePath="$PROJECT_DIR$/src/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/text/MethodCICAsystem.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/MethodCICAsystem.tex" afterDir="false" />
+    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Update to references on articles">
+      <change afterPath="$PROJECT_DIR$/src/minimal_bib.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.bib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.bib" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +71,9 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;BibTeX.main bibliography.executor&quot;: &quot;Run&quot;,
+    &quot;BibTeX.minimal_bib bibliography.executor&quot;: &quot;Run&quot;,
     &quot;LaTeX.MainPDF.executor&quot;: &quot;Run&quot;,
+    &quot;LaTeX.minimal_bib.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
@@ -136,6 +138,17 @@
       </texify-bibtex>
       <method v="2" />
     </configuration>
+    <configuration name="minimal_bib bibliography" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
+      <texify-bibtex>
+        <compiler>BIBTEX</compiler>
+        <compiler-path />
+        <compiler-arguments />
+        <envs />
+        <main-file>$PROJECT_DIR$/src/minimal_bib.tex</main-file>
+        <aux-dir>$PROJECT_DIR$/auxil</aux-dir>
+      </texify-bibtex>
+      <method v="2" />
+    </configuration>
     <configuration name="MainPDF" type="LATEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify>
         <compiler>PDFLATEX</compiler>
@@ -175,6 +188,28 @@
         <output-format>PDF</output-format>
         <latex-distribution>MIKTEX</latex-distribution>
         <has-been-run>false</has-been-run>
+        <bib-run-config>[]</bib-run-config>
+        <makeindex-run-config>[]</makeindex-run-config>
+      </texify>
+      <method v="2" />
+    </configuration>
+    <configuration name="minimal_bib" type="LATEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
+      <texify>
+        <compiler>PDFLATEX</compiler>
+        <compiler-path />
+        <sumatra-path />
+        <pdf-viewer>BUILT-IN-PDF-VIEWER</pdf-viewer>
+        <viewer-command />
+        <compiler-arguments />
+        <envs />
+        <before-run-command />
+        <main-file>$PROJECT_DIR$/src/minimal_bib.tex</main-file>
+        <output-path>$PROJECT_DIR$/out</output-path>
+        <auxil-path>$PROJECT_DIR$/auxil</auxil-path>
+        <compile-twice>true</compile-twice>
+        <output-format>PDF</output-format>
+        <latex-distribution>MIKTEX</latex-distribution>
+        <has-been-run>true</has-been-run>
         <bib-run-config>[]</bib-run-config>
         <makeindex-run-config>[]</makeindex-run-config>
       </texify>
@@ -253,9 +288,11 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="BibTeX.minimal_bib bibliography" />
       <item itemvalue="BibTeX.Wordtest bibliography" />
       <item itemvalue="BibTeX.main bibliography" />
       <item itemvalue="LaTeX.MainPDF" />
+      <item itemvalue="LaTeX.minimal_bib" />
       <item itemvalue="Python.mainCICAhistory" />
       <item itemvalue="Python.mainCICArender" />
       <item itemvalue="Python.CannyEdgePlot" />
@@ -338,6 +375,7 @@
       <workItem from="1718280829884" duration="1274000" />
       <workItem from="1718326621913" duration="218000" />
       <workItem from="1718503941525" duration="6501000" />
+      <workItem from="1718510499399" duration="4397000" />
     </task>
     <task id="LOCAL-00017" summary="Corrections to HistoryArchStylesTheory.tex to add the art noaveu refrence as well as the ransition to modernism">
       <created>1692760181616</created>
@@ -682,7 +720,7 @@
       <option name="project" value="LOCAL" />
       <updated>1699542674381</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <option name="localTasksCounter" value="127" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -711,7 +749,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="replacement of fragmented figures into concise timeline figures for the Theory Framework" />
     <MESSAGE value="Timelines combined in a single unnamed table instead of three separate strips. Combination of edge detection images too in preparation for the edition of the paper in the one column format." />
     <MESSAGE value="Reorganization of paper and update of bibliography. Prep of flowchart" />
     <MESSAGE value="Allocation of images to main.tex so that it is easier to allocate them on draft. &#10;Prep of main.tex for possible revision to include change tracker. Creation of test.tex for testing images layout and backup image changes." />
@@ -736,7 +773,8 @@
     <MESSAGE value="Correction in the introduction for a more objective approach while keeping the previous research in complexity. Introduction limit 500 words." />
     <MESSAGE value="Start of Paper revision after AIJ rejection" />
     <MESSAGE value="Rename of subsection to MethodCICAsystem.tex" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rename of subsection to MethodCICAsystem.tex" />
+    <MESSAGE value="Update to references on articles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update to references on articles" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/workspace_xml$CannyEdgePlot.coverage" NAME="CannyEdgePlot Coverage Results" MODIFIED="1702459802968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CodePython" />
