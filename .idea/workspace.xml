@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Start of Paper revision after AIJ rejection">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/GraphicAbstract.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/GraphicAbstract.pdf" afterDir="false" />
+    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Rename of subsection to MethodCICAsystem.tex">
       <change beforePath="$PROJECT_DIR$/src/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/text/BackUpTextImages.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/BackUpTextImages.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/text/Conclusions.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/Conclusions.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/text/MethodCICAforFacades.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/MethodCICAforFacades.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/text/MethodComputationalImageComplexityAnalysis.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/MethodComputationalImageComplexityAnalysis.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/text/MethodologyIntro.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/MethodologyIntro.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/text/RD_1Results_DiscussionIntro.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/RD_1Results_DiscussionIntro.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/MethodCICAsystem.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/MethodCICAsystem.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -344,7 +337,7 @@
       <workItem from="1717895611320" duration="128000" />
       <workItem from="1718280829884" duration="1274000" />
       <workItem from="1718326621913" duration="218000" />
-      <workItem from="1718503941525" duration="5326000" />
+      <workItem from="1718503941525" duration="6501000" />
     </task>
     <task id="LOCAL-00017" summary="Corrections to HistoryArchStylesTheory.tex to add the art noaveu refrence as well as the ransition to modernism">
       <created>1692760181616</created>
@@ -689,7 +682,7 @@
       <option name="project" value="LOCAL" />
       <updated>1699542674381</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -718,7 +711,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Concise version, replacing fragmented small paragraphs for idea centric larger ones." />
     <MESSAGE value="replacement of fragmented figures into concise timeline figures for the Theory Framework" />
     <MESSAGE value="Timelines combined in a single unnamed table instead of three separate strips. Combination of edge detection images too in preparation for the edition of the paper in the one column format." />
     <MESSAGE value="Reorganization of paper and update of bibliography. Prep of flowchart" />
@@ -743,7 +735,8 @@
     <MESSAGE value="Update on abstract with 6 phrase reviewer format." />
     <MESSAGE value="Correction in the introduction for a more objective approach while keeping the previous research in complexity. Introduction limit 500 words." />
     <MESSAGE value="Start of Paper revision after AIJ rejection" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start of Paper revision after AIJ rejection" />
+    <MESSAGE value="Rename of subsection to MethodCICAsystem.tex" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rename of subsection to MethodCICAsystem.tex" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/workspace_xml$CannyEdgePlot.coverage" NAME="CannyEdgePlot Coverage Results" MODIFIED="1702459802968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CodePython" />

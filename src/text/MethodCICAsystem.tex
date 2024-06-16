@@ -18,11 +18,11 @@ The choice of edge density and contour count is particularly pertinent to archit
 Moreover, both the `Canny Edge Detection' algorithm and `Contour Approximation' are well-established in computer vision, known for their computational efficiency~\cite{Yang2022}.
 This efficiency is essential for processing large datasets of building images without compromising analysis speed.
 
-The outputs of these metrics are normalized and combined into a `Unified Complexity Score' using the `Complexity Score' function \(f_1(x)\), defined in Equation~\ref{eq:F1_ComplexityScoreFunction} as follows:
+The outputs of these metrics are normalized and combined into a `Unified Complexity Score' using the `Complexity Score' function \(f_1(x)\), defined in Equation~\ref{eq:F1_ComplexityScoreFunction1} as follows:
 
 \begin{equation}
     f_1(x) = \mathrm{round}\left(\sum_{i=1}^{n} w_i \cdot a_i, 2\right) = \text{complexity\_score}
-    \label{eq:F1_ComplexityScoreFunction}
+    \label{eq:F1_ComplexityScoreFunction1}
 \end{equation}
 
 where \(n\) represents the number of performance indicators, \(w_i\) is the weight of the \(i\)-th element, and \(a_i\) is the normalized score for the \(i\)-th metric (e.g., `Edge Density' and `Contour Count').
