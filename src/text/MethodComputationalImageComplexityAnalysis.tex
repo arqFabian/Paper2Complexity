@@ -1,40 +1,46 @@
 % this section describes the computational image complexity analysis
 %!Concise version
-The literature review, covered in Section \ref{sec:Literature review} of this study, meticulously examined the architectural evolution, revealing a recurring cycle between complex and simple styles.
+The literature review, covered in Section~\ref{sec:Literature review} of this study, meticulously examined the architectural evolution, revealing a recurring cycle between complex and simple styles.
 Our primary objective for the CICA system was to empirically validate the trends in architectural complexity suggested by our theoretical analysis by creating a quantifiable scoring system capable of evaluating the complexity of facades of historical buildings and 3D-modeled building facades for use in the VR experience.
 
 The CICA system, a Python script, assesses design complexity by quantifying elements and analyzing shapes.
-Inspired by Venturi et al.'s perspective on complexity\cite{Venturi1977}, the system's scoring process is based on the principle that a building's complexity can be measured by the time required to mentally process its constituent elements, and has been organized in a process illustrated in Figure \ref{fig:CICAImageEvaluationFlowchart}.
+Inspired by Venturi et al.'s perspective on complexity~\cite{Venturi1977}, the system's scoring process is based on the principle that a building's complexity can be measured by the time required to mentally process its constituent elements, and has been organized in a process illustrated in Figure~\ref{fig:CICAImageEvaluationFlowchart}.
 
-In line with Venturi's emphasis on the perceptual aspects of complexity, the CICA system interprets architectural complexity through two primary metrics: edge density and contour count (Table \ref{tab:MetricsandWeights}), selected based on their relevance to human vision's fundamental capabilities of edge and object contour detection\cite{Yang2022}.
+In line with Venturi's emphasis on the perceptual aspects of complexity, the CICA system interprets architectural complexity through two primary metrics: edge density and contour count (Table~\ref{tab:MetricsandWeights}), selected based on their relevance to human vision's fundamental capabilities of edge and object contour detection~\cite{Yang2022}.
 
-Edge Density: Utilizing the Canny Edge Detection algorithm \cite{EdgeOpenCV2023}, focuses on the presence and density of edges, which define architectural boundaries (Table \ref{tab:CICAImageEvalProcessOnArchitecturalFacades}, column 3).
+Edge Density: Utilizing the Canny Edge Detection algorithm~\cite{EdgeOpenCV2023}, focuses on the presence and density of edges, which define architectural boundaries (Table~\ref{tab:CICAImageEvalProcessOnArchitecturalFacades}, column 3).
 Edges are crucial as they define the boundaries of architectural features, contributing significantly to the overall complexity perception.
 
-Contour Count: Employing contour approximation techniques \cite{ContourOpenCV2023}, this metric focuses on the intricacies of shapes outlined by edges (Table \ref{tab:CICAImageEvalProcessOnArchitecturalFacades}, column 4).
+Contour Count: Employing contour approximation techniques~\cite{ContourOpenCV2023}, this metric focuses on the intricacies of shapes outlined by edges (Table~\ref{tab:CICAImageEvalProcessOnArchitecturalFacades}, column 4).
 Contours provide a deeper insight into the complexity of architectural forms, enhancing the assessment of design intricacy.
 
 The choice of edge density and contour count is particularly pertinent to architectural complexity as they directly relate to the visual elements that shape a building's perceived complexity.
-Moreover, both the Canny Edge Detection algorithm and contour approximation are well-established in computer vision, known for their computational efficiency\cite{Yang2022}.
+Moreover, both the Canny Edge Detection algorithm and contour approximation are well-established in computer vision, known for their computational efficiency~\cite{Yang2022}.
 This efficiency is essential for processing large datasets of building images without compromising analysis speed.
 
-The outputs of these metrics are normalized and combined into a unified complexity score using the scoring function \(f_1(x)\), defined in Equation \ref{eq:F1_ComplexityScoreFunction} and Table \ref{tab:ComplexityScoreFunction}.
+The outputs of these metrics are normalized and combined into a unified complexity score using the scoring function \(f_1(x)\), defined in Equation~\ref{eq:F1_ComplexityScoreFunction} and Table~\ref{tab:ComplexityScoreFunction}.
 This function is a key component of the CICA system, providing a comprehensive assessment of architectural complexity.
 
 The complexity scoring function \(f_1(x)\) is expressed as:
 
-\(\mathbf{f_1(x) = \mathrm{round}\left(\sum_{i=1}^{n} w_i \cdot a_i, 2\right)}\),
+
+\begin{equation}
+    f_1(x) = \mathrm{round}\left(\sum_{i=1}^{n} w_i \cdot a_i, 2\right) = \text{complexity\_score}
+    \label{eq:F1_ComplexityScoreFunction2}
+\end{equation}
+
+
 where \(w_i\) represents the weight and \(a_i\) represents the normalized score for each metric.
 This weighted sum yields the overall complexity score for each building image.
 
 The CICA system has two main applications:
 \begin{itemize}
-    \item \textit{Historical analysis:}  Analyzing over 180 buildings from various architectural eras to create a scatter graph of complexity scores organized by year, demonstrating complexity trends fluctuations over time (Figure \ref{fig:CICAImageEvaluationFlowchart}[b])(Table \ref{tab:CICAImageEvalProcessOnArchitecturalFacades}[b]). The graph is presented in the Results section in Section \ref{subsec:ResultsComplexityImageAnalysishistory}.
-    \item \textit{3D-modeled facades Analysis:} detailed in Section \ref{subsubsec:CICAfor3DmodeledFacades}, it involves analyzing images of 10 variations across 3 patterns of 3D-modeled facades with varying degrees of complexity, to assign them complexity scores, created for the VR experiment  (Figure \ref{fig:CICAImageEvaluationFlowchart}[a])(Table \ref{tab:CICAImageEvalProcessOnArchitecturalFacades}[a]). This CICA scores will then be used as a framework for comparison with user perceptions (Figure \ref{fig:CICAscatterGraphRender}).
+    \item \textit{Historical analysis:}  Analyzing over 180 buildings from various architectural eras to create a scatter graph of complexity scores organized by year, demonstrating complexity trends fluctuations over time (Figure~\ref{fig:CICAImageEvaluationFlowchart}[b])(Table~\ref{tab:CICAImageEvalProcessOnArchitecturalFacades}[b]). The graph is presented in the Results section in Section~\ref{subsec:ResultsComplexityImageAnalysishistory}.
+    \item \textit{3D-modeled facades Analysis:} detailed in Section~\ref{subsubsec:CICAfor3DmodeledFacades}, it involves analyzing images of 10 variations across 3 patterns of 3D-modeled facades with varying degrees of complexity, to assign them complexity scores, created for the VR experiment  (Figure~\ref{fig:CICAImageEvaluationFlowchart}[a])(Table~\ref{tab:CICAImageEvalProcessOnArchitecturalFacades}[a]). This CICA scores will then be used as a framework for comparison with user perceptions (Figure~\ref{fig:CICAscatterGraphRender}).
 \end{itemize}
 
 Through these applications, the CICA system aims to empirically validate architectural complexity trends and effectively prepare for the VR experiment that assesses user perceptions of facade complexity.
-This dual application allows us to quantitatively explore architectural complexity, aligning with our theoretical analysis and providing a basis for further experimentation in VR.
+This dual application allows us to quantitatively explore architectural complexity, aligning with our theoretical analysis and providing a basis for further experimentation in VR\@.
 
 
 %!Original text

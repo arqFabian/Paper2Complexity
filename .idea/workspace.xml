@@ -4,20 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Allocation of images to main.tex so that it is easier to allocate them on draft. &#10;Prep of main.tex for possible revision to include change tracker. Creation of test.tex for testing images layout and backup image changes.">
+    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Correction in the introduction for a more objective approach while keeping the previous research in complexity. Introduction limit 500 words.">
+      <change beforePath="$PROJECT_DIR$/.idea/Paper2Complexity.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Paper2Complexity.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/ComplexitPlotRenderCICA.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/CICARenderPlot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/ComplexitPlotRenderCICA.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/ComplexityPlotHistoryCICA.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/CICAHistoryPlot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/ComplexityPlotRender.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/ContourCICA.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/text/BackUpTextImages.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/BackUpTextImages.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/Conclusions.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/Conclusions.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/ExperimentDesign.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/ExperimentDesign.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/Introduction.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/Introduction.tex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/text/Method3DModeling.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/Method3DModeling.tex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/text/MethodCICAforFacades.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/MethodCICAforFacades.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/text/MethodImageComplexityAnalysis.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/MethodComputationalImageComplexityAnalysis.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/MethodComputationalImageComplexityAnalysis.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/MethodComputationalImageComplexityAnalysis.tex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/text/MethodVRSystemDevelopment.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/MethodVRSystemDevelopment.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/text/test.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/test.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/MethodVR_Integration.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/MethodVR_Integration.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/MethodologyIntro.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/MethodologyIntro.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/RD_2ResultsCICAHistory.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/RD_2ResultsCICAHistory.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/RD_3ResultsExperiment.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/RD_3ResultsExperiment.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/RD_4ResultsSurvey.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/RD_4ResultsSurvey.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/TheoryComplexityStudies.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/TheoryComplexityStudies.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/TheoryFacadeOrnament.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/TheoryFacadeOrnament.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/TheoryFutureTrends.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/TheoryFutureTrends.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/TheoryHistoryArchStyles.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/TheoryHistoryArchStyles.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +36,17 @@
         <option value="Setup Script" />
         <option value="Python Script" />
       </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
     </option>
   </component>
   <component name="Git.Settings">
@@ -46,14 +63,12 @@
     &quot;assignee&quot;: &quot;arqFabian&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="e5c86e04-951d-40fa-8c49-7dae283ac5c0" />
-        <option name="url" value="https://github.com/arqFabian/Paper2Complexity.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/arqFabian/Paper2Complexity.git&quot;,
+    &quot;accountId&quot;: &quot;e5c86e04-951d-40fa-8c49-7dae283ac5c0&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -72,17 +87,20 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;BibTeX.main bibliography.executor&quot;: &quot;Run&quot;,
+    &quot;LaTeX.MainPDF.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/arqfa/OneDrive/FABIAN DATA/Kyushu 2021/Research/Paper2Complexity&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/arqfa/PycharmProjects/Paper3EinsteinTiles&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -102,6 +120,17 @@
     </key>
   </component>
   <component name="RunManager" selected="LaTeX.MainPDF">
+    <configuration name="Wordtest bibliography" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
+      <texify-bibtex>
+        <compiler>BIBTEX</compiler>
+        <compiler-path />
+        <compiler-arguments />
+        <envs />
+        <main-file>$PROJECT_DIR$/src/Wordtest.tex</main-file>
+        <aux-dir>$PROJECT_DIR$/auxil</aux-dir>
+      </texify-bibtex>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify-bibtex>
         <compiler />
@@ -133,6 +162,7 @@
         <viewer-command />
         <compiler-arguments />
         <envs />
+        <before-run-command />
         <main-file>$PROJECT_DIR$/src/main.tex</main-file>
         <output-path>$PROJECT_DIR$/out</output-path>
         <auxil-path>$PROJECT_DIR$/auxil</auxil-path>
@@ -154,6 +184,7 @@
         <viewer-command />
         <compiler-arguments />
         <envs />
+        <before-run-command />
         <main-file />
         <output-path>{projectDir}/out</output-path>
         <auxil-path>{projectDir}/auxil</auxil-path>
@@ -168,14 +199,16 @@
     </configuration>
     <configuration name="CannyEdgePlot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Paper2Complexity" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.11 (Paper2Complexity) (2)" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CodePython" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -190,14 +223,15 @@
     </configuration>
     <configuration name="mainCICAhistory" type="PythonConfigurationType" factoryName="Python">
       <module name="Paper2Complexity" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\venv\Scripts\python.exe" />
-      <option name="SDK_NAME" value="Python 3.11 (Paper2Complexity)" />
-      <option name="WORKING_DIRECTORY" value="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\CodePython" />
+      <option name="SDK_NAME" value="Python 3.11 (Paper2Complexity) (2)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CodePython" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -213,14 +247,15 @@
     </configuration>
     <configuration name="mainCICArender" type="PythonConfigurationType" factoryName="Python">
       <module name="Paper2Complexity" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\venv\Scripts\python.exe" />
-      <option name="SDK_NAME" value="Python 3.11 (Paper2Complexity)" />
-      <option name="WORKING_DIRECTORY" value="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\CodePython" />
+      <option name="SDK_NAME" value="Python 3.11 (Paper2Complexity) (2)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CodePython" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -235,6 +270,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="BibTeX.Wordtest bibliography" />
       <item itemvalue="BibTeX.main bibliography" />
       <item itemvalue="LaTeX.MainPDF" />
       <item itemvalue="Python.mainCICAhistory" />
@@ -246,6 +282,14 @@
         <item itemvalue="Python.CannyEdgePlot" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-PY-241.15989.155" />
+        <option value="bundled-python-sdk-babbdf50b680-7c6932dee5e4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.15989.155" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -283,6 +327,33 @@
       <workItem from="1709366247273" duration="41000" />
       <workItem from="1709366464737" duration="20000" />
       <workItem from="1709708497027" duration="8912000" />
+      <workItem from="1710386628562" duration="30560000" />
+      <workItem from="1710481982188" duration="930000" />
+      <workItem from="1710482932346" duration="4593000" />
+      <workItem from="1710501088580" duration="5755000" />
+      <workItem from="1710896814555" duration="24544000" />
+      <workItem from="1711001552415" duration="10805000" />
+      <workItem from="1711420761306" duration="136000" />
+      <workItem from="1711420966614" duration="37000" />
+      <workItem from="1711518641245" duration="25703000" />
+      <workItem from="1711675703035" duration="1260000" />
+      <workItem from="1712020638030" duration="20391000" />
+      <workItem from="1712135127030" duration="5324000" />
+      <workItem from="1713339358332" duration="1328000" />
+      <workItem from="1713341976500" duration="8000" />
+      <workItem from="1713421033505" duration="115000" />
+      <workItem from="1715220517687" duration="2805000" />
+      <workItem from="1715929023116" duration="6702000" />
+      <workItem from="1716340542408" duration="16779000" />
+      <workItem from="1716428125663" duration="11241000" />
+      <workItem from="1717548351927" duration="13756000" />
+      <workItem from="1717631728771" duration="617000" />
+      <workItem from="1717670139872" duration="101000" />
+      <workItem from="1717670294296" duration="35000" />
+      <workItem from="1717895611320" duration="128000" />
+      <workItem from="1718280829884" duration="1274000" />
+      <workItem from="1718326621913" duration="218000" />
+      <workItem from="1718503941525" duration="2035000" />
     </task>
     <task id="LOCAL-00017" summary="Corrections to HistoryArchStylesTheory.tex to add the art noaveu refrence as well as the ransition to modernism">
       <created>1692760181616</created>
@@ -627,7 +698,7 @@
       <option name="project" value="LOCAL" />
       <updated>1699542674381</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -656,32 +727,32 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Progress on VR integration and start of experiment design. Inclusion of FlowchartExperiment" />
-    <MESSAGE value="Alteration to the script of the edge canny plot so we can see all the images" />
-    <MESSAGE value="Experiment design section finish. Results section intro finished and edition of CICA for History analysis. Progress on the Results for Experiment in ResultsExperiment.tex" />
-    <MESSAGE value="progress on the results section and editing of CICA system script in Python to inlcude contour count as an additional indicator to calculate the complexity score. complexityanalysis.py" />
-    <MESSAGE value="Start of using Pycharm Pro" />
-    <MESSAGE value="Start of discussion, conclusion in results" />
-    <MESSAGE value="Setup of calculate metrics function to isolate the max edge and contour values for the calculate_complexity function in complexityanalysis.py. &#10;Update of mainCICArender.py for averaging three images of renders before outputing the complexity score. &#10;Change of Image plot on CannyEdgePlot.py file to create colors to represent the contours" />
-    <MESSAGE value="Addition of Contour count to the CICA MethodologyImageComplexityAnalysis.tex" />
-    <MESSAGE value="Update of ResultsExperiment.tex&#10;Update of GraphicAbstract.pdf&#10;Update of Abstract.tex&#10;Update of graphs of results" />
-    <MESSAGE value="Update of Introduction.tex . Eliminate the redundant graphs and the vertical timeline of the introduction." />
-    <MESSAGE value="Update of paper title and Discussion.tex with detailed analysis of the results of each suvey question." />
-    <MESSAGE value="testing branches" />
-    <MESSAGE value="Rename of test file for backup since it holds the unused images and text that might be needed later" />
-    <MESSAGE value="moved python code from ComplexityPython to a new folder CodePython to delete the unnecessary .idea files and have a more clean project" />
-    <MESSAGE value="update for new version of survey graphs" />
-    <MESSAGE value="update to Introduction.tex and Abstract.tex" />
-    <MESSAGE value="update to Introduction.tex and Abstract.tex start of simplification of paper to reach the 15-page goal" />
-    <MESSAGE value="update to Introduction.tex and Abstract.tex start of simplification of paper" />
-    <MESSAGE value="update" />
     <MESSAGE value="Concise version preparation for the paper for the theory framework and methodology in progress" />
     <MESSAGE value="Concise version, replacing fragmented small paragraphs for idea centric larger ones." />
     <MESSAGE value="replacement of fragmented figures into concise timeline figures for the Theory Framework" />
     <MESSAGE value="Timelines combined in a single unnamed table instead of three separate strips. Combination of edge detection images too in preparation for the edition of the paper in the one column format." />
     <MESSAGE value="Reorganization of paper and update of bibliography. Prep of flowchart" />
     <MESSAGE value="Allocation of images to main.tex so that it is easier to allocate them on draft. &#10;Prep of main.tex for possible revision to include change tracker. Creation of test.tex for testing images layout and backup image changes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Allocation of images to main.tex so that it is easier to allocate them on draft. &#10;Prep of main.tex for possible revision to include change tracker. Creation of test.tex for testing images layout and backup image changes." />
+    <MESSAGE value="Relocation of repository on personal laptop from Onedrive to the Pycharm folder. New Python environment created and verification of all files working in order" />
+    <MESSAGE value="Update of results charts" />
+    <MESSAGE value="Update of results charts and allocation of graphs" />
+    <MESSAGE value="Update of results charts and allocation of graphs. separation of CICA process images into files for a CICA process table. Error on compile for function1 looking to update to see if it fixes it" />
+    <MESSAGE value="Still getting IED error trying to bypass it through updating the plugins. For now the Pdf seems fine" />
+    <MESSAGE value="Error fixed and strat of methodology simplification." />
+    <MESSAGE value="MethodologyIntro.tex and MethodComputationalImageComplexityAnalysis.tex simplified" />
+    <MESSAGE value="MethodVR_Integration.tex revisioned." />
+    <MESSAGE value="ExperimentDesign.tex revisioned. Creation of Wordtest.tex for proofreading in a single column format." />
+    <MESSAGE value="Decision to combine results and discussion section into one and organize it based on the goals set for the study." />
+    <MESSAGE value="Simplification of the survey results section and continue the itnegration of the results into the discussion section as a unified section." />
+    <MESSAGE value="Update of results and Discusion section with primary focus on the RD_5Limitations.tex and RD_6FutureWorks.tex." />
+    <MESSAGE value="Paper 2 finished for 1st submission. Corrections to Conclusions.tex and RD_6FutureWorks.tex. Corrections to title and Abstract.tex and revamp of highlights" />
+    <MESSAGE value="Paper 2 finished for 1st submission." />
+    <MESSAGE value="Paper 2 adaption for new Journal Automation in Construction instead of Japan Architectural review" />
+    <MESSAGE value="Paper 2 adaption for new Journal Automation in Construction intro modificatio to include the reference on science of beauty." />
+    <MESSAGE value="Update on introduction and abstract to inlcude elements from science behind beauty." />
+    <MESSAGE value="Update on abstract with 6 phrase reviewer format." />
+    <MESSAGE value="Correction in the introduction for a more objective approach while keeping the previous research in complexity. Introduction limit 500 words." />
+    <option name="LAST_COMMIT_MESSAGE" value="Correction in the introduction for a more objective approach while keeping the previous research in complexity. Introduction limit 500 words." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/workspace_xml$CannyEdgePlot.coverage" NAME="CannyEdgePlot Coverage Results" MODIFIED="1702459802968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CodePython" />
@@ -689,9 +760,9 @@
     <SUITE FILE_PATH="coverage/workspace_xml$mainCICArender.coverage" NAME="mainCICArender Coverage Results" MODIFIED="1702456218210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\CodePython" />
     <SUITE FILE_PATH="coverage/workspace_xml$mainCICAhistory.coverage" NAME="mainCICAhistory Coverage Results" MODIFIED="1702456243620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\CodePython" />
     <SUITE FILE_PATH="coverage/Paper2Complexity$complexityanalysis.coverage" NAME="complexityanalysis Coverage Results" MODIFIED="1701226704463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ComplexityPython" />
-    <SUITE FILE_PATH="coverage/Paper2Complexity$mainCICAhistory.coverage" NAME="mainCICAhistory Coverage Results" MODIFIED="1702350436106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ComplexityPython" />
-    <SUITE FILE_PATH="coverage/Paper2Complexity$mainCICArender.coverage" NAME="mainCICArender Coverage Results" MODIFIED="1702350460138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ComplexityPython" />
-    <SUITE FILE_PATH="coverage/Paper2Complexity$CannyEdgePlot.coverage" NAME="CannyEdgePlot Coverage Results" MODIFIED="1702351550778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CodePython" />
+    <SUITE FILE_PATH="coverage/Paper2Complexity$mainCICAhistory.coverage" NAME="mainCICAhistory Coverage Results" MODIFIED="1711526465985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CodePython" />
+    <SUITE FILE_PATH="coverage/Paper2Complexity$mainCICArender.coverage" NAME="mainCICArender Coverage Results" MODIFIED="1711420830303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CodePython" />
+    <SUITE FILE_PATH="coverage/Paper2Complexity$CannyEdgePlot.coverage" NAME="CannyEdgePlot Coverage Results" MODIFIED="1710388735988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CodePython" />
     <SUITE FILE_PATH="coverage/Paper2Complexity$mainCICArender__1_.coverage" NAME="mainCICArender (1) Coverage Results" MODIFIED="1702351530521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CodePython" />
   </component>
 </project>
