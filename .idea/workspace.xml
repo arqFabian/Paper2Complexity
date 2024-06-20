@@ -4,18 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Update to references on articles">
-      <change afterPath="$PROJECT_DIR$/src/text/Method_DataAnalysis.tex" afterDir="false" />
+    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Reorganization of methodology to BCA system, Experiment Execution and Data Analysis.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Wordtest.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wordtest.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.bib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.bib" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/minimal_bib.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/minimal_bib.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/text/Abstract.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/Abstract.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/Conclusions.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/Conclusion_1.tex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/text/Introduction.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/Introduction.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/text/MethodVRSystemDevelopment.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/MethodBCASystemDevelopment.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/text/MethodologyIntro.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/MethodologyIntro.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/text/TheoryComplexityStudies.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/TheoryComplexityStudies.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/Method3DModeling.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/Method3DModeling.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/MethodBCASystemDevelopment.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/Method_1ComplexitySystemDevelopment.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/MethodCICAsystem.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/MethodCICAsystem.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/MethodologyIntro.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/Method_0Intro.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/RD_5Limitations.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/Conclusion_2Limitations.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/RD_6FutureWorks.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/Conclusion_3FutureWorks.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +114,7 @@
       <recent name="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\src\text" />
     </key>
   </component>
-  <component name="RunManager" selected="LaTeX.minimal_bib">
+  <component name="RunManager" selected="LaTeX.MainPDF">
     <configuration name="Wordtest bibliography" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify-bibtex>
         <compiler>BIBTEX</compiler>
@@ -391,7 +391,8 @@
       <workItem from="1718865634200" duration="714000" />
       <workItem from="1718867471644" duration="321000" />
       <workItem from="1718867821220" duration="232000" />
-      <workItem from="1718868063895" duration="2037000" />
+      <workItem from="1718868063895" duration="2302000" />
+      <workItem from="1718870391923" duration="5527000" />
     </task>
     <task id="LOCAL-00017" summary="Corrections to HistoryArchStylesTheory.tex to add the art noaveu refrence as well as the ransition to modernism">
       <created>1692760181616</created>
@@ -736,7 +737,7 @@
       <option name="project" value="LOCAL" />
       <updated>1699542674381</updated>
     </task>
-    <option name="localTasksCounter" value="129" />
+    <option name="localTasksCounter" value="130" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -765,7 +766,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Timelines combined in a single unnamed table instead of three separate strips. Combination of edge detection images too in preparation for the edition of the paper in the one column format." />
     <MESSAGE value="Reorganization of paper and update of bibliography. Prep of flowchart" />
     <MESSAGE value="Allocation of images to main.tex so that it is easier to allocate them on draft. &#10;Prep of main.tex for possible revision to include change tracker. Creation of test.tex for testing images layout and backup image changes." />
     <MESSAGE value="Relocation of repository on personal laptop from Onedrive to the Pycharm folder. New Python environment created and verification of all files working in order" />
@@ -790,7 +790,8 @@
     <MESSAGE value="Start of Paper revision after AIJ rejection" />
     <MESSAGE value="Rename of subsection to MethodCICAsystem.tex" />
     <MESSAGE value="Update to references on articles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update to references on articles" />
+    <MESSAGE value="Reorganization of methodology to BCA system, Experiment Execution and Data Analysis." />
+    <option name="LAST_COMMIT_MESSAGE" value="Reorganization of methodology to BCA system, Experiment Execution and Data Analysis." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/workspace_xml$CannyEdgePlot.coverage" NAME="CannyEdgePlot Coverage Results" MODIFIED="1702459802968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CodePython" />
