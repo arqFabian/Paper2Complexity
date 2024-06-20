@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Update to references on articles">
+      <change afterPath="$PROJECT_DIR$/src/text/Method_DataAnalysis.tex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wordtest.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wordtest.tex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.bib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.tex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/minimal_bib.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/minimal_bib.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/Abstract.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/Abstract.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/Introduction.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/Introduction.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/MethodVRSystemDevelopment.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/MethodBCASystemDevelopment.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/MethodologyIntro.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/MethodologyIntro.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/TheoryComplexityStudies.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/TheoryComplexityStudies.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +82,7 @@
     &quot;BibTeX.main bibliography.executor&quot;: &quot;Run&quot;,
     &quot;BibTeX.minimal_bib bibliography.executor&quot;: &quot;Run&quot;,
     &quot;LaTeX.MainPDF.executor&quot;: &quot;Run&quot;,
+    &quot;LaTeX.Wordtest.executor&quot;: &quot;Run&quot;,
     &quot;LaTeX.minimal_bib.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -105,7 +114,7 @@
       <recent name="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\src\text" />
     </key>
   </component>
-  <component name="RunManager" selected="LaTeX.MainPDF">
+  <component name="RunManager" selected="LaTeX.minimal_bib">
     <configuration name="Wordtest bibliography" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify-bibtex>
         <compiler>BIBTEX</compiler>
@@ -378,7 +387,11 @@
       <workItem from="1718503941525" duration="6501000" />
       <workItem from="1718510499399" duration="4397000" />
       <workItem from="1718805118029" duration="1000" />
-      <workItem from="1718849794294" duration="1354000" />
+      <workItem from="1718849794294" duration="6131000" />
+      <workItem from="1718865634200" duration="714000" />
+      <workItem from="1718867471644" duration="321000" />
+      <workItem from="1718867821220" duration="232000" />
+      <workItem from="1718868063895" duration="2037000" />
     </task>
     <task id="LOCAL-00017" summary="Corrections to HistoryArchStylesTheory.tex to add the art noaveu refrence as well as the ransition to modernism">
       <created>1692760181616</created>
@@ -723,7 +736,7 @@
       <option name="project" value="LOCAL" />
       <updated>1699542674381</updated>
     </task>
-    <option name="localTasksCounter" value="128" />
+    <option name="localTasksCounter" value="129" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

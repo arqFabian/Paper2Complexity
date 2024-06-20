@@ -35,12 +35,94 @@
 
 
 % Document
+
 \begin{document}
 
+\begin{frontmatter}
+
+\title{The Role of Complexity in Facade design: A Data-Driven Approach using VR and Computer vision}
+
+%\title{Data-Driven Facade Complexity: Integrating VR and Computer Vision for Future Architecture}
+%\title{Quantifying Facade Complexity: Insights into Future Construction Practices through Virtual Reality and Computer Vision}
+%\title{Assessing User Tolerance for Complex Facades: Insights into Future Construction Practices through Virtual Reality and Computer Vision}
+%\title{Deciphering Future Construction Trends: Assessing Complexity in Facades through Virtual Reality and Computer Vision}
+%\title{Complexity in Future Construction Trends: Assessing Complexity in Facades through Virtual Reality and Computer Vision}
+%\title{Embracing Complexity: Virtual Reality Assessment of User Tolerance for Complex Facades in Future Construction Trends}
+
+%% use optional labels to link authors explicitly to addresses:
+%% \author[label1,label2]{}
+%% \affiliation[label1]{organization={},
+%%             addressline={},
+%%             city={},
+%%             postcode={},
+%%             state={},
+%%             country={}}
+%%
+%% \affiliation[label2]{organization={},
+%%             addressline={},
+%%             city={},
+%%             postcode={},
+%%             state={},
+%%             country={}}
+
+\author[inst1]{Fabian Jarrin}
+\author[inst2]{Yasuko Koga}
+\author[inst3]{Diego Thomas}
+
+\affiliation[inst1]{organization={Graduate School of Human-Environment Studies, Department of Architecture, Kyushu University},%Department and Organization
+            addressline={744 Motooka, Nishi-ku},
+            city={Fukuoka},
+            postcode={819-0395},
+            %state={Fukuoka},
+            country={Japan}}
+
+\affiliation[inst2]{organization={Faculty of Human-Environment Studies, Department of Architecture and Urban Design, Kyushu University},%Department and Organization
+            addressline={744 Motooka, Nishi-ku},
+            city={Fukuoka},
+            postcode={819-0395},
+            %state={Fukuoka},
+            country={Japan}}
+
+\affiliation[inst3]{organization={Faculty of Information Science and Electrical Engineering, Department of Advanced Information Technology, Kyushu University},%Department and Organization
+            addressline={744 Motooka, Nishi-ku},
+            city={Fukuoka},
+            postcode={819-0395},
+            %state={Fukuoka},
+            country={Japan}}
 
 
-\title{Assessing User Tolerance for Complex Facades: Insights into Future Construction Practices through Virtual Reality and Computer Vision}
 
+\begin{abstract}
+%% Text of abstract
+\input{Text/Abstract}
+
+\end{abstract}
+
+
+%%Graphical abstract
+
+\begin{graphicalabstract}
+    \centering
+    \includegraphics[width= \textwidth, trim = 0 80 0 80, clip]{Images/GraphicAbstract}
+    \label{fig:graphic_abstract}
+\end{graphicalabstract}
+
+%%Research highlights
+\begin{highlights}
+\input{Text/highlight}
+\end{highlights}
+
+\begin{keyword}
+%% keywords here, in the form: keyword \sep keyword
+Data-driven design\sep Complex Facades \sep Virtual Reality Assessment \sep Architectural Aesthetics\sep Technological Innovation\sep
+
+\end{keyword}
+
+\end{frontmatter}
+%\linenumbers
+%\modulolinenumbers[10]
+%
+\begin{linenumbers}
 
 \section{Introduction}
 \label{sec:1Introduction}
@@ -87,11 +169,13 @@
 \label{sec:Literature review}
 \input{Text/TheoryLiteratureReviewIntro}
 
+    \subsection{Evolution and Theoretical Foundations of Architectural Complexity}
+    \label{subsec:ComplexityStudies}
+    \input{Text/TheoryComplexityStudies}
+
     \subsection{The Architectural Journey: Oscillations Between Simplicity and Complexity}
     \label{subsec:TimelineArchitectureStyles}
     \input{Text/TheoryHistoryArchStyles}
-
-
 
     \subsection{Cultural Significance of Facades and Ornament}
     \label{subsec:FacadeandOrnament}
@@ -101,9 +185,13 @@
     %\label{subsec:DigitalFabricationAndEnvSustainability}
     %\input{text/DigFabricationEnvTheory}
 
-    %!% Figures of  Methodology flowchart
-    %it was relocated in TheoryFacadeOrnament.tex
-
+    %!% Figures Methodology intro
+    %% Methodology Flowchart
+    \begin{figure*}[!htb]
+        \centering
+        \includegraphics[width=\linewidth]{Images/MethodologyFlowchart}~\caption{Methodology Flowchart illustrating the sequential steps of this study's approach framework designed to assess the tolerance of users towards complex facade design. Higlighting the usage of the CICA system (as detailed in Section\ref{subsec:CICAsystem}) into the VR system development (detailed in Section\ref{subsec:VRsystemDevelopment}), and the transition to `Experiment Execution' (described in Section\ref{subsec:Experiment_execution}), culminating in post-experiment data analysis and results phase (presented in Section\ref{sec:Results}).}
+          \label{fig:MethodologyFlowchart}
+    \end{figure*}
 
     \begin{table*}[htb]
             \centering
@@ -114,7 +202,7 @@
                 \begin{minipage}{\textwidth}
                     \centering
                     \includegraphics[width= \linewidth]{Images/CICAFlowchart}
-                    \captionof{figure}{Flowchart illustrating the applications of Computational Image Complexity Analysis system (CICA)(detailed in Section\ref{subsec:Computational Image Complexity analysis}), including its role in analyzing complexity scores for historical architectural styles (b) and 3D-modeled facades (a) designed with various degrees of complexity(presented in Section\ref{subsubsec:CICAfor3DmodeledFacades}).}
+                    \captionof{figure}{Flowchart illustrating the applications of CICA system (detailed in Section\ref{subsec:CICAsystem}), including its role in analyzing complexity scores for historical architectural styles (b) and 3D-modeled facades (a) designed with various degrees of complexity(presented in Section\ref{subsubsec:CICAfor3DmodeledFacades}).}
                     \label{fig:CICAImageEvaluationFlowchart}
                 \end{minipage}
             \end{tabular}
@@ -135,7 +223,7 @@
         %Table: Performance Indicators
         \begin{minipage}{\textwidth}
             \centering
-            \captionof{table}{Table of Metrics and Weights for Complexity Scoring: Outlines the key criteria and corresponding weights utilized in the Computational Image Complexity Analysis (CICA) to determine the `Complexity Score' of architectural facades, detailing the systematic approach to quantifying facade intricacy through edge density and contour count metrics.}
+            \captionof{table}{Table of Metrics and Weights for Complexity Scoring: Outlines the key criteria and corresponding weights utilized in the CICA system to determine the `Complexity Score' of architectural facades, detailing the systematic approach to quantifying facade intricacy through edge density and contour count metrics.}
             \label{tab:MetricsandWeights}
             \begin{tabularx}{\textwidth}{p{2.5cm} p{1cm} X X p{1cm}}
                 \toprule
@@ -166,40 +254,6 @@
                   \textbf{TOTAL} &
                   &
                   \textbf{10}\\ \bottomrule
-            \end{tabularx}
-        \end{minipage}
-        \\
-        \\
-        \\
-        %Middle cell with two nested figures side by side
-        %Table function 1 complexity score
-        \begin{minipage}{\textwidth}
-            \centering
-            \captionof{table}{Function 1: Complexity scoring function that integrates various criteria to assess the intricacy of a building facade.}
-            \label{tab:ComplexityScoreFunction}
-            \begin{tabularx}{\linewidth}{|X|}
-                \hline
-                \small
-                \vspace{0.1cm}
-                \multicolumn{1}{c}{\textbf{\(f_1\): Unified Complexity Scoring Function}}\\
-                \textit{Calculate the complexity score for all images in the data pool.}
-                \\ \\
-                \begin{equation}
-                    f_1(x) = \mathrm{round}\left(\sum_{i=1}^{n} w_i \cdot a_i, 2\right) = \text{complexity\_score}
-                    \label{eq:F1_ComplexityScoreFunction}
-                \end{equation}
-                \\
-                \textit{for the buildings included in the database.}
-                \vspace{0.5em}
-
-                \textit{where:}\\
-                \(n\): number of performance indicators\\
-                \(w_i\): weight of the \(i\)-th element\\
-                \(a_i\): normalized score for the \(i\)-th metric (e.g., `Edge Density' and `Contour Count')\\
-                \vspace{0.05em}
-                \textit{Finally, the "Complexity Score" is assigned to each building for data visualization.}
-                \vspace{0.5em}\\
-                \hline
             \end{tabularx}
         \end{minipage}
         \\
@@ -289,7 +343,7 @@
     \begin{table*}[htb]
         \centering
         \small
-        \caption{Table of Facade Pattern Variations: This table presents samples of 3D-modeled building facades at levels 1, 5, and 9, showcasing the progression and differentiation within the ten levels of design variations as detailed in section \ref{subsubsec:3DModeling}. The incremental complexity introduced at each selected level is highlighted across three distinct patterns. For a comprehensive record of all variations, refer to section \ref{sec:AnnexVariations}.}
+        \caption{Table of Facade Pattern Variations: This table presents samples of 3D-modeled building facades at levels 1, 5, and 9, showcasing the progression and differentiation within the ten levels of design variations as detailed in section~\ref{subsubsec:3DModeling}. The incremental complexity introduced at each selected level is highlighted across three distinct patterns. For a comprehensive record of all variations, refer to section~\ref{sec:AnnexVariations}.}
         \label{tab:PatternsVariationsPart0}
         \begin{tabularx}
         {\textwidth}{p{3cm} >{\centering\arraybackslash}X >{\centering\arraybackslash}X >{\centering\arraybackslash}X }
@@ -343,15 +397,15 @@
     \end{table*}
 
 
-    \subsection{Computational Image Complexity Analysis (CICA) system}
-    \label{subsec:Computational Image Complexity analysis}
+    \subsection{CICA System}
+    \label{subsec:CICAsystem}
     \input{text/MethodCICAsystem}
 
-    \subsection{VR system for Complexity Analysis in facade design}
+    \subsection{VR System Development}
     \label{subsec:VRsystemDevelopment}
-    \input{text/MethodVRSystemDevelopment}
+    \input{text/MethodBCASystemDevelopment}
 
-    \subsubsection{3D Modeling}
+    \subsubsection{3D Modeling and Environment setup}
     \label{subsubsec:3DModeling}
     %% description of things modeled in blender for use in the experiment
     \input{Text/Method3DModeling}
@@ -378,22 +432,22 @@
     %% description of CICA applicationnn forfacade variation modeled in blender for use in the experiment
     \input{Text/MethodCICAforFacades}
 
-    %!Figure of experiment design flowchart
-    %% Figure Experiment Design flowchart
+    %!Figure of `Experiment Execution' flowchart
+    %% Figure `Experiment Execution' flowchart
     \begin{figure*}[htb]
         \centering
         \includegraphics[width= \linewidth]{Images/FlowchartExperiment}
-          \caption{Experiment Design Flowchart: This flowchart outlines the three stages of the experiment, including the VR Interaction Stage (I), the Screen-Based Ranking Stage (II), and the Post-Experiment Survey (III), providing a visual representation of the sequential steps involved in the study.}
+          \caption{`Experiment Execution' Flowchart: This flowchart outlines the three stages of the experiment, including the VR Interaction Stage (I), the Screen-Based Ranking Stage (II), and the Post-Experiment Survey (III), providing a visual representation of the sequential steps involved in the study.}
           \label{fig:ExperimentFlowchart}
     \end{figure*}
 
-    \subsubsection{VR integration and data visualization interface}
+    \subsubsection{VR integration and simulation tools}
     \label{subsubsec:VR_integration}
     %%Define the sections of the VR interface and how information is displayed
     \input{Text/MethodVR_Integration}
 
-    \subsection{Experiment design}
-    \label{subsec:Experiment_design}
+    \subsection{Experiment Execution}
+    \label{subsec:Experiment_execution}
     %%Task description, stage 1 to 3 with survey
     \input{Text/ExperimentDesign}
 
@@ -409,7 +463,7 @@
         \begin{minipage}{\textwidth}
             \centering
             \includegraphics[width= \linewidth]{Graphs/complexitygraph}
-            \captionof{figure}{Scatter Graph of Architectural Complexity Over Time: This graph presents the Computational Image Complexity Analysis (CICA) scores for 177 buildings, categorized by historical timeline and architectural style. An overlaid trendline highlights the current evolving trend towards increased complexity in architectural design as analyzed by the CICA system.}
+            \captionof{figure}{Scatter Graph of Architectural Complexity Over Time: This graph presents the CICA scores for 177 buildings, categorized by historical timeline and architectural style. An overlaid trendline highlights the current evolving trend towards increased complexity in architectural design as analyzed by the CICA system.}
             \label{fig:HistoricalComplexityGraph}
         \end{minipage}
         \\
@@ -620,6 +674,7 @@
     %\label{subsec:Futuretrends}
     %\input{text/FutureTrendsTheory}
 
+
 \section{Conclusions}
 \label{sec:Conclusion}
 %% The main conclusions of the study may be presented in a short Conclusions section, which may stand alone or form a subsection of a Discussion or Results and Discussion section.
@@ -636,7 +691,30 @@
 %% Declaration of using AI to edit the text
 %\input{Text/Declaration_AI}
 
+%% End of line numbers
+\end{linenumbers}
+
+%% If you have bibdatabase file and want bibtex to generate the
+%% bibitems, please use
+%%
+%\newpage
+%\clearpage
 \bibliographystyle{elsarticle-num}
 \bibliography{main}
+
+%% The Appendices part is started with the command \appendix;
+%% appendix sections are then done as normal sections
+\newpage
+%\clearpage
+\appendix
+
+
+\section{Post-interaction Survey}
+\label{sec:Annexsurvey}
+\input{Text/AnnexSurvey}
+
+\section{3D-modeled Facade Variations across Patterns}
+\label{sec:AnnexVariations}
+\input{Text/AnnexVariations}
 
 \end{document}
