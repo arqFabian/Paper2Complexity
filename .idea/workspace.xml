@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Update to references on articles">
-      <change afterPath="$PROJECT_DIR$/src/minimal_bib.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.bib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/minimal_bib.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/minimal_bib.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -376,6 +377,8 @@
       <workItem from="1718326621913" duration="218000" />
       <workItem from="1718503941525" duration="6501000" />
       <workItem from="1718510499399" duration="4397000" />
+      <workItem from="1718805118029" duration="1000" />
+      <workItem from="1718849794294" duration="1354000" />
     </task>
     <task id="LOCAL-00017" summary="Corrections to HistoryArchStylesTheory.tex to add the art noaveu refrence as well as the ransition to modernism">
       <created>1692760181616</created>
@@ -720,7 +723,7 @@
       <option name="project" value="LOCAL" />
       <updated>1699542674381</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
