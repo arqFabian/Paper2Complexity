@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Update on methodology section creation of data analysis section and simplification of vr integration. Addition of reasons for blender, unity, likert scale and MOO algorithm.">
+    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Conlcuion simplification with merging of limitations and future work on a single Conclusion_1.tex file.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.bib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.bib" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/text/Conclusion_1.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/Conclusion_1.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/text/Introduction.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/Introduction.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/text/MethodCICAsystem.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/MethodCICAsystem.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/text/Method_0Intro.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/Method_0Intro.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/text/Method_1ComplexitySystemDevelopment.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/Method_1ComplexitySystemDevelopment.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/RD_1Results_DiscussionIntro.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/RD_1Results_DiscussionIntro.tex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/text/RD_2ResultsCICAHistory.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/RD_2ResultsCICAHistory.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/TheoryComplexityStudies.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/TheoryComplexityStudies.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/TheoryLiteratureReviewIntro.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/TheoryLiteratureReviewIntro.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -393,7 +392,7 @@
       <workItem from="1719450675772" duration="11359000" />
       <workItem from="1719480347822" duration="1517000" />
       <workItem from="1719887743610" duration="17061000" />
-      <workItem from="1719972033904" duration="3154000" />
+      <workItem from="1719972033904" duration="14416000" />
     </task>
     <task id="LOCAL-00017" summary="Corrections to HistoryArchStylesTheory.tex to add the art noaveu refrence as well as the ransition to modernism">
       <created>1692760181616</created>
@@ -738,7 +737,7 @@
       <option name="project" value="LOCAL" />
       <updated>1699542674381</updated>
     </task>
-    <option name="localTasksCounter" value="137" />
+    <option name="localTasksCounter" value="138" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -773,7 +772,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update of results charts and allocation of graphs. separation of CICA process images into files for a CICA process table. Error on compile for function1 looking to update to see if it fixes it" />
     <MESSAGE value="Still getting IED error trying to bypass it through updating the plugins. For now the Pdf seems fine" />
     <MESSAGE value="Error fixed and strat of methodology simplification." />
     <MESSAGE value="MethodologyIntro.tex and MethodComputationalImageComplexityAnalysis.tex simplified" />
@@ -798,7 +796,8 @@
     <MESSAGE value="simplification of images on Vr with vr interface and isolation of 3d vs real figure to an horizontal stripe." />
     <MESSAGE value="Eliminate question appendix. simplification of VR interface." />
     <MESSAGE value="Update on methodology section creation of data analysis section and simplification of vr integration. Addition of reasons for blender, unity, likert scale and MOO algorithm." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update on methodology section creation of data analysis section and simplification of vr integration. Addition of reasons for blender, unity, likert scale and MOO algorithm." />
+    <MESSAGE value="Conlcuion simplification with merging of limitations and future work on a single Conclusion_1.tex file." />
+    <option name="LAST_COMMIT_MESSAGE" value="Conlcuion simplification with merging of limitations and future work on a single Conclusion_1.tex file." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/workspace_xml$CannyEdgePlot.coverage" NAME="CannyEdgePlot Coverage Results" MODIFIED="1702459802968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CodePython" />

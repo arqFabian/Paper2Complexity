@@ -3,78 +3,35 @@
 %    \input{Text/RD_ResultsCICAHistory}
 %% Figure of Complexity graph
 
-We have previously discussed that architectural evolution has been characterized by a continual interplay between simplicity and complexity.
-Our literature review, presented in Section~\ref{sec:LiteratureReview}, has consistently pointed towards a prevailing trend in contemporary architecture, suggesting a resurgence of complexity in architectural design.
 
-Our initial hypothesis, grounded in a rigorous examination of architectural styles from a theoretical standpoint, detailed in Section~\ref{subsec:TimelineArchitectureStyles}, suggests that architecture undergoes cyclical oscillations between simplicity and complexity.
-In the post-modern era, we posited that contemporary architecture would witness a resurgence of complexity and ornamentation.
-This resurgence is exemplified by the emergence of five prominent styles: Deconstructivism, Neofuturism, High-tech Modernism, Parametricism, and Pragmatic Utopianism (see Figure~\ref{fig:contemporarytimeline}).
-
-These styles are influenced by technological advancements, the widespread use of computer-aided design tools, and a growing focus on sustainability.
-Together, these factors contribute to a contemporary architectural landscape characterized by increasing complexity.
+While defining architectural complexity is inherently challenging due to its interconnection with various socio-economic and cultural factors influencing urban development, the CICA system was developed on the premise that analyzing a vast and diverse dataset of architectural works from different centuries could reveal patterns validating our hypothesis.
+This hypothesis, established on the literature review (Section~\ref{subsec:TimelineArchitectureStyles}), suggests a cyclical nature in architecture—an ongoing dialogue between simplicity and complexity—with a trend towards increased complexity in contemporary architecture.
+This trend is evidenced by recent architectural styles (see Figure~\ref{fig:contemporarytimeline}), influenced by technological advancements, computer-aided design tools, and a growing focus on sustainability.
 
 \textbf{CICA System for Quantitative Assessment}
 
-While defining architectural complexity is inherently challenging due to its interconnection with various socio-economic factors influencing urban development, the development of the CICA system was based on a premise.
-By accumulating a vast and diverse dataset of architectural works from different centuries, we aimed to uncover discernible patterns that would validate our hypothesis: architecture is characterized by a continuous dialogue between simplicity and complexity, with a trend towards increased complexity in contemporary architecture.
 
-To objectively validate this trend, we conducted a quantitative analysis using the CICA system.
-This rigorous analysis method utilizes input images of the most iconic and representative buildings from various epochs and styles, totaling 177 buildings across 14 architectural styles(illustrated in timelines in Figure~\ref{fig:Oldtimeline},~\ref{fig:Middletimeline},~\ref{fig:contemporarytimeline}).
-The CICA system took only 4.54 seconds to calculate the CICA scores for all the buildings and plot the graph, demonstrating its efficiency for complexity analysis.
+To validate this trend objectively, we conducted a quantitative analysis using the CICA system.
+This analysis utilized images of 177 iconic buildings across 14 architectural styles (samples illustrated in Figures~\ref{fig:Oldtimeline},~\ref{fig:Middletimeline},~\ref{fig:contemporarytimeline}). The CICA system calculated the complexity scores for all buildings and plotted the graph in just 4.54 seconds, demonstrating its efficiency.
 
-The results are visually depicted in the scatter graph titled `Architectural Complexity over time' in Figure~\ref{fig:HistoricalComplexityGraph}, and a 9th-degree polynomial trendline was found to be the best fit due to its versatility in accommodating the intricate data patterns that naturally emerge when assessing historical building complexity scores, the outcome of this choice was the emergence of a curve characterized by an intriguing cyclic pattern.
-
-The distinctive pattern found on the trendline, akin to an undulating curve, uncovers a continual oscillation between architectural complexity and simplicity.
-It resembles the paradigmatic shifts in architectural design discussed within our theoretical analysis (see section\ref{subsec:FacadeandOrnament}), a phenomenon that has endured throughout architectural history.
+The results are depicted in the scatter graph `Architectural Complexity over time' in Figure~\ref{fig:HistoricalComplexityGraph}.
+A 9th-degree polynomial trendline, best accommodating the intricate data patterns, revealed a distinctive undulating curve.
+This pattern validates our hypothesis of continual oscillation between architectural complexity and simplicity, aligning with the paradigmatic shifts discussed in the Literature Review (Section~\ref{subsec:TimelineArchitectureStyles}) and showcasing a trend towards complexity in the post-modern era.
 
 \textbf{Periods of Rapid Change:}
-The polynomial curve in the `Historical Complexity Analysis' Chart (Figure~\ref{fig:HistoricalComplexityGraph}) reveals a dynamic oscillation between periods of ornamental richness and minimalist restraint, illustrating the unique interpretation of architectural complexity in each historical era.
 
-Notably, the late 20th century show spikes in complexity scores, indicating significant shifts in architectural trends associated with the transition from the minimalist aesthetics of Modernism to the more eclectic and elaborate designs of Postmodernism.
+The trendline in the `Historical Complexity Analysis' Chart (Figure~\ref{fig:HistoricalComplexityGraph}) reveals dynamic oscillations between periods of ornamental richness and minimalist restraint, illustrating the unique interpretation of architectural complexity in each era.
+Notably, the late 20th century shows spikes in complexity scores, indicating significant shifts in architectural trends associated with the transition from the minimalist aesthetics of Modernism to the more eclectic and elaborate designs of Postmodernism.
 Additionally, a shift is observed from the Gothic to the Renaissance period, where the trendline peaks with the ornate and vertical architecture of the Gothic era and descends as the Renaissance favors harmony, proportion, and classical simplicity~\cite{Stacbond2020}.
-
 Furthermore, our analysis of the last 50 years of data reveal an upward trajectory in architectural complexity, marking a departure from the minimalism of the 1950s and 1960s Modernist movement.
-This trend supports our hypothesis and underscores the cyclical nature of architectural complexity, reflecting ongoing dialogues within architectural practice throughout history.
 
-\textbf{Outliers:} Certain buildings stand out with exceptionally high or low complexity scores, warranting individual examination to understand their unique design elements or historical context.
-Our investigation into the extremes of architectural complexity, as evidenced by the top 5 highest and bottom 5 lowest CICA scores (refer to Table~\ref{tab:Top5andBottom5CICAcomplexityScores}), reveals significant outliers that deviate from the predominant complexity trends identified in our historical analysis.
+\textbf{Outliers:}
 
-Westminster Abbey, constructed in 1245 and exemplifying the Gothic architectural style, tops the chart with the highest CICA complexity score of 7.81 (Table~\ref{tab:Top5andBottom5CICAcomplexityScores}, Top (1)).
-This result underscores the intricate design characteristic of the Gothic period, known for its detailed stonework and skyward designs\cite{Stacbond2020}.
-
-Conversely, the Luce Memorial Chapel in Taichung City, Taiwan, represents the other extreme, obtaining the lowest CICA complexity score of 0.66.
-Built in 1963, this Modernist building exemplifies the minimalist ethos of the time, focusing on simplicity and functionality(Table~\ref{tab:Top5andBottom5CICAcomplexityScores}, Bottom (1)).
-
-These two buildings, marking the highest and lowest complexity scores in our study, illustrate the broad spectrum of architectural styles and the associated complexity over time and serve as critical case studies for understanding the factors that drive exceptional complexity or simplicity in architectural design.
-
-%%Continue here
-
-%\textbf{Correlation with Historical Events:} The complexity trends appear to correlate with major historical events, such as the industrial revolution and the advent of digital design technologies, influencing architectural design approaches.
-
-%!Gothic Period
-%Medieval Period (12th to 16th Century): Gothic architecture emerged in the High and Late Middle Ages, a time characterized by a growth in population, trade, and the establishment of universities. The period saw a shift from the Romanesque style to the Gothic style, which was marked by innovations such as the pointed arch, ribbed vault, and flying buttress. These architectural advancements allowed for taller, more light-filled structures, which were often used in the construction of cathedrals and churches.
-%
-%Crusades (11th to 13th Century): The Crusades played a role in the cultural exchange between the East and West. The exposure to Eastern architectural styles and techniques may have influenced the development of Gothic architecture in Europe. The increased wealth from trade and the need for monumental religious structures to demonstrate piety and power also contributed to the flourishing of Gothic architecture.
-
-
-%!Renaissance
-%Enlightenment (Illuminism) (Late 17th to 18th Century): This period emphasized reason, science, and individualism, which could have influenced a shift towards more rational and less ornate architectural designs.
-
-%!Neo-classical and eclectic naturalism
-%Industrial Revolution (Late 18th to Early 19th Century): The advent of new building materials like iron and steel, along with advancements in construction techniques, enabled more complex and innovative architectural designs.
-
-%!International style and modernism
-%World War I (1914-1918) and World War II (1939-1945): The wars and their aftermaths led to a focus on functionality and austerity in architecture, contributing to the rise of Modernism and its emphasis on simplicity.
-
-%!Post modernism and contemporar styles
-%Advent of Computers (Mid-20th Century Onwards): The introduction of computer-aided design (CAD) tools allowed architects to explore more complex and intricate designs, contributing to the rise of styles like Deconstructivism and Parametricism.
-%
-%Post-Industrialization and Globalization (Late 20th to Early 21st Century): These phenomena have led to a more interconnected world, with a diverse range of architectural styles and a trend towards complexity in design to accommodate new urban and environmental challenges.
-
-
-
-
-
+Certain buildings stand out with exceptionally high or low CICA scores, warranting individual examination.
+Our investigation into these extremes, as evidenced by the top 5 highest and bottom 5 lowest CICA scores (Table~\ref{tab:Top5andBottom5CICAcomplexityScores}), reveals significant outliers.
+Westminster Abbey, exemplifying Gothic architecture, tops the chart with the highest complexity score of 7.81, underscoring the intricate design characteristic of the Gothic period~\cite{Stacbond2020}.
+Conversely, the Luce Memorial Chapel in Taichung City, Taiwan, built in 1963, represents the minimalist ethos of the time with the lowest complexity score of 0.66.
+These buildings illustrate the broad spectrum of architectural styles and associated complexity over time, serving as critical case studies for understanding exceptional complexity or simplicity in design.
 
 
 
