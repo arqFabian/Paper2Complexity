@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Simpificacion of intro on methodology and preparation of theory section.">
+    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Preparation of theory section with additional references.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.bib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/text/TheoryComplexityStudies.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/TheoryComplexityStudies.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -389,7 +388,8 @@
       <workItem from="1719480347822" duration="1517000" />
       <workItem from="1719887743610" duration="17061000" />
       <workItem from="1719972033904" duration="15482000" />
-      <workItem from="1720058845966" duration="15192000" />
+      <workItem from="1720058845966" duration="15276000" />
+      <workItem from="1720141223757" duration="2591000" />
     </task>
     <task id="LOCAL-00017" summary="Corrections to HistoryArchStylesTheory.tex to add the art noaveu refrence as well as the ransition to modernism">
       <created>1692760181616</created>
@@ -734,7 +734,7 @@
       <option name="project" value="LOCAL" />
       <updated>1699542674381</updated>
     </task>
-    <option name="localTasksCounter" value="141" />
+    <option name="localTasksCounter" value="142" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -769,7 +769,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="MethodVR_Integration.tex revisioned." />
     <MESSAGE value="ExperimentDesign.tex revisioned. Creation of Wordtest.tex for proofreading in a single column format." />
     <MESSAGE value="Decision to combine results and discussion section into one and organize it based on the goals set for the study." />
     <MESSAGE value="Simplification of the survey results section and continue the itnegration of the results into the discussion section as a unified section." />
@@ -794,7 +793,8 @@
     <MESSAGE value="Results section on the historical analysis simplified. start of editing the Literature review section and inclusion of additional references." />
     <MESSAGE value="Simpificacion of results on the survey and interview sections." />
     <MESSAGE value="Simpificacion of intro on methodology and preparation of theory section." />
-    <option name="LAST_COMMIT_MESSAGE" value="Simpificacion of intro on methodology and preparation of theory section." />
+    <MESSAGE value="Preparation of theory section with additional references." />
+    <option name="LAST_COMMIT_MESSAGE" value="Preparation of theory section with additional references." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/workspace_xml$CannyEdgePlot.coverage" NAME="CannyEdgePlot Coverage Results" MODIFIED="1702459802968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CodePython" />
