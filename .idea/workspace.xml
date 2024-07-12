@@ -6,24 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Update of new experiment Data">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/AccuracyPatternMaster.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/AccuracyPatternMaster.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/AccuracyPatternMaster.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/AccuracyPatternMaster.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/ComplexityLevelChosenChart.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/ComplexityLevelChosenChart.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/ComplexityLevelChosenChart.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/ComplexityLevelChosenChart.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/PreferredComplexityLevelPerPattern.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/PreferredComplexityLevelPerPattern.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/PreferredComplexityLevelPerPattern.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/PreferredComplexityLevelPerPattern.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/ProbabilityPreferredComplexitylevel.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/ProbabilityPreferredComplexitylevel.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/ProbabilityPreferredComplexitylevel.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/ProbabilityPreferredComplexitylevel.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/SurveyBackground.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/SurveyBackground.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/SurveyBackground.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/SurveyBackground.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/SurveyExperience.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/SurveyExperience.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/SurveyExperience.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/SurveyExperience.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/SurveyPart1Complexity.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/SurveyPart1Complexity.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/SurveyPart1Complexity.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/SurveyPart1Complexity.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/SurveyPart2Complexity.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/SurveyPart2Complexity.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/SurveyPart2Complexity.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/SurveyPart2Complexity.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/text/RD_3ResultsExperiment.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/RD_3ResultsExperiment.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/Realvs3DmodelBlender - Copy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/VRInterface - Copy.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -408,7 +392,7 @@
       <workItem from="1720058845966" duration="15276000" />
       <workItem from="1720141223757" duration="2591000" />
       <workItem from="1720676665498" duration="77000" />
-      <workItem from="1720765255770" duration="6212000" />
+      <workItem from="1720765255770" duration="6928000" />
     </task>
     <task id="LOCAL-00017" summary="Corrections to HistoryArchStylesTheory.tex to add the art noaveu refrence as well as the ransition to modernism">
       <created>1692760181616</created>
@@ -753,7 +737,7 @@
       <option name="project" value="LOCAL" />
       <updated>1699542674381</updated>
     </task>
-    <option name="localTasksCounter" value="144" />
+    <option name="localTasksCounter" value="145" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
