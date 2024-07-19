@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="reference update and substituion of problematic no DOI references">
-      <change afterPath="$PROJECT_DIR$/src/AuthorMainJAABE.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NoAuthorMainJAABE.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bodyManuscript.tex" afterDir="false" />
+    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Prep for submission on Journal of Asian Architecture and Building Engineering.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.bib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/minimal_bib.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/minimal_bib.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/RD_2ResultsCICAHistory.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/RD_2ResultsCICAHistory.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/TheoryComplexityStudies.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/TheoryComplexityStudies.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,13 +74,16 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "BibTeX.main bibliography.executor": "Run",
+    "BibTeX.mainbibAuthorJAABE.executor": "Run",
     "BibTeX.mainbibJAABE.executor": "Run",
     "BibTeX.minimal_bib bibliography.executor": "Run",
+    "LaTeX.AuthorManuscriptJAABE.executor": "Run",
     "LaTeX.MainJAABEnoAuthor.executor": "Run",
     "LaTeX.MainPDF.executor": "Run",
     "LaTeX.Wordtest.executor": "Run",
     "LaTeX.mainJAABEnoAuthor.executor": "Run",
     "LaTeX.minimal_bib.executor": "Run",
+    "LaTeX.noAuthorManuscriptJAABE.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -474,7 +477,7 @@
       <workItem from="1721230121375" duration="27000" />
       <workItem from="1721267702573" duration="4825000" />
       <workItem from="1721351858217" duration="2690000" />
-      <workItem from="1721373504796" duration="992000" />
+      <workItem from="1721373504796" duration="12386000" />
     </task>
     <task id="LOCAL-00017" summary="Corrections to HistoryArchStylesTheory.tex to add the art noaveu refrence as well as the ransition to modernism">
       <created>1692760181616</created>
@@ -819,7 +822,7 @@
       <option name="project" value="LOCAL" />
       <updated>1699542674381</updated>
     </task>
-    <option name="localTasksCounter" value="150" />
+    <option name="localTasksCounter" value="152" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -854,7 +857,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Paper 2 finished for 1st submission." />
     <MESSAGE value="Paper 2 adaption for new Journal Automation in Construction instead of Japan Architectural review" />
     <MESSAGE value="Paper 2 adaption for new Journal Automation in Construction intro modificatio to include the reference on science of beauty." />
     <MESSAGE value="Update on introduction and abstract to inlcude elements from science behind beauty." />
@@ -879,7 +881,8 @@
     <MESSAGE value="Abstract update. Updat of data on results." />
     <MESSAGE value="update of sections to guide it towards focusing in quantifying complexity" />
     <MESSAGE value="reference update and substituion of problematic no DOI references" />
-    <option name="LAST_COMMIT_MESSAGE" value="reference update and substituion of problematic no DOI references" />
+    <MESSAGE value="Prep for submission on Journal of Asian Architecture and Building Engineering." />
+    <option name="LAST_COMMIT_MESSAGE" value="Prep for submission on Journal of Asian Architecture and Building Engineering." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/workspace_xml$CannyEdgePlot.coverage" NAME="CannyEdgePlot Coverage Results" MODIFIED="1702459802968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CodePython" />
