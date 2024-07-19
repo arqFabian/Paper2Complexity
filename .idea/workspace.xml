@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Update of new experiment Data">
+    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="reference update and substituion of problematic no DOI references">
+      <change afterPath="$PROJECT_DIR$/src/AuthorMainJAABE.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NoAuthorMainJAABE.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bodyManuscript.tex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/Realvs3DmodelBlender - Copy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/VRInterface - Copy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,30 +71,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;BibTeX.main bibliography.executor&quot;: &quot;Run&quot;,
-    &quot;BibTeX.minimal_bib bibliography.executor&quot;: &quot;Run&quot;,
-    &quot;LaTeX.MainPDF.executor&quot;: &quot;Run&quot;,
-    &quot;LaTeX.Wordtest.executor&quot;: &quot;Run&quot;,
-    &quot;LaTeX.minimal_bib.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/arqfa/PycharmProjects/Paper3EinsteinTiles&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "BibTeX.main bibliography.executor": "Run",
+    "BibTeX.mainbibJAABE.executor": "Run",
+    "BibTeX.minimal_bib bibliography.executor": "Run",
+    "LaTeX.MainJAABEnoAuthor.executor": "Run",
+    "LaTeX.MainPDF.executor": "Run",
+    "LaTeX.Wordtest.executor": "Run",
+    "LaTeX.mainJAABEnoAuthor.executor": "Run",
+    "LaTeX.minimal_bib.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "full.screen.before.presentation.mode": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/arqfa/PycharmProjects/Paper2Complexity/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "configurable.group.tools",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\arqfa\PycharmProjects\Paper2Complexity\src" />
       <recent name="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\src\text" />
       <recent name="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\auxil" />
       <recent name="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\src\Images" />
@@ -106,7 +112,7 @@
       <recent name="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\src\text" />
     </key>
   </component>
-  <component name="RunManager" selected="LaTeX.MainPDF">
+  <component name="RunManager" selected="LaTeX.AuthorManuscriptJAABE">
     <configuration name="Wordtest bibliography" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify-bibtex>
         <compiler>BIBTEX</compiler>
@@ -140,6 +146,28 @@
       </texify-bibtex>
       <method v="2" />
     </configuration>
+    <configuration name="mainbibAuthorJAABE" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
+      <texify-bibtex>
+        <compiler>BIBTEX</compiler>
+        <compiler-path />
+        <compiler-arguments />
+        <envs />
+        <main-file>$PROJECT_DIR$/src/mainJAABEAuthor.tex</main-file>
+        <aux-dir>$PROJECT_DIR$/auxil</aux-dir>
+      </texify-bibtex>
+      <method v="2" />
+    </configuration>
+    <configuration name="mainbibNoAuthorJAABE" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
+      <texify-bibtex>
+        <compiler>BIBTEX</compiler>
+        <compiler-path />
+        <compiler-arguments />
+        <envs />
+        <main-file>$PROJECT_DIR$/src/mainJAABENoAuthor.tex</main-file>
+        <aux-dir>$PROJECT_DIR$/auxil</aux-dir>
+      </texify-bibtex>
+      <method v="2" />
+    </configuration>
     <configuration name="minimal_bib bibliography" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify-bibtex>
         <compiler>BIBTEX</compiler>
@@ -149,6 +177,28 @@
         <main-file>$PROJECT_DIR$/src/minimal_bib.tex</main-file>
         <aux-dir>$PROJECT_DIR$/auxil</aux-dir>
       </texify-bibtex>
+      <method v="2" />
+    </configuration>
+    <configuration name="AuthorManuscriptJAABE" type="LATEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
+      <texify>
+        <compiler>PDFLATEX</compiler>
+        <compiler-path />
+        <sumatra-path />
+        <pdf-viewer>BUILT-IN-PDF-VIEWER</pdf-viewer>
+        <viewer-command />
+        <compiler-arguments />
+        <envs />
+        <before-run-command />
+        <main-file>$PROJECT_DIR$/src/mainJAABEAuthor.tex</main-file>
+        <output-path>$PROJECT_DIR$/out</output-path>
+        <auxil-path>$PROJECT_DIR$/auxil</auxil-path>
+        <compile-twice>true</compile-twice>
+        <output-format>PDF</output-format>
+        <latex-distribution>MIKTEX</latex-distribution>
+        <has-been-run>true</has-been-run>
+        <bib-run-config>[BibTeX.main bibliography]</bib-run-config>
+        <makeindex-run-config>[]</makeindex-run-config>
+      </texify>
       <method v="2" />
     </configuration>
     <configuration name="MainPDF" type="LATEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
@@ -213,6 +263,28 @@
         <latex-distribution>MIKTEX</latex-distribution>
         <has-been-run>true</has-been-run>
         <bib-run-config>[]</bib-run-config>
+        <makeindex-run-config>[]</makeindex-run-config>
+      </texify>
+      <method v="2" />
+    </configuration>
+    <configuration name="noAuthorManuscriptJAABE" type="LATEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
+      <texify>
+        <compiler>PDFLATEX</compiler>
+        <compiler-path />
+        <sumatra-path />
+        <pdf-viewer>BUILT-IN-PDF-VIEWER</pdf-viewer>
+        <viewer-command />
+        <compiler-arguments />
+        <envs />
+        <before-run-command />
+        <main-file>$PROJECT_DIR$/src/mainJAABENoAuthor.tex</main-file>
+        <output-path>$PROJECT_DIR$/out</output-path>
+        <auxil-path>$PROJECT_DIR$/auxil</auxil-path>
+        <compile-twice>true</compile-twice>
+        <output-format>PDF</output-format>
+        <latex-distribution>MIKTEX</latex-distribution>
+        <has-been-run>true</has-been-run>
+        <bib-run-config>[BibTeX.main bibliography]</bib-run-config>
         <makeindex-run-config>[]</makeindex-run-config>
       </texify>
       <method v="2" />
@@ -293,7 +365,11 @@
       <item itemvalue="BibTeX.minimal_bib bibliography" />
       <item itemvalue="BibTeX.Wordtest bibliography" />
       <item itemvalue="BibTeX.main bibliography" />
+      <item itemvalue="BibTeX.mainbibNoAuthorJAABE" />
+      <item itemvalue="BibTeX.mainbibAuthorJAABE" />
       <item itemvalue="LaTeX.MainPDF" />
+      <item itemvalue="LaTeX.noAuthorManuscriptJAABE" />
+      <item itemvalue="LaTeX.AuthorManuscriptJAABE" />
       <item itemvalue="LaTeX.minimal_bib" />
       <item itemvalue="Python.mainCICAhistory" />
       <item itemvalue="Python.mainCICArender" />
@@ -392,7 +468,13 @@
       <workItem from="1720058845966" duration="15276000" />
       <workItem from="1720141223757" duration="2591000" />
       <workItem from="1720676665498" duration="77000" />
-      <workItem from="1720765255770" duration="6928000" />
+      <workItem from="1720765255770" duration="7796000" />
+      <workItem from="1721180850215" duration="6080000" />
+      <workItem from="1721199389542" duration="11196000" />
+      <workItem from="1721230121375" duration="27000" />
+      <workItem from="1721267702573" duration="4825000" />
+      <workItem from="1721351858217" duration="2690000" />
+      <workItem from="1721373504796" duration="992000" />
     </task>
     <task id="LOCAL-00017" summary="Corrections to HistoryArchStylesTheory.tex to add the art noaveu refrence as well as the ransition to modernism">
       <created>1692760181616</created>
@@ -737,7 +819,7 @@
       <option name="project" value="LOCAL" />
       <updated>1699542674381</updated>
     </task>
-    <option name="localTasksCounter" value="145" />
+    <option name="localTasksCounter" value="150" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -772,10 +854,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Decision to combine results and discussion section into one and organize it based on the goals set for the study." />
-    <MESSAGE value="Simplification of the survey results section and continue the itnegration of the results into the discussion section as a unified section." />
-    <MESSAGE value="Update of results and Discusion section with primary focus on the RD_5Limitations.tex and RD_6FutureWorks.tex." />
-    <MESSAGE value="Paper 2 finished for 1st submission. Corrections to Conclusions.tex and RD_6FutureWorks.tex. Corrections to title and Abstract.tex and revamp of highlights" />
     <MESSAGE value="Paper 2 finished for 1st submission." />
     <MESSAGE value="Paper 2 adaption for new Journal Automation in Construction instead of Japan Architectural review" />
     <MESSAGE value="Paper 2 adaption for new Journal Automation in Construction intro modificatio to include the reference on science of beauty." />
@@ -797,7 +875,11 @@
     <MESSAGE value="Simpificacion of intro on methodology and preparation of theory section." />
     <MESSAGE value="Preparation of theory section with additional references." />
     <MESSAGE value="Update of new experiment Data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update of new experiment Data" />
+    <MESSAGE value="Start of update of text on results to reflect the new experiment data. Delete of redundant images." />
+    <MESSAGE value="Abstract update. Updat of data on results." />
+    <MESSAGE value="update of sections to guide it towards focusing in quantifying complexity" />
+    <MESSAGE value="reference update and substituion of problematic no DOI references" />
+    <option name="LAST_COMMIT_MESSAGE" value="reference update and substituion of problematic no DOI references" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/workspace_xml$CannyEdgePlot.coverage" NAME="CannyEdgePlot Coverage Results" MODIFIED="1702459802968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CodePython" />
