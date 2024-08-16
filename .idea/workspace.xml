@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Prep for submission on Journal of Asian Architecture and Building Engineering. Update of all references">
+    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Submission to Journal of asian architecture and building Engineering.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/text/highlight.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/highlight.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bodyManuscript.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/bodyManuscript.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/Method_0Intro.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/Method_0Intro.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/Method_1ComplexitySystemDevelopment.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/Method_1ComplexitySystemDevelopment.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/Method_2_3DModeling.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/Method_2_3DModeling.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/Method_3CICAsystem.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/Method_3CICAsystem.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/Method_4VR_Integration.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/Method_4VR_Integration.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/Method_5ExperimentExecution.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/Method_5ExperimentExecution.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +41,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="PaperV1-RejectedbyAIJ" />
+        <entry key="$PROJECT_DIR$" value="Submission2JAABE" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -70,9 +76,11 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;BibTeX.Wordtest bibliography.executor&quot;: &quot;Run&quot;,
     &quot;BibTeX.main bibliography.executor&quot;: &quot;Run&quot;,
     &quot;BibTeX.mainbibAuthorJAABE.executor&quot;: &quot;Run&quot;,
     &quot;BibTeX.mainbibJAABE.executor&quot;: &quot;Run&quot;,
+    &quot;BibTeX.mainbibNoAuthorJAABE.executor&quot;: &quot;Run&quot;,
     &quot;BibTeX.minimal_bib bibliography.executor&quot;: &quot;Run&quot;,
     &quot;LaTeX.AuthorManuscriptJAABE.executor&quot;: &quot;Run&quot;,
     &quot;LaTeX.MainJAABEnoAuthor.executor&quot;: &quot;Run&quot;,
@@ -219,6 +227,28 @@
         <latex-distribution>MIKTEX</latex-distribution>
         <has-been-run>true</has-been-run>
         <bib-run-config>[BibTeX.main bibliography]</bib-run-config>
+        <makeindex-run-config>[]</makeindex-run-config>
+      </texify>
+      <method v="2" />
+    </configuration>
+    <configuration name="Wordtest" type="LATEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory" temporary="true">
+      <texify>
+        <compiler>PDFLATEX</compiler>
+        <compiler-path />
+        <sumatra-path />
+        <pdf-viewer>NONE</pdf-viewer>
+        <viewer-command />
+        <compiler-arguments />
+        <envs />
+        <before-run-command />
+        <main-file>$PROJECT_DIR$/src/Wordtest.tex</main-file>
+        <output-path>$PROJECT_DIR$/out</output-path>
+        <auxil-path>$PROJECT_DIR$/auxil</auxil-path>
+        <compile-twice>false</compile-twice>
+        <output-format>PDF</output-format>
+        <latex-distribution>MIKTEX</latex-distribution>
+        <has-been-run>true</has-been-run>
+        <bib-run-config>[BibTeX.Wordtest bibliography]</bib-run-config>
         <makeindex-run-config>[]</makeindex-run-config>
       </texify>
       <method v="2" />
@@ -371,12 +401,16 @@
       <item itemvalue="LaTeX.noAuthorManuscriptJAABE" />
       <item itemvalue="LaTeX.AuthorManuscriptJAABE" />
       <item itemvalue="LaTeX.minimal_bib" />
+      <item itemvalue="LaTeX.Wordtest" />
       <item itemvalue="Python.mainCICAhistory" />
       <item itemvalue="Python.mainCICArender" />
       <item itemvalue="Python.CannyEdgePlot" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.CannyEdgePlot" />
+        <item itemvalue="LaTeX.Wordtest" />
+        <item itemvalue="LaTeX.Wordtest" />
         <item itemvalue="Python.CannyEdgePlot" />
         <item itemvalue="Python.CannyEdgePlot" />
       </list>
@@ -475,7 +509,15 @@
       <workItem from="1721267702573" duration="4825000" />
       <workItem from="1721351858217" duration="2690000" />
       <workItem from="1721373504796" duration="13364000" />
-      <workItem from="1721628132296" duration="1783000" />
+      <workItem from="1721628132296" duration="2734000" />
+      <workItem from="1721631016105" duration="4629000" />
+      <workItem from="1721637847870" duration="1593000" />
+      <workItem from="1722389735639" duration="1765000" />
+      <workItem from="1722499796446" duration="2333000" />
+      <workItem from="1723619650153" duration="3524000" />
+      <workItem from="1723703418587" duration="619000" />
+      <workItem from="1723706729722" duration="8000" />
+      <workItem from="1723815816624" duration="4506000" />
     </task>
     <task id="LOCAL-00017" summary="Corrections to HistoryArchStylesTheory.tex to add the art noaveu refrence as well as the ransition to modernism">
       <created>1692760181616</created>
@@ -820,7 +862,7 @@
       <option name="project" value="LOCAL" />
       <updated>1699542674381</updated>
     </task>
-    <option name="localTasksCounter" value="153" />
+    <option name="localTasksCounter" value="155" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -855,8 +897,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Paper 2 adaption for new Journal Automation in Construction intro modificatio to include the reference on science of beauty." />
-    <MESSAGE value="Update on introduction and abstract to inlcude elements from science behind beauty." />
     <MESSAGE value="Update on abstract with 6 phrase reviewer format." />
     <MESSAGE value="Correction in the introduction for a more objective approach while keeping the previous research in complexity. Introduction limit 500 words." />
     <MESSAGE value="Start of Paper revision after AIJ rejection" />
@@ -880,7 +920,9 @@
     <MESSAGE value="reference update and substituion of problematic no DOI references" />
     <MESSAGE value="Prep for submission on Journal of Asian Architecture and Building Engineering." />
     <MESSAGE value="Prep for submission on Journal of Asian Architecture and Building Engineering. Update of all references" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prep for submission on Journal of Asian Architecture and Building Engineering. Update of all references" />
+    <MESSAGE value="Update of Highlights" />
+    <MESSAGE value="Submission to Journal of asian architecture and building Engineering." />
+    <option name="LAST_COMMIT_MESSAGE" value="Submission to Journal of asian architecture and building Engineering." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/workspace_xml$CannyEdgePlot.coverage" NAME="CannyEdgePlot Coverage Results" MODIFIED="1702459802968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CodePython" />
