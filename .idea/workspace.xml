@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Preparation for Submission to new Journal.">
-      <change afterPath="$PROJECT_DIR$/src/bodyManuscripttest.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mainJAABE_Changes.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bodyManuscript.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/bodyManuscript.tex" afterDir="false" />
+    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Preparation for Revision 1 to JAABE">
       <change beforePath="$PROJECT_DIR$/src/text/Introduction.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/Introduction.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -605,7 +601,7 @@
       <workItem from="1724213801136" duration="3193000" />
       <workItem from="1724309857861" duration="3649000" />
       <workItem from="1725349000741" duration="611000" />
-      <workItem from="1726134193892" duration="1566000" />
+      <workItem from="1726134193892" duration="2030000" />
     </task>
     <task id="LOCAL-00017" summary="Corrections to HistoryArchStylesTheory.tex to add the art noaveu refrence as well as the ransition to modernism">
       <created>1692760181616</created>
@@ -950,7 +946,7 @@
       <option name="project" value="LOCAL" />
       <updated>1699542674381</updated>
     </task>
-    <option name="localTasksCounter" value="162" />
+    <option name="localTasksCounter" value="163" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -985,7 +981,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Rename of subsection to MethodCICAsystem.tex" />
     <MESSAGE value="Update to references on articles" />
     <MESSAGE value="Reorganization of methodology to BCA system, Experiment Execution and Data Analysis." />
     <MESSAGE value="Continue reorganizing methodology for CICA as a single section. And input of limitations and future works into the conclusion" />
@@ -1010,7 +1005,8 @@
     <MESSAGE value="Submission to Journal of asian architecture and building Engineering. Update rference for thesis preparation" />
     <MESSAGE value="Preparation for Submission to new Journal" />
     <MESSAGE value="Preparation for Submission to new Journal." />
-    <option name="LAST_COMMIT_MESSAGE" value="Preparation for Submission to new Journal." />
+    <MESSAGE value="Preparation for Revision 1 to JAABE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Preparation for Revision 1 to JAABE" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/workspace_xml$CannyEdgePlot.coverage" NAME="CannyEdgePlot Coverage Results" MODIFIED="1702459802968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CodePython" />
