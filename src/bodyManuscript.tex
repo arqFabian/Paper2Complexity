@@ -15,6 +15,13 @@
 \label{sec:LiteratureReview}
 \input{Text/TheoryLiteratureReviewIntro}
 
+
+
+
+\subsection{Evolution of Architectural Styles: Oscillations Between Simplicity and Complexity}
+\label{subsec:TimelineArchitectureStyles}
+\input{Text/TheoryHistoricalContext}
+
 %!% Figures Methodology intro
     %% Methodology Flowchart
     \begin{figure*}[!htb]
@@ -22,11 +29,6 @@
         \includegraphics[width=\linewidth]{Images/MethodologyFlowchart}~\caption{Methodology Flowchart illustrating the sequential steps of this study's approach framework designed to assess the qunatification of complexity in building design and the perception of occupants in complex environemnts. Higlighting the usage of the CICA system (element 2) (detailed in Section~\ref{subsubsec:CICAsystem}) in the Complexity Analysis System development (detailed in Section\ref{subsec:ComplexitySystemDevelopment}), and the transition to `Experiment Execution' (element 4) (described in Section\ref{subsec:Experiment_execution}), culminating in the post-experiment data analysis and results phase (element 5) (described in Section\ref{subsec:Data_analysis}).}
           \label{fig:MethodologyFlowchartComplexity}
     \end{figure*}
-
-
-\subsection{Evolution of Architectural Styles: Oscillations Between Simplicity and Complexity}
-\label{subsec:TimelineArchitectureStyles}
-\input{Text/TheoryHistoricalContext}
 
 \subsection{Theoretical Foundations of Architectural Complexity}
 \label{subsec:ComplexityStudies}
@@ -37,84 +39,57 @@
 \input{Text/Method_0Intro}
 
 %!Figures Modeling
+%Figure Real vs 3d Model
+\begin{table*}[!htb]
+\centering
+\small
+\begin{tabular}{c}
+    %Top cell with one figure
     %Figure Real vs 3d Model
-    \begin{table*}[!htb]
+    \begin{minipage}{\textwidth}
     \centering
-    \small
-    \begin{tabular}{c}
-        %Top cell with one figure
-        %Figure Real vs 3d Model
-        \begin{minipage}{\textwidth}
+    \includegraphics[width= \linewidth]{Images/Realvs3DmodelBlender}
+                \captionof{figure}{Side-by-side comparison of the actual Architectural Environment Building exterior (a) and interior (c) with its detailed 3D virtual counterpart (b, d) created for the VR experiment for Facade Complexity Analysis, demonstrating the fidelity of the digital model in replicating architectural nuances. For clarity, the simulated interior (d) has been simplified to reduce distractions.}
+                \label{fig:RealVs3dModel}
+    \end{minipage}
+    \\
+    \\
+    \\
+    %Bottom cell
+    %Table: Table: Pattern Variations sample 1, 7, 9
+    \begin{minipage}{\textwidth}
         \centering
-        \includegraphics[width= \linewidth]{Images/Realvs3DmodelBlender}
-                    \captionof{figure}{Side-by-side comparison of the actual Architectural Environment Building exterior (a) and interior (c) with its detailed 3D virtual counterpart (b, d) created for the VR experiment for Facade Complexity Analysis, demonstrating the fidelity of the digital model in replicating architectural nuances. For clarity, the simulated interior (d) has been simplified to reduce distractions.}
-                    \label{fig:RealVs3dModel}
-        \end{minipage}
-        \\
-        \\
-        \\
-        %Bottom cell
-        %Table: Table: Pattern Variations sample 1, 7, 9
-        \begin{minipage}{\textwidth}
-            \centering
-            \captionof{table}{Table of Facade Pattern Variations: This table presents samples of 3D-modeled building facades at levels 1, 3, and 9, showcasing the progression and differentiation within the ten facade variations as detailed in section~\ref{subsubsec:3DModeling}. The incremental complexity introduced at each selected variation is highlighted across three distinct patterns. For a comprehensive record of all variations, refer to~\ref{sec:AnnexVariations}.}
-            \label{tab:PatternsVariationsPart0}
-            \begin{tabularx}
-            {\textwidth}{p{3cm} >{\centering\arraybackslash}X >{\centering\arraybackslash}X >{\centering\arraybackslash}X }
-        \toprule
-        \multicolumn{4}{c}{\textbf{Progression of 3D-Modeled Facade Variations Across Patterns: A Comparative Analysis at Levels 1, 3, and 9}}\\
-        \toprule
-        \textit{Description} &
-          \textit{Pattern 1} &
-          \textit{Pattern 2} &
-          \textit{Pattern 3} \\
-        \midrule
-        \text{Pattern Name} & Hishi Pattern & Tortoise shells & Asanoha Pattern\\
+        \captionof{table}{Table of Facade Pattern Variations: This table presents samples of 3D-modeled building facades at levels 1, 3, and 9, showcasing the progression and differentiation within the ten facade variations as detailed in section~\ref{subsubsec:3DModeling}. The incremental complexity introduced at each selected variation is highlighted across three distinct patterns. For a comprehensive record of all variations, refer to~\ref{sec:AnnexVariations}.}
+        \label{tab:PatternsVariationsPart0}
+        \begin{tabularx}
+        {\textwidth}{p{3cm} >{\centering\arraybackslash}X >{\centering\arraybackslash}X >{\centering\arraybackslash}X }
+    \toprule
+    \multicolumn{4}{c}{\textbf{Progression of 3D-Modeled Facade Variations Across Patterns: A Comparative Analysis at Levels 1, 3, and 9}}\\
+    \toprule
+    \textit{Description} &
+      \textit{Pattern 1} &
+      \textit{Pattern 2} &
+      \textit{Pattern 3} \\
+    \midrule
+    \text{Pattern Name} & Hishi Pattern & Tortoise shells & Asanoha Pattern\\
 
-        \midrule
-        \textit{Base Module} &  &  &
-        \\
-        {\includegraphics[width=1\linewidth]{Images/Base Module/Building}} &
-          {\includegraphics[width=1\linewidth]{Images/Base Module/Pattern1}} &
-          {\includegraphics[width=1\linewidth]{Images/Base Module/Pattern2}} &
-          {\includegraphics[width=1\linewidth]{Images/Base Module/Pattern3}} \\
-        \midrule
-
-        \textit{Mesh complexity Level} &
-          \textit{Pattern 1} &
-          \textit{Pattern 2} &
-          \textit{Pattern 3}\\
-
-        \midrule
-        \textit{Level 1} &  &  &
-        \\
-        {\includegraphics[width=1\linewidth]{Images/Wall 0/0001}} &
-            {\includegraphics[width=1\linewidth]{Images/Pattern 1/0001}} &
-          {\includegraphics[width=1\linewidth]{Images/Pattern 2/0001}} &
-          {\includegraphics[width=1\linewidth]{Images/Pattern 3/0001}} \\
-        \midrule
-        \textit{Level 3} &  &  &
-        \\
-        {\includegraphics[width=1\linewidth]{Images/Wall 0/0003}} &
-          {\includegraphics[width=1\linewidth]{Images/Pattern 1/0003}} &
-          {\includegraphics[width=1\linewidth]{Images/Pattern 2/0003}} &
-          {\includegraphics[width=1\linewidth]{Images/Pattern 3/0003}} \\
-        \midrule
-        \text{Level 9} &  &  &
-        \\
-        {\includegraphics[width=1\linewidth]{Images/Wall 0/0009}} &
-          {\includegraphics[width=1\linewidth]{Images/Pattern 1/0009}} &
-          {\includegraphics[width=1\linewidth]{Images/Pattern 2/0009}} &
-          {\includegraphics[width=1\linewidth]{Images/Pattern 3/0009}} \\
-        \bottomrule
-    \end{tabularx}
-        \end{minipage}
-    \end{tabular}
-    \end{table*}
+    \midrule
+    \textit{Base Module} &  &  &
+    \\
+    {\includegraphics[width=1\linewidth]{Images/Base Module/Building}} &
+        {\includegraphics[width=1\linewidth]{Images/Pattern 1/0001}} &
+      {\includegraphics[width=1\linewidth]{Images/Pattern 2/0001}} &
+      {\includegraphics[width=1\linewidth]{Images/Pattern 3/0001}}
+    \\
+    \bottomrule
+\end{tabularx}
+    \end{minipage}
+\end{tabular}
+\end{table*}
 
 %!% CICA Flowchart, PI tables and Image process
 %Table PI table, Function1, CICA evaluation process on architectural facades. Table 1x3
-\begin{table*}[htb]
+\begin{table*}[!htb]
 \centering
 \small
 \begin{tabular}{c}
@@ -123,11 +98,11 @@
 \begin{minipage}{\textwidth}
     \centering
     \includegraphics[width= \linewidth]{Images/CICA_flowchart}
-    \captionof{figure}{CICA Flowchart illustrating the CICA system (element 2) (detailed in Section~\ref{subsubsec:CICAsystem}) in the Complexity Analysis System development (detailed in Section~\ref{subsec:ComplexitySystemDevelopment}).}
+    \captionof{figure}{CICA Flowchart illustrating the applications of Computational Image Complexity Analysis system (CICA)(detailed in Section~\ref{subsubsec:CICAsystem}), including its role in analyzing complexity scores for 3D-modeled facades (a) designed with various degrees of complexity (illustrated in \ref{sec:AnnexVariations}) and historical architectural styles (b).}
     \label{fig:CICA_flowchart}
 \end{minipage}
 \\
-\\
+%\\
 %middle cell with one figure
 %Table: Performance Indicators
 \begin{minipage}{\textwidth}
@@ -159,7 +134,7 @@ Measure by counting the number of segments in an edge.
 \end{tabularx}
 \end{minipage}
 \\
-\\
+%\\
 %\\
 %Bottom cell
 %Table: CICA Image evaluation process for historical and 3d facades
@@ -215,9 +190,6 @@ Measure by counting the number of segments in an edge.
 \label{subsec:ComplexitySystemDevelopment}
 \input{text/Method_1ComplexitySystemDevelopment}
 
-
-
-
 \subsubsection{3D Modeling and Environment setup}
 \label{subsubsec:3DModeling}
 %% description of things modeled in blender for use in the experiment
@@ -229,21 +201,39 @@ Measure by counting the number of segments in an edge.
 \input{text/Method_3CICAsystem}
 
 %!%Figures of VR integration
-    %% Figure of VR interface
-    \begin{table*}[htb]
-        \centering
-        \small
-        \begin{tabular}{c}
-            %Top cell
-            % Optimization Flowchart
-            \begin{minipage}{\textwidth}
-                \centering
-                  \includegraphics[width= \linewidth]{Images/VRInterface}
-                \captionof{figure}{Detailed view of the VR interface (left) highlighting its five key sections: Viewpoint Navigation (1), Facade Variation Slider (2) for transitioning through ten facade variations, Facade Render Preview (3), Comparative Analysis Charts (4) displaying CICA complexity scores, and Utility Functions (5) for switching between the three patterns. Also shown are the VR simulations of the building's exterior (middle) and interior (right) as experienced during the facade complexity analysis, illustrating the transitions through various facade variations across all three patterns.}
-                \label{fig:VRinterfaceComplexity}
-            \end{minipage}
-        \end{tabular}
-    \end{table*}
+%% Figure of VR interface
+\begin{table*}[htb]
+    \centering
+    \small
+    \begin{tabular}{c}
+        %Top cell
+        % Optimization Flowchart
+        \begin{minipage}{\textwidth}
+            \centering
+              \includegraphics[width= \linewidth]{Images/VRInterface}
+            \captionof{figure}{Detailed view of the VR interface (left) highlighting its five key sections: Viewpoint Navigation (1), Facade Variation Slider (2) for transitioning through ten facade variations, Facade Render Preview (3), Comparative Analysis Charts (4) displaying CICA complexity scores, and Utility Functions (5) for switching between the three patterns. Also shown are the VR simulations of the building's exterior (middle) and interior (right) as experienced during the facade complexity analysis, illustrating the transitions through various facade variations across all three patterns.}
+            \label{fig:VRinterfaceComplexity}
+        \end{minipage}
+    \end{tabular}
+\end{table*}
+
+%!%Figure: Flowchart Experiment Execution
+%% Figure of VR interface
+\begin{table*}[htb]
+\centering
+\small
+\begin{tabular}{c}
+%Top cell
+% Optimization Flowchart
+\begin{minipage}{\textwidth}
+\centering
+\includegraphics[width= \linewidth]{Images/Experiment_flowchart}
+\captionof{figure}{
+Experiment Execution Flowchart: This flowchart outlines the three stages of the experiment, including the VR Interaction Stage (I), the Screen-Based Ranking Stage (II), and the Post-Experiment Survey (III), providing a visual representation of the sequential steps involved in the study (detailed in Section~\ref{subsec:Experiment_execution}).}
+\label{fig:Experiment_flowchart}
+\end{minipage}
+\end{tabular}
+\end{table*}
 
 
 \subsubsection{VR integration and simulation tools}
@@ -257,96 +247,95 @@ Measure by counting the number of segments in an edge.
 \input{Text/Method_5ExperimentExecution}
 
 
-    %!Table CICA scatter graph and table of Top and bottom scores for buildings
-    % Table with figures and data from top 5 and bottom 5 CICA complexity scores of buildings from historical analysis
-    \begin{table*}[!htb]
-    \centering
-    \small
-    \begin{tabular}{c}
-        %Top cell with one figure
-        %Figure: CICA scatter graph for historical analysis
-        \begin{minipage}{\textwidth}
-            \centering
-            \includegraphics[width= \linewidth]{Graphs/complexitygraph}
-            \captionof{figure}{Scatter Graph of Architectural Complexity Over Time: This graph presents the CICA scores for 177 buildings, categorized by historical timeline and architectural style. An overlaid trendline highlights the current evolving trend towards increased complexity in architectural design as analyzed by the CICA system.}
-            \label{fig:HistoricalComplexityGraph}
-        \end{minipage}
-        \\
-        \\
-        %2nd row with one table
-        %Table: CICA top 5 buildings with year and scores
-        \begin{minipage}{\textwidth}
-            \centering
-            \captionof{table}{Table of comparative CICA Historical Analysis results: Top 5 Highest and Bottom 5 Lowest CICA Complexity Scores from Historical Analysis, Including Year of Construction and Architectural Style.}
-            \label{tab:Top5andBottom5CICAcomplexityScores}
-            \begin{tabularx}{\linewidth}{c X c c c}
-            \toprule
-            \multicolumn{5}{c}{\textbf{Buildings with the Top 5 Highest CICA Complexity Scores}} \\
-            \hline
-            \textbf{Rank} & \textbf{Building Name} & \textbf{Year of Construction} & \textbf{Architectural Style} & \textbf{CICA Score} \\
-            \hline
-            1 & Westminster Abbey & 1245 & Gothic & 7.81 \\
-            2 & Seattle Central Library & 2004 & Deconstructivism & 7.78 \\
-            3 & Reims Kathedrale & 1275 & Gothic & 7.51 \\
-            4 & California Academy of Sciences & 2008 & Hightech Modernism & 7.45 \\
-            5 & Rome Trevi Fountain & 1732 & Baroque & 7.39 \\
-            \hline
-            \end{tabularx}
-        \end{minipage}
-        \\
-        \\
-        %3rd row cell with Figure
-        %Figure CICA top 5 buildings
-        \begin{minipage}{\textwidth}
-            \centering
-            \includegraphics[width= \linewidth, trim=0cm 0.5cm 0cm 0.5cm]{Images/CICATop5}
-            \label{fig:CICATop5scores}
-        \end{minipage}
-        \\
-        %4rd row cell with Table
-        %Table: CICA bottom 5 buildings with year and scores
-        \begin{minipage}{\textwidth}
-            \centering
-            \begin{tabularx}{\linewidth}{c X c c c}
-            \hline
-            \multicolumn{5}{c}{\textbf{Buildings with the Bottom 5 Lowest CICA Complexity Scores}} \\
-            \hline
-            \textbf{Rank} & \textbf{Building Name} & \textbf{Year of Construction} & \textbf{Architectural Style} & \textbf{CICA Score} \\
-            \hline
-            1 & Luce Memorial Chapel, Taichung City, Taiwan & 1963 & Modernism & 0.66 \\
-            2 & Imperial War Museum North & 2002 & Deconstructivism & 0.79 \\
-            3 & St. Mary's Cathedral, Tokyo & 1964 & Modernism & 1.07 \\
-            4 & Disney Concert Hall & 2003 & Deconstructivism & 1.13 \\
-            5 & Cathedral of Brasilia in Brazil & 1970 & Modernism & 1.22 \\
-            \bottomrule
-            \end{tabularx}
-        \end{minipage}
-        \\
-        \\
-        %Bottom cell with Figure
-        %Figure CICA top 5 buildings
-        \begin{minipage}{\textwidth}
-            \centering
-            \includegraphics[width= \linewidth, trim=0cm 0.5cm 0cm 0.5cm]{Images/CICABottom5}
-            \label{fig:CICABottom5scores}
-        \end{minipage}
-    \end{tabular}
-    \end{table*}
 
-    \subsection{Data Analysis and Validation}
-    \label{subsec:Data_analysis}
-    \input{text/Method_6DataAnalysis}
+
+\subsection{Data Analysis and Validation}
+\label{subsec:Data_analysis}
+\input{text/Method_6DataAnalysis}
+
+%!Table CICA scatter graph and table of Top and bottom scores for buildings
+% Table with figures and data from top 5 and bottom 5 CICA complexity scores of buildings from historical analysis
+\begin{table*}[!htb]
+\centering
+\small
+\begin{tabular}{c}
+    %Top cell with one figure
+    %Figure: CICA scatter graph for historical analysis
+    \begin{minipage}{\textwidth}
+        \centering
+        \includegraphics[width= \linewidth]{Graphs/complexitygraph}
+        \captionof{figure}{Scatter Graph of Architectural Complexity Over Time: This graph presents the CICA scores for 177 buildings, categorized by historical timeline and architectural style. An overlaid trendline highlights the current evolving trend towards increased complexity in architectural design as analyzed by the CICA system.}
+        \label{fig:HistoricalComplexityGraph}
+    \end{minipage}
+    \\
+    \\
+    %2nd row with one table
+    %Table: CICA top 5 buildings with year and scores
+    \begin{minipage}{\textwidth}
+        \centering
+        \captionof{table}{Table of comparative CICA Historical Analysis results: Top 5 Highest and Bottom 5 Lowest CICA Complexity Scores from Historical Analysis, Including Year of Construction and Architectural Style.}
+        \label{tab:Top5andBottom5CICAcomplexityScores}
+        \begin{tabularx}{\linewidth}{c X c c c}
+        \toprule
+        \multicolumn{5}{c}{\textbf{Buildings with the Top 5 Highest CICA Complexity Scores}} \\
+        \hline
+        \textbf{Rank} & \textbf{Building Name} & \textbf{Year of Construction} & \textbf{Architectural Style} & \textbf{CICA Score} \\
+        \hline
+        1 & Westminster Abbey & 1245 & Gothic & 7.81 \\
+        2 & Seattle Central Library & 2004 & Deconstructivism & 7.78 \\
+        3 & Reims Kathedrale & 1275 & Gothic & 7.51 \\
+        4 & California Academy of Sciences & 2008 & Hightech Modernism & 7.45 \\
+        5 & Rome Trevi Fountain & 1732 & Baroque & 7.39 \\
+        \hline
+        \end{tabularx}
+    \end{minipage}
+    \\
+    \\
+    %3rd row cell with Figure
+    %Figure CICA top 5 buildings
+    \begin{minipage}{\textwidth}
+        \centering
+        \includegraphics[width= \linewidth, trim=0cm 0.5cm 0cm 0.5cm]{Images/CICATop5}
+        \label{fig:CICATop5scores}
+    \end{minipage}
+    \\
+    %4rd row cell with Table
+    %Table: CICA bottom 5 buildings with year and scores
+    \begin{minipage}{\textwidth}
+        \centering
+        \begin{tabularx}{\linewidth}{c X c c c}
+        \hline
+        \multicolumn{5}{c}{\textbf{Buildings with the Bottom 5 Lowest CICA Complexity Scores}} \\
+        \hline
+        \textbf{Rank} & \textbf{Building Name} & \textbf{Year of Construction} & \textbf{Architectural Style} & \textbf{CICA Score} \\
+        \hline
+        1 & Luce Memorial Chapel, Taichung City, Taiwan & 1963 & Modernism & 0.66 \\
+        2 & Imperial War Museum North & 2002 & Deconstructivism & 0.79 \\
+        3 & St. Mary's Cathedral, Tokyo & 1964 & Modernism & 1.07 \\
+        4 & Disney Concert Hall & 2003 & Deconstructivism & 1.13 \\
+        5 & Cathedral of Brasilia in Brazil & 1970 & Modernism & 1.22 \\
+        \bottomrule
+        \end{tabularx}
+    \end{minipage}
+    \\
+    \\
+    %Bottom cell with Figure
+    %Figure CICA top 5 buildings
+    \begin{minipage}{\textwidth}
+        \centering
+        \includegraphics[width= \linewidth, trim=0cm 0.5cm 0cm 0.5cm]{Images/CICABottom5}
+        \label{fig:CICABottom5scores}
+    \end{minipage}
+\end{tabular}
+\end{table*}
+
 
 \section{Results and Discussion}
 \label{sec:Results}
 %% Results should be clear and concise.
 \input{text/RD_1Results_DiscussionIntro}
 
-    \subsection{Assessment and Implications of Facade Complexity across Architectural Eras using the CICA System and insights from literature review}
-    \label{subsec:ResultsComplexityImageAnalysishistory}
-    \input{Text/RD_2ResultsCICAHistory}
-
-    %!Figures of experiment results 1
+%!Figures of experiment results 1
     %Table 2x3 Results part 1
     %Participant background chart, years of experience, Bar Chart of Chosen facade variation, Probability Chart and Complexity level per Pattern
     \begin{table*}[!htb]
@@ -405,61 +394,66 @@ Measure by counting the number of segments in an edge.
             \end{minipage}
         \end{tabular}
     \end{table*}
+%!Figures of experiment results 2
+%Table 1x2
+% Accuracy graphs of complexity ranking per pattern
+\begin{table*}[!htb]
+    \centering
+    \small
+    \begin{tabular}{c}
+        %Top cell with one figure
+        %Accuracy graphs of complexity ranking per pattern as a single image
+        \begin{minipage}{\textwidth}
+            \centering
+            \includegraphics[width=\linewidth]{Images/AccuracyPatternMaster}
+            \captionof{figure}{Comparative Analysis of Perceived Complexity vs. CICA Complexity Scores per Pattern: This line graph series illustrates the difference between participants' perceived complexity rankings and the objective CICA scores for facade variations within three distinct patterns. The graphs are presented from left to right: Pattern 1 (a), Pattern 2 (b), and Pattern 3 (c). The ranking line shows the complexity assessment from least (1) to most complex (10),highlighting the contrast between human perception and computational analysis in evaluating architectural complexity (26 participants).}
+            \label{fig:AccuracyPatternMaster}
+        \end{minipage}
+    \end{tabular}
+\end{table*}
 
-    %!Figures of experiment results 2
-    %Table 1x2
-    % Accuracy graphs of complexity ranking per pattern
-    \begin{table*}[!htb]
-        \centering
-        \small
-        \begin{tabular}{c}
-            %Top cell with one figure
-            %Accuracy graphs of complexity ranking per pattern as a single image
-            \begin{minipage}{\textwidth}
-                \centering
-                \includegraphics[width=\linewidth]{Images/AccuracyPatternMaster}
-                \captionof{figure}{Comparative Analysis of Perceived Complexity vs. CICA Complexity Scores per Pattern: This line graph series illustrates the difference between participants' perceived complexity rankings and the objective CICA scores for facade variations within three distinct patterns. The graphs are presented from left to right: Pattern 1 (a), Pattern 2 (b), and Pattern 3 (c). The ranking line shows the complexity assessment from least (1) to most complex (10),highlighting the contrast between human perception and computational analysis in evaluating architectural complexity (26 participants).}
-                \label{fig:AccuracyPatternMaster}
+%!Figures of survey results
+% Survey question graph
+\begin{table*}[!htb]
+    \centering
+    \small
+    \begin{tabular}{c}
+        %Top cell with figures side by side
+        %Survey question graphs
+        \begin{minipage}{\textwidth}
+            \centering
+            % Left figure
+            % Survey question 6 to 10
+            \begin{minipage}{0.49\textwidth}
+                \includegraphics[width=\linewidth]{Images/SurveyPart1Complexity}
+                \captionof{figure}{Questions 6 to 10 of the Complexity perception section from the Post-Experiment Survey. \- (n = 10), 1 - strongly disagree, 7 - strongly agree.}
+                \label{fig:SurveyQuestions6-10}
             \end{minipage}
-        \end{tabular}
-    \end{table*}
-
-    %!Figures of survey results
-    % Survey question graph
-    \begin{table*}[!htb]
-        \centering
-        \small
-        \begin{tabular}{c}
-            %Top cell with figures side by side
-            %Survey question graphs
-            \begin{minipage}{\textwidth}
-                \centering
-                % Left figure
-                % Survey question 6 to 10
-                \begin{minipage}{0.49\textwidth}
-                    \includegraphics[width=\linewidth]{Images/SurveyPart1Complexity}
-                    \captionof{figure}{Questions 6 to 10 of the Complexity perception section from the Post-Experiment Survey. \- (n = 10), 1 - strongly disagree, 7 - strongly agree.}
-                    \label{fig:SurveyQuestions6-10}
-                \end{minipage}
-                \hfill % Spacing between the figures
-                % Right figure
-                % Survey question 11 to 15
-                \begin{minipage}{0.49\textwidth}
-                    \includegraphics[width=\linewidth]{Images/SurveyPart2Complexity}
-                    \captionof{figure}{Questions 11 to 15 of the Complexity perception section from the Post-Experiment Survey. \- (n = 10), 1 - strongly disagree, 7 - strongly agree.}
-                    \label{fig:SurveyQuestions11-15}
-                \end{minipage}
+            \hfill % Spacing between the figures
+            % Right figure
+            % Survey question 11 to 15
+            \begin{minipage}{0.49\textwidth}
+                \includegraphics[width=\linewidth]{Images/SurveyPart2Complexity}
+                \captionof{figure}{Questions 11 to 15 of the Complexity perception section from the Post-Experiment Survey. \- (n = 10), 1 - strongly disagree, 7 - strongly agree.}
+                \label{fig:SurveyQuestions11-15}
             \end{minipage}
-        \end{tabular}
-    \end{table*}
+        \end{minipage}
+    \end{tabular}
+\end{table*}
 
-    \subsection{Quantitative Analysis on Users Response to Complex Facades}
-    \label{subsec:ResultsExperiment}
-    \input{text/RD_3ResultsExperiment}
+\subsection{Assessment and Implications of Facade Complexity across Architectural Eras using the CICA System and insights from literature review}
+\label{subsec:ResultsComplexityImageAnalysishistory}
+\input{Text/RD_2ResultsCICAHistory}
 
-    \subsection{Qualitative Analysis on Users Perception to Complex Facades}
-    \label{subsec:ResultsSurvey}
-    \input{Text/RD_4ResultsSurvey}
+
+
+\subsection{Quantitative Analysis on Users Response to Complex Facades}
+\label{subsec:ResultsExperiment}
+\input{text/RD_3ResultsExperiment}
+
+\subsection{Qualitative Analysis on Users Perception to Complex Facades}
+\label{subsec:ResultsSurvey}
+\input{Text/RD_4ResultsSurvey}
 
 
 \section{Conclusions}

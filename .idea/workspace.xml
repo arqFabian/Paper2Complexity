@@ -7,6 +7,8 @@
     <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Updated Introduction and methodology graph with timeline figures pushed to Appendix.tex">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bodyManuscript.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/bodyManuscript.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mainDBEjournal.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainDBEjournal.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -604,7 +606,7 @@
       <workItem from="1724309857861" duration="3649000" />
       <workItem from="1725349000741" duration="611000" />
       <workItem from="1726134193892" duration="2350000" />
-      <workItem from="1726472155622" duration="31813000" />
+      <workItem from="1726472155622" duration="32635000" />
     </task>
     <task id="LOCAL-00017" summary="Corrections to HistoryArchStylesTheory.tex to add the art noaveu refrence as well as the ransition to modernism">
       <created>1692760181616</created>
@@ -949,7 +951,7 @@
       <option name="project" value="LOCAL" />
       <updated>1699542674381</updated>
     </task>
-    <option name="localTasksCounter" value="167" />
+    <option name="localTasksCounter" value="168" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
