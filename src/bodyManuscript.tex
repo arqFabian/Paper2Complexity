@@ -15,15 +15,7 @@
 \label{sec:LiteratureReview}
 \input{Text/TheoryLiteratureReviewIntro}
 
-\subsection{Evolution of Architectural Styles: Oscillations Between Simplicity and Complexity}
-\label{subsec:TimelineArchitectureStyles}
-\input{Text/TheoryHistoricalContext}
-
-\subsection{Theoretical Foundations of Architectural Complexity}
-\label{subsec:ComplexityStudies}
-\input{Text/TheoryComplexityStudies}
-
-    %!% Figures Methodology intro
+%!% Figures Methodology intro
     %% Methodology Flowchart
     \begin{figure*}[!htb]
         \centering
@@ -31,6 +23,14 @@
           \label{fig:MethodologyFlowchartComplexity}
     \end{figure*}
 
+
+\subsection{Evolution of Architectural Styles: Oscillations Between Simplicity and Complexity}
+\label{subsec:TimelineArchitectureStyles}
+\input{Text/TheoryHistoricalContext}
+
+\subsection{Theoretical Foundations of Architectural Complexity}
+\label{subsec:ComplexityStudies}
+\input{Text/TheoryComplexityStudies}
 
 \section{Methodology}
 \label{sec:Methodology}
@@ -112,118 +112,121 @@
     \end{tabular}
     \end{table*}
 
-
-
-    \subsection{Complexity Analysis System Development}
-    \label{subsec:ComplexitySystemDevelopment}
-    \input{text/Method_1ComplexitySystemDevelopment}
-
-%!% CICA tables and function
-    %Table PI table, Function1, CICA evaluation process on architectural facades. Table 1x3
-    \begin{table*}[htb]
+%!% CICA Flowchart, PI tables and Image process
+%Table PI table, Function1, CICA evaluation process on architectural facades. Table 1x3
+\begin{table*}[htb]
+\centering
+\small
+\begin{tabular}{c}
+%Top cell with one figure
+%Figure: CICA Flowchart
+\begin{minipage}{\textwidth}
     \centering
-    \small
-    \begin{tabular}{c}
-        %Top cell with one figure
-        %Table: Performance Indicators
-        \begin{minipage}{\textwidth}
-            \centering
-            \captionof{table}{Table of Metrics and Weights for Complexity Scoring: Outlines the key criteria and corresponding weights utilized in the CICA system to determine the `Complexity Score' of architectural facades, detailing the systematic approach to quantifying facade intricacy through edge density and contour count metrics, chosen for the critical role these metrics play in human visual perception~\cite{Yang2022}. Please refer to Section~\ref{subsubsec:CICAsystem} for further details.}
-            \label{tab:MetricsandWeights}
-            \begin{tabularx}{\textwidth}{p{2.5cm} p{1cm} X X p{1cm}}
-                \toprule
-                \multicolumn{5}{c}{\textbf{Table of Metrics and Weights for CICA Complexity Scoring on Architectural Facades}} \\
-                \toprule
-                \textit{Complexity metric} &
-                  \textit{N} &
-                  \textit{Metric name/description} &
-                  \textit{Quantitative   method} &
-                  \textit{Weights} \\ \midrule
-                \textbf{Edge Density} &
-                  1 &
-                  Edge detection using Canny Edge Detection algorithm for highlighting the most relevant features of a building.
-                    &
-                  Measured by dividing the number of non-zero (edge) pixels in the edges image by the total number of pixels in the image.
-                    &
-                  8\\
-                \\
-                \textbf{Contour count} &
-                  2 &
-                  Employs contour approximation algorithm for shape analysis to determine intricacy of edges.
-                    &
-                  Measure by counting the number of segments in an edge.
-                    &
-                  2\\ \bottomrule
-                   &
-                   &
-                  \textbf{TOTAL} &
-                  &
-                  \textbf{10}\\ \bottomrule
-            \end{tabularx}
-        \end{minipage}
-        \\
-        \\
-        \\
-        %Bottom cell
-        %Table: CICA Image evaluation process for historical and 3d facades
-        \begin{minipage}{\textwidth}
-            \centering
-            \captionof{table}{CICA Evaluation on Architectural Facades: The table presents a comparative analysis of CICA evaluation applied to 3D-modeled facades (a) and historical buildings (b). The process includes steps from original imagery to image processing (noise reduction, grayscale), edge detection, and contour count analysis, as shown on the flowchart in Figure\ref{fig:MethodologyFlowchartComplexity} (element 2). It highlights  the adaptability of CICA to assess complexity in both historical and contemporary architectural designs.}
-            \label{tab:CICAImageEvalProcessOnArchitecturalFacades}
-            \begin{tabularx}
-            {\textwidth}{X X X X }
-                \toprule
-                \multicolumn{4}{c}{\textbf{CICA Image Evaluation process on Architectural Facades}} \\
-                \toprule
-                \multicolumn{1}{c}{\textit{Original Image}} &
-                 \multicolumn{1}{c}{\textit{Grayscale, noise reduction}} &
-                \multicolumn{1}{c}{\textit{Edge detection Image}} &
-                \multicolumn{1}{c}{\textit{Contour count Image}}\\
-                \midrule
-                \text{(a) 3D-modeled facades} &  &  &
-                \\
-                {\includegraphics[width=1\linewidth]{Images/CICA3DRender1}} &
-                    {\includegraphics[width=1\linewidth]{Images/CICA3DRender2}} &
-                  {\includegraphics[width=1\linewidth]{Images/CICA3DRender3}} &
-                  {\includegraphics[width=1\linewidth]{Images/CICA3DRender4}} \\
-                \midrule
-                \text{(b) Historical Analysis} &  &  &
-                \\
-                {\includegraphics[width=1\linewidth]{Images/CICAHistory1}} &
-                    {\includegraphics[width=1\linewidth]{Images/CICAHistory2}} &
-                  {\includegraphics[width=1\linewidth]{Images/CICAHistory3}} &
-                  {\includegraphics[width=1\linewidth]{Images/CICAHistory4}}\\
-                \bottomrule
-            \end{tabularx}
-        \end{minipage}
-    \end{tabular}
-    \end{table*}
+    \includegraphics[width= \linewidth]{Images/CICA_flowchart}
+    \captionof{figure}{CICA Flowchart illustrating the CICA system (element 2) (detailed in Section~\ref{subsubsec:CICAsystem}) in the Complexity Analysis System development (detailed in Section~\ref{subsec:ComplexitySystemDevelopment}).}
+    \label{fig:CICA_flowchart}
+\end{minipage}
+\\
+\\
+%middle cell with one figure
+%Table: Performance Indicators
+\begin{minipage}{\textwidth}
+\centering
+\captionof{table}{Table of Metrics and Weights for Complexity Scoring: Outlines the key criteria and corresponding weights utilized in the CICA system to determine the `Complexity Score' of architectural facades, detailing the systematic approach to quantifying facade intricacy through edge density and contour count metrics, chosen for the critical role these metrics play in human visual perception~\cite{Yang2022}. Please refer to Section~\ref{subsubsec:CICAsystem} for further details.}
+\label{tab:MetricsandWeights}
+\begin{tabularx}{\textwidth}{p{2.5cm} p{1cm} X X >{\centering\arraybackslash}p{1cm}}
+\toprule
+\multicolumn{5}{c}{\textbf{Table of Metrics and Weights for CICA Complexity Scoring on Architectural Facades}} \\
+\toprule
+\textit{Complexity metric} & \textit{N} & \textit{Metric name/description} & \textit{Quantitative   method} & \textit{Weights} \\ \midrule
+\textbf{Edge Density} &
+1 &
+Edge detection using Canny Edge Detection algorithm for highlighting the most relevant features of a building.& Measured by dividing the number of non-zero (edge) pixels in the edges image by the total number of pixels in the image.&
+8\\
+\\
+\textbf{Contour count} &
+2 &
+Employs contour approximation algorithm for shape analysis to determine intricacy of edges.
+&
+Measure by counting the number of segments in an edge.
+&
+2\\ \bottomrule
+&
+&
+\textbf{TOTAL} &
+&
+\textbf{10}\\ \bottomrule
+\end{tabularx}
+\end{minipage}
+\\
+\\
+%\\
+%Bottom cell
+%Table: CICA Image evaluation process for historical and 3d facades
+\begin{minipage}{\textwidth}
+\centering
+\captionof{table}{CICA Evaluation on Architectural Facades: The table presents a comparative analysis of CICA evaluation applied to 3D-modeled facades (a) and historical buildings (b). The process includes steps from original imagery to image processing (noise reduction, grayscale), edge detection, and contour count analysis, as shown on the flowchart in Figure\ref{fig:MethodologyFlowchartComplexity} (element 2). It highlights  the adaptability of CICA to assess complexity in both historical and contemporary architectural designs.}
+\label{tab:CICAImageEvalProcessOnArchitecturalFacades}
+\begin{tabularx}
+{\textwidth}{>{\centering\arraybackslash}X >{\centering\arraybackslash}X >{\centering\arraybackslash}X >{\centering\arraybackslash}X }
+\toprule
+\multicolumn{4}{c}{\textbf{CICA Image Evaluation process on Architectural Facades}} \\
+\toprule
+\multicolumn{1}{c}{\textit{Original Image}} &
+\multicolumn{1}{c}{\textit{Grayscale, noise reduction}} &
+\multicolumn{1}{c}{\textit{Edge detection Image}} &
+\multicolumn{1}{c}{\textit{Contour count Image}}\\
+\midrule
+\text{(a) 3D-modeled facades} &  &  & \\
+\includegraphics[width=.8\linewidth]{Images/CICA3DRender1} &
+\includegraphics[width=.8\linewidth]{Images/CICA3DRender2} &
+\includegraphics[width=.8\linewidth]{Images/CICA3DRender3} &
+\includegraphics[width=.8\linewidth]{Images/CICA3DRender4} \\
+\midrule
+\text{(b) Historical Analysis} &  &  & \\
+\includegraphics[width=.8\linewidth]{Images/CICAHistory1} &
+\includegraphics[width=.8\linewidth]{Images/CICAHistory2} &
+\includegraphics[width=.8\linewidth]{Images/CICAHistory3} &
+\includegraphics[width=.8\linewidth]{Images/CICAHistory4} \\
+\bottomrule
+\end{tabularx}
+\end{minipage}
 
-    %Cica scatter graph for renders
-    \begin{table*}[htb]
+\end{tabular}
+\end{table*}
+
+%Cica scatter graph for renders
+\begin{table*}[htb]
+\centering
+\small
+\begin{tabular}{c}
+    %Top cell with one figure
+    %Scatter graph CICA renders
+    \begin{minipage}{\textwidth}
     \centering
-    \small
-    \begin{tabular}{c}
-        %Top cell with one figure
-        %Scatter graph CICA renders
-        \begin{minipage}{\textwidth}
-        \centering
-        \includegraphics[width= \linewidth]{Graphs/complexitygraphrender}
-        \captionof{figure}{Scatter Graph Analysis of 3d modeled Facade Complexity: This graph presents the CICA scores for ten variations of three distinct patterns created in Blender, with a trendline indicating the range of complexity levels among the facade designs, illustrating the nuanced relationship between design intricacy and CICA scores.}
-        \label{fig:CICAscatterGraphRender}
-        \end{minipage}
-    \end{tabular}
-    \end{table*}
+    \includegraphics[width= \linewidth]{Graphs/complexitygraphrender}
+    \captionof{figure}{Scatter Graph Analysis of 3d modeled Facade Complexity: This graph presents the CICA scores for ten variations of three distinct patterns created in Blender, with a trendline indicating the range of complexity levels among the facade designs, illustrating the nuanced relationship between design intricacy and CICA scores.}
+    \label{fig:CICAscatterGraphRender}
+    \end{minipage}
+\end{tabular}
+\end{table*}
 
-    \subsubsection{3D Modeling and Environment setup}
-    \label{subsubsec:3DModeling}
-    %% description of things modeled in blender for use in the experiment
-    \input{Text/Method_2_3DModeling}
+\subsection{Complexity Analysis System Development}
+\label{subsec:ComplexitySystemDevelopment}
+\input{text/Method_1ComplexitySystemDevelopment}
 
 
-    \subsubsection{CICA System}
-    \label{subsubsec:CICAsystem}
-    \input{text/Method_3CICAsystem}
+
+
+\subsubsection{3D Modeling and Environment setup}
+\label{subsubsec:3DModeling}
+%% description of things modeled in blender for use in the experiment
+\input{Text/Method_2_3DModeling}
+
+
+\subsubsection{CICA System}
+\label{subsubsec:CICAsystem}
+\input{text/Method_3CICAsystem}
 
 %!%Figures of VR integration
     %% Figure of VR interface
@@ -243,15 +246,15 @@
     \end{table*}
 
 
-    \subsubsection{VR integration and simulation tools}
-    \label{subsubsec:VR_integration}
-    %%Define the sections of the VR interface and how information is displayed
-    \input{Text/Method_4VR_Integration}
+\subsubsection{VR integration and simulation tools}
+\label{subsubsec:VR_integration}
+%%Define the sections of the VR interface and how information is displayed
+\input{Text/Method_4VR_Integration}
 
-    \subsection{Experiment Execution}
-    \label{subsec:Experiment_execution}
-    %%Task description, stage 1 to 3 with survey
-    \input{Text/Method_5ExperimentExecution}
+\subsection{Experiment Execution}
+\label{subsec:Experiment_execution}
+%%Task description, stage 1 to 3 with survey
+\input{Text/Method_5ExperimentExecution}
 
 
     %!Table CICA scatter graph and table of Top and bottom scores for buildings
