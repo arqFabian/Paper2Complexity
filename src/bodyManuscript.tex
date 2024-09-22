@@ -71,7 +71,28 @@
     \captionof{figure}{CICA Flowchart illustrating the applications of Computational Image Complexity Analysis system (CICA)(detailed in Section~\ref{subsubsec:CICAsystem}), including its role in analyzing complexity scores for 3D-modeled facades (a) designed with various degrees of complexity (illustrated in \ref{sec:AnnexVariations}) and historical architectural styles (b).}
     \label{fig:CICA_flowchart}
 \end{minipage}
+
 \\
+%\\
+%\\
+%Bottom cell
+%Table: CICA Image evaluation process for historical and 3d facades
+\begin{minipage}{\textwidth}
+\centering
+\captionof{table}{CICA Evaluation on Architectural Facades: The table presents a comparative analysis of CICA evaluation applied to 3D-modeled facades (a) and historical buildings (b). The process includes steps from original imagery to image processing (noise reduction, grayscale), edge detection, and contour count analysis, as shown on the flowchart in Figure\ref{fig:MethodologyFlowchartComplexity} (element 2). It highlights  the adaptability of CICA to assess complexity in both historical and contemporary architectural designs.}
+\label{tab:CICAImageEvalProcessOnArchitecturalFacades}
+
+\end{minipage}
+
+\end{tabular}
+\end{table*}
+
+%Cica scatter graph for renders
+\begin{table*}[htb]
+\centering
+\small
+\begin{tabular}{c}
+    \\
 %\\
 %middle cell with one figure
 %Table: Performance Indicators
@@ -103,28 +124,9 @@ Measure by counting the number of segments in an edge.
 \textbf{10}\\ \bottomrule
 \end{tabularx}
 \end{minipage}
-\\
-%\\
-%\\
-%Bottom cell
-%Table: CICA Image evaluation process for historical and 3d facades
-\begin{minipage}{\textwidth}
-\centering
-\captionof{table}{CICA Evaluation on Architectural Facades: The table presents a comparative analysis of CICA evaluation applied to 3D-modeled facades (a) and historical buildings (b). The process includes steps from original imagery to image processing (noise reduction, grayscale), edge detection, and contour count analysis, as shown on the flowchart in Figure\ref{fig:MethodologyFlowchartComplexity} (element 2). It highlights  the adaptability of CICA to assess complexity in both historical and contemporary architectural designs.}
-\label{tab:CICAImageEvalProcessOnArchitecturalFacades}
-
-\end{minipage}
-
-\end{tabular}
-\end{table*}
-
-%Cica scatter graph for renders
-\begin{table*}[htb]
-\centering
-\small
-\begin{tabular}{c}
     %Top cell with one figure
     %Scatter graph CICA renders
+    \\
     \begin{minipage}{\textwidth}
     \centering
     \includegraphics[width= \linewidth]{Graphs/complexitygraphrender}
@@ -164,6 +166,8 @@ Measure by counting the number of segments in an edge.
         \end{minipage}
     \end{tabular}
 \end{table*}
+
+
 
 %!%Figure: Flowchart Experiment Execution
 %% Figure of VR interface
