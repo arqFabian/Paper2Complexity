@@ -9,10 +9,10 @@ Implemented as a Python script, the CICA system leverages Python's compatibility
 Inspired by Venturi et al.'s perspective on complexity~\cite{Venturi1977}, the CICA system measures complexity by the mental processing time required for a building's elements.
 It uses two primary metrics: edge density and contour count, selected for their relevance to human vision's edge and object contour detection~\cite{Yang2022}.
 
-\textit{Edge Density:} Utilizing the Canny Edge Detection algorithm~\cite{EdgeOpenCV2023}, this metric focuses on edge presence and density, defining architectural boundaries (Figure~\ref{fig:CICA_flowchart}, element (2) CICA process).
+\textit{Edge Density:} Utilizing the Canny Edge Detection algorithm~\cite{EdgeOpenCV2023}, this metric focuses on edge presence and density, defining architectural boundaries (Figure~\ref{fig:CICA_and_VR_flowchart}, element [(2)]).
 \deleted{(Table 1, column 3).}
 
-\textit{Contour Count:} Using contour approximation techniques~\cite{ContourOpenCV2023}, this metric assesses shape intricacies outlined by edges (Figure~\ref{fig:CICA_flowchart}, element (3) CICA process).
+\textit{Contour Count:} Using contour approximation techniques~\cite{ContourOpenCV2023}, this metric assesses shape intricacies outlined by edges (Figure~\ref{fig:CICA_and_VR_flowchart}, element [(3)]).
 \deleted{(Table 1, column 4).}
 
 Both metrics are essential for shaping perceived complexity and are computationally efficient for large datasets~\cite{Yang2022}.
@@ -30,9 +30,9 @@ This weighted sum provides the overall complexity score or `CICA score' a quanti
 
 The CICA system has two main applications:
 \begin{itemize}
-    \item \textit{Historical Analysis:} Evaluates over 180 buildings from various architectural eras, creating a scatter graph of complexity scores organized by year and architecture style, showing complexity trends over time (Figure~\ref{fig:CICA_flowchart}[b]). Results are presented in Section~\ref{subsec:ResultsComplexityImageAnalysishistory}.\deleted{(Figure 4, element 2[b]; Table 3[b]).}
+    \item \textit{Historical Analysis:} Evaluates over 180 buildings from various architectural eras, creating a scatter graph of complexity scores organized by year and architecture style, showing complexity trends over time (Figure~\ref{fig:CICA_and_VR_flowchart}[b]). Results are presented in Section~\ref{subsec:ResultsComplexityImageAnalysishistory}.\deleted{(Figure 4, element 2[b]; Table 3[b]).}
 
-    \item \textit{3D-Modeled Facades Analysis:} Analyzes 10 facade variations across 3 patterns of 3D-modeled facades with varying complexity for the VR experiment (Figure~\ref{fig:CICA_flowchart}[a]). The CICA scores are used for comparison with user perceptions~(Figure~\ref{fig:CICAscatterGraphRender}).\deleted{(Figure 4, element 2[a]; Table 3[a]).}
+    \item \textit{3D-Modeled Facades Analysis:} Analyzes 10 facade variations across 3 patterns of 3D-modeled facades with varying complexity for the VR experiment (Figure~\ref{fig:CICA_and_VR_flowchart}[a]). The CICA scores are used for comparison with user perceptions~(Figure~\ref{fig:CICAscatterGraphRender}).\deleted{(Figure 4, element 2[a]; Table 3[a]).}
 \end{itemize}
 
 Through these applications, the CICA system aims to validate architectural complexity trends empirically and prepare for experiments assessing user perceptions of facade complexity.
