@@ -23,12 +23,18 @@
 \input{Text/TheoryHistoricalContext}
 
 %!% Figures Methodology intro
-    %% Methodology Flowchart
-    \begin{figure*}[!htb]
-        \centering
-        \includegraphics[width=\linewidth]{Images/MethodologyFlowchart}~\caption{Methodology Flowchart illustrating the sequential steps of this study's approach framework designed to assess the qunatification of complexity in building design and the perception of occupants in complex environemnts. Higlighting the usage of the CICA system (element 2) (detailed in Section~\ref{subsubsec:CICAsystem}) in the Complexity Analysis System development (detailed in Section\ref{subsec:ComplexitySystemDevelopment}), and the transition to `Experiment Execution' (element 4) (described in Section\ref{subsec:Experiment_execution}), culminating in the post-experiment data analysis and results phase (element 5) (described in Section\ref{subsec:Data_analysis}).}
-          \label{fig:MethodologyFlowchartComplexity}
-    \end{figure*}
+%% Methodology Flowchart
+\begin{figure*}[!htb]
+\centering
+\includegraphics[width=\linewidth]{Images/MethodologyFlowchart}~
+\caption{
+\deleted{
+Methodology Process Flowchart: illustrating the sequential steps of this study's approach framework designed to assess the quantification of complexity in building design and the perception of occupants in complex environemnts. It showcases the 3 main components of the methodology `Complexity Analysis System Development'(detailed in Section~\ref{subsec:ComplexitySystemDevelopment}, `Experiment Execution' (detailed in Section~\ref{subsec:Experiment_execution}), and `Data Analysis and Validadtion' (detailed in Section~\ref{subsec:Data_analysis}). Higlighting the usage of the CICA system (element 2) (detailed in Section~\ref{subsubsec:CICAsystem}, Figure~\ref{fig:CICA_flowchart}), developed for this study, and the transition to `Experiment Execution' (element 4) (described in Section\ref{subsec:Experiment_execution}), culminating in the post-experiment `Data Analysis and Validation' phase (element 5) (described in Section\ref{subsec:Data_analysis}).
+}
+Methodology Process Flowchart: This flowchart outlines the key steps in the framework for assessing facade complexity and user perception in architectural design. It focuses on three main components: `Complexity Analysis System Development' (Section~\ref{subsec:ComplexitySystemDevelopment}), `Experiment Execution' (Section~\ref{subsec:Experiment_execution}), and `Data Analysis and Validation' (Section~\ref{subsec:Data_analysis}). The flowchart illustrates the transition from the `3D Modeling' step (Section~\ref{subsubsec:3DModeling},Figure~\ref{fig:modeling_flowchart}) to the use of the `CICA system' (Section~\ref{subsubsec:CICAsystem}, element 2, Figure~\ref{fig:CICA_flowchart}), followed by the `VR Integration' step (Section~\ref{subsubsec:VR_integration},element 1, Figure~\ref{fig:CICA_flowchart}), and concludes with the `Experiment Execution' and `Data Analysis' phases (elements 4 and 5, Figure~\ref{fig:Experiment_flowchart}). A detailed version of this `Unified Methodology Process' can be found in Appendix~\ref{fig:Detailed_Methodology_Flowchart}.
+}
+\label{fig:MethodologyFlowchartComplexity}
+\end{figure*}
 
 \subsection{Theoretical Foundations of Architectural Complexity}
 \label{subsec:ComplexityStudies}
@@ -50,14 +56,17 @@
 \begin{minipage}{\textwidth}
 \centering
 \includegraphics[width= \linewidth]{Images/Modeling_flowchart}
-
-\captionof{figure}{Side-by-side comparison of the actual Architectural Environment Building exterior (a) and interior (c) with its detailed 3D virtual counterpart (b, d) created for the VR experiment for Facade Complexity Analysis, demonstrating the fidelity of the digital model in replicating architectural nuances. For clarity, the simulated interior (d) has been simplified to reduce distractions. Table of Facade Pattern Variations: This table presents samples of 3D-modeled building facades at levels 1, 3, and 9, showcasing the progression and differentiation within the ten facade variations as detailed in section~\ref{subsubsec:3DModeling}. The incremental complexity introduced at each selected variation is highlighted across three distinct patterns. For a comprehensive record of all variations, refer to~\ref{sec:AnnexVariations}.}
+\captionof{figure}{
+\deleted{
+    Side-by-side comparison of the actual Architectural Environment Building exterior (a) and interior (c) with its detailed 3D virtual counterpart (b, d) created for the VR experiment for Facade Complexity Analysis, demonstrating the fidelity of the digital model in replicating architectural nuances. For clarity, the simulated interior (d) has been simplified to reduce distractions. Table of Facade Pattern Variations: This table presents samples of 3D-modeled building facades at levels 1, 3, and 9, showcasing the progression and differentiation within the ten facade variations as detailed in section~\ref{subsubsec:3DModeling}. The incremental complexity introduced at each selected variation is highlighted across three distinct patterns. For a comprehensive record of all variations, refer to~\ref{sec:AnnexVariations}.}
+3D Modeling Flowchart: This flowchart outlines the process of creating a detailed 3D model of the Architectural Environment Research Building and its facade variations, developed in Blender (v3.6), detailed in Section~\ref{subsubsec:3DModeling}. The process includes geolocation, terrain modeling, and both exterior and interior virtual replication (a-d). Facade complexity is systematically generated (e,f) by applying parametric operations to three facade patterns—Hishi, Tortoise, and Asanoha (P1, P2, P3)—resulting in 10 variations for each pattern (g-i), showcasing increasing complexity (j-l).  This setup allows for the integration of the 3D models into the VR environment and CICA system for complexity assessment. For a comprehensive record of all variations, across the three distinct patterns, refer to~\ref{sec:AnnexVariations}.
+}
 \label{fig:modeling_flowchart}
 \end{minipage}
 \end{tabular}
 \end{table*}
 
-%!% CICA Flowchart, PI tables and Image process
+%!% CICA and VR integration Flowchart, PI tables and Image process
 %Table PI table, Function1, CICA evaluation process on architectural facades. Table 1x3
 \begin{table*}[!htb]
 \centering
@@ -66,35 +75,24 @@
 %Top cell with one figure
 %Figure: CICA Flowchart
 \begin{minipage}{\textwidth}
-    \centering
-    \includegraphics[width= \linewidth]{Images/CICA_flowchart}
-    \captionof{figure}{CICA Flowchart illustrating the applications of Computational Image Complexity Analysis system (CICA)(detailed in Section~\ref{subsubsec:CICAsystem}), including its role in analyzing complexity scores for 3D-modeled facades (a) designed with various degrees of complexity (illustrated in \ref{sec:AnnexVariations}) and historical architectural styles (b).}
-    \label{fig:CICA_flowchart}
-\end{minipage}
-
-\\
-%\\
-%\\
-%Bottom cell
-%Table: CICA Image evaluation process for historical and 3d facades
-\begin{minipage}{\textwidth}
 \centering
-\captionof{table}{CICA Evaluation on Architectural Facades: The table presents a comparative analysis of CICA evaluation applied to 3D-modeled facades (a) and historical buildings (b). The process includes steps from original imagery to image processing (noise reduction, grayscale), edge detection, and contour count analysis, as shown on the flowchart in Figure\ref{fig:MethodologyFlowchartComplexity} (element 2). It highlights  the adaptability of CICA to assess complexity in both historical and contemporary architectural designs.}
-\label{tab:CICAImageEvalProcessOnArchitecturalFacades}
-
+\includegraphics[width= \linewidth]{Images/CICA_flowchart}
+\captionof{figure}{
+    CICA System and VR Integration Flowchart: This flowchart illustrates the Computational Image Complexity Analysis (CICA) process (element 2) and its integration into the Virtual Reality (VR) system (element 3). The CICA system (detailed in Section~\ref{subsubsec:CICAsystem}) is applied to both 3D-modeled facades (a) and historical architectural styles (b), generating complexity scores through image processing steps: noise reduction and grayscale conversion (1), edge detection (2), and contour count analysis (3). It highlights  the adaptability of CICA to assess complexity in both historical and contemporary architectural designs. The VR integration component (detailed in Section~\ref{subsubsec:VR_integration}) is showcased with detailed views of the 3D models used in the immersive VR environment, including the exterior (c), interior (d), and the interface (e), as experienced by participants during the experiment. This highlights the combined functionality of the CICA system and VR for assessing facade complexity. Detailed facade variations are provided in Appendix~\ref{sec:AnnexVariations}.
+    \deleted{CICA Flowchart: illustrating the applications of Computational Image Complexity Analysis system (CICA)(detailed in Section~\ref{subsubsec:CICAsystem}), including its role in analyzing complexity scores for 3D-modeled facades (a) designed with various degrees of complexity (illustrated in \ref{sec:AnnexVariations}) and historical architectural styles (b).}
+    \deleted{Table 3: CICA Evaluation on Architectural Facades: The table presents a comparative analysis of CICA evaluation applied to 3D-modeled facades (a) and historical buildings (b). The process includes steps from original imagery to image processing (noise reduction, grayscale), edge detection, and contour count analysis, as shown on the flowchart in Figure\ref{fig:MethodologyFlowchartComplexity} (element 2). It highlights  the adaptability of CICA to assess complexity in both historical and contemporary architectural designs.}
+    \deleted{Figure 5: Detailed view of the VR interface (left) highlighting its five key sections: Viewpoint Navigation (1), Facade Variation Slider (2) for transitioning through ten facade variations, Facade Render Preview (3), Comparative Analysis Charts (4) displaying CICA complexity scores, and Utility Functions (5) for switching between the three patterns. Also shown are the VR simulations of the building's exterior (middle) and interior (right) as experienced during the facade complexity analysis, illustrating the transitions through various facade variations across all three patterns.}}
+\label{fig:CICA_flowchart}
 \end{minipage}
-
 \end{tabular}
 \end{table*}
 
-%Cica scatter graph for renders
+%PI tables and Cica scatter graph for renders
 \begin{table*}[htb]
 \centering
 \small
 \begin{tabular}{c}
-    \\
-%\\
-%middle cell with one figure
+%Top cell with one figure
 %Table: Performance Indicators
 \begin{minipage}{\textwidth}
 \centering
@@ -124,15 +122,14 @@ Measure by counting the number of segments in an edge.
 \textbf{10}\\ \bottomrule
 \end{tabularx}
 \end{minipage}
-    %Top cell with one figure
-    %Scatter graph CICA renders
-    \\
-    \begin{minipage}{\textwidth}
-    \centering
-    \includegraphics[width= \linewidth]{Graphs/complexitygraphrender}
-    \captionof{figure}{Scatter Graph Analysis of 3d modeled Facade Complexity: This graph presents the CICA scores for ten variations of three distinct patterns created in Blender, with a trendline indicating the range of complexity levels among the facade designs, illustrating the nuanced relationship between design intricacy and CICA scores.}
-    \label{fig:CICAscatterGraphRender}
-    \end{minipage}
+%Scatter graph CICA renders
+\\
+\begin{minipage}{\textwidth}
+\centering
+\includegraphics[width= \linewidth]{Graphs/complexitygraphrender}
+\captionof{figure}{Scatter Graph Analysis of 3d modeled Facade Complexity: This graph presents the CICA scores for ten variations of three distinct patterns created in Blender, with a trendline indicating the range of complexity levels among the facade designs, illustrating the nuanced relationship between design intricacy and CICA scores.}
+\label{fig:CICAscatterGraphRender}
+\end{minipage}
 \end{tabular}
 \end{table*}
 
@@ -149,24 +146,6 @@ Measure by counting the number of segments in an edge.
 \subsubsection{CICA System}
 \label{subsubsec:CICAsystem}
 \input{text/Method_3CICAsystem}
-
-%!%Figures of VR integration
-%% Figure of VR interface
-\begin{table*}[htb]
-    \centering
-    \small
-    \begin{tabular}{c}
-        %Top cell
-        % Optimization Flowchart
-        \begin{minipage}{\textwidth}
-            \centering
-              \includegraphics[width= \linewidth]{Images/VRInterface}
-            \captionof{figure}{Detailed view of the VR interface (left) highlighting its five key sections: Viewpoint Navigation (1), Facade Variation Slider (2) for transitioning through ten facade variations, Facade Render Preview (3), Comparative Analysis Charts (4) displaying CICA complexity scores, and Utility Functions (5) for switching between the three patterns. Also shown are the VR simulations of the building's exterior (middle) and interior (right) as experienced during the facade complexity analysis, illustrating the transitions through various facade variations across all three patterns.}
-            \label{fig:VRinterfaceComplexity}
-        \end{minipage}
-    \end{tabular}
-\end{table*}
-
 
 
 %!%Figure: Flowchart Experiment Execution
@@ -205,7 +184,21 @@ Experiment Execution Flowchart: This flowchart outlines the three stages of the 
 \label{subsec:Data_analysis}
 \input{text/Method_6DataAnalysis}
 
-%!Table CICA scatter graph and table of Top and bottom scores for buildings
+
+
+
+\section{Results and Discussion}
+\label{sec:Results}
+%% Results should be clear and concise.
+\input{text/RD_1Results_DiscussionIntro}
+
+
+
+\subsection{Assessment and Implications of Facade Complexity across Architectural Eras using the CICA System and insights from literature review}
+\label{subsec:ResultsComplexityImageAnalysishistory}
+\input{Text/RD_2ResultsCICAHistory}
+
+%!Table Historical CICA scatter graph and table of Top and bottom scores for buildings
 % Table with figures and data from top 5 and bottom 5 CICA complexity scores of buildings from historical analysis
 \begin{table*}[!htb]
 \centering
@@ -281,75 +274,74 @@ Experiment Execution Flowchart: This flowchart outlines the three stages of the 
 \end{tabular}
 \end{table*}
 
-
-\section{Results and Discussion}
-\label{sec:Results}
-%% Results should be clear and concise.
-\input{text/RD_1Results_DiscussionIntro}
+\subsection{Quantitative Analysis on Users Response to Complex Facades}
+\label{subsec:ResultsExperiment}
+\input{text/RD_3ResultsExperiment}
 
 %!Figures of experiment results 1
-    %Table 2x3 Results part 1
-    %Participant background chart, years of experience, Bar Chart of Chosen facade variation, Probability Chart and Complexity level per Pattern
-    \begin{table*}[!htb]
+%Table 2x3 Results part 1
+%Participant background chart, years of experience, Bar Chart of Chosen facade variation, Probability Chart and Complexity level per Pattern
+\begin{table*}[htb]
+    \centering
+    \small
+    \begin{tabular}{c}
+    %Top cell with two nested figures side by side
+    %Participants background and Years of experience
+    \begin{minipage}{\textwidth}
         \centering
-        \small
-        \begin{tabular}{c}
-            %Top cell with two nested figures side by side
-            %Participants background and Years of experience
-            \begin{minipage}{\textwidth}
-                \centering
-                % Left figure
-                %Participants background
-                \begin{minipage}{0.49\textwidth}
-                    \includegraphics[width=\linewidth, trim=0 0 0 0]{Images/SurveyBackground}
-                    \captionof{figure}{Participants' Background:This pie chart shows the distribution of participants' backgrounds, with architects~(23\%) and graduate students~(30.77\%) as the predominant groups~(26 participants,males~(50\%) and females~(50\%), aged between 18 and 31).}
-                    \label{fig:SurveyBackgroundChart}
-                \end{minipage}
-                \hfill % Spacing between the figures
-                % Right figure
-                % Years of experience
-                \begin{minipage}{0.49\textwidth}
-                    \includegraphics[width=\linewidth, trim=0 0 0 0]{Images/SurveyExperience}
-                    \captionof{figure}{Participants' Professional Experience in Facade Design: This pie chart displays the distribution of experience levels, with 80\% having none and 12\% having 1--5 years of experience (26 participants). Most participants were university volunteers, which explains the limited professional experience.}
-                    \label{fig:SurveyYearsExperienceChart}
-                \end{minipage}
-            \end{minipage}
-            \\
-            %Middle cell with one figure
-            %Facade chosen and CICA score chart per participant
-            \begin{minipage}{\textwidth}
-                \centering
-                \includegraphics[width=\linewidth]{Images/ComplexityLevelChosenChart}
-                \captionof{figure}{Facade Variation Selections and CICA Scores During VR Stage: This chart shows participants' chosen facade variations (bars, height = ID number 1--10) and their CICA complexity scores (line, points = score 0--10) during the VR stage of the experiment. The x-axis reflects session-based IDs (1, 2, or 3) for each participant. The solid line represents individual CICA scores, while the dotted line indicates the mean average. This chart illustrates the relationship between participant selections and complexity assessment, displaying participants' preferred complexity levels among the ten facade options across all three facade patterns.(CICA Score: Mean = 4.05; SD = 1.2) (26 participants, 78 experiment sessions)}
-                \label{fig:ComplexityLevelChosenChart}
-            \end{minipage}
-            \\
-            %Bottom cell with two nested figures side by side
-            %Probability Chart and Complexity level per Pattern
-            \begin{minipage}{\textwidth}
-                \centering
-                % Left figure
-                % Probability Chart
-                \begin{minipage}{0.49\textwidth}
-                    \includegraphics[width=\linewidth]{Images/ProbabilityPreferredComplexitylevel}
-                    \captionof{figure}{This scatter graph illustrates the probability distribution of preferred CICA scores for facade design across all three patterns, based on data collected during the VR stage of the experiment. (CICA score: \(Mean = 4.05, with Probabilty = 40\%\ ; SD = 12\%\)) (26 participants)}
-                    \label{fig:ProbabilityComplexitylevelChart}
-                \end{minipage}
-                \hfill % Spacing between the figures
-                % Right figure
-                % Complexity level per Pattern
-                \begin{minipage}{0.49\textwidth}
-                    \includegraphics[width=\linewidth]{Images/PreferredComplexityLevelPerPattern}
-                    \captionof{figure}{This bar chart presents the average chosen facade variation and corresponding CICA scores per pattern, as selected by participants during the VR stage of the experiment. (Facade variation: \(Mean = 4.4\)) (dotted line, CICA score: \(Mean = 4.05; SD = 1.2\)) (26 participants).}
-                    \label{fig:ComplexityLevelPerPattern}
-                \end{minipage}
-            \end{minipage}
-        \end{tabular}
-    \end{table*}
+        % Left figure
+        %Participants background
+        \begin{minipage}{0.49\textwidth}
+            \includegraphics[width=\linewidth, trim=0 0 0 0]{Images/SurveyBackground}
+            \captionof{figure}{Participants' Background:This pie chart shows the distribution of participants' backgrounds, with architects~(23\%) and graduate students~(30.77\%) as the predominant groups~(26 participants,males~(50\%) and females~(50\%), aged between 18 and 31).}
+            \label{fig:SurveyBackgroundChart}
+        \end{minipage}
+        \hfill % Spacing between the figures
+        % Right figure
+        % Years of experience
+        \begin{minipage}{0.49\textwidth}
+            \includegraphics[width=\linewidth, trim=0 0 0 0]{Images/SurveyExperience}
+            \captionof{figure}{Participants' Professional Experience in Facade Design: This pie chart displays the distribution of experience levels, with 80\% having none and 12\% having 1--5 years of experience (26 participants). Most participants were university volunteers, which explains the limited professional experience.}
+            \label{fig:SurveyYearsExperienceChart}
+        \end{minipage}
+    \end{minipage}
+    \\
+    %Middle cell with one figure
+    %Facade chosen and CICA score chart per participant
+    \begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{Images/ComplexityLevelChosenChart}
+    \captionof{figure}{Facade Variation Selections and CICA Scores During VR Stage: This chart shows participants' chosen facade variations (bars, height = ID number 1--10) and their CICA complexity scores (line, points = score 0--10) during the VR stage of the experiment. The x-axis reflects session-based IDs (1, 2, or 3) for each participant. The solid line represents individual CICA scores, while the dotted line indicates the mean average. This chart illustrates the relationship between participant selections and complexity assessment, displaying participants' preferred complexity levels among the ten facade options across all three facade patterns.(CICA Score: Mean = 4.05; SD = 1.2) (26 participants, 78 experiment sessions)}
+    \label{fig:ComplexityLevelChosenChart}
+    \end{minipage}
+    \\
+    %Bottom cell with two nested figures side by side
+    %Probability Chart and Complexity level per Pattern
+    \begin{minipage}{\textwidth}
+    \centering
+    % Left figure
+    % Probability Chart
+    \begin{minipage}{0.49\textwidth}
+    \includegraphics[width=\linewidth]{Images/ProbabilityPreferredComplexitylevel}
+    \captionof{figure}{This scatter graph illustrates the probability distribution of preferred CICA scores for facade design across all three patterns, based on data collected during the VR stage of the experiment. (CICA score: \(Mean = 4.05, with Probabilty = 40\%\ ; SD = 12\%\)) (26 participants)}
+    \label{fig:ProbabilityComplexitylevelChart}
+    \end{minipage}
+    \hfill % Spacing between the figures
+    % Right figure
+    % Complexity level per Pattern
+    \begin{minipage}{0.49\textwidth}
+    \includegraphics[width=\linewidth]{Images/PreferredComplexityLevelPerPattern}
+    \captionof{figure}{This bar chart presents the average chosen facade variation and corresponding CICA scores per pattern, as selected by participants during the VR stage of the experiment. (Facade variation: \(Mean = 4.4\)) (dotted line, CICA score: \(Mean = 4.05; SD = 1.2\)) (26 participants).}
+    \label{fig:ComplexityLevelPerPattern}
+    \end{minipage}
+    \end{minipage}
+    \end{tabular}
+\end{table*}
+
 %!Figures of experiment results 2
 %Table 1x2
 % Accuracy graphs of complexity ranking per pattern
-\begin{table*}[!htb]
+\begin{table*}[htb]
     \centering
     \small
     \begin{tabular}{c}
@@ -366,7 +358,7 @@ Experiment Execution Flowchart: This flowchart outlines the three stages of the 
 
 %!Figures of survey results
 % Survey question graph
-\begin{table*}[!htb]
+\begin{table*}[htb]
     \centering
     \small
     \begin{tabular}{c}
@@ -392,16 +384,6 @@ Experiment Execution Flowchart: This flowchart outlines the three stages of the 
         \end{minipage}
     \end{tabular}
 \end{table*}
-
-\subsection{Assessment and Implications of Facade Complexity across Architectural Eras using the CICA System and insights from literature review}
-\label{subsec:ResultsComplexityImageAnalysishistory}
-\input{Text/RD_2ResultsCICAHistory}
-
-
-
-\subsection{Quantitative Analysis on Users Response to Complex Facades}
-\label{subsec:ResultsExperiment}
-\input{text/RD_3ResultsExperiment}
 
 \subsection{Qualitative Analysis on Users Perception to Complex Facades}
 \label{subsec:ResultsSurvey}
