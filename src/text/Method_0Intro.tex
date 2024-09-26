@@ -1,14 +1,19 @@
 %%Methodology
-%% methodology Intro
-The methodology of this study, comprises three main components (as illustrated in  Figure~\ref{fig:MethodologyFlowchartComplexity}):
+%%methodology Intro
+
+\deleted{The methodology of this study, comprises three main components (as illustrated in Figure~\ref{fig:MethodologyFlowchartComplexity}):}
+
+\added{The methodology of this study, comprises three main components (subdivided into 5 key steps, as illustrated in  Figure~\ref{fig:MethodologyFlowchartComplexity}):}
+
 \begin{enumerate}
-    \item \textit{Complexity Analysis System Development:}  Outlined in Section~\ref{subsec:ComplexitySystemDevelopment} and illustrated in Figure~\ref{fig:MethodologyFlowchartComplexity} (element 3.1), this component integrates the VR and CICA systems to create an immersive environment for evaluating facade complexities.
-    \item \textit{Experiment Execution:} Detailed in Section~\ref{subsec:Experiment_execution} and illustrated in Figure~\ref{fig:MethodologyFlowchartComplexity} (element 3.2), involves the deployment of the VR component of the `Complexity Analysis' system in a controlled scenario to evaluate users' perception and response to different complexity levels in facade designs.
-    \item \textit{Data Analysis and Validation:} Detailed in Section~\ref{subsec:Data_analysis} and illustrated in Figure~\ref{fig:MethodologyFlowchartComplexity} (element 3.3), this component analyzes the collected data to validate the VR system and CICA framework's effectiveness in measuring complexity and users' acceptance of building complexity.
+    \item \deleted{\textit{**Complexity Analysis System Development:}  Outlined in Section~\ref{subsec:ComplexitySystemDevelopment} and illustrated in Figure~\ref{fig:MethodologyFlowchartComplexity} (element 3.1), this component integrates the VR and CICA systems to create an immersive environment for evaluating facade complexities.} \added{\textit{Complexity Analysis System Development:} Outlined in Section~\ref{subsec:ComplexitySystemDevelopment} (Figure~\ref{fig:MethodologyFlowchartComplexity}, element 3.1), this component integrates a VR framework with the CICA system. The CICA system uses CV algorithms to quantitatively assess facade design complexity, applied to both contemporary 3D-modeled facades and historical analysis. The VR component allows real-time participant interaction with facade variations, combining 3D models and CICA analysis. Key elements include the 3D modeling process (Section~\ref{subsubsec:3DModeling}, Figure~\ref{fig:modeling_flowchart}), the CICA system (Section~\ref{subsubsec:CICAsystem}, Figure~\ref{fig:CICA_and_VR_flowchart}), and VR integration (Section~\ref{subsubsec:VR_integration}, Figure~\ref{fig:CICA_and_VR_flowchart})}.
+
+    \item \deleted{\textit{**Experiment Execution:} Detailed in Section~\ref{subsec:Experiment_execution} and illustrated in Figure~\ref{fig:MethodologyFlowchartComplexity} (element 3.2), involves the deployment of the VR component of the `Complexity Analysis' system in a controlled scenario to evaluate users' perception and response to different complexity levels in facade designs.} \added{\textit{Experiment Execution:} Detailed in Section~\ref{subsec:Experiment_execution} (Figure~\ref{fig:MethodologyFlowchartComplexity}, element 3.2), this phase involves participants engaging with the `Complexity Analysis' system through three stages: `VR Interaction' Stage, `Screen-Based Ranking' Stage, and `Post-Experiment Survey'. This process combines quantitative CICA scores and qualitative user feedback.}
+
+    \item \deleted{\textit{**Data Analysis and Validation:} Detailed in Section~\ref{subsec:Data_analysis} and illustrated in Figure~\ref{fig:MethodologyFlowchartComplexity} (element 3.3), this component analyzes the collected data to validate the VR system and CICA framework's effectiveness in measuring complexity and users' acceptance of building complexity.} \added{\textit{Data Analysis and Validation:} Detailed in Section~\ref{subsec:Data_analysis} (Figure~\ref{fig:MethodologyFlowchartComplexity}, element 3.3), this final component analyzes both CICA scores and experiment data to validate the system’s effectiveness in measuring complexity and user preferences. Statistical tools are used to evaluate the alignment between CICA scores and user perceptions. The system's accuracy and its application to historical and contemporary facades are assessed through detailed complexity analysis, providing insights for architectural design practices.}
 \end{enumerate}
 
 With the methodology outlined, we now move forward to a comprehensive breakdown of each component.
-
 
 %\textbf{CICA system:} Detailed in Section~\ref{subsec:CICAsystem} and depicted as (3.1) in Figure~\ref{fig:MethodologyFlowchart}, involves developing a Python script using computer vision algorithms to process images and yield complexity scores, quantitatively gauging the intricacy of architectural designs.
 %It supports theoretical analyses and provides a ranking framework for facade designs in the VR system.
