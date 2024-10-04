@@ -48,8 +48,53 @@ Expanding the dataset could yield a more detailed understanding of trends in arc
 %4 Focus on Facade Design
 This study concentrated on facade design, which is just one aspect of architectural complexity.
 CV models developed for specific architectural features might not generalize well to other styles or unique design elements, potentially limiting their applicability across diverse architectural contexts.
+\added{
+Furthermore, while the analysis provided valuable insights into surface-level details such as patterns and textures, the focus on facade-level complexity without addressing the overall volumetric complexity or massing of the building form implies that it lacks tools to capture the three-dimensional geometry that contributes to the holistic perception of architectural complexity. Future studies should incorporate assessments of volumetric complexity to provide a more comprehensive understanding of how building form influences user perception.
+}
 
-%%Highlight potential avenues for further research and development.
+%%%%%%%%%%%%
+\textbf{Limitations}
+
+While this research provides valuable insights into architectural complexity, certain limitations warrant cautious interpretation of the results:
+
+%1 Sample Size and Demographic Representation:
+\deleted{The study involved a relatively small sample of 26 participants, primarily university students and faculty members, which may limit the generalizability of the findings.}
+
+\added{
+The study involved a relatively small sample of 26 participants, primarily composed of university students, with 69.2\% aged between 18 and 24. Most participants lacked extensive professional experience in architecture, particularly in facade design. This limited demographic representation may affect the generalizability of the findings, as preferences for complexity could vary significantly with broader participant pools, including professionals with diverse levels of expertise and experience.
+}
+
+%2 Virtual Reality Environment:
+The use of VR offered a controlled and immersive environment but may not entirely capture the experience of interacting with real-world facades.
+VR settings could affect perceptions of complexity and comfort, leading to different results compared to real-world interactions.
+
+%3 CICA System Metrics
+\deleted{The CICA system, while effective in evaluating architectural complexity using specific metrics, may not capture all elements influencing perceived complexity.
+This underscores the need for further exploration of the subjective nature of complexity perception, which can be shaped by individual aesthetic preferences, prior experiences, and cultural factors, aspects that CV algorithms might struggle to fully capture.
+}
+
+\added{The CICA system, while effective in evaluating facade complexity using metrics like edge detection and contour count, may not capture all elements influencing perceived complexity. These metrics focus on two-dimensional visual data and might not fully address the subjective nature of complexity perception, which is shaped by individual aesthetic preferences, prior experiences, and cultural factors—factors that CV algorithms struggle to encapsulate. Furthermore, the system lacks tools to analyze three-dimensional articulation and hierarchical design elements, which are crucial to volumetric complexity and the overall form of buildings. This omission limits the system's ability to fully represent how buildings are perceived in terms of spatial interaction and three-dimensionality.
+}
+
+\added{
+The survey questions focused mainly on surface-level details, such as patterns and textures, without addressing the building's overall form and three-dimensional geometry. Incorporating questions and metrics related to volumetric complexity would provide a more complete understanding of how architectural complexity is perceived in real-world settings.}
+
+%Image selection criteria and Historical Analysis Dataset:
+\deleted{
+The limited dataset of 177 historical buildings may restrict the comprehensiveness of the complexity assessment.
+Expanding the dataset could yield a more detailed understanding of trends in architectural complexity over time.
+}
+\added{
+The evaluation in this study was based on single images of each facade, which, while necessary for standardization, may not fully represent the building's complexity as perceived from different angles. Using multiple images could reveal additional facets of architectural intricacy and provide a more robust complexity assessment. Additionally, the dataset of 177 historical buildings, while diverse, may limit the generalizability of trends in architectural complexity. Expanding this dataset to include more buildings from various eras and styles could offer a more detailed and representative understanding of complexity trends over time.
+}
+
+%4 Focus on Facade Design
+This study concentrated on facade design, which is just one aspect of architectural complexity. \deleted{CV models developed for specific architectural features might not generalize well to other styles or unique design elements, potentially limiting their applicability across diverse architectural contexts}.
+\added{
+ While the insights into patterns, textures, and materials are valuable, the CV models developed for specific facade features might not generalize well to other architectural elements or styles.
+}
+
+%!%Highlight potential avenues for further research and development.
 
 \textbf{Future Works}
 
@@ -64,13 +109,17 @@ Future research could compare VR-based assessments with evaluations of physical 
 Leveraging emerging technologies in Extended Reality (ER), such as Mixed Reality (MR) and Augmented Reality (AR), could further bridge the gap between virtual simulations and reality enhancing the assessment and prediction of user preferences in complexity in architectural design.
 
 %3 CICA System Metrics and Historical Analysis Dataset:
-Future works could improve the accuracy of the CICA system by incorporating additional metrics, such as color, texture, and contextual integration.
+\deleted{Future works could improve the accuracy of the CICA system by incorporating additional metrics, such as color, texture, and contextual integration.}
+
+\added{
+Future works could improve the accuracy of the CICA system by incorporating additional metrics such as color, texture, and contextual integration, providing a more nuanced understanding of facade complexity. In particular, incorporating volumetric complexity, such as the three-dimensional articulation, massing, and hierarchical design elements, would significantly enhance the system’s ability to capture how buildings are perceived holistically in real-life contexts. This could be achieved by developing tools that assess not just the surface-level details but also the overall building form and its spatial interaction with the environment.}
 Developing methodologies that integrate user feedback more directly into the design process could lead to more personalized and culturally sensitive architectural solutions.
 Future iterations should consider both the quantitative aspects of facade complexity and the cultural resonance and historical context to provide a comprehensive evaluation of architectural evolution.
 
 %4 Focus on Facade Design
-Future research should encompass additional elements, such as interior design and spatial organization, to achieve a more holistic understanding of architectural complexity.
-Examining the relationship between architectural complexity and sustainability could also provide insights into how complex designs can contribute to or detract from sustainable building practices.
+Furthermore, future research should encompass additional elements, such as interior design and spatial organization, to achieve a more holistic understanding of architectural complexity.
+\deleted{Examining the relationship between architectural complexity and sustainability could also provide insights into how complex designs can contribute to or detract from sustainable building practices.}
+\added{Investigating the relationship between architectural complexity and sustainability could also provide insights into how complex designs impact sustainable building practices, helping architects balance intricate aesthetics with environmental considerations.}
 
 %%Closing statement
 In conclusion, this study successfully addressed the challenge of quantifying complexity in architectural facade design through the integration of VR and CV technologies.
