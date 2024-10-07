@@ -1,12 +1,24 @@
-%! Author = arqfa
-%! Date = 3/21/2024
 
-% Preamble
-\documentclass[final,11pt]{article}
+%!Document class for final manuscript
+\documentclass[final,11p]{article}% Turn on the 'final' option to hide all changes and produce a clean output
 
-% Packages
+%!document class for changes tracking
+%\documentclass[5p,times]{elsarticle}% turn on for changes
+%! package for tracking changes
 
-%!Packages
+\usepackage[final]{changes} %Turn on the 'final' option to hide all
+%changes and produce a clean output
+%\usepackage{changes}% turn on when going for manuscript with changes
+
+    %% Added Text: Use \added{new text} to indicate added text.
+    %Deleted Text: Use \deleted{old text} for text you have removed.
+    %Replaced Text: Use \replaced{new text}{old text} to show text that has been replaced.
+
+%% For including figures, graphicx.sty has been loaded in
+%% elsarticle.cls.
+
+
+%!Packages for file
 %% The amssymb package provides various useful mathematical symbols
 \usepackage{amssymb}
 %% The amsthm package provides extended theorem environments
@@ -16,8 +28,8 @@
 \usepackage{booktabs}
 \usepackage{amsmath} % for equations
 \usepackage{breakurl}
+\usepackage{url}
 \usepackage{hyperref} % Ensure hyperlinks work properly
-
 
 %% The lineno packages adds line numbers. Start line numbering with
 %%\begin{linenumbers}, end it with \end{linenumbers}. Or switch it on
@@ -31,12 +43,13 @@
 \usepackage{multirow}
 
 \usepackage{caption}
-%\usepackage{changes}
-\usepackage[final]{changes}
 
+
+\journal{Journal of Asian Architecture and Building Engineering}%Write journal name here
 
 
 % Document
+
 
 \begin{document}
 
@@ -100,7 +113,7 @@
 
 \begin{keyword}
 %% keywords here, in the form: keyword \sep keyword
-Data-driven design\sep Complex Facades\sep Virtual Reality Assessment\sep Architectural Aesthetics\sep Computer Vision Assessment\sep
+Facade Design\sep Architectural Complexity\sep Virtual Reality\sep Computer Vision\sep Architectural Aesthetics \deleted{Data-Driven Design}
 
 \end{keyword}
 
@@ -114,6 +127,7 @@ Data-driven design\sep Complex Facades\sep Virtual Reality Assessment\sep Archit
 
 \bibliographystyle{elsarticle-num}
 \bibliography{main}
+
 
 \appendix
 \input{Text/Appendix}
