@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Updated Introduction and methodology graph with timeline figures pushed to Appendix.tex">
+    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment=" fixing comment in explaining how the literature review is connected to the paper. All comments addressed. Ready for final check up.">
+      <change afterPath="$PROJECT_DIR$/src/mainWordAuthor.tex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bodyManuscript.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/bodyManuscript.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mainDBEjournal.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainDBEjournal.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wordtest.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wordtest.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text/TheoryHistoricalContext.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/TheoryHistoricalContext.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,41 +80,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;BibTeX.Wordtest bibliography.executor&quot;: &quot;Run&quot;,
-    &quot;BibTeX.main bibliography.executor&quot;: &quot;Run&quot;,
-    &quot;BibTeX.mainbibAICjournal.executor&quot;: &quot;Run&quot;,
-    &quot;BibTeX.mainbibAuthorJAABE.executor&quot;: &quot;Run&quot;,
-    &quot;BibTeX.mainbibChangesNoAuthorJAABE.executor&quot;: &quot;Run&quot;,
-    &quot;BibTeX.mainbibJAABE.executor&quot;: &quot;Run&quot;,
-    &quot;BibTeX.mainbibNoAuthorJAABE.executor&quot;: &quot;Run&quot;,
-    &quot;BibTeX.minimal_bib bibliography.executor&quot;: &quot;Run&quot;,
-    &quot;LaTeX.AuthorManuscriptJAABE.executor&quot;: &quot;Run&quot;,
-    &quot;LaTeX.ChangesNoAuthorManuscriptJAABE.executor&quot;: &quot;Run&quot;,
-    &quot;LaTeX.MainJAABEnoAuthor.executor&quot;: &quot;Run&quot;,
-    &quot;LaTeX.MainPDF.executor&quot;: &quot;Run&quot;,
-    &quot;LaTeX.Wordtest.executor&quot;: &quot;Run&quot;,
-    &quot;LaTeX.mainAICmanuscript.executor&quot;: &quot;Run&quot;,
-    &quot;LaTeX.mainDBEmanuscript.executor&quot;: &quot;Run&quot;,
-    &quot;LaTeX.mainJAABEnoAuthor.executor&quot;: &quot;Run&quot;,
-    &quot;LaTeX.minimal_bib.executor&quot;: &quot;Run&quot;,
-    &quot;LaTeX.noAuthorManuscriptJAABE.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/arqfa/PycharmProjects/Paper2Complexity/src&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "BibTeX.Wordtest bibliography.executor": "Run",
+    "BibTeX.main bibliography.executor": "Run",
+    "BibTeX.mainbibAICjournal.executor": "Run",
+    "BibTeX.mainbibAuthorJAABE.executor": "Run",
+    "BibTeX.mainbibChangesNoAuthorJAABE.executor": "Run",
+    "BibTeX.mainbibJAABE.executor": "Run",
+    "BibTeX.mainbibNoAuthorJAABE.executor": "Run",
+    "BibTeX.minimal_bib bibliography.executor": "Run",
+    "LaTeX.AuthorManuscriptJAABE.executor": "Run",
+    "LaTeX.ChangesNoAuthorManuscriptJAABE.executor": "Run",
+    "LaTeX.MainJAABEnoAuthor.executor": "Run",
+    "LaTeX.MainPDF.executor": "Run",
+    "LaTeX.Wordtest.executor": "Run",
+    "LaTeX.mainAICmanuscript.executor": "Run",
+    "LaTeX.mainDBEmanuscript.executor": "Run",
+    "LaTeX.mainJAABEnoAuthor.executor": "Run",
+    "LaTeX.mainWordAuthor.executor": "Run",
+    "LaTeX.minimal_bib.executor": "Run",
+    "LaTeX.noAuthorManuscriptJAABE.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "full.screen.before.presentation.mode": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/arqfa/PycharmProjects/Paper2Complexity/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "configurable.group.tools",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\arqfa\PycharmProjects\Paper2Complexity\src" />
@@ -131,7 +132,7 @@
       <recent name="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\ComplexityPython" />
     </key>
   </component>
-  <component name="RunManager" selected="LaTeX.AuthorManuscriptJAABE">
+  <component name="RunManager" selected="LaTeX.mainWordAuthor">
     <configuration name="Wordtest bibliography" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify-bibtex>
         <compiler>BIBTEX</compiler>
@@ -161,6 +162,17 @@
         <compiler-arguments />
         <envs />
         <main-file>$PROJECT_DIR$/src/main.tex</main-file>
+        <aux-dir>$PROJECT_DIR$/auxil</aux-dir>
+      </texify-bibtex>
+      <method v="2" />
+    </configuration>
+    <configuration name="mainWordAuthor bibliography" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
+      <texify-bibtex>
+        <compiler>BIBTEX</compiler>
+        <compiler-path />
+        <compiler-arguments />
+        <envs />
+        <main-file>$PROJECT_DIR$/src/mainWordAuthor.tex</main-file>
         <aux-dir>$PROJECT_DIR$/auxil</aux-dir>
       </texify-bibtex>
       <method v="2" />
@@ -291,7 +303,7 @@
         <compiler>PDFLATEX</compiler>
         <compiler-path />
         <sumatra-path />
-        <pdf-viewer>NONE</pdf-viewer>
+        <pdf-viewer>BUILT-IN-PDF-VIEWER</pdf-viewer>
         <viewer-command />
         <compiler-arguments />
         <envs />
@@ -348,6 +360,28 @@
         <latex-distribution>MIKTEX</latex-distribution>
         <has-been-run>true</has-been-run>
         <bib-run-config>[BibTeX.main bibliography]</bib-run-config>
+        <makeindex-run-config>[]</makeindex-run-config>
+      </texify>
+      <method v="2" />
+    </configuration>
+    <configuration name="mainWordAuthor" type="LATEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory" temporary="true">
+      <texify>
+        <compiler>PDFLATEX</compiler>
+        <compiler-path />
+        <sumatra-path />
+        <pdf-viewer>NONE</pdf-viewer>
+        <viewer-command />
+        <compiler-arguments />
+        <envs />
+        <before-run-command />
+        <main-file>$PROJECT_DIR$/src/mainWordAuthor.tex</main-file>
+        <output-path>$PROJECT_DIR$/out</output-path>
+        <auxil-path>$PROJECT_DIR$/auxil</auxil-path>
+        <compile-twice>false</compile-twice>
+        <output-format>PDF</output-format>
+        <latex-distribution>MIKTEX</latex-distribution>
+        <has-been-run>true</has-been-run>
+        <bib-run-config>[BibTeX.mainWordAuthor bibliography]</bib-run-config>
         <makeindex-run-config>[]</makeindex-run-config>
       </texify>
       <method v="2" />
@@ -469,6 +503,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="BibTeX.mainWordAuthor bibliography" />
       <item itemvalue="BibTeX.minimal_bib bibliography" />
       <item itemvalue="BibTeX.Wordtest bibliography" />
       <item itemvalue="BibTeX.main bibliography" />
@@ -482,6 +517,7 @@
       <item itemvalue="LaTeX.ChangesNoAuthorManuscriptJAABE" />
       <item itemvalue="LaTeX.mainDBEmanuscript" />
       <item itemvalue="LaTeX.minimal_bib" />
+      <item itemvalue="LaTeX.mainWordAuthor" />
       <item itemvalue="LaTeX.Wordtest" />
       <item itemvalue="Python.mainCICAhistory" />
       <item itemvalue="Python.mainCICArender" />
@@ -489,11 +525,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="LaTeX.mainWordAuthor" />
         <item itemvalue="LaTeX.Wordtest" />
         <item itemvalue="Python.CannyEdgePlot" />
+        <item itemvalue="LaTeX.Wordtest" />
         <item itemvalue="Python.CannyEdgePlot" />
-        <item itemvalue="LaTeX.Wordtest" />
-        <item itemvalue="LaTeX.Wordtest" />
       </list>
     </recent_temporary>
   </component>
@@ -607,6 +643,11 @@
       <workItem from="1725349000741" duration="611000" />
       <workItem from="1726134193892" duration="2350000" />
       <workItem from="1726472155622" duration="32635000" />
+      <workItem from="1727014859428" duration="5752000" />
+      <workItem from="1727160626327" duration="29915000" />
+      <workItem from="1727762871891" duration="52971000" />
+      <workItem from="1728115809224" duration="41153000" />
+      <workItem from="1728263100712" duration="5728000" />
     </task>
     <task id="LOCAL-00017" summary="Corrections to HistoryArchStylesTheory.tex to add the art noaveu refrence as well as the ransition to modernism">
       <created>1692760181616</created>
@@ -951,7 +992,7 @@
       <option name="project" value="LOCAL" />
       <updated>1699542674381</updated>
     </task>
-    <option name="localTasksCounter" value="168" />
+    <option name="localTasksCounter" value="188" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -986,22 +1027,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Reorganization of methodology to BCA system, Experiment Execution and Data Analysis." />
-    <MESSAGE value="Continue reorganizing methodology for CICA as a single section. And input of limitations and future works into the conclusion" />
-    <MESSAGE value="MethodologyFlowchart.pdf updated to unified version and deletion of experiment flowchart and CICA flowchart in favor of the unified version. All to reduce page count." />
-    <MESSAGE value="simplification of images on Vr with vr interface and isolation of 3d vs real figure to an horizontal stripe." />
-    <MESSAGE value="Eliminate question appendix. simplification of VR interface." />
-    <MESSAGE value="Update on methodology section creation of data analysis section and simplification of vr integration. Addition of reasons for blender, unity, likert scale and MOO algorithm." />
-    <MESSAGE value="Conlcuion simplification with merging of limitations and future work on a single Conclusion_1.tex file." />
-    <MESSAGE value="Results section on the historical analysis simplified. start of editing the Literature review section and inclusion of additional references." />
-    <MESSAGE value="Simpificacion of results on the survey and interview sections." />
-    <MESSAGE value="Simpificacion of intro on methodology and preparation of theory section." />
-    <MESSAGE value="Preparation of theory section with additional references." />
-    <MESSAGE value="Update of new experiment Data" />
-    <MESSAGE value="Start of update of text on results to reflect the new experiment data. Delete of redundant images." />
-    <MESSAGE value="Abstract update. Updat of data on results." />
-    <MESSAGE value="update of sections to guide it towards focusing in quantifying complexity" />
-    <MESSAGE value="reference update and substituion of problematic no DOI references" />
     <MESSAGE value="Prep for submission on Journal of Asian Architecture and Building Engineering." />
     <MESSAGE value="Prep for submission on Journal of Asian Architecture and Building Engineering. Update of all references" />
     <MESSAGE value="Update of Highlights" />
@@ -1011,7 +1036,23 @@
     <MESSAGE value="Preparation for Submission to new Journal." />
     <MESSAGE value="Preparation for Revision 1 to JAABE" />
     <MESSAGE value="Updated Introduction and methodology graph with timeline figures pushed to Appendix.tex" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Introduction and methodology graph with timeline figures pushed to Appendix.tex" />
+    <MESSAGE value="Inclusion of new CICA flowchart with VR integration embedded. Eliminate Table 2" />
+    <MESSAGE value="Inclusion of new CICA flowchart with VR integration embedded. Preparation to eliminate TAble 2 computer vision process and Fig 5 VR integration" />
+    <MESSAGE value="Inclusion of new Experiment and results  flowchart" />
+    <MESSAGE value="Inclusion of new Experiment and results  flowchart. Addition of Detailed unified flwochart to Appendix.tex" />
+    <MESSAGE value="Eliminate Vr integration figure and correction of captions for flowchart Methodology, Modeling, CICA VR," />
+    <MESSAGE value="Eliminate Vr integration figure and correction of captions for flowchart Methodology, Modeling, CICA VR, Experiemnt and data analysis. Rename of flowchart" />
+    <MESSAGE value="restructuring of images in the layout of the paper and preparation for coments on linking historical analysis with contemprary analysis." />
+    <MESSAGE value="continue fixing comments" />
+    <MESSAGE value=" fixing comments&#10; 14 left to address" />
+    <MESSAGE value=" fixing comments. related to volumetric limitations&#10; 12 left to address" />
+    <MESSAGE value=" fixing comments. perception indoor outdoor. and discussion on deviations.&#10;9 left to address" />
+    <MESSAGE value=" fixing comments. Future works and applications&#10;5 left to address" />
+    <MESSAGE value=" fixing comments. Future trends and inspiration for modeling. &#10; &#10; 2 comments left" />
+    <MESSAGE value=" fixing comments anstart simplifying captions.3d model inspirations on parametricism.&#10; &#10; 2 comments left" />
+    <MESSAGE value=" fixing comment in explaining how historical analysis and vr experiment are link in a single paper. &#10; 1 and final comments left" />
+    <MESSAGE value=" fixing comment in explaining how the literature review is connected to the paper. All comments addressed. Ready for final check up." />
+    <option name="LAST_COMMIT_MESSAGE" value=" fixing comment in explaining how the literature review is connected to the paper. All comments addressed. Ready for final check up." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/workspace_xml$CannyEdgePlot.coverage" NAME="CannyEdgePlot Coverage Results" MODIFIED="1702459802968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CodePython" />
