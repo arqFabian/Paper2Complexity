@@ -5,21 +5,6 @@
 
 \begin{linenumbers}
 
-
-\section{Introduction}
-\label{sec:1Introduction}
-%%State the objectives of the work and provide an adequate background, avoiding a detailed literature survey or a summary of the results.
-\input{Text/Introduction}
-
-
-\section{Literature review}
-\label{sec:LiteratureReview}
-\input{Text/TheoryLiteratureReviewIntro}
-
-\subsection{Evolution of Architectural Styles: Oscillations Between Simplicity and Complexity}
-\label{subsec:TimelineArchitectureStyles}
-\input{Text/TheoryHistoricalContext}
-
 %!% Figures Methodology intro
 %% Methodology Flowchart
 \begin{figure*}[!htb]
@@ -33,6 +18,22 @@ Methodology Process Flowchart: illustrating the sequential steps of this study's
 }
 \label{fig:MethodologyFlowchartComplexity}
 \end{figure*}
+\section{Introduction}
+\label{sec:1Introduction}
+%%State the objectives of the work and provide an adequate background, avoiding a detailed literature survey or a summary of the results.
+\input{Text/Introduction}
+
+
+
+\section{Literature review}
+\label{sec:LiteratureReview}
+\input{Text/TheoryLiteratureReviewIntro}
+
+\subsection{Evolution of Architectural Styles: Oscillations Between Simplicity and Complexity}
+\label{subsec:TimelineArchitectureStyles}
+\input{Text/TheoryHistoricalContext}
+
+
 
 \subsection{Theoretical Foundations of Architectural Complexity}
 \label{subsec:ComplexityStudies}
@@ -40,7 +41,7 @@ Methodology Process Flowchart: illustrating the sequential steps of this study's
 
 %!Figures Modeling
 %Figure Real vs 3d Model
-\begin{table*}[!htb]
+\begin{table*}[htb]
 \centering
 \small
 \begin{tabular}{c}
@@ -61,6 +62,20 @@ Methodology Process Flowchart: illustrating the sequential steps of this study's
 \section{Methodology}
 \label{sec:Methodology}
 \input{Text/Method_0Intro}
+
+
+
+\subsection{Complexity Analysis System Development}
+\label{subsec:ComplexitySystemDevelopment}
+\input{text/Method_1ComplexitySystemDevelopment}
+
+
+
+
+\subsubsection{3D Modeling and Environment setup}
+\label{subsubsec:3DModeling}
+%% description of things modeled in blender for use in the experiment
+\input{Text/Method_2_3DModeling}
 
 %!% CICA and VR integration Flowchart, PI tables and Image process
 %Table PI table, Function1, CICA evaluation process on architectural facades. Table 1x3
@@ -84,7 +99,7 @@ Methodology Process Flowchart: illustrating the sequential steps of this study's
 \end{table*}
 
 %PI tables and Cica scatter graph for renders
-\begin{table*}[htb]
+\begin{table*}[!htb]
 \centering
 \small
 \begin{tabular}{c}
@@ -129,15 +144,10 @@ Measure by counting the number of segments in an edge.
 \end{tabular}
 \end{table*}
 
-\subsection{Complexity Analysis System Development}
-\label{subsec:ComplexitySystemDevelopment}
-\input{text/Method_1ComplexitySystemDevelopment}
 
-\subsubsection{3D Modeling and Environment setup}
-\label{subsubsec:3DModeling}
-%% description of things modeled in blender for use in the experiment
-\input{Text/Method_2_3DModeling}
-
+\subsubsection{CICA System}
+\label{subsubsec:CICAsystem}
+\input{text/Method_3CICAsystem}
 %!%Figure: Flowchart Experiment Execution
 %% Figure of VR interface
 \begin{table*}[htb]
@@ -157,12 +167,6 @@ Measure by counting the number of segments in an edge.
 \end{minipage}
 \end{tabular}
 \end{table*}
-
-
-\subsubsection{CICA System}
-\label{subsubsec:CICAsystem}
-\input{text/Method_3CICAsystem}
-
 
 \subsubsection{VR integration and simulation tools}
 \label{subsubsec:VR_integration}
@@ -277,7 +281,7 @@ Measure by counting the number of segments in an edge.
 %!Figures of experiment results 1
 %Table 2x3 Results part 1
 %Participant background chart, years of experience, Bar Chart of Chosen facade variation, Probability Chart and Complexity level per Pattern
-\begin{table*}[!htb]
+\begin{table*}[htb]
     \centering
     \small
     \begin{tabular}{c}
@@ -313,7 +317,7 @@ Measure by counting the number of segments in an edge.
     \end{tabular}
 \end{table*}
 %!Figures of experiment results 3
-\begin{table*}[!htb]
+\begin{table*}[htb]
     \centering
     \small
     \begin{tabular}{c}
@@ -344,7 +348,7 @@ Measure by counting the number of segments in an edge.
 %!Figures of experiment results 3
 %Table 1x2
 % Accuracy graphs of complexity ranking per pattern
-\begin{table*}[!htb]
+\begin{table*}[htb]
     \centering
     \small
     \begin{tabular}{c}
@@ -361,7 +365,7 @@ Measure by counting the number of segments in an edge.
 
 %!Figures of survey results
 % Survey question graph
-\begin{table*}[!htb]
+\begin{table*}[htb]
     \centering
     \small
     \begin{tabular}{c}
