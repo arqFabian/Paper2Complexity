@@ -10,29 +10,26 @@ Inspired by Venturi et al.'s perspective on complexity~\cite{Venturi1977}, the C
 It uses two primary metrics: edge density and contour count, selected for their relevance to human vision's edge and object contour detection~\cite{Yang2022}.
 
 \textit{Edge Density:} Utilizing the Canny Edge Detection algorithm~\cite{EdgeOpenCV2023}, this metric focuses on edge presence and density, defining architectural boundaries (Figure~\ref{fig:CICA_and_VR_flowchart}, element [(2)]).
-\deleted{(Table 1, column 3).}
 
 \textit{Contour Count:} Using contour approximation techniques~\cite{ContourOpenCV2023}, this metric assesses shape intricacies outlined by edges (Figure~\ref{fig:CICA_and_VR_flowchart}, element [(3)]).
-\deleted{(Table 1, column 4).}
 
 Both metrics are essential for shaping perceived complexity and are computationally efficient for large datasets~\cite{Yang2022}.
 
-\deleted{
-To quantify facade complexity from both metrics perspective, we employed a Multi-Objective Optimization (MOO) algorithm using the Analytic Hierarchy Process (AHP), a robust Multi-Criteria Decision-Making (MCDM) technique for detailed analysis and prioritization based on expert input and quantitative data~\cite{Taherdoost2023}.
-}
+Given that both edge density and contour count metrics play critical roles in shaping perceived complexity, determining how to balance these two factors is key to assessing facade complexity.
+However, these metrics often have conflicting influences on the final design.
+For instance, increasing edge density might improve the clarity of structural boundaries but could overwhelm the overall aesthetic if not paired with appropriate contour complexity.
+To handle this trade-off, we used a Multi-Objective Optimization (MOO) approach.
 
-\added{
-Given that both edge density and contour count metrics play critical roles in shaping perceived complexity, determining how to balance these two factors is key to assessing facade complexity. However, these metrics often have conflicting influences on the final design. For instance, increasing edge density might improve the clarity of structural boundaries but could overwhelm the overall aesthetic if not paired with appropriate contour complexity. To handle this trade-off, we used a Multi-Objective Optimization (MOO) approach.
-}
 
-\added{
-The MOO algorithm allows us to balance these competing metrics, optimizing the trade-off between edge density and contour count. Research shows that the human eye prioritizes edge detection over contour recognition when processing visual stimuli~\cite{Yang2022}. Edge detection is more directly related to the perception of form and structure, providing a clearer representation of boundaries and spatial relationships, whereas contour count provides more nuanced, secondary information regarding shape intricacies. Given this, we assigned a higher weight (8) to edge density and a lower weight (2) to contour count, reflecting their relative importance in visual complexity perception~\cite{Yang2022}~(see Table~\ref{tab:MetricsandWeights}).
-To implement this, we applied the Analytic Hierarchy Process (AHP), a robust Multi-Criteria Decision-Making (MCDM) technique for detailed analysis and prioritization based on expert input and quantitative data~\cite{Taherdoost2023} . AHP ensures that the weights reflect the significance of both edge density and contour count in terms of human perception and aesthetic appeal.
-}
+The MOO algorithm allows us to balance these competing metrics, optimizing the trade-off between edge density and contour count.
+Research shows that the human eye prioritizes edge detection over contour recognition when processing visual stimuli~\cite{Yang2022}.
+Edge detection is more directly related to the perception of form and structure, providing a clearer representation of boundaries and spatial relationships, whereas contour count provides more nuanced, secondary information regarding shape intricacies.
+Given this, we assigned a higher weight (8) to edge density and a lower weight (2) to contour count, reflecting their relative importance in visual complexity perception~\cite{Yang2022}~(see Table~\ref{tab:MetricsandWeights}).
+To implement this, we applied the Analytic Hierarchy Process (AHP), a robust Multi-Criteria Decision-Making (MCDM) technique for detailed analysis and prioritization based on expert input and quantitative data~\cite{Taherdoost2023}.
+AHP ensures that the weights reflect the significance of both edge density and contour count in terms of human perception and aesthetic appeal.
 
-\added{
-By assigning these weights and integrating MOO within the CICA system, we ensure that the complexity score reflects an optimal balance of the metrics, thereby offering a more holistic and nuanced measure of facade complexity. This optimization aligns with the study's goals of balancing aesthetic and functional considerations while accounting for human perception.
-}
+By assigning these weights and integrating MOO within the CICA system, we ensure that the complexity score reflects an optimal balance of the metrics, thereby offering a more holistic and nuanced measure of facade complexity.
+This optimization aligns with the study's goals of balancing aesthetic and functional considerations while accounting for human perception.
 
 The MOO algorithm is represented in the `Complexity Score' function \(f_1(x)\), defined in Equation~\ref{eq:F1_ComplexityScoreFunction1}, which normalizes the metrics and combines them into a `Unified Complexity Score':
 
@@ -46,9 +43,9 @@ This weighted sum provides the overall complexity score or `CICA score' a quanti
 
 The CICA system has two main applications:
 \begin{itemize}
-    \item \textit{Historical Analysis:} Evaluates over 180 buildings from various architectural eras, creating a scatter graph of complexity scores organized by year and architecture style, showing complexity trends over time (Figure~\ref{fig:CICA_and_VR_flowchart}[b]). Results are presented in Section~\ref{subsec:ResultsComplexityImageAnalysishistory}.\deleted{(Figure 4, element 2[b]; Table 3[b]).} \added{Buildings were selected based on their significance in architectural history, with priority given to iconic or influential structures frequently cited in architectural discourse. Selection criteria included high-resolution images of the main facade, with minimal visual obstructions, captured from a frontal angle for consistency. Images were chosen under optimal lighting conditions to avoid distortion of architectural features. Only well-documented and widely recognized buildings were included to ensure the dataset's representativeness. Each building was represented by a single image to standardize the analysis, as multiple perspectives could introduce variability in complexity scores.}
+    \item \textit{Historical Analysis:} Evaluates over 180 buildings from various architectural eras, creating a scatter graph of complexity scores organized by year and architecture style, showing complexity trends over time (Figure~\ref{fig:CICA_and_VR_flowchart}[b]). Results are presented in Section~\ref{subsec:ResultsComplexityImageAnalysishistory}. Buildings were selected based on their significance in architectural history, with priority given to iconic or influential structures frequently cited in architectural discourse. Selection criteria included high-resolution images of the main facade, with minimal visual obstructions, captured from a frontal angle for consistency. Images were chosen under optimal lighting conditions to avoid distortion of architectural features. Only well-documented and widely recognized buildings were included to ensure the dataset's representativeness. Each building was represented by a single image to standardize the analysis, as multiple perspectives could introduce variability in complexity scores.
 
-    \item \textit{3D-Modeled Facades Analysis:} Analyzes 10 facade variations across 3 patterns of 3D-modeled facades with varying complexity for the VR experiment (Figure~\ref{fig:CICA_and_VR_flowchart}[a]). The CICA scores are used for comparison with user perceptions~(Figure~\ref{fig:CICAscatterGraphRender}).\deleted{(Figure 4, element 2[a]; Table 3[a]).}
+    \item \textit{3D-Modeled Facades Analysis:} Analyzes 10 facade variations across 3 patterns of 3D-modeled facades with varying complexity for the VR experiment (Figure~\ref{fig:CICA_and_VR_flowchart}[a]). The CICA scores are used for comparison with user perceptions~(Figure~\ref{fig:CICAscatterGraphRender}).
 \end{itemize}
 
 Through these applications, the CICA system aims to validate architectural complexity trends empirically and prepare for experiments assessing user perceptions of facade complexity.

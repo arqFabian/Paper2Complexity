@@ -6,17 +6,15 @@
 
 While defining architectural complexity is inherently challenging due to its interconnection with various socio-economic and cultural factors influencing urban development, the CICA system was developed on the premise that analyzing a vast and diverse dataset of architectural works from different centuries could reveal patterns validating our hypothesis.
 This hypothesis, established on the literature review (Section~\ref{subsec:TimelineArchitectureStyles}), suggests a cyclical nature in architecture—an ongoing dialogue between simplicity and complexity—with a trend towards increased complexity in contemporary architecture.
-This trend is evidenced by recent architectural styles , influenced by technological advancements, computer-aided design tools, and a growing focus on sustainability\deleted{(see Figure~\ref{fig:contemporarytimeline})}.
+This trend is evidenced by recent architectural styles , influenced by technological advancements, computer-aided design tools, and a growing focus on sustainability.
 
 \textbf{CICA System for Quantitative Assessment}
 
-\deleted{
-To validate this trend objectively, we conducted a quantitative analysis using the CICA system. This analysis utilized images of 177 iconic buildings across 14 architectural styles (samples illustrated in Figures~\ref{fig:Earlytimeline},~\ref{fig:Transitionaltimeline},~\ref{fig:contemporarytimeline}). The CICA system calculated the complexity scores for all buildings and plotted the graph in just 4.54 seconds, demonstrating its efficiency.
-}
 
-\added{
-To validate this trend objectively, we conducted a quantitative analysis using the CICA system. This analysis utilized images of 177 iconic buildings across 14 architectural styles (samples illustrated in \ref{sec:timeline-of-architectural-styles-across-history}). As outlined in the methodology (section~\ref{subsubsec:CICAsystem}), each building was represented by a single high-resolution, unobstructed frontal image of the main facade to ensure consistency. The CICA system calculated the complexity scores for all buildings and plotted the graph in just 4.54 seconds, demonstrating its efficiency.
-}
+To validate this trend objectively, we conducted a quantitative analysis using the CICA system.
+This analysis utilized images of 177 iconic buildings across 14 architectural styles (samples illustrated in~\ref{sec:timeline-of-architectural-styles-across-history}). As outlined in the methodology (section~\ref{subsubsec:CICAsystem}), each building was represented by a single high-resolution, unobstructed frontal image of the main facade to ensure consistency.
+The CICA system calculated the complexity scores for all buildings and plotted the graph in just 4.54 seconds, demonstrating its efficiency.
+
 
 The results are depicted in the scatter graph `Historical Analysis of Architectural Complexity Trends Over Time' in Figure~\ref{fig:HistoricalComplexityGraph}.
 A 9th-degree polynomial trendline, best accommodating the intricate data patterns, revealed a distinctive undulating curve.
@@ -34,9 +32,9 @@ Furthermore, our analysis of the last 50 years of data reveal an upward trajecto
 Certain buildings stand out with exceptionally high or low CICA scores, warranting individual examination.
 Our investigation into these extremes, as evidenced by the top 5 highest and bottom 5 lowest CICA scores (Table~\ref{tab:Top5andBottom5CICAcomplexityScores}), reveals significant outliers.
 Westminster Abbey, exemplifying Gothic architecture, tops the chart with the highest complexity score of 7.81, underscoring the intricate design characteristic of the Gothic period~\cite{Kennedy2013}.
-\added{
-However, buildings like the Seattle Central Library, ranked second with a score of 7.78, highlight certain limitations in the CICA system's current approach. Despite the library's relatively simplistic volumetric form compared to Gothic cathedrals, its grid-like facade generated a high number of edges and contours, which the algorithm interpreted as markers of complexity. This suggests that the system, which currently emphasizes edge density and contour count, may overestimate complexity in buildings with regular, repetitive patterns, as it does not differentiate between regular and irregular geometries.
-}
+However, buildings like the Seattle Central Library, ranked second with a score of 7.78, highlight certain limitations in the CICA system's current approach.
+Despite the library's relatively simplistic volumetric form compared to Gothic cathedrals, its grid-like facade generated a high number of edges and contours, which the algorithm interpreted as markers of complexity.
+This suggests that the system, which currently emphasizes edge density and contour count, may overestimate complexity in buildings with regular, repetitive patterns, as it does not differentiate between regular and irregular geometries.
 Conversely, the Luce Memorial Chapel in Taichung City, Taiwan, built in 1963, represents the minimalist ethos of the time with the lowest complexity score of 0.66.
 These buildings illustrate the broad spectrum of architectural styles and associated complexity over time, serving as critical case studies for understanding exceptional complexity or simplicity in design.
 
