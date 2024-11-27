@@ -4,11 +4,166 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment=" fixing comment in explaining how the literature review is connected to the paper. All comments addressed. Ready for final check up.">
-      <change afterPath="$PROJECT_DIR$/src/mainWordAuthor.tex" afterDir="false" />
+    <list default="true" id="7062d09b-655f-44a9-91e0-caafdc0a28e4" name="Changes" comment="Correction of error in CICA_and_VR_flowchart.pdf">
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Barcelona-LaRambla.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Barcelona-LaRambla/0001_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Barcelona-LaRambla/0001_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Barcelona-LaRambla/0001_R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Barcelona-LaRambla/0002_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Barcelona-LaRambla/0002_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Barcelona-LaRambla/0002_R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Barcelona-LaRambla/0003_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Barcelona-LaRambla/0003_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Barcelona-LaRambla/0003_R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Barcelona-LaRambla/0004_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Barcelona-LaRambla/0004_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Barcelona-LaRambla/0004_R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Barcelona-LaRambla/0005_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Barcelona-LaRambla/0005_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Barcelona-LaRambla/0005_R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Barcelona-LaRambla/0006_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Barcelona-LaRambla/0006_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Barcelona-LaRambla/0006_R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Barcelona-LaRambla/0007_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Barcelona-LaRambla/0007_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Barcelona-LaRambla/0007_R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Barcelona-LaRambla/0008_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Barcelona-LaRambla/0008_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Barcelona-LaRambla/0008_R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Barcelona-LaRambla/0009_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Barcelona-LaRambla/0009_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Barcelona-LaRambla/0009_R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Barcelona-LaRambla/0010_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Barcelona-LaRambla/0010_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Barcelona-LaRambla/0010_R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Budapest-Szent_Istvan/0001_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Budapest-Szent_Istvan/0001_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Budapest-Szent_Istvan/0001_R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Budapest-Szent_Istvan/0002_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Budapest-Szent_Istvan/0002_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Budapest-Szent_Istvan/0002_R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Budapest-Szent_Istvan/0003_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Budapest-Szent_Istvan/0003_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Budapest-Szent_Istvan/0003_R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Budapest-Szent_Istvan/0004_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Budapest-Szent_Istvan/0004_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Budapest-Szent_Istvan/0004_R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Budapest-Szent_Istvan/0005_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Budapest-Szent_Istvan/0005_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Budapest-Szent_Istvan/0005_R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Budapest-Szent_Istvan/0006_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Budapest-Szent_Istvan/0006_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Budapest-Szent_Istvan/0006_R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Budapest-Szent_Istvan/0007_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Budapest-Szent_Istvan/0007_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Budapest-Szent_Istvan/0007_R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Budapest-Szent_Istvan/0008_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Budapest-Szent_Istvan/0008_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Budapest-Szent_Istvan/0008_R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Budapest-Szent_Istvan/0009_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Budapest-Szent_Istvan/0009_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Budapest-Szent_Istvan/0009_R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Budapest-Szent_Istvan/0010_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Budapest-Szent_Istvan/0010_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Budapest-Szent_Istvan/0010_R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Budapest_Szent_Istvan_Hungary.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Florence-Piazza_del_Duomo/0001_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Florence-Piazza_del_Duomo/0001_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Florence-Piazza_del_Duomo/0001_R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Florence-Piazza_del_Duomo/0002_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Florence-Piazza_del_Duomo/0002_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Florence-Piazza_del_Duomo/0002_R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Florence-Piazza_del_Duomo/0003_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Florence-Piazza_del_Duomo/0003_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Florence-Piazza_del_Duomo/0003_R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Florence-Piazza_del_Duomo/0004_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Florence-Piazza_del_Duomo/0004_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Florence-Piazza_del_Duomo/0004_R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Florence-Piazza_del_Duomo/0005_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Florence-Piazza_del_Duomo/0005_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Florence-Piazza_del_Duomo/0005_R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Florence-Piazza_del_Duomo/0006_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Florence-Piazza_del_Duomo/0006_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Florence-Piazza_del_Duomo/0006_R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Florence-Piazza_del_Duomo/0007_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Florence-Piazza_del_Duomo/0007_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Florence-Piazza_del_Duomo/0007_R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Florence-Piazza_del_Duomo/0008_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Florence-Piazza_del_Duomo/0008_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Florence-Piazza_del_Duomo/0008_R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Florence-Piazza_del_Duomo/0009_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Florence-Piazza_del_Duomo/0009_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Florence-Piazza_del_Duomo/0009_R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Florence-Piazza_del_Duomo/0010_L.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Florence-Piazza_del_Duomo/0010_M.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Florence-Piazza_del_Duomo/0010_R.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Fukuoka-Meiji-Dori.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Fukuoka-Otemon/0001_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Fukuoka-Otemon/0001_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Fukuoka-Otemon/0001_R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Fukuoka-Otemon/0002_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Fukuoka-Otemon/0002_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Fukuoka-Otemon/0002_R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Fukuoka-Otemon/0003_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Fukuoka-Otemon/0003_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Fukuoka-Otemon/0003_R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Fukuoka-Otemon/0004_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Fukuoka-Otemon/0004_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Fukuoka-Otemon/0004_R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Fukuoka-Otemon/0005_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Fukuoka-Otemon/0005_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Fukuoka-Otemon/0005_R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Fukuoka-Otemon/0006_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Fukuoka-Otemon/0006_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Fukuoka-Otemon/0006_R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Fukuoka-Otemon/0007_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Fukuoka-Otemon/0007_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Fukuoka-Otemon/0007_R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Fukuoka-Otemon/0008_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Fukuoka-Otemon/0008_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Fukuoka-Otemon/0008_R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Fukuoka-Otemon/0009_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Fukuoka-Otemon/0009_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Fukuoka-Otemon/0009_R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Fukuoka-Otemon/0010_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Fukuoka-Otemon/0010_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Fukuoka-Otemon/0010_R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Paris-Boulevard-Haussmann/0001_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Paris-Boulevard-Haussmann/0001_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Paris-Boulevard-Haussmann/0001_R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Paris-Boulevard-Haussmann/0002_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Paris-Boulevard-Haussmann/0002_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Paris-Boulevard-Haussmann/0002_R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Paris-Boulevard-Haussmann/0003_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Paris-Boulevard-Haussmann/0003_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Paris-Boulevard-Haussmann/0003_R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Paris-Boulevard-Haussmann/0004_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Paris-Boulevard-Haussmann/0004_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Paris-Boulevard-Haussmann/0004_R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Paris-Boulevard-Haussmann/0005_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Paris-Boulevard-Haussmann/0005_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Paris-Boulevard-Haussmann/0005_R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Paris-Boulevard-Haussmann/0006_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Paris-Boulevard-Haussmann/0006_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Paris-Boulevard-Haussmann/0006_R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Paris-Boulevard-Haussmann/0007_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Paris-Boulevard-Haussmann/0007_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Paris-Boulevard-Haussmann/0008_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Paris-Boulevard-Haussmann/0008_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Paris-Boulevard-Haussmann/0008_R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Paris-Boulevard-Haussmann/0009_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Paris-Boulevard-Haussmann/0009_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Paris-Boulevard-Haussmann/0009_R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Paris-Boulevard-Haussmann/0010_L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Paris-Boulevard-Haussmann/0010_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Paris-Boulevard-Haussmann/0010_R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Paris_Boulevard Haussmann.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/city_images/Piazza_del_Duomo_Florence.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/complexitygraphcity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodePython/mainCICAcity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/complexitygraphcity.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Wordtest.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wordtest.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/text/TheoryHistoricalContext.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/text/TheoryHistoricalContext.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graphs/complexitygraph.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/complexitygraph.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,12 +256,14 @@
     "LaTeX.mainWordAuthor.executor": "Run",
     "LaTeX.minimal_bib.executor": "Run",
     "LaTeX.noAuthorManuscriptJAABE.executor": "Run",
+    "Python.mainCICAcity.executor": "Run",
+    "Python.mainCICAhistory.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "full.screen.before.presentation.mode": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/arqfa/PycharmProjects/Paper2Complexity/src",
+    "last_opened_file_path": "C:/Users/arqfa/PycharmProjects/Paper2Complexity/CodePython/mainCICAcity.py",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -118,21 +275,21 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\arqfa\PycharmProjects\Paper2Complexity\CodePython" />
       <recent name="C:\Users\arqfa\PycharmProjects\Paper2Complexity\src" />
       <recent name="C:\Users\arqfa\PycharmProjects\Paper2Complexity\src\text" />
       <recent name="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\src\text" />
       <recent name="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\auxil" />
-      <recent name="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\src\Images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\arqfa\PycharmProjects\Paper2Complexity\CodePython" />
       <recent name="C:\Users\arqfa\PycharmProjects\Paper2Complexity\src\text\Backup" />
       <recent name="C:\Users\arqfa\PycharmProjects\Paper2Complexity\out" />
       <recent name="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\CodePython" />
       <recent name="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\src\Graphs" />
-      <recent name="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\ComplexityPython" />
     </key>
   </component>
-  <component name="RunManager" selected="LaTeX.mainWordAuthor">
+  <component name="RunManager" selected="Python.mainCICAcity">
     <configuration name="Wordtest bibliography" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify-bibtex>
         <compiler>BIBTEX</compiler>
@@ -454,6 +611,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="mainCICAcity" type="PythonConfigurationType" factoryName="Python">
+      <module name="Paper2Complexity" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\venv\Scripts\python.exe" />
+      <option name="SDK_NAME" value="Python 3.11 (Paper2Complexity) (2)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CodePython" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CodePython/mainCICAcity.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="mainCICAhistory" type="PythonConfigurationType" factoryName="Python">
       <module name="Paper2Complexity" />
       <option name="ENV_FILES" value="" />
@@ -521,6 +702,7 @@
       <item itemvalue="LaTeX.Wordtest" />
       <item itemvalue="Python.mainCICAhistory" />
       <item itemvalue="Python.mainCICArender" />
+      <item itemvalue="Python.mainCICAcity" />
       <item itemvalue="Python.CannyEdgePlot" />
     </list>
     <recent_temporary>
@@ -648,6 +830,16 @@
       <workItem from="1727762871891" duration="52971000" />
       <workItem from="1728115809224" duration="41153000" />
       <workItem from="1728263100712" duration="5728000" />
+      <workItem from="1728473242877" duration="9921000" />
+      <workItem from="1729730318558" duration="185000" />
+      <workItem from="1730790780725" duration="6301000" />
+      <workItem from="1731028115518" duration="836000" />
+      <workItem from="1731064705157" duration="4000" />
+      <workItem from="1731066886059" duration="2294000" />
+      <workItem from="1731391572753" duration="13000" />
+      <workItem from="1731998139859" duration="34000" />
+      <workItem from="1732112765953" duration="674000" />
+      <workItem from="1732673163786" duration="14497000" />
     </task>
     <task id="LOCAL-00017" summary="Corrections to HistoryArchStylesTheory.tex to add the art noaveu refrence as well as the ransition to modernism">
       <created>1692760181616</created>
@@ -992,7 +1184,7 @@
       <option name="project" value="LOCAL" />
       <updated>1699542674381</updated>
     </task>
-    <option name="localTasksCounter" value="188" />
+    <option name="localTasksCounter" value="192" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1027,9 +1219,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Prep for submission on Journal of Asian Architecture and Building Engineering." />
-    <MESSAGE value="Prep for submission on Journal of Asian Architecture and Building Engineering. Update of all references" />
-    <MESSAGE value="Update of Highlights" />
     <MESSAGE value="Submission to Journal of asian architecture and building Engineering." />
     <MESSAGE value="Submission to Journal of asian architecture and building Engineering. Update rference for thesis preparation" />
     <MESSAGE value="Preparation for Submission to new Journal" />
@@ -1052,16 +1241,20 @@
     <MESSAGE value=" fixing comments anstart simplifying captions.3d model inspirations on parametricism.&#10; &#10; 2 comments left" />
     <MESSAGE value=" fixing comment in explaining how historical analysis and vr experiment are link in a single paper. &#10; 1 and final comments left" />
     <MESSAGE value=" fixing comment in explaining how the literature review is connected to the paper. All comments addressed. Ready for final check up." />
-    <option name="LAST_COMMIT_MESSAGE" value=" fixing comment in explaining how the literature review is connected to the paper. All comments addressed. Ready for final check up." />
+    <MESSAGE value="Starting Cleaning the latex file of deleted and added." />
+    <MESSAGE value="Finish Cleaning the latex file of \deleted and \added for a clean compile. In preparation to submit a latex build to JAABE journal." />
+    <MESSAGE value="Correction of error in CICA_and_VR_flowchart.pdf" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correction of error in CICA_and_VR_flowchart.pdf" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/workspace_xml$CannyEdgePlot.coverage" NAME="CannyEdgePlot Coverage Results" MODIFIED="1702459802968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CodePython" />
-    <SUITE FILE_PATH="coverage/Paper2Complexity$mainCICAhistory__1_.coverage" NAME="mainCICAhistory (1) Coverage Results" MODIFIED="1702351506995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CodePython" />
-    <SUITE FILE_PATH="coverage/workspace_xml$mainCICArender.coverage" NAME="mainCICArender Coverage Results" MODIFIED="1702456218210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\CodePython" />
-    <SUITE FILE_PATH="coverage/workspace_xml$mainCICAhistory.coverage" NAME="mainCICAhistory Coverage Results" MODIFIED="1702456243620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\CodePython" />
     <SUITE FILE_PATH="coverage/Paper2Complexity$complexityanalysis.coverage" NAME="complexityanalysis Coverage Results" MODIFIED="1701226704463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ComplexityPython" />
-    <SUITE FILE_PATH="coverage/Paper2Complexity$mainCICAhistory.coverage" NAME="mainCICAhistory Coverage Results" MODIFIED="1711526465985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CodePython" />
+    <SUITE FILE_PATH="coverage/workspace_xml$mainCICAhistory.coverage" NAME="mainCICAhistory Coverage Results" MODIFIED="1702456243620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\CodePython" />
     <SUITE FILE_PATH="coverage/Paper2Complexity$mainCICArender.coverage" NAME="mainCICArender Coverage Results" MODIFIED="1711420830303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CodePython" />
+    <SUITE FILE_PATH="coverage/Paper2Complexity$mainCICAcity.coverage" NAME="mainCICAcity Coverage Results" MODIFIED="1732697382271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CodePython" />
+    <SUITE FILE_PATH="coverage/workspace_xml$mainCICArender.coverage" NAME="mainCICArender Coverage Results" MODIFIED="1702456218210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\arqfa\OneDrive\FABIAN DATA\Kyushu 2021\Research\Paper2Complexity\CodePython" />
+    <SUITE FILE_PATH="coverage/Paper2Complexity$mainCICAhistory.coverage" NAME="mainCICAhistory Coverage Results" MODIFIED="1732676551866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CodePython" />
+    <SUITE FILE_PATH="coverage/Paper2Complexity$mainCICAhistory__1_.coverage" NAME="mainCICAhistory (1) Coverage Results" MODIFIED="1702351506995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CodePython" />
     <SUITE FILE_PATH="coverage/Paper2Complexity$CannyEdgePlot.coverage" NAME="CannyEdgePlot Coverage Results" MODIFIED="1710388735988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CodePython" />
     <SUITE FILE_PATH="coverage/Paper2Complexity$mainCICArender__1_.coverage" NAME="mainCICArender (1) Coverage Results" MODIFIED="1702351530521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CodePython" />
   </component>
