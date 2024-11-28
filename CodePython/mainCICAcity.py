@@ -17,6 +17,7 @@ script_directory = os.path.dirname(__file__)
 
 # Define styles and extract the style names from folder names
 input_folder = os.path.join(script_directory, 'city_images')
+#input_folder = os.path.join(script_directory, 'example')
 city_names = [folder for folder in os.listdir(input_folder) if os.path.isdir(os.path.join(input_folder, folder))]
 
 # Create a colormap for styles
@@ -82,7 +83,7 @@ df = pd.DataFrame(data)
 # Calculate average score per city
 city_average = df.groupby('City')['Image Scores'].transform('mean')
 
-# Add the pattern average to the DataFrame
+# Add the city average to the DataFrame
 df['City Average'] = city_average
 
 # Print the DataFrame
@@ -91,9 +92,9 @@ print(df)
 
 ######################
 
-# create the scatter graph using the function for scatter graph with all three patterns together
+# create the scatter graph using the function for scatter graph with all five cities together
 
 generate_scatter_city_complexity_together(levels, complexity_scores, city_labels, city_names, script_directory, 5)
-# create the scatter graph using the function for scatter graph with all three patterns together
+# create the scatter graph using the function for scatter graph with all five cities together
 
 # generate_scatter_city_complexity_separate(levels, complexity_scores, city_labels, city_names, script_directory)
